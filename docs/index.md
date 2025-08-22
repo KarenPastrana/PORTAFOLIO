@@ -2,7 +2,7 @@
 
 ¿Quiénes somos?
 KAREN
-![Diagrama del sistema](recursos/imgs/
+![Diagrama del sistema](recursos/imgs/fotoAlumno.png)
 Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general los deprtes; pasar tiempo con mi familia y mis mascotas.
 
 
