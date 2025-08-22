@@ -1,14 +1,12 @@
-# Documentación del Proyecto de Karen
+# Portafolio de de Sam y Karen
 
-Bienvenido 👋  
-Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
+¿Quiénes somos?
+KAREN
+FOTO
+Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general los deprtes.
+Mi 
+
+
 
 ---
 
-## Empezar rápido (3 pasos)
-
-1. **Edita el nombre del sitio** en `mkdocs.yml`:
-   ```yaml
-   site_name: Documentación del Curso
-   theme:
-     name: material
