@@ -2,9 +2,15 @@
 
 ¿Quiénes somos?
 KAREN
+![Diagrama del sistema](recursos/imgs/
+Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general los deprtes; pasar tiempo con mi familia y mis mascotas.
+
+
+
+SAM
 FOTO
-Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general los deprtes.
-Mi 
+Mis hobbies son dibujar, tocar la guitarra y jugar videojuegos.
+
 
 
 
