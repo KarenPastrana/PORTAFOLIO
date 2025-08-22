@@ -10,7 +10,9 @@
     pasar tiempo con mi familia y mis mascotas.
   </p>
   
-  Algo de lo que me siento orgullosa es de haber participado en el concurso Ada Bayron principalmente porque me ayudó a seleccionar la carrera de mecatrónica y me dio una mejor idea sobre lo que podría llegar a crear.
+  Algo de lo que me siento orgullosa es de haber participado en el concurso Ada Bayron, principalmente porque me ayudó a seleccionar la carrera de mecatrónica y me dio una mejor idea sobre lo que podría llegar a crear.
+  </p>
+<img src="recursos/imgs/Image (1).jpeg" alt="Karen" width="150";">
 </div>
 
 ---
