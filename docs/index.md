@@ -8,7 +8,7 @@ Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general 
 
 
 ###SAM
-FOTO
+![Diagrama del sistema](recursos/imgs/Image.jpeg)
 Mis hobbies son dibujar, tocar la guitarra y jugar videojuegos.
 
 
