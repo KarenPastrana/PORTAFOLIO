@@ -14,7 +14,6 @@
   </p>
 <img src="recursos/imgs/Image (1).jpeg" alt="Karen" width="150";">
 </div>
-
 ---
 
 ### SAM
