@@ -4,7 +4,7 @@
 
 ### KAREN
 <div align="center">
-  <img src="../assets/imgs/fotoAlumno.png" alt="Karen" width="150";">
+  <img src="assets/imgs/fotoAlumno.png" alt="Karen" width="150";">
   <p>
     Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general los deportes; 
     pasar tiempo con mi familia y mis mascotas.
@@ -27,5 +27,6 @@
 </div>
 
 ---
+
 
 
