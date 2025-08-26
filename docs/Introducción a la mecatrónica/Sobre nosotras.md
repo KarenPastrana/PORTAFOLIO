@@ -1,4 +1,4 @@
-# Sobre nosotras
+# SOBRE NOSOTRAS
 
 ## ¿Quiénes somos?
 
@@ -27,3 +27,4 @@
 </div>
 
 ---
+
