@@ -19,7 +19,7 @@
 
 ### SAM
 <div align="center">
-  <img src="../assets/imgs/Image.jpeg" alt="Sam" width="150"">
+  <img src="../../assets/imgs/Image.jpeg" alt="Sam" width="150"">
   <p>
     Mis hobbies son dibujar, tocar la guitarra y jugar videojuegos.
   </p>
@@ -27,6 +27,7 @@
 </div>
 
 ---
+
 
 
 
