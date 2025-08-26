@@ -1,6 +1,4 @@
-# Portafolio de Sam y Karen
-
-## ¿Quiénes somos?
+# ¿Quiénes somos?
 
 ### KAREN
 <div align="center">
