@@ -4,7 +4,7 @@
 
 ### KAREN
 <div align="center">
-  <img src="assets/imgs/fotoAlumno.png" alt="Karen" width="150"">
+  <img src="../../assets/imgs/fotoAlumno.png" alt="Karen" width="150"">
   <p>
     Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general los deportes; 
     pasar tiempo con mi familia y mis mascotas.
@@ -12,7 +12,7 @@
   
   Algo de lo que me siento orgullosa es de haber participado en el concurso Ada Bayron, principalmente porque me ayudó a seleccionar la carrera de mecatrónica y me dio una mejor idea sobre lo que podría llegar a crear.
   </p>
-<img src="../assets/imgs/Image (1).jpeg" alt="Karen" width="150"">
+<img src="../../assets/imgs/Image (1).jpeg" alt="Karen" width="150"">
 </div>
 
 ---
@@ -27,6 +27,7 @@
 </div>
 
 ---
+
 
 
 
