@@ -13,13 +13,13 @@
 
   </p>
  
-<img src="../../assets/imgs/Image (1).jpeg" alt="Karen" width="150";">
- </p>
  Uno de los proyectos que he realizado es el prototipo de un wereable, el cual realicé para el "Concurso Vanguardia Tecnológica Ada Byron"; este wearable tiene como objetivo hacer mediciones médicas (temperatura, oxigenación, frecuencia cradiaca y humedad de la piel) para guardar los datos y compararlos con aquellos que son de una persona saludable y en caso de ser anormales mandaba una alerta al usuario; además, los datos registrados los podría verificar un médico mediante una aplicación para realizar un mejor diagnóstico.
-  
+   </p>
+<img src="../../assets/imgs/Image (1).jpeg" alt="Karen" width="150";">
+
 </p>
 
-**Información de contacto:**
+Información de contacto:
 195949@iberopuebla.mx
 
 </p>
@@ -38,6 +38,7 @@
 </div>
 
 ---
+
 
 
 
