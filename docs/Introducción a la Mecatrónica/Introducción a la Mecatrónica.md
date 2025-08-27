@@ -17,7 +17,7 @@
  <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
 
   <h2 style="color:#228b22;">Semana 1</h2>
-  <a href="docs/Semana 1.md" style="display:inline-block; background-image:url('../assets/imgs/FW1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 1</a>
+  <a href="docs/Semana 1.md" style="display:inline-block; background-image:url('../../assets/imgs/FW1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 1</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 2 -->
