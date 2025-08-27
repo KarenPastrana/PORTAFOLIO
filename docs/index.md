@@ -1,29 +1,29 @@
-# Portafolio de Sam y Karen
+<!-- Portafolio Karen Pastrana -->
+<div align="center" style="background-color:#f0f0f0; padding: 30px; border-radius: 15px;">
 
-## ¿Quiénes somos?
-
-### KAREN
-<div align="center">
-  <img src="assets/imgs/fotoAlumno.png" alt="Karen" width="150";">
-  <p>
-    Algunos de mis hobbies son practicar taekwondo, natación, gimnasio, en general los deportes; 
-    pasar tiempo con mi familia y mis mascotas.
-  </p>
+  <h1 style="color:#4b0082;">🎓 Portafolio de Karen Pastrana</h1>
+  <p style="font-size:18px;">Bienvenido(a) a mi portafolio.</p>
   
-  Algo de lo que me siento orgullosa es de haber participado en el concurso Ada Bayron, principalmente porque me ayudó a seleccionar la carrera de mecatrónica y me dio una mejor idea sobre lo que podría llegar a crear.
-  </p>
-<img src="assets/imgs/Image (1).jpeg" alt="Karen" width="150";">
+  <!-- Imagen de portada -->
+  <img src="assets/imgs/ibero.jpeg" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
+
+  <hr style="border:1px solid #ccc; width:80%;">
+
+  </div>
+
+  <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
+
+  <!-- Introducción a la Mecatrónica -->
+  <h2 style="color:#228b22;"> Introducción a la Mecatrónica</h2>
+  <a href="docs/Introducción a la Mecatrónica" style="display:inline-block; background-image:url('assets/imgs/F1.jpeg'); background-size:cover; color:white; text-decoration:none; padding:25px 40px; border-radius:15px; font-weight:bold; margin:10px;">Introducción a la Mecatrónica</a>
+
+  <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
+
+  <!-- Proyectos de Ingeniería -->
+  <h2 style="color:#1e90ff;">ℹProyectos de Ingeniería</h2>
+  <a href="Proyectos de Ingeniería" style="display:inline-block; background-image:url('assets/imgs/F2.jpeg'); background-size:cover; color:white; text-decoration:none; padding:25px 40px; border-radius:15px; font-weight:bold; margin:10px;">Proyectos de Ingeniería</a>
+
+  <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
+
+
 </div>
-
----
-
-### SAM
-<div align="center">
-  <img src="assets/imgs/Image.jpeg" alt="Sam" width="150";">
-  <p>
-    Mis hobbies son dibujar, tocar la guitarra y jugar videojuegos.
-  </p>
-  Mi mayor logro es...
-</div>
-
----
