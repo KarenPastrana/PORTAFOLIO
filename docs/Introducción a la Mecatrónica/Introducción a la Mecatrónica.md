@@ -22,37 +22,37 @@
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 2 -->
   <h2 style="color:#228b22;">Semana 2</h2>
-  <a href="docs/Semana 2.md" style="display:inline-block; background-image:url('../assets/imgs/FW2.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 2</a>
+  <a href="docs/Semana 2.md" style="display:inline-block; background-image:url('../../assets/imgs/FW2.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 2</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 3 -->
   <h2 style="color:#228b22;">Semana 3</h2>
-  <a href="docs/Semana 3.md" style="display:inline-block; background-image:url('../assets/imgs/FW3.jpeg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 3</a>
+  <a href="docs/Semana 3.md" style="display:inline-block; background-image:url('../../assets/imgs/FW3.jpeg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 3</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 4 -->
   <h2 style="color:#228b22;">Semana 4</h2>
-  <a href="docs/Semana 4.md" style="display:inline-block; background-image:url('../assets/imgs/FW4.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 4</a>
+  <a href="docs/Semana 4.md" style="display:inline-block; background-image:url('../../assets/imgs/FW4.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 4</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 5 -->
   <h2 style="color:#228b22;">Semana 5</h2>
-  <a href="docs/Semana 5.md" style="display:inline-block; background-image:url('../assets/imgs/FW5.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 5</a>
+  <a href="docs/Semana 5.md" style="display:inline-block; background-image:url('../../assets/imgs/FW5.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 5</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 6 -->
   <h2 style="color:#228b22;">Semana 6</h2>
-  <a href="docs/Semana 6.md" style="display:inline-block; background-image:url('../assets/imgs/FW6.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 6</a>
+  <a href="docs/Semana 6.md" style="display:inline-block; background-image:url('../../assets/imgs/FW6.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 6</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 7 -->
   <h2 style="color:#228b22;">Semana 7</h2>
-  <a href="docs/Semana 7.md" style="display:inline-block; background-image:url('../assets/imgs/FW7.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 7</a>
+  <a href="docs/Semana 7.md" style="display:inline-block; background-image:url('../../assets/imgs/FW7.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 7</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
  <!-- Semana 8 -->
   <h2 style="color:#228b22;">Semana 8</h2>
-  <a href="docs/Semana 8.md" style="display:inline-block; background-image:url('../assets/imgs/FW8.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 8</a>
+  <a href="docs/Semana 8.md" style="display:inline-block; background-image:url('../../assets/imgs/FW8.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 8</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
   </div>
