@@ -60,17 +60,19 @@
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
 
   <!-- Proyecto Final -->
+  <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
+
   <h2 style="color:#228b22;">Proyecto Final</h2>
   <a href="proyecto_final/proyecto_final.md" style="display:inline-block; background-image:url('assets/imgs/proyecto-bg.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Proyecto Final</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
 
   <!-- About -->
+  <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
+
   <h2 style="color:#1e90ff;">About</h2>
   <a href="about.md" style="display:inline-block; background-image:url('assets/imgs/about-bg.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Sobre mí</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
-
-  <p style="font-style:italic; color:#555;">Este portafolio está desarrollado en GitHub Pages y se actualiza con cada entrega semanal.</p>
 
 </div>
