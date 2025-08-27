@@ -15,15 +15,16 @@
 
   <!-- Introducción a la Mecatrónica -->
   <h2 style="color:#228b22;"> Introducción a la Mecatrónica</h2>
-  <a href="docs/Introducción a la Mecatrónica" style="display:inline-block; background-image:url('assets/imgs/F1.jpeg'); background-size:cover; color:white; text-decoration:none; padding:25px 40px; border-radius:15px; font-weight:bold; margin:10px;">Introducción a la Mecatrónica</a>
+  <a href="docs/Introducción a la Mecatrónica" style="display:inline-block; background-image:url('assets/imgs/F1.jpg'); background-size:cover; color:white; text-decoration:none; padding:25px 40px; border-radius:15px; font-weight:bold; margin:10px;">Introducción a la Mecatrónica</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
 
   <!-- Proyectos de Ingeniería -->
   <h2 style="color:#1e90ff;">ℹProyectos de Ingeniería</h2>
-  <a href="Proyectos de Ingeniería" style="display:inline-block; background-image:url('assets/imgs/F2.jpeg'); background-size:cover; color:white; text-decoration:none; padding:25px 40px; border-radius:15px; font-weight:bold; margin:10px;">Proyectos de Ingeniería</a>
+  <a href="Proyectos de Ingeniería" style="display:inline-block; background-image:url('assets/imgs/F2.jpg'); background-size:cover; color:white; text-decoration:none; padding:25px 40px; border-radius:15px; font-weight:bold; margin:10px;">Proyectos de Ingeniería</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
 
 
 </div>
+
