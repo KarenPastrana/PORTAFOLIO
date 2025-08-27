@@ -5,15 +5,17 @@
   <p style="font-size:18px;">Bienvenido(a) a mi portafolio.</p>
   
   <!-- Imagen de portada -->
-  <img src="assets/imgs/portada.png" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
+  <img src="assets/imgs/F1.jpg" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
 
   <hr style="border:1px solid #ccc; width:80%;">
 
   <!-- Trabajos Semanales -->
-  <h2 style="color:#ff4500;">📅 Trabajos Semanales</h2>
+  <h2 style="color:#ff4500;">Trabajos Semanales</h2>
   <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
 
  <!-- Semana 1 -->
+ <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
+
   <h2 style="color:#228b22;">Semana 1</h2>
   <a href="docs/Semana 1.md" style="display:inline-block; background-image:url('assets/imgs/FW1.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Semana 1</a>
 
@@ -64,7 +66,7 @@
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
 
   <!-- About -->
-  <h2 style="color:#1e90ff;">ℹAbout</h2>
+  <h2 style="color:#1e90ff;">About</h2>
   <a href="about.md" style="display:inline-block; background-image:url('assets/imgs/about-bg.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Sobre mí</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
