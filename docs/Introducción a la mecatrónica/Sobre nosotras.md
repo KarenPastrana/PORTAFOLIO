@@ -6,7 +6,11 @@
 <div align="center">
   <img src="../../assets/imgs/fotoAlumno.png" alt="Karen" width="150";">
   <p>
-    Hola, soy Karen Melissa Pastrana Monzón, estudiante de Ingeniería Mecatrónica en la IBERO Puebla, México. Tengo 18 años y estoy en primer semestre. Estudio Ingeniería Mecatrónica porque me gusta la idea de poder desaarrollar mis habilidaades y conocimientos para poder innovar y crear soluciones. Me considero una persona muy activa; practico taekwondo desde los 7 años, hace casi dos años comencé a ir a natación, hace un año me metí al gimnasio y hace un mes comencé con pilates. Además, me gusta mucho bailar, desde coreográfico hasta ritmos latinos. Otros de mis hobbies son pasar tiempo con mi familia y mascotas, escuchar música, entre otras cosas.
+    Hola, soy Karen Melissa Pastrana Monzón, estudiante de Ingeniería Mecatrónica en la IBERO Puebla, México. Tengo 18 años y estoy en primer semestre. Estudio Ingeniería Mecatrónica porque me gusta la idea de poder desaarrollar mis habilidaades y conocimientos para poder innovar y crear soluciones. Una de las áreas que más me interesa es la automatización, ya que actualmente es importante realizar procesos que ahorren recursos y tiempo, evitando cualquier tipo de error. Aunque estoy casi segura de que con el tiempo, descubriré otras áreas que también me interesarán.
+  </p>
+
+    Me considero una persona muy activa. Me gusta hacer ejercicio; practico taekwondo desde los 7 años, además, voy a natación, al gimnasio y a pilates. También disfruto mucho bailar, desde coreográfico hasta ritmos latinos. Otros de mis hobbies incluyen pasar tiempo con mi familia y mascotas, escuchar música, ver películas, entre otras cosas.
+
   </p>
  
 <img src="../../assets/imgs/Image (1).jpeg" alt="Karen" width="150";">
@@ -34,6 +38,7 @@
 </div>
 
 ---
+
 
 
 
