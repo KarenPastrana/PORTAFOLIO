@@ -1,6 +1,6 @@
 ## Syllabus Karen Pastrana
 
-<!Syllabus Proyectos Ingenieria 1_Karen_Pastrana>
+<Syllabus Proyectos Ingenieria 1_Karen_Pastrana>
 <embed src="../../assets/archivos/Syllabus Proyectos Ingenieria 1_Karen_Pastrana.pdf" 
        type="application/pdf" 
        width="100%" 
@@ -15,7 +15,7 @@
 
 ## Syllabus Samantha Ramírez
 
-<!Syllabus Proyectos Ingenieria 1_Samantha_Ramírez>
+<Syllabus Proyectos Ingenieria 1_Samantha_Ramírez>
 <embed src="../../assets/archivos/Syllabus Proyectos Ingenieria 1_Samantha_Ramírez.pdf" 
        type="application/pdf" 
        width="100%" 
