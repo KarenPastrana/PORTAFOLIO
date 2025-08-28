@@ -1,6 +1,6 @@
 ## Syllabus
 
-<!-PDF incrustado->
+<!Syllabus Proyectos Ingenieria 1_Karen_Pastrana>
 <embed src="../../assets/archivos/Syllabus Proyectos Ingenieria 1_Karen_Pastrana.pdf" 
        type="application/pdf" 
        width="100%" 
