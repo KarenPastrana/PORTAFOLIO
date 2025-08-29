@@ -3,7 +3,7 @@
 <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
 
   <h1 style="color:#4b0082;">Proyectos de Ingeniería</h1>
-  <p style="font-size:18px;">Bienvenido(a) a mi portafolio.</p>
+  <p style="font-size:18px;">Bienvenido(a).</p>
   
   <!-- Imagen de portada -->
   <img src="../../assets/imgs/F2.jpg" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
