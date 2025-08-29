@@ -39,8 +39,7 @@ Información de contacto:
    </p>
    
   <div align="center">
-  <img src="../../assets/imgs/Filo.jpeg" alt="Sam" width="150";">
-  <img src="../../assets/imgs/Filo2.jpeg" alt="Sam" width="150";">
+
 
  
  </p>
@@ -50,6 +49,7 @@ Información de contacto:
 </div>
 
 ---
+
 
 
 
