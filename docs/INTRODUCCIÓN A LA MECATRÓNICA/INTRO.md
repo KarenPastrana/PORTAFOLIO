@@ -1,12 +1,12 @@
-# PROYECTOS DE INGENIERÍA
+# INTRODUCCIÓN A LA MECATRÓNICA
 <!-- Portada de Portafolio Karen Pastrana -->
 <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
 
-  <h1 style="color:#4b0082;">Proyectos de Ingeniería</h1>
+  <h1 style="color:#4b0082;">Introducción a la Mecatrónica</h1>
   <p style="font-size:18px;">Bienvenido(a) a mi portafolio.</p>
   
   <!-- Imagen de portada -->
-  <img src="../../assets/imgs/F2.jpg" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
+  <img src="../../assets/imgs/F1.jpg" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
 
   <hr style="border:1px solid #ccc; width:80%;">
 
