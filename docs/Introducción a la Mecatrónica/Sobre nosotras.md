@@ -32,12 +32,16 @@ Información de contacto:
 <div align="center">
   <img src="../../assets/imgs/Image.jpeg" alt="Sam" width="150";">
   <p>
-    Mis hobbies son dibujar, tocar la guitarra y jugar videojuegos.
+    Hola, soy Samantha Ramírez Castillo, tengo 18 años y soy estudiante de Ingeniería Mecatrónica en la Universidad Iberoamericana Puebla, México, con un área de interés en la robótica. Algunos de mis hobbies incluyen el dibujo digital, modelado 3D, tocar la guitarra, jugar videojuegos, escuchar música, aprender idiomas y pasar tiempo con mi gato.
+
   </p>
-  Mi mayor logro es...
+ Uno de los logros de los que me siento más orgullosa es haber participado y obtenido mención honorífica en la 3ª Olimpiada Estatal de Filosofía, ser finalista en la 11ª Olimpiada Mexicana de Filosofía en lengua extranjera y formar parte de la Delegación Mexicana en la Olimpiada de Filosofía de los Países Bálticos (BSPEE), donde redacté un ensayo filosófico desarrollando una de las citas que nos proporcionaban, participando en la modalidad en lengua extranjera. Esta experiencia me permitió fortalecer mi pensamiento crítico, habilidades de argumentación, comprensión filosófica y reflexión ética sobre los problemas del mundo.
+   </p>
+   
 </div>
 
 ---
+
 
 
 
