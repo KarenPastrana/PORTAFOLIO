@@ -46,15 +46,17 @@ Información de contacto:
   </p>
 Dentro de 10 años, me imagino habiendo crecido y aprendido mucho, tanto académica como personalmente. Espero realizar proyectos que ayuden a nuestra sociedad, trabajar en equipo, seguir practicando mis hobbies y quizá combinarlos con mi carrera. También quiero mantener mis amistades y vivir nuevas experiencias que me sigan enseñando y motivando cada día.
   </p>
+<div align="center">
  <img src="../../assets/imgs/Filo.jpg" alt="Sam" width="150";">
  <img src="../../assets/imgs/Filo2.jpg" alt="Sam" width="150";">
-  
+   </p>
 Información de contacto:
 196933@iberopuebla.mx
 
 </div>
 
 ---
+
 
 
 
