@@ -1,7 +1,7 @@
-<!-- Página web -->
+<!-- PORTAFOLIO -->
 <div align="center" style="background-color:#f0f0f0; padding: 30px; border-radius: 15px;">
 
-  <h1 style="color:#4b0082;">Página web</h1>
+  <h1 style="color:#4b0082;">PORTAFOLIO</h1>
   <p style="font-size:18px;">Bienvenido(a).</p>
   
   <!-- Imagen de portada -->
@@ -29,5 +29,6 @@
 
 
 </div>
+
 
 
