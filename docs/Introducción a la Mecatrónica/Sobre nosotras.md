@@ -38,9 +38,6 @@ Información de contacto:
  Uno de los logros de los que me siento más orgullosa es haber participado y obtenido mención honorífica en la 3ª Olimpiada Estatal de Filosofía, ser finalista en la 11ª Olimpiada Mexicana de Filosofía en lengua extranjera y formar parte de la Delegación Mexicana en la Olimpiada de Filosofía de los Países Bálticos (BSPEE), donde redacté un ensayo filosófico desarrollando una de las citas que nos proporcionaban, participando en la modalidad en lengua extranjera. Esta experiencia me permitió fortalecer mi pensamiento crítico, habilidades de argumentación, comprensión filosófica y reflexión ética sobre los problemas del mundo.
    </p>
    
-<div align="center">
- <img src="../../assets/imgs/Filo.jpg" alt="Sam" width="150";">
- <img src="../../assets/imgs/Filo2.jpg" alt="Sam" width="150";">
 
 
  
@@ -51,6 +48,7 @@ Información de contacto:
 </div>
 
 ---
+
 
 
 
