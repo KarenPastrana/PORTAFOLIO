@@ -49,6 +49,7 @@ Dentro de 10 años, me imagino habiendo crecido y aprendido mucho, tanto académ
 <div align="center">
  <img src="../../assets/imgs/Filo.jpg" alt="Sam" width="150";">
  <img src="../../assets/imgs/Filo2.jpg" alt="Sam" width="150";">
+  
    </p>
 Información de contacto:
 196933@iberopuebla.mx
@@ -56,6 +57,7 @@ Información de contacto:
 </div>
 
 ---
+
 
 
 
