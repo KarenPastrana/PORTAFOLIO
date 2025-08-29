@@ -46,9 +46,11 @@ Información de contacto:
  </p>
 Información de contacto:
 196933@iberopuebla.mx
+
 </div>
 
 ---
+
 
 
 
