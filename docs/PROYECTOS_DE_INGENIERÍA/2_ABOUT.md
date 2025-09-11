@@ -4,7 +4,7 @@
 
 ### KAREN
 <div align="center">
-  <img src="../../assets/imgs/fotoAlumno.png" alt="Karen" width="200";">
+  <img src="../assets/imgs/fotoAlumno.png" alt="Karen" width="200";">
   <p>
     Hola, soy Karen Melissa Pastrana Monzón, estudiante de Ingeniería Mecatrónica en la IBERO Puebla. Tengo 18 años y estoy en primer semestre. Estudio Ingeniería Mecatrónica porque me gusta la idea de poder desarrollar mis habilidades y conocimientos para innovar y crear soluciones.
    </p>
@@ -16,7 +16,7 @@ Al finalizar la semana, desarrollé un prototipo de un wearable que podía hacer
 </p>
 Y esta fue la historia de cómo, de haber querido estudiar piloto aviador militar, terminé decidiéndome por la carrera de Ingeniería Mecatrónica.  
  </p>
- <img src="../../assets/imgs/Image (1).jpeg" alt="Karen" width="200";">
+ <img src="../assets/imgs/Image (1).jpeg" alt="Karen" width="200";">
  </p>
 Me considero una persona muy activa. Me gusta hacer ejercicio; practico taekwondo desde los 7 años, además, voy a natación, al gimnasio y a pilates. También disfruto mucho bailar, desde coreográfico hasta ritmos latinos. Otros de mis hobbies incluyen pasar tiempo con mi familia y mascotas, escuchar música, ver películas, entre otras cosas.
 
@@ -36,7 +36,7 @@ Información de contacto:
 
 ### SAM
 <div align="center">
-  <img src="../../assets/imgs/Image.jpeg" alt="Sam" width="150";">
+  <img src=".../assets/imgs/Image.jpeg" alt="Sam" width="150";">
   <p>
     Hola, soy Samantha Ramírez Castillo, tengo 18 años y estudio Ingeniería Mecatrónica en la Universidad Iberoamericana Puebla, México, con un interés especial en robótica. Mis hobbies incluyen el dibujo digital, modelado 3D, tocar la guitarra, jugar videojuegos, escuchar música, aprender idiomas y pasar tiempo con mi gato.
 
@@ -47,8 +47,8 @@ Información de contacto:
 Dentro de 10 años, me imagino habiendo crecido y aprendido mucho, tanto académica como personalmente. Espero realizar proyectos que ayuden a nuestra sociedad, trabajar en equipo, seguir practicando mis hobbies y quizá combinarlos con mi carrera. También quiero mantener mis amistades y vivir nuevas experiencias que me sigan enseñando y motivando cada día.
   </p>
 <div align="center">
- <img src="../../assets/imgs/Filo.jpg" alt="Sam" width="150";">
- <img src="../../assets/imgs/Filo2.jpg" alt="Sam" width="150";">
+ <img src="../assets/imgs/Filo.jpg" alt="Sam" width="150";">
+ <img src="../assets/imgs/Filo2.jpg" alt="Sam" width="150";">
   
    </p>
 Información de contacto:
@@ -57,14 +57,4 @@ Información de contacto:
 </div>
 
 ---
-
-
-
-
-
-
-
-
-
-
 
