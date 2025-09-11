@@ -1,12 +1,14 @@
 # Actividad 1
 
-## Introducción (con objetivos)
+## Objetivos
 
-## Marco Teórico (teoría y metodología)
+## Introducción (Marco Teórico (teoría y metodología))
 
-## Desarrollo Experimental (materiales y procedimiento)
+## Materiales
 
-## Discusión de Resultados
+## Procedimiento
+
+## Resultados
 
 ## Conclusiones
 
