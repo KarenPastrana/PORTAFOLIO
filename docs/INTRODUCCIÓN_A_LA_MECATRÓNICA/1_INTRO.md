@@ -6,7 +6,7 @@
   <p style="font-size:18px;">Bienvenido(a).</p>
   
   <!-- Imagen de portada -->
-  <img src="../../assets/imgs/F1.jpg" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
+  <img src="assets/imgs/F1.jpg" alt="Portada" width="300" style="border-radius:15px; margin:20px 0;">
 
   <hr style="border:1px solid #ccc; width:80%;">
 
