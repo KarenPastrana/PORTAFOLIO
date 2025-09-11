@@ -1,12 +1,12 @@
+# SEMANA 2
 <div align="center">
 <p>
 
-# SEMANA 2
-  <p>
   <img src="../../assets/imgs/Dibujo1ejemplo.jpg" alt="Karen" width="500";">
     <p>
       
 ## Dibujo 1 Karen Pastrana
+
 ### Resultado
 <p>
   <img src="../../assets/imgs/Dibujo1solid.jpg" alt="Karen" width="500";">
