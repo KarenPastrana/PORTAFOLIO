@@ -10,13 +10,13 @@
 -Armar el circuito para verificar que el LED parpadee en el rango esperado.
   <p>
     
-<div>
+</div>
 
 
-## Introducción (Marco Teórico (teoría y metodología))
+## Introducción 
 <p>
   
-**Marco Teórico**
+### **Marco Teórico**
 <p>
 El temporizador 555 es un circuito integrado destacado por su versatilidad y facilidad de uso, el cual puede configurarse en tres modos: monoestable, biestable y astable. 
 <p>
@@ -33,7 +33,7 @@ $$f=\frac{​1.44​}{(R_1+2R_2)⋅C_1}$$
 De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
 <p>
 
-**Metodología**  
+### **Metodología**  
 </p>
 Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1</sub> utilizando las fórmulas del modo astable para que el LED parpadeara alrededor de 5 segundos. Posteriormente, se armó el circuito en la protoboard y se realizaron las conexiones a la fuente de alimentación. Finalmente, se verificó el funcionamiento y comportamiento mediante un osciloscopio, observando la forma de onda cuadrada generada y comparándola con los tiempos calculados. 
 <p>
