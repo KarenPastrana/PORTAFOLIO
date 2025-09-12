@@ -28,16 +28,6 @@ $$T_H=0.693⋅(R_1+R_2)⋅C_1$$
 $$T_L=0.693⋅R_2⋅C_1$$
 </p><p>
 $$f=\frac{​1.44​}{(R_1+2R_2)⋅C_1}$$
-
-<p>T_H = 0.693 ⋅ (R<sub>1</sub> + R<sub>2</sub>) ⋅ C<sub>1</sub></p>
-<p>T_L = 0.693 ⋅ R<sub>2</sub> ⋅ C<sub>1</sub></p>
-<p>f   = 1.44 / ((R<sub>1</sub> + 2 R<sub>2</sub>) ⋅ C<sub>1</sub>)</p>
-
-![T_H](https://latex.codecogs.com/svg.latex?T_H=0.693\cdot(R_1+R_2)\cdot C_1)
-<p>
-![T_L](https://latex.codecogs.com/svg.latex?T_L=0.693\cdot R_2\cdot C_1)
-<p>
-![f](https://latex.codecogs.com/svg.latex?f=\frac{1.44}{(R_1+2R_2)\cdot C_1})
   
 </p>
 De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
@@ -48,7 +38,7 @@ De esta manera, es posible determinar los valores adecuados de resistencias y ca
 Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1</sub> utilizando las fórmulas del modo astable para que el LED parpadeara alrededor de 5 segundos. Posteriormente, se armó el circuito en la protoboard y se realizaron las conexiones a la fuente de alimentación. Finalmente, se verificó el funcionamiento y comportamiento mediante un osciloscopio, observando la forma de onda cuadrada generada y comparándola con los tiempos calculados. 
 <p>
 
-<div>
+</div>
 
 ## Materiales
 <p>
@@ -74,19 +64,19 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 </div>
 
 ## Procedimiento
-<div>
+</div>
 
-<div>
+</div>
   
 ## Resultados
-<div>
+</div>
 
-<div>
+</div>
   
 ## Conclusiones
-<div>
+</div>
   
-<div>
+</div>
   
 ## Bibliografía
-<div>
+</div>
