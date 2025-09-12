@@ -39,7 +39,7 @@ De esta manera, es posible determinar los valores adecuados de resistencias y ca
 Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1</sub> utilizando las fórmulas del modo astable para que el LED parpadeara alrededor de 5 segundos. Posteriormente, se armó el circuito en la protoboard y se realizaron las conexiones a la fuente de alimentación. Finalmente, se verificó el funcionamiento y comportamiento mediante un osciloscopio, observando la forma de onda cuadrada generada y comparándola con los tiempos calculados. 
 <p>
 
----
+</div>
 
 ## Materiales
 <p>
@@ -62,7 +62,7 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 - 1 circuito integrado 555
 </p>
 
----
+</div>
 
 ## Procedimiento
 
