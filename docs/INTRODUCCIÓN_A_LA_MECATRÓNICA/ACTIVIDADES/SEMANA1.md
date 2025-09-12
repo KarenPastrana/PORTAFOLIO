@@ -12,7 +12,6 @@
     
 </div>
 
----
 
 ## Introducción (Marco Teórico (teoría y metodología))
 <p>
