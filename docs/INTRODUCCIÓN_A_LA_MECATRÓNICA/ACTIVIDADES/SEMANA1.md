@@ -32,6 +32,12 @@ $$f=\frac{​1.44​}{(R_1+2R_2)⋅C_1}$$
 <p>T_H = 0.693 ⋅ (R<sub>1</sub> + R<sub>2</sub>) ⋅ C<sub>1</sub></p>
 <p>T_L = 0.693 ⋅ R<sub>2</sub> ⋅ C<sub>1</sub></p>
 <p>f   = 1.44 / ((R<sub>1</sub> + 2 R<sub>2</sub>) ⋅ C<sub>1</sub>)</p>
+
+![T_H](https://latex.codecogs.com/svg.latex?T_H=0.693\cdot(R_1+R_2)\cdot C_1)
+<p>
+![T_L](https://latex.codecogs.com/svg.latex?T_L=0.693\cdot R_2\cdot C_1)
+<p>
+![f](https://latex.codecogs.com/svg.latex?f=\frac{1.44}{(R_1+2R_2)\cdot C_1})
   
 </p>
 De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
