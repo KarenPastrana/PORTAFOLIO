@@ -64,7 +64,6 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 </div>
 
 ## Procedimiento
-</div>
 <p>
 1. Calcular los valores ded resittencias y capacitor para lograr un periodo de encendido y apagado del LED en un rango de 1-5 segundos. <p>
 2. Armar el circuito 555 en el protoboard y alimentarlo conectando sus pines a Vcc y GND. <p>
@@ -76,7 +75,6 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 </div>
   
 ## Resultados
-</div>
 <p>
 - El LED parpadeó dentro del rango esperado: 5 segundos en nivel alto y 3 segundos en nivel bajo.
 <p>
@@ -87,7 +85,6 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 </div>
   
 ## Conclusiones
-</div>
 <p>
 De acuerdo con los resultados obtenidos, se concreta que el circuito integrado 555 en nmodo astable permite generar señales de onda cuadrada que pueden usarse para controlar dispositivos como LEDs. 
 <p>
@@ -96,4 +93,3 @@ Además, gracias a las fórmulas, los cálculos de resistencias y cpacitor concu
 </div>
   
 ## Bibliografía
-</div>
