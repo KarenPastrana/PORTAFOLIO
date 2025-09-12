@@ -64,9 +64,13 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 </div>
 
 ## Procedimiento
+</div>
 
 ## Resultados
+</div>
 
 ## Conclusiones
+</div>
 
 ## Bibliografía
+</div>
