@@ -93,3 +93,9 @@ Además, gracias a las fórmulas, los cálculos de resistencias y cpacitor concu
 </div>
   
 ## Bibliografía
+<p>
+- https://www.allaboutcircuits.com/tools/555-timer-astable-circuit/
+<p>
+- https://resources.altium.com/es/p/everything-you-need-know-about-oscillators
+<p>  
+- https://latexeditor.lagrida.com/
