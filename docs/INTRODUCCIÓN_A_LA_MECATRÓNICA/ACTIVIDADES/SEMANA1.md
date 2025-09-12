@@ -10,7 +10,7 @@
 -Armar el circuito para verificar que el LED parpadee en el rango esperado.
   <p>
     
-</div>
+<div>
 
 
 ## Introducción (Marco Teórico (teoría y metodología))
