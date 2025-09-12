@@ -28,6 +28,11 @@ $$T_H=0.693⋅(R_1+R_2)⋅C_1$$
 $$T_L=0.693⋅R_2⋅C_1$$
 </p><p>
 $$f=\frac{​1.44​}{(R_1+2R_2)⋅C_1}$$
+
+<p>T_H = 0.693 ⋅ (R<sub>1</sub> + R<sub>2</sub>) ⋅ C<sub>1</sub></p>
+<p>T_L = 0.693 ⋅ R<sub>2</sub> ⋅ C<sub>1</sub></p>
+<p>f   = 1.44 / ((R<sub>1</sub> + 2 R<sub>2</sub>) ⋅ C<sub>1</sub>)</p>
+  
 </p>
 De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
 <p>
@@ -65,11 +70,17 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 ## Procedimiento
 <div>
 
+<div>
+  
 ## Resultados
 <div>
 
+<div>
+  
 ## Conclusiones
 <div>
-
+  
+<div>
+  
 ## Bibliografía
 <div>
