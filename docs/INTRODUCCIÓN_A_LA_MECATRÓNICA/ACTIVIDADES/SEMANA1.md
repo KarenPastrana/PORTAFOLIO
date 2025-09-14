@@ -20,7 +20,7 @@ En el modo astable, el temporizador 555 funciona como un oscilador, es decir, un
 Las fórmulas que definen el tiempo en nivel alto (TH), el tiempo en nivel bajo (TL) y la frecuencia (F) son:  
 
 <p>
- <img src="../../assets/imgs/S1_Formulas.jpg" alt="Formulas" width="320";">
+ <img src="../../assets/imgs/S1_Formulas.jpg" alt="Formulas" width="320">
 </p>
 
 <p>
@@ -41,6 +41,7 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 </div>
 
 ---
+
 <div>
 
 ### Materiales
@@ -56,29 +57,34 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 </div>
 
 ---
+
 <div>
 
 ### Procedimiento
 1. Calcular los valores de resistencias y capacitor para lograr un periodo de encendido y apagado del LED en un rango de 1-5 segundos.  
+
 <p>
- <img src="../../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="400";">
+ <img src="../../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="400">
 </p>
+
 2. Armar el circuito 555 en el protoboard y alimentarlo conectando sus pines a Vcc y GND.  
 3. Conectar las resistencias y el capacitor de acuerdo a la configuración astable del 555.  
 4. Añadir el LED con su resistencia.  
 5. Alimentar el circuito con la fuente alimentadora.  
 6. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.
+
 <p>
- <img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="250";"> 
+ <img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="250">
+</p>
 
 <video width="320" controls>
   <source src="../../assets/imgs/S1_VideoMovVoltaje.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
-</p>
 </div>
 
 ---
+
 <div>
 
 ### Resultados
@@ -90,10 +96,10 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
   <source src="../../assets/imgs/S1_VideoFinal.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
- </p>
 </div>
 
 ---
+
 <div>
 
 ### Conclusiones
@@ -103,6 +109,7 @@ Además, gracias a las fórmulas, los cálculos de resistencias y capacitor conc
 </div>
 
 ---
+
 <div>
 
 ### Bibliografía
