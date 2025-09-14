@@ -16,7 +16,11 @@ Las fórmulas que definen el tiempo en nivel alto (TH), el tiempo en nivel bajo 
  <img src="../../assets/imgs/S1_Formulas.jpg" alt="Formulas" width="320";">
 </p>
 
-[Calculadora 555 Timer](https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOopbM2F4kBKWD8n8-fVGb5gEoQxKXo3YCXbVUPw4arBwxIQpEXOX)
+<p>
+  <a href="https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOopbM2F4kBKWD8n8-fVGb5gEoQxKXo3YCXbVUPw4arBwxIQpEXOX" target="_blank">
+    Calculadora 555 Timer
+  </a>
+</p>
 
 De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
 
