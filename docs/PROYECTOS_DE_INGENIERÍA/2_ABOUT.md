@@ -36,7 +36,7 @@ Información de contacto:
 
 ### SAM
 <div align="center">
-  <img src=".../assets/imgs/Image.jpeg" alt="Sam" width="150";">
+  <img src="../assets/imgs/Image.jpeg" alt="Sam" width="150";">
   <p>
     Hola, soy Samantha Ramírez Castillo, tengo 18 años y estudio Ingeniería Mecatrónica en la Universidad Iberoamericana Puebla, México, con un interés especial en robótica. Mis hobbies incluyen el dibujo digital, modelado 3D, tocar la guitarra, jugar videojuegos, escuchar música, aprender idiomas y pasar tiempo con mi gato.
 
@@ -57,4 +57,5 @@ Información de contacto:
 </div>
 
 ---
+
 
