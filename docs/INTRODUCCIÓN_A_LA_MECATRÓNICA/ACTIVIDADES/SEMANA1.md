@@ -14,11 +14,11 @@ En el modo astable, el temporizador 555 funciona como un oscilador, es decir, un
 
 Las fórmulas que definen el tiempo en nivel alto (TH), el tiempo en nivel bajo (TL) y la frecuencia (F) son:  
 
-$$T_H = 0.693 \cdot (R_1 + R_2) \cdot C_1$$  
+TH = 0.693 · (R1 + R2) · C1
 
-$$T_L = 0.693 \cdot R_2 \cdot C_1$$  
+TL = 0.693 · R2 · C1
 
-$$f = \frac{1.44}{(R_1 + 2R_2) \cdot C_1}$$  
+f  = 1.44 / ((R1 + 2·R2) · C1)
 
 De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
 
