@@ -24,6 +24,9 @@ De esta manera, es posible determinar los valores adecuados de resistencias y ca
 
 ### **Metodología**
 Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1</sub> utilizando las fórmulas del modo astable para que el LED parpadeara en un rango de 1 a 5 segundos. Posteriormente, se armó el circuito en la protoboard y se realizaron las conexiones a la fuente de alimentación. Finalmente, se verificó el funcionamiento y comportamiento mediante un osciloscopio, observando la forma de onda cuadrada generada y comparándola con los tiempos calculados.  
+<p>
+ <img src="../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="150";">
+</p>
 
 ## Materiales
 - 1 protoboard  
@@ -42,12 +45,26 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 3. Conectar las resistencias y el capacitor de acuerdo a la configuración astable del 555.  
 4. Añadir el LED con su resistencia.  
 5. Alimentar el circuito con la fuente alimentadora.  
-6. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.  
+6. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.
+<p>
+ <img src="../assets/imgs/S1_Final.jpg" alt="Final" width="150";"> 
+</p>
 
 ## Resultados
 - El LED parpadeó dentro del rango esperado: 5 segundos en nivel alto y 3 segundos en nivel bajo.  
 - En el osciloscopio se pudo observar ondas cuadradas con el periodo calculado.  
-- La frecuencia obtenida fue cercana a 0.133 Hz.  
+- La frecuencia obtenida fue cercana a 0.133 Hz.
+<p>
+<video width="320" controls>
+  <source src="../assets/imgs/S1_VideoMovVoltaje.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+
+<video width="320" controls>
+  <source src="../assets/imgs/S1_VideoFinal.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+ </p>
 
 ## Conclusiones
 De acuerdo con los resultados obtenidos, se concreta que el circuito integrado 555 en modo astable permite generar señales de onda cuadrada que pueden usarse para controlar dispositivos como LEDs.  
