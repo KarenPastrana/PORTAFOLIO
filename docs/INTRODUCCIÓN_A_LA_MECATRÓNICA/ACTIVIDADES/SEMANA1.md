@@ -41,7 +41,7 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 ### Procedimiento
 1. Calcular los valores de resistencias y capacitor para lograr un periodo de encendido y apagado del LED en un rango de 1-5 segundos.  
 <p>
- <img src="../../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="320";">
+ <img src="../../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="400";">
 </p>
 2. Armar el circuito 555 en el protoboard y alimentarlo conectando sus pines a Vcc y GND.  
 3. Conectar las resistencias y el capacitor de acuerdo a la configuración astable del 555.  
@@ -50,19 +50,18 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 6. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.
 <p>
  <img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="320";"> 
-</p>
 
-### Resultados
-- El LED parpadeó dentro del rango esperado: 5 segundos en nivel alto y 3 segundos en nivel bajo.  
-- En el osciloscopio se pudo observar ondas cuadradas con el periodo calculado.  
-- La frecuencia obtenida fue cercana a 0.133 Hz.
-<p>
 <video width="320" controls>
   <source src="../../assets/imgs/S1_VideoMovVoltaje.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 
-<video width="320" controls>
+### Resultados
+- El LED parpadeó dentro del rango esperado: 5 segundos en nivel alto y 3 segundos en nivel bajo.  
+- En el osciloscopio se pudo observar ondas cuadradas con el periodo calculado.  
+- La frecuencia obtenida fue cercana a 0.133 Hz.
+
+<video width="500" controls>
   <source src="../../assets/imgs/S1_VideoFinal.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
