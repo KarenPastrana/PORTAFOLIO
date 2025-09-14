@@ -15,8 +15,10 @@ En el modo astable, el temporizador 555 funciona como un oscilador, es decir, un
 Las fórmulas que definen el tiempo en nivel alto (TH), el tiempo en nivel bajo (TL) y la frecuencia (F) son:  
 
 <p>
- <img src="../assets/imgs/S1_Formulas.jpg" alt="Formulas" width="150";">
+ <img src="assets/imgs/S1_Formulas.jpg" alt="Formulas" width="150";">
 </p>
+
+[Calculadora 555 Timer](https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOopbM2F4kBKWD8n8-fVGb5gEoQxKXo3YCXbVUPw4arBwxIQpEXOX)
 
 De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
 
@@ -37,7 +39,7 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 ## Procedimiento
 1. Calcular los valores de resistencias y capacitor para lograr un periodo de encendido y apagado del LED en un rango de 1-5 segundos.  
 <p>
- <img src="../../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="150";">
+ <img src="../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="150";">
 </p>
 2. Armar el circuito 555 en el protoboard y alimentarlo conectando sus pines a Vcc y GND.  
 3. Conectar las resistencias y el capacitor de acuerdo a la configuración astable del 555.  
