@@ -1,12 +1,12 @@
 # SEMANA 3
 
-# Práctica de Karen
+# **Práctica de Karen**
 En esta semana realizamos una práctica en la plancha del IDIT para aprender a utilizar herramientas y máquinas tanto de metal como de madera.
 
-## Primera parte-Trabajo con metal
+## **Primera parte-Trabajo con metal**
 Durante la primera hora, el Ing. Gustavo nos enseñó a utilizar la cortadora de sierra, la cortadora circular y la planta de soldar.
 
-### Seguridad y equipo de protección utilizados:
+### **Seguridad y equipo de protección utilizados:**
 Antes de comenzar, solicitamos el material de protección en la bodega del IDIT:
 - Guantes de carnaza
 - Polainas
@@ -17,7 +17,7 @@ Antes de comenzar, solicitamos el material de protección en la bodega del IDIT:
 
 ---
 
-### Uso de la cortadora de sierra
+### **Uso de la cortadora de sierra:**
 1. Colocar y ajustar el metal en el sujetador o tornillo de banco de la máquina.
 2. Encender la máquina.
 3. Bajar con cuidado la parte de la sierra hasta realizar el corte, en cuanto llegue hasta abajo se detendrá por sí sola.
@@ -25,7 +25,7 @@ Antes de comenzar, solicitamos el material de protección en la bodega del IDIT:
 
 ---
 
-### Uso de la cortadora circular
+### **Uso de la cortadora circular:**
 1. Colocar el metal sobre la base de la máquina.
 2. Presionar el seguro de la máquina.
 3. Presionar el botón de encendido y mantenerlo mientras se realiza el corte.
@@ -34,7 +34,7 @@ Antes de comenzar, solicitamos el material de protección en la bodega del IDIT:
 
 ---
 
-### Práctica de soldadura
+### **Práctica de soldadura:**
 1. Colocarse todo el equipo de seguridad (careta, pechera, guantes, mangas, polainas).
 2. Preparar las piezas a unir y encender la máquina.
 3. Colocar el electrodo.
@@ -45,56 +45,58 @@ Antes de comenzar, solicitamos el material de protección en la bodega del IDIT:
 
 ---
 
-## Segunda parte: trabajo con madera
+## **Segunda parte-Trabajo con madera**
 En la segunda hora, trabajamos con nuestro profesor en el área de corte y lijado de madera para fabricar un porta celular. En esta parte solo usamos lentes de protección, ya que los guantes podían ser peligrosos al trabajar con las cortadoras.
 
-### Pasos:
-1. Corte inicial de la madera:
+### **Pasos:**
+**1. Corte inicial de la madera:**
 Con una cortadora circular vertical, reducimos las piezas grandes de madera a pedazos más pequeños.
 
 ---
 
-2. Corte de bordes:
+**2. Corte de bordes:**
 El maestro utilizó una cortadora de mesa (más peligrosa y bajo llave) para recortar los bordes de las piezas.
 
 ---
 
-3. Corte individual de piezas:
+**3. Corte individual de piezas:**
 Con una cortadora circular cortamos las piezas que servirían para cada uno de nuestros porta celulares y pegamos en ellas el papel con el diseño impreso.
 
 ---
 
-4. Corte detallado:
+**4. Corte detallado:**
 Con sierras de marquetería seguimos la figura del diseño.
 
 Nota: Utilizamos un salvadedos (bloque de madera) para empujar y evitar accidentes.
 
 ---
 
-5. Perforación de agujeros:
+**5. Perforación de agujeros:**
 Usamos un taladro de banco para hacer los orificios en las piezas. Para esto hicimos lo siguiente: 
 
-a) Acomodar la pieza en la base, alineando el punto donde debía ir el agujero.
+a) Acomodar la pieza en la base, alineando el punto del agujero, tanto horizontal como verticalmente.
 
-b) Bajar la broca con cuidado para perforar.
+b) Bajar la broca con cuidado hasta que la pieza de madera de abajo se mueva.
 
-c) Revisar el movimiento de la pieza de madera de abajo para confirmar que el agujero estaba completo.
+c) Subir la broca y apagar la máquina.
 
 ---
 
-6. Corte de la parte central:
+**6. Corte de la parte central:**
 Primero sujetamos las piezas en un tornillo de banco para posteriormente retirar con un serrucho los pedazos centrales del diseño.
 
 ---
 
-7. Lijado:
+**7. Lijado:**
 Utilizamos una lijadora de banda para dar forma a los bordes.
 
 ---
 
+Nota: Al finalizar, devolvimos el equipo de protección y herramientas a la bodega del IDIT.
+
 ---
 
-## Conclusión:
+## **Conclusión:**
 
-Al terminar, devolvimos el equipo de protección y herramientas. 
-Esta práctica fue un primer acercamiento a la ingeniería, donde aplicamos normas de seguridad y desarrollamos habilidades prácticas que serán esenciales en la carrera.
+
+Esta práctica fue un primer acercamiento a las máquinas y habilidades que desarrollaremos en nuestra trayectoria en la universidad. Asimismo, aplicamos las normas de seguridad y adquirimos experiencia en la utilización de las cortadoras, aprendimos a soldar, a lijar, entre otras cosas.
