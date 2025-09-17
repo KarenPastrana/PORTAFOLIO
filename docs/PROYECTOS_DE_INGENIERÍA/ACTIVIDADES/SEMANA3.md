@@ -142,6 +142,10 @@ Utilizamos una lijadora de banda para dar forma a los bordes.
 
 ---
 
+## **Resultado:**
+
+  <img src="../../assets/imgs/S3_I1.jpg" alt="Karen" width="500">
+
 Nota: Al finalizar, devolvimos el equipo de protección y herramientas a la bodega del IDIT.
 
 ---
@@ -150,3 +154,11 @@ Nota: Al finalizar, devolvimos el equipo de protección y herramientas a la bode
 
 
 Esta práctica fue un primer acercamiento a las máquinas y habilidades que desarrollaremos en nuestra trayectoria en la universidad. Asimismo, aplicamos las normas de seguridad y adquirimos experiencia en la utilización de las cortadoras, aprendimos a soldar, a lijar, entre otras cosas.
+
+---
+
+---
+
+---
+
+## **PRÁCTICA DE SAM**
