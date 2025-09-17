@@ -1,6 +1,6 @@
 # SEMANA 3
 
-## **Práctica de Karen**
+## **PRÁCTICA DE KAREN**
 En esta semana realizamos una práctica en la plancha del IDIT para aprender a utilizar herramientas y máquinas tanto de metal como de madera.
 
 ## **Primera parte-Trabajo con metal**
