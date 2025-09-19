@@ -146,7 +146,7 @@ Utilizamos una lijadora de banda para dar forma a los bordes.
 
   <img src="../../assets/imgs/S3_I1.jpg" alt="Karen" width="200">
   <img src="../../assets/imgs/S3_I2.jpg" alt="Karen" width="198">
-  <video width="180" controls>
+  <video width="160" controls>
   <source src="../../assets/videos/S3_VF.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
