@@ -1,10 +1,10 @@
 # SEMANA 4
 
+## Dibujo 2 Karen Pastrana
+
 <div align="center">
   <img src="../../assets/imgs/Dibujo2ejemplo.jpg" alt="Karen" width="500">
-</div>
-
-## Dibujo 2 Karen Pastrana
+</div>aa
 
 ### Resultado
 
@@ -21,11 +21,11 @@
 
 ---
 
+## Dibujo 5 Karen Pastrana
+
 <div align="center">
   <img src="../../assets/imgs/Dibujo5ejemplo.jpg" alt="Karen" width="500">
 </div>
-
-## Dibujo 5 Karen Pastrana
 
 ### Resultado
 
