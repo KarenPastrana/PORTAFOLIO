@@ -30,7 +30,7 @@
 ### Resultado
 
 <div align="center">
-  <img src="../../assets/imgs/Dibujo5solid.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/Dibujo5_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -47,7 +47,7 @@
 ### Maceta 1 Resultado
 
 <div align="center">
-  <img src="../../assets/imgs/DibujoMaceta1solid.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/DibujoMaceta1_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -60,7 +60,7 @@
 ### Maceta 2 Resultado
 
 <div align="center">
-  <img src="../../assets/imgs/DibujoMaceta2solid.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/DibujoMaceta2_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -73,7 +73,7 @@
 ### Maceta 3 Resultado
 
 <div align="center">
-  <img src="../../assets/imgs/DibujoMaceta3solid.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/DibujoMaceta3_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
