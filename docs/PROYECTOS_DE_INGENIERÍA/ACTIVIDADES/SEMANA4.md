@@ -4,7 +4,7 @@
 
 <div align="center">
   <img src="../../assets/imgs/Dibujo2ejemplo.jpg" alt="Karen" width="500">
-</div>aa
+</div>
 
 ### Resultado
 
