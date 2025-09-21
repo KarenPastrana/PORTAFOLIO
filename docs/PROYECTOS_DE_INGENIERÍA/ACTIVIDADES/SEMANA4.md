@@ -9,7 +9,7 @@
 ### Resultado
 
 <div align="center">
-  <img src="../../assets/imgs/Dibujo2solid.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/Dibujo2_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
