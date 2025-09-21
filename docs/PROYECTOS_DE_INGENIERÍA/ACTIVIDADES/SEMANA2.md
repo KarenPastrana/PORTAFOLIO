@@ -1,5 +1,7 @@
 # SEMANA 2
 
+## Dibujo 1
+
 <div align="center">
   <img src="../../assets/imgs/Dibujo1ejemplo.jpg" alt="Karen" width="500">
 </div>
