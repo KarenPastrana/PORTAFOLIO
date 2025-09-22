@@ -6,7 +6,7 @@
 
 ### Grabado
 
-Para el grabado laser decidií tomar de refencia el dibujo de un gato y lo reaalicé con medidas acordes al porta celular que anteriormente había armado.
+Para el grabado láser decidí tomar de referencia el dibujo de un gato y lo realicé con medidas acordes al porta celular que anteriormente había armado.
 
 <div align="center">
   <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="200">
@@ -16,7 +16,7 @@ Para el grabado laser decidií tomar de refencia el dibujo de un gato y lo reaal
   
 ### Idea para juego
 
-El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres llantas (inlcuyendo la de refacción), techo desmontable y carroceria. Para que al momento de cortarlo en laser y tener las piezas por separado, encajen perfectamente y formen el jeep completo.
+El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres llantas (incluyendo la de refacción), techo desmontable y carrocería. Para que, al momento de cortarlo en láser y tener las piezas por separado, encajen perfectamente y formen el jeep completo.
 
 <div align="center">
 <img src="../../assets/imgs/Jeeptarea_Karen.jpg" alt="Karen" width="500">
