@@ -6,7 +6,7 @@
 
 ### Grabado
 <div align="center">
-  <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="200">
 </div>
 
   ---
