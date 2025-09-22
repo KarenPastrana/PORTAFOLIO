@@ -4,14 +4,19 @@
 
 ### Imágenes de referencia
 
-## Grabado
+### Grabado
 <div align="center">
   <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="500">
 </div>
 
-## Idea para juego
+  ---
+  
+### Idea para juego
+<div align="center">
 <img src="../../assets/imgs/Jeeptarea_Karen.jpg" alt="Karen" width="500">
 </div>
+
+---
 
 ### Resultado
 
