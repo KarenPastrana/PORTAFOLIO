@@ -50,41 +50,15 @@
       </a>
     </div>
 
-    <!-- Semana 5 -->
+    <!-- Semana 4 Tarea -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 5</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA5/" 
-         style="display:block; background-image:url('../assets/imgs/FW5.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
-         Semana 5
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA4_TAREA/
+         style="display:block; background-image:url('../assets/imgs/FW4_1.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         Semana 4 Tarea
       </a>
     </div>
 
-    <!-- Semana 6 -->
-    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
-      <h2 style="color:#228b22;">Semana 6</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA6/" 
-         style="display:block; background-image:url('../assets/imgs/FW6.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
-         Semana 6
-      </a>
-    </div>
-
-    <!-- Semana 7 -->
-    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
-      <h2 style="color:#228b22;">Semana 7</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA7/" 
-         style="display:block; background-image:url('../assets/imgs/FW7.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
-         Semana 7
-      </a>
-    </div>
-
-    <!-- Semana 8 -->
-    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
-      <h2 style="color:#228b22;">Semana 8</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA8/" 
-         style="display:block; background-image:url('../assets/imgs/FW8.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
-         Semana 8
-      </a>
-    </div>
 
   </div>
 
