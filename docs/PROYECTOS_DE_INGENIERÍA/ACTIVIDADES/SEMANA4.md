@@ -102,7 +102,7 @@ Diseño de una maceta con ayuda principalmente del uso de planos a diferentes al
 ## Dibujos Samantha Ramírez
 ### Dibujo 2
 <div align="center">
-  <img src="../../assets/imgs/Dibujo2" alt="Sam" width="500">
+  <img src="../../assets/imgs/Dibujo2.png" alt="Sam" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -113,3 +113,5 @@ Diseño de una maceta con ayuda principalmente del uso de planos a diferentes al
 </div>
 
 ---
+
+### Dibujo 5
