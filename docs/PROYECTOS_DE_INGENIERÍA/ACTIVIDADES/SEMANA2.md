@@ -2,6 +2,8 @@
 
 ## Dibujo 1
 
+Diseño del dibujo 1 en SolidWorks de acuerdo a los "Planos de entregables en SolidWorks" de la materia.
+
 <div align="center">
   <img src="../../assets/imgs/Dibujo1ejemplo.jpg" alt="Karen" width="500">
 </div>
