@@ -2,6 +2,17 @@
 
 ## Diseños tarea Karen Pastrana
 
+### Imágenes de referencia
+
+## Grabado
+<div align="center">
+  <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="500">
+</div>
+
+## Idea para juego
+<img src="../../assets/imgs/Jeeptarea_Karen.jpg" alt="Karen" width="500">
+</div>
+
 ### Resultado
 
 <div align="center">
