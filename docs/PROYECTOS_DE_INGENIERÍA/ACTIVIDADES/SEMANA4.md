@@ -141,3 +141,17 @@ Diseño de una maceta con ayuda principalmente del uso de planos a diferentes al
 </div>
 
 ---
+
+### Maceta 2
+<div align="center">
+  <img src="../../assets/imgs/Maceta 2.png" alt="Sam" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/Maceta 2.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
