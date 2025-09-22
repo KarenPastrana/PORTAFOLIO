@@ -2,6 +2,8 @@
 
 ## Dibujo 2 Karen Pastrana
 
+Diseño del dibujo 2 en SolidWorks de acuerdo a los "Planos de entregables en SolidWorks" de la materia.
+
 <div align="center">
   <img src="../../assets/imgs/Dibujo2ejemplo.jpg" alt="Karen" width="500">
 </div>
@@ -22,6 +24,8 @@
 ---
 
 ## Dibujo 5 Karen Pastrana
+
+Diseño del dibujo 5 en SolidWorks de acuerdo a los "Planos de entregables en SolidWorks" de la materia.
 
 <div align="center">
   <img src="../../assets/imgs/Dibujo5ejemplo.jpg" alt="Karen" width="500">
@@ -46,6 +50,8 @@
 
 ### Maceta 1 Resultado
 
+Diseño de una maceta con ayuda principalmente del uso de planos a diferentes alturas, la figura de cuadrado, las herramientas de recubrir y extruir.
+
 <div align="center">
   <img src="../../assets/imgs/DibujoMaceta1_Karen.jpg" alt="Karen" width="500">
 </div>
@@ -59,6 +65,8 @@
 
 ### Maceta 2 Resultado
 
+Diseño de una maceta con ayuda principalmente del uso de planos a diferentes alturas, las figuras de hexágono y círculo, las herramientas de recubrir y extruir.
+
 <div align="center">
   <img src="../../assets/imgs/DibujoMaceta2_Karen.jpg" alt="Karen" width="500">
 </div>
@@ -71,6 +79,8 @@
 </div>
 
 ### Maceta 3 Resultado
+
+Diseño de una maceta con ayuda principalmente del uso de planos a diferentes alturas, las figuras de cuadrado, círculo y spline, y las herramientas de recubrir y extruir.
 
 <div align="center">
   <img src="../../assets/imgs/DibujoMaceta3_Karen.jpg" alt="Karen" width="500">
