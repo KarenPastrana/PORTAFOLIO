@@ -89,17 +89,4 @@
 
 ---
 
-## Dibujo 2 Samantha Ramírez
-
-### Resultado
-
-<div align="center">
-  <img src="../../assets/imgs/Pieza1_Samantha_Ramírez.png" alt="Samantha" width="500">
-</div>
-
-<!-- Botón de descarga -->
-<div align="center">
-  <a href="../../assets/archivos/Pieza1_Samantha_Ramírez.SLDPRT" download>
-    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
-  </a>
-</div>
+## Dibujos Samantha Ramírez
