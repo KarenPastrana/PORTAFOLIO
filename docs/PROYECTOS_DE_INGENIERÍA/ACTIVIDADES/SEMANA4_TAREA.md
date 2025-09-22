@@ -20,6 +20,7 @@
 
 ### Resultado
 
+
 <div align="center">
   <img src="../../assets/imgs/DibujosTarea_Karen.jpg" alt="Karen" width="500">
 </div>
