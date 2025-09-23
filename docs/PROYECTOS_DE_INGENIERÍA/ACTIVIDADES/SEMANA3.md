@@ -186,8 +186,8 @@ Procedimiento para la elaboración del portacelular:
 4. Lijado: después de cortar, procedimos a lijar todas las piezas para quitar rebabas, suavizar bordes y dar un mejor acabado a la madera.<p>
 5. Perforación: realizamos un orificio en la parte inferior, que corresponde al espacio por donde sale el cargador del celular.<p>
 <p>
- <img src="../../assets/imgs/cortar madera.jpg" alt="Sam" width="200"> 
-
+  <img src="../../assets/imgs/Tabla.jpg" alt="Sam" width="200"> 
+  <img src="../../assets/imgs/cortar madera.jpg" alt="Sam" width="200"> 
 <img src="../../assets/imgs/lijar.jpg" alt="Sam" width="200">    
   <p>
 Esta actividad nos ayudó a desarrollar habilidades prácticas en el manejo de materiales y herramientas, además de fomentar la creatividad en la elaboración de objetos útiles.
