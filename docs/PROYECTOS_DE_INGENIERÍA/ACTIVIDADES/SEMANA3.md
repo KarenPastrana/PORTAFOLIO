@@ -184,7 +184,8 @@ Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijad
 En general, esta práctica fue de gran importancia porque nos permitió conocer de manera directa cómo operar las máquinas, entender la necesidad de mantener medidas de seguridad en todo momento y aplicar técnicas básicas tanto en el trabajo con metal como con madera.
 <p>
 
-### **Resultado Portacelular:**
+## **Resultado Portacelular:**
+<p>
 <img src="../../assets/imgs/porta.jpg" alt="Sam" width="200">
 <p>
   
