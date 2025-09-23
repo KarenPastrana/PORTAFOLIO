@@ -174,7 +174,7 @@ En esta práctica tuvimos la oportunidad de familiarizarnos con las diferentes m
   <p>
 También conocimos la herramienta para soldar, lo cual nos permitió comprender la importancia de este proceso en la unión de piezas metálicas. Durante esta parte, se recalcó la relevancia del uso adecuado del equipo de protección personal (guantes, lentes de seguridad, careta, etc.), ya que es fundamental para prevenir accidentes y garantizar la seguridad en el taller.
     <p>
-  <img src="../../assets/imgs/soldar.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/Sol.jpg" alt="Sam" width="200">
       <p>
 Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijado de piezas con el objetivo de fabricar un portacelular. 
  <p>
