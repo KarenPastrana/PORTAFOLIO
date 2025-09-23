@@ -175,18 +175,34 @@ También conocimos la herramienta para soldar, lo cual nos permitió comprender 
     <p>
   <img src="../../assets/imgs/soldar.jpg" alt="Sam" width="200">
       <p>
-Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijado de piezas con el objetivo de fabricar un portacelular. Esta actividad nos ayudó a desarrollar habilidades prácticas en el manejo de materiales y herramientas, además de fomentar la creatividad en la elaboración de objetos útiles.
-        <p>
+Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijado de piezas con el objetivo de fabricar un portacelular. 
+ <p>
+## **Procedimiento para la elaboración del portacelular:**
+ <p>
+1. Corte inicial de la madera: comenzamos cortando las tablas de madera en piezas adecuadas para el tamaño del portacelular.
+
+2. Colocación del diseño: pegamos encima de la madera una hoja con el diseño del portacelular.
+
+3. Corte según el diseño: utilizando las líneas marcadas en la hoja, realizamos los cortes en la madera para obtener las piezas con la forma adecuada.
+
+4. Lijado: después de cortar, procedimos a lijar todas las piezas para quitar rebabas, suavizar bordes y dar un mejor acabado a la madera.
+
+5. Perforación: realizamos un orificio en la parte inferior, que corresponde al espacio por donde sale el cargador del celular.
+<p>
  <img src="../../assets/imgs/cortar madera.jpg" alt="Sam" width="200"> 
           <p>
-<img src="../../assets/imgs/lijar.jpg" alt="Sam" width="200">
-            <p>
-En general, esta práctica fue de gran importancia porque nos permitió conocer de manera directa cómo operar las máquinas, entender la necesidad de mantener medidas de seguridad en todo momento y aplicar técnicas básicas tanto en el trabajo con metal como con madera.
-<p>
+<img src="../../assets/imgs/lijar.jpg" alt="Sam" width="200">       
+Esta actividad nos ayudó a desarrollar habilidades prácticas en el manejo de materiales y herramientas, además de fomentar la creatividad en la elaboración de objetos útiles.
+        <p>
 
-## **Resultado Portacelular:**
+<p>
+## Resultado Portacelular:
 <p>
 <img src="../../assets/imgs/porta.jpg" alt="Sam" width="200">
 <p>
-  
----
+En general, esta práctica fue de gran importancia porque nos permitió conocer de manera directa cómo operar las máquinas, entender la necesidad de mantener medidas de seguridad en todo momento y aplicar técnicas básicas tanto en el trabajo con metal como con madera.
+<p>
+
+
+
+
