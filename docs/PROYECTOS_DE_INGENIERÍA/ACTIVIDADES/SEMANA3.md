@@ -177,7 +177,8 @@ También conocimos la herramienta para soldar, lo cual nos permitió comprender 
       <p>
 Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijado de piezas con el objetivo de fabricar un portacelular. 
  <p>
-## **Procedimiento para la elaboración del portacelular:**
+<p>
+Procedimiento para la elaboración del portacelular:
  <p>
 1. Corte inicial de la madera: comenzamos cortando las tablas de madera en piezas adecuadas para el tamaño del portacelular.
 
@@ -191,12 +192,13 @@ Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijad
 <p>
  <img src="../../assets/imgs/cortar madera.jpg" alt="Sam" width="200"> 
           <p>
-<img src="../../assets/imgs/lijar.jpg" alt="Sam" width="200">       
+<img src="../../assets/imgs/lijar.jpg" alt="Sam" width="200">    
+  <p>
 Esta actividad nos ayudó a desarrollar habilidades prácticas en el manejo de materiales y herramientas, además de fomentar la creatividad en la elaboración de objetos útiles.
         <p>
 
 <p>
-## Resultado Portacelular:
+Resultado Portacelular:
 <p>
 <img src="../../assets/imgs/porta.jpg" alt="Sam" width="200">
 <p>
