@@ -169,7 +169,8 @@ Esta práctica fue un primer acercamiento a las máquinas y habilidades que desa
 ## **PRÁCTICA DE SAM**
 En esta práctica tuvimos la oportunidad de familiarizarnos con las diferentes máquinas y herramientas disponibles en el IDIT. Primero trabajamos con metal, utilizando la cortadora de sierra y la cortadora circular para realizar cortes precisos. 
 <p>
- <img src="../../assets/imgs/corte circular.jpg" alt="Sam" width="200">
+ <img src="../../assets/imgs/maquina.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/corte circular.jpg" alt="Sam" width="200">
   <p>
 También conocimos la herramienta para soldar, lo cual nos permitió comprender la importancia de este proceso en la unión de piezas metálicas. Durante esta parte, se recalcó la relevancia del uso adecuado del equipo de protección personal (guantes, lentes de seguridad, careta, etc.), ya que es fundamental para prevenir accidentes y garantizar la seguridad en el taller.
     <p>
