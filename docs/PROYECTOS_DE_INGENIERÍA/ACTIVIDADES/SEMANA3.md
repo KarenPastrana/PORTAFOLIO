@@ -181,13 +181,9 @@ Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijad
 Procedimiento para la elaboración del portacelular:
  <p>
 1. Corte inicial de la madera: comenzamos cortando las tablas de madera en piezas adecuadas para el tamaño del portacelular.
-
 2. Colocación del diseño: pegamos encima de la madera una hoja con el diseño del portacelular.
-
 3. Corte según el diseño: utilizando las líneas marcadas en la hoja, realizamos los cortes en la madera para obtener las piezas con la forma adecuada.
-
 4. Lijado: después de cortar, procedimos a lijar todas las piezas para quitar rebabas, suavizar bordes y dar un mejor acabado a la madera.
-
 5. Perforación: realizamos un orificio en la parte inferior, que corresponde al espacio por donde sale el cargador del celular.
 <p>
  <img src="../../assets/imgs/cortar madera.jpg" alt="Sam" width="200"> 
