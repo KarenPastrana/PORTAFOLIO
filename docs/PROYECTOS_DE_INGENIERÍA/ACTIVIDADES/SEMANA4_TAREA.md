@@ -66,7 +66,7 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 </div>
 <p>
   
-### Resultado del Grabado
+**Resultado del Grabado**
 <p>
 <div align="center">
   <img src="../../assets/imgs/GrabadoResultado.png" alt="Sam" width="500">
