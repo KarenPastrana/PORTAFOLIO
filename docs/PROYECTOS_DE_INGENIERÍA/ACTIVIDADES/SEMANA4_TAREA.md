@@ -62,7 +62,7 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 **Imágen de referencia:**
 <p>
 <div align="center">
-  <img src="../../assets/imgs/GrabadoRef.jpg" alt="Sam" width="500">
+  <img src="../../assets/imgs/GrabadoRef.jpg" alt="Sam" width="200">
 </div>
 <p>
 
