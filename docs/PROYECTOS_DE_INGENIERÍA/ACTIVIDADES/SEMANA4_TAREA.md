@@ -59,7 +59,7 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 ## Diseños tarea Samantha Ramírez
 
 ### Grabado
-**Imágen de referencia:**
+**Imágen de referencia**
 <p>
 <div align="center">
   <img src="../../assets/imgs/GrabadoRef.jpg" alt="Sam" width="200">
