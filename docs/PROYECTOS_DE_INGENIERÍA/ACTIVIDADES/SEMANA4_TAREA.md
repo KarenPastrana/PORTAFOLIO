@@ -57,3 +57,25 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 ---
 
 ## Diseños tarea Samantha Ramírez
+
+### Grabado
+Imágen de referencia:
+<p>
+<div align="center">
+  <img src="../../assets/imgs/GrabadoRef.jpg" alt="Sam" width="200">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/Grabado.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/Grabado.DXF" download>
+    <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
+  </a>
+</div>
+
