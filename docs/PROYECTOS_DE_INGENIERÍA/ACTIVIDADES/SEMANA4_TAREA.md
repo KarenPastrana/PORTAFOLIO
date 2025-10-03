@@ -93,6 +93,13 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 </div>
 
 
+### Resultado
+<div align="center">
+  <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="400">
+</div>
+
+
+
 ### Proceso de grabado
 <P>
 El procedimiento para el grabado del porta celular comenzó con la selección de una imagen de referencia, la cual sirvió como base para el diseño. Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular, con el fin de garantizar que el grabado tuviera un tamaño adecuado y proporcional a la pieza.
@@ -117,7 +124,3 @@ El software de la cortadora permitió previsualizar la escala y la ubicación de
 </video>
 
 
-### Resultado
-<div align="center">
-  <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="400">
-</div>
