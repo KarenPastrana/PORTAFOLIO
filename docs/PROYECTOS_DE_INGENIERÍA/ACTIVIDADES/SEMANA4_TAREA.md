@@ -72,17 +72,18 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
   <img src="../../assets/imgs/GrabadoResultado.png" alt="Sam" width="500">
 </div>
 
-### **Diseño en formato DXF**
-<div align="center">
-  <img src="../../assets/imgs/GrabadoPortacelular.png" alt="Sam" width="500">
-</div>
-
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/Grabado.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
+
+### **Diseño en formato DXF**
+<div align="center">
+  <img src="../../assets/imgs/GrabadoPortacelular.png" alt="Sam" width="500">
+</div>
+
 
 <!-- Botón de descarga -->
 <div align="center">
@@ -94,24 +95,24 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 
 ### **Proceso de grabado**
 <P>
-Para realizar el grabado del porta celular, primero busqué una imagen de referencia que me sirviera como base para el diseño. Después, tracé la imagen en SolidWorks, asegurándome de medir previamente el porta celular para determinar el tamaño adecuado del diseño. Esto fue importante para que el grabado no quedara ni demasiado pequeño ni demasiado grande en la pieza.
+El procedimiento para el grabado del porta celular comenzó con la selección de una imagen de referencia, la cual sirvió como base para el diseño. Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular, con el fin de garantizar que el grabado tuviera un tamaño adecuado y proporcional a la pieza.
 <p>
-Una vez trazado el diseño en SolidWorks, lo exporté en formato DXF para poder usarlo en la máquina de cortadora láser. Al llegar al laboratorio donde se encontraban las cortadoras láser, subí mi archivo en las computadoras de la máquina y encendí el láser. Coloqué el porta celular en la posición correcta y configuré el programa para que realizara el grabado, ajustando la potencia y velocidad específicas.
+Una vez finalizado el trazado, el diseño se exportó en formato DXF para su uso en la cortadora láser. En el laboratorio, se cargó el archivo en la computadora de la máquina y se posicionó el porta celular correctamente sobre la plataforma de trabajo. Se configuraron los parámetros de potencia y velocidad del láser según las características del material.
 <p>
 
-<div align="center">
+<div align="Left">
   <img src="../../assets/imgs/CortadoraLaser.jpg" alt="Sam" width="200">
 </div>
 
-<div align="center">
+<div align="Left">
   <img src="../../assets/imgs/MenuCortadora.jpg" alt="Sam" width="200">
 </div>
 
 <p>
-Una ventaja del sistema es que permite previsualizar la escala del diseño, lo que ayuda a tener una idea más real del tamaño y la posición del grabado antes de iniciar. Finalmente, di clic en “Start” y la máquina comenzó a grabar el diseño sobre el porta celular, obteniendo el resultado final esperado.
-<p>  
+El software de la cortadora permitió previsualizar la escala y la ubicación del diseño, lo que facilitó ajustar el grabado antes de iniciar el proceso. Finalmente, se ejecutó la operación y la máquina realizó el grabado sobre el porta celular, obteniendo el resultado deseado.
+
 
 ### **Resultado**
 <div align="center">
-  <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="400">
 </div>
