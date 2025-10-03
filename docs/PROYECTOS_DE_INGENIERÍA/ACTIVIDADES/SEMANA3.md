@@ -166,42 +166,49 @@ Esta práctica fue un primer acercamiento a las máquinas y habilidades que desa
 
 ---
 
-## **PRÁCTICA DE SAM**
-En esta práctica tuvimos la oportunidad de familiarizarnos con las diferentes máquinas y herramientas disponibles en el IDIT. Primero trabajamos con metal, utilizando la cortadora de sierra y la cortadora circular para realizar cortes precisos. 
-<p>
- <img src="../../assets/imgs/maquina.jpg" alt="Sam" width="200">
-<img src="../../assets/imgs/corte circular.jpg" alt="Sam" width="250">
-  <p>
+## PRÁCTICA DE SAM
+
+En esta práctica tuvimos la oportunidad de familiarizarnos con las diferentes máquinas y herramientas disponibles en el IDIT. Primero trabajamos con metal, utilizando la cortadora de sierra y la cortadora circular para realizar cortes precisos.
+
+<div align="center">
+  <img src="../../assets/imgs/maquina.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/corte circular.jpg" alt="Sam" width="250">
+</div>
+
 También conocimos la herramienta para soldar, lo cual nos permitió comprender la importancia de este proceso en la unión de piezas metálicas. Durante esta parte, se recalcó la relevancia del uso adecuado del equipo de protección personal (guantes, lentes de seguridad, careta, etc.), ya que es fundamental para prevenir accidentes y garantizar la seguridad en el taller.
-    <p>
+
+<div align="center">
   <img src="../../assets/imgs/Sol.jpg" alt="Sam" width="200">
-      <p>
-Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijado de piezas con el objetivo de fabricar un portacelular. 
- <p>
-<p>
-Procedimiento para la elaboración del portacelular:
- <p>
-1. Corte inicial de la madera: comenzamos cortando las tablas de madera en piezas adecuadas para el tamaño del portacelular. <p>
-2. Colocación del diseño: pegamos encima de la madera una hoja con el diseño del portacelular.<p>
-3. Corte según el diseño: utilizando las líneas marcadas en la hoja, realizamos los cortes en la madera para obtener las piezas con la forma adecuada.<p>
-4. Lijado: después de cortar, procedimos a lijar todas las piezas para quitar rebabas, suavizar bordes y dar un mejor acabado a la madera.<p>
-5. Perforación: realizamos un orificio en la parte inferior, que corresponde al espacio por donde sale el cargador del celular.<p>
-<p>
+</div>
+
+Posteriormente, trabajamos con madera. En este caso, realizamos el corte y lijado de piezas con el objetivo de fabricar un portacelular.
+
+---
+
+### Procedimiento para la elaboración del portacelular
+
+1. **Corte inicial de la madera:** comenzamos cortando las tablas de madera en piezas adecuadas para el tamaño del portacelular.  
+2. **Colocación del diseño:** pegamos encima de la madera una hoja con el diseño del portacelular.  
+3. **Corte según el diseño:** utilizando las líneas marcadas en la hoja, realizamos los cortes en la madera para obtener las piezas con la forma adecuada.  
+4. **Lijado:** después de cortar, procedimos a lijar todas las piezas para quitar rebabas, suavizar bordes y dar un mejor acabado a la madera.  
+5. **Perforación:** realizamos un orificio en la parte inferior, que corresponde al espacio por donde sale el cargador del celular.  
+
+<div align="center">
   <img src="../../assets/imgs/Tabla.jpg" alt="Sam" width="200"> 
   <img src="../../assets/imgs/cortar madera.jpg" alt="Sam" width="200"> 
-<img src="../../assets/imgs/lijar.jpg" alt="Sam" width="200">    
-  <p>
+  <img src="../../assets/imgs/lijar.jpg" alt="Sam" width="200">    
+</div>
+
 Esta actividad nos ayudó a desarrollar habilidades prácticas en el manejo de materiales y herramientas, además de fomentar la creatividad en la elaboración de objetos útiles.
-        <p>
 
-<p>
-Resultado Portacelular:
-<p>
-<img src="../../assets/imgs/porta.jpg" alt="Sam" width="200">
-<p>
+---
+
+### Resultado Portacelular
+
+<div align="center">
+  <img src="../../assets/imgs/porta.jpg" alt="Sam" width="200">
+</div>
+
 En general, esta práctica fue de gran importancia porque nos permitió conocer de manera directa cómo operar las máquinas, entender la necesidad de mantener medidas de seguridad en todo momento y aplicar técnicas básicas tanto en el trabajo con metal como con madera.
-<p>
-
-
 
 
