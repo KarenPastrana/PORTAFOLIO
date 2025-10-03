@@ -60,12 +60,16 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 
 ### Grabado del Porta Celular
 
-### Imagen de referencia
+---
+
+#### Imagen de referencia
 <div align="center">
   <img src="../../assets/imgs/GrabadoRef.jpg" alt="Sam" width="200">
 </div>
 
-### Diseño en SolidWorks
+---
+
+#### Diseño en SolidWorks
 <div align="center">
   <img src="../../assets/imgs/GrabadoResultado.png" alt="Sam" width="500">
 </div>
@@ -77,7 +81,9 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
   </a>
 </div>
 
-### Diseño en formato DXF
+---
+
+#### Diseño en formato DXF
 <div align="center">
   <img src="../../assets/imgs/GrabadoPortacelular.png" alt="Sam" width="500">
 </div>
@@ -89,7 +95,9 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
   </a>
 </div>
 
-### Proceso de grabado
+---
+
+#### Proceso de grabado
 El procedimiento para el grabado del porta celular comenzó con la selección de una imagen de referencia, la cual sirvió como base para el diseño. Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular, con el fin de garantizar que el grabado tuviera un tamaño adecuado y proporcional a la pieza.
 
 Una vez finalizado el trazado, el diseño se exportó en formato DXF para su uso en la cortadora láser. En el laboratorio, se cargó el archivo en la computadora de la máquina y se posicionó el porta celular correctamente sobre la plataforma de trabajo. Se configuraron los parámetros de potencia y velocidad del láser según las características del material.
@@ -108,7 +116,9 @@ El software de la cortadora permitió previsualizar la escala y la ubicación de
   <img src="../../assets/videos/GrabadoSam.gif" alt="Grabado en GIF" width="400">
 </div>
 
-### Resultado
+---
+
+#### Resultado
 <div align="center">
   <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="400">
 </div>
