@@ -117,6 +117,9 @@ El software de la cortadora permitió previsualizar la escala y la ubicación de
   Tu navegador no soporta el elemento de video.
 </video>
 
+---
+
+
 ### Resultado
 <div align="center">
   <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="400">
