@@ -113,10 +113,11 @@ El software de la cortadora permitió previsualizar la escala y la ubicación de
 <p>
 
 <video width="400" controls>
-  <source src="../../assets/videos/GrabadoSam.mp4" type="video/mp4">
+  <source src="ruta/del/video.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
 </video>
 
-### **Resultado**
+### Resultado
 <div align="center">
   <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="400">
 </div>
