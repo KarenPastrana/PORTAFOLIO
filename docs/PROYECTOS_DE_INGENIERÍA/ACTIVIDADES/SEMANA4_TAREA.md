@@ -165,3 +165,12 @@ El software de la cortadora permitió previsualizar la escala y la ubicación de
 ---
 
 #### Proceso de corte
+El primer paso consistió en buscar una idea de diseño que permitiera crear una pieza que se pudiera armar y cuyas partes encajaran correctamente. Se eligió un avión de combate como modelo de referencia. A partir de la imagen encontrada, se comenzó a diseñar la pieza en SolidWorks, verificando cuidadosamente las medidas para asegurar que cada componente del avión fuera proporcional y compatible con las demás partes.
+
+Durante el diseño, se declararon variables globales para las dimensiones principales, lo que permitió facilitar cambios posteriores en caso de que alguna pieza no encajara correctamente. Una vez completado el diseño y confirmadas las medidas, se exportó el archivo en formato DXF, preparado para su uso en la cortadora láser.
+
+En el laboratorio, se colocó la pieza de MDF en la cortadora, se cargó el archivo DXF en la computadora de la máquina y se configuraron los parámetros de corte, incluyendo potencia y velocidad, ajustados específicamente para el material MDF. Finalmente, se inició el corte, obteniendo las piezas necesarias para posteriormente ensamblarlas y formar el avión completo.
+
+---
+
+#### Resultado
