@@ -122,3 +122,46 @@ El software de la cortadora permitió previsualizar la escala y la ubicación de
 <div align="center">
   <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="400">
 </div>
+
+---
+
+### Idea para juego
+
+---
+
+#### Imagen de referencia
+<div align="center">
+  <img src="../../assets/imgs/mig-29.jpg" alt="Sam" width="200">
+</div>
+
+---
+
+#### Diseño en SolidWorks
+<div align="center">
+  <img src="../../assets/imgs/Jet.png" alt="Sam" width="500">
+</div>
+
+<!-- Botón de descarga SLDPRT -->
+<div align="center">
+  <a href="../../assets/archivos/Jet2.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+#### Diseño en formato DXF
+<div align="center">
+  <img src="../../assets/imgs/Jet2.png" alt="Sam" width="500">
+</div>
+
+<!-- Botón de descarga DXF -->
+<div align="center">
+  <a href="../../assets/archivos/Jet2.DXF" download>
+    <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
+  </a>
+</div>
+
+---
+
+#### Proceso de corte
