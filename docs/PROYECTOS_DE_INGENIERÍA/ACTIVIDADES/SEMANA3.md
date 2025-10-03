@@ -168,6 +168,7 @@ Esta práctica fue un primer acercamiento a las máquinas y habilidades que desa
 
 ## PRÁCTICA DE SAM
 
+### Introducción al taller y herramientas
 En esta práctica tuvimos la oportunidad de familiarizarnos con las diferentes máquinas y herramientas disponibles en el IDIT. Primero trabajamos con metal, utilizando la cortadora de sierra y la cortadora circular para realizar cortes precisos.
 
 <div align="center">
