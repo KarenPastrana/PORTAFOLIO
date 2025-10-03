@@ -101,23 +101,20 @@ Una vez finalizado el trazado, el diseño se exportó en formato DXF para su uso
 <p>
 
 <div align="Left">
-  <img src="../../assets/imgs/CortadoraLaser.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/CortadoraLaser.jpg" alt="Sam" width="500">
 </div>
 
 <div align="Left">
-  <img src="../../assets/imgs/MenuCortadora.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/MenuCortadora.jpg" alt="Sam" width="500">
 </div>
 
 <p>
 El software de la cortadora permitió previsualizar la escala y la ubicación del diseño, lo que facilitó ajustar el grabado antes de iniciar el proceso. Finalmente, se ejecutó la operación y la máquina realizó el grabado sobre el porta celular, obteniendo el resultado deseado.
-<p>
 
 <video width="400" controls>
   <source src="ruta/del/video.mp4" type="video/mp4">
   Tu navegador no soporta el elemento de video.
 </video>
-
----
 
 
 ### Resultado
