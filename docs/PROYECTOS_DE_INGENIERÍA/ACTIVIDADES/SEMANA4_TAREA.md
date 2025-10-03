@@ -12,18 +12,6 @@ Para el grabado láser decidí tomar de referencia el dibujo de un gato y lo rea
   <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="200">
 </div>
 
-  ---
-  
-### Idea para juego
-
-El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres llantas (incluyendo la de refacción), techo desmontable y carrocería. Para que, al momento de cortarlo en láser y tener las piezas por separado, encajen perfectamente y formen el jeep completo.
-
-<div align="center">
-<img src="../../assets/imgs/Jeeptarea_Karen.jpg" alt="Karen" width="500">
-</div>
-
----
-
 ### Resultado
 
 
@@ -46,6 +34,44 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/DibujosTarea_Karen.DXF" download>
+    <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
+  </a>
+</div>
+
+  ---
+  
+### Idea para armado
+
+El armado consiste en armar un jeep, es decir, hice su diseño por partes para que, al momento de cortarlo en láser y tener las piezas por separado, encajen y formen el jeep completo.
+
+<div align="center">
+<img src="../../assets/imgs/JEEP DISEÑO.jpg" alt="Karen" width="500">
+</div>
+
+---
+
+### Resultado
+
+
+<div align="center">
+  <img src="../../assets/imgs/JEEP 1.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+  <img src="../../assets/imgs/JEEP 2.jpg" alt="Karen" width="500">
+</div>
+
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/JEEP_KAREN.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/JEEP_Karen.DXF" download>
     <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
   </a>
 </div>
