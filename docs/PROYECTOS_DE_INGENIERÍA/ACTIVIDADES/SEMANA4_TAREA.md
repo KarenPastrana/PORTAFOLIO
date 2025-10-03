@@ -110,7 +110,11 @@ Una vez finalizado el trazado, el diseño se exportó en formato DXF para su uso
 
 <p>
 El software de la cortadora permitió previsualizar la escala y la ubicación del diseño, lo que facilitó ajustar el grabado antes de iniciar el proceso. Finalmente, se ejecutó la operación y la máquina realizó el grabado sobre el porta celular, obteniendo el resultado deseado.
+<p>
 
+<video width="400" controls>
+  <source src="../../assets/videos/GrabadoSam.mp4" type="video/mp4">
+</video>
 
 ### **Resultado**
 <div align="center">
