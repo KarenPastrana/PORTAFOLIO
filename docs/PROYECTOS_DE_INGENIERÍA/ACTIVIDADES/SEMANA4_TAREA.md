@@ -59,14 +59,14 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 ## Diseños tarea Samantha Ramírez
 
 ### Grabado del Porta Celular
-### **Imágen de referencia**
+### Imágen de referencia
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoRef.jpg" alt="Sam" width="200">
 </div>
 
   
-### **Diseño en SolidWorks**
+### Diseño en SolidWorks
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoResultado.png" alt="Sam" width="500">
@@ -79,7 +79,7 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
   </a>
 </div>
 
-### **Diseño en formato DXF**
+### Diseño en formato DXF
 <div align="center">
   <img src="../../assets/imgs/GrabadoPortacelular.png" alt="Sam" width="500">
 </div>
@@ -93,7 +93,7 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 </div>
 
 
-### **Proceso de grabado**
+### Proceso de grabado
 <P>
 El procedimiento para el grabado del porta celular comenzó con la selección de una imagen de referencia, la cual sirvió como base para el diseño. Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular, con el fin de garantizar que el grabado tuviera un tamaño adecuado y proporcional a la pieza.
 <p>
@@ -112,7 +112,7 @@ Una vez finalizado el trazado, el diseño se exportó en formato DXF para su uso
 El software de la cortadora permitió previsualizar la escala y la ubicación del diseño, lo que facilitó ajustar el grabado antes de iniciar el proceso. Finalmente, se ejecutó la operación y la máquina realizó el grabado sobre el porta celular, obteniendo el resultado deseado.
 
 <video width="400" controls>
-  <source src="ruta/del/video.mp4" type="video/mp4">
+  <source src="../../assets/videos/GrabadoSam.mp4" type="video/mp4">
   Tu navegador no soporta el elemento de video.
 </video>
 
