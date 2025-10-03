@@ -71,7 +71,7 @@ El armado consiste en armar un jeep, es decir, hice su diseño por partes para q
 
 <!-- Botón de descarga -->
 <div align="center">
-  <a href="../../assets/archivos/JEEP_Karen.DXF" download>
+  <a href="../../assets/archivos/JEEPDXF_Karen.DXF" download>
     <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
   </a>
 </div>
