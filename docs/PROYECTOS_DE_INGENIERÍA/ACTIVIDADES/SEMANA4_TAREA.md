@@ -59,21 +59,22 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 ## Diseños tarea Samantha Ramírez
 
 ### Grabado del Porta Celular
-**Imágen de referencia**
+### **Imágen de referencia**
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoRef.jpg" alt="Sam" width="200">
 </div>
 
   
-**Diseño en SolidWorks**
+### **Diseño en SolidWorks**
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoResultado.png" alt="Sam" width="500">
 </div>
 
+### **Diseño en formato DXF**
 <div align="center">
-  <img src="../../assets/imgs/ GrabadoPortacelular.png" alt="Sam" width="500">
+  <img src="../../assets/imgs/GrabadoPortacelular.png" alt="Sam" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -91,12 +92,26 @@ El juego consiste en armar un jeep, es decir, hice su diseño por partes: tres l
 </div>
 
 
-**Proceso de grabado**
+### **Proceso de grabado**
+<P>
 Para realizar el grabado del porta celular, primero busqué una imagen de referencia que me sirviera como base para el diseño. Después, tracé la imagen en SolidWorks, asegurándome de medir previamente el porta celular para determinar el tamaño adecuado del diseño. Esto fue importante para que el grabado no quedara ni demasiado pequeño ni demasiado grande en la pieza.
 <p>
 Una vez trazado el diseño en SolidWorks, lo exporté en formato DXF para poder usarlo en la máquina de cortadora láser. Al llegar al laboratorio donde se encontraban las cortadoras láser, subí mi archivo en las computadoras de la máquina y encendí el láser. Coloqué el porta celular en la posición correcta y configuré el programa para que realizara el grabado, ajustando la potencia y velocidad específicas.
 <p>
+
+<div align="center">
+  <img src="../../assets/imgs/CortadoraLaser.jpg" alt="Sam" width="200">
+</div>
+
+<div align="center">
+  <img src="../../assets/imgs/MenuCortadora.jpg" alt="Sam" width="200">
+</div>
+
+<p>
 Una ventaja del sistema es que permite previsualizar la escala del diseño, lo que ayuda a tener una idea más real del tamaño y la posición del grabado antes de iniciar. Finalmente, di clic en “Start” y la máquina comenzó a grabar el diseño sobre el porta celular, obteniendo el resultado final esperado.
 <p>  
 
-
+### **Resultado**
+<div align="center">
+  <img src="../../assets/imgs/ResultadoGrabadoSam.jpg" alt="Sam" width="200">
+</div>
