@@ -2,41 +2,54 @@
 
 ## Diseños tarea Karen Pastrana
 
-### Imágenes de referencia
-
-### Grabado
+### Proceso de grabado
 
 Para el grabado láser decidí tomar de referencia el dibujo de un gato y lo realicé con medidas acordes al porta celular que anteriormente había armado.
+
+### Imagen de referencia
 
 <div align="center">
   <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="200">
 </div>
 
-### Resultado
+Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular.
 
-
-<div align="center">
-  <img src="../../assets/imgs/DibujosTarea_Karen.jpg" alt="Karen" width="500">
-</div>
+### Diseño en SolidWorks
 
 <div align="center">
-  <img src="../../assets/imgs/DibujosTareaDXF_Karen.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/GrabadoSolidworks_Karen.jpg" alt="Karen" width="500">
 </div>
-
 
 <!-- Botón de descarga -->
 <div align="center">
-  <a href="../../assets/archivos/DibujosTarea_Karen.SLDPRT" download>
+  <a href="../../assets/archivos/GrabadoSolidworks_Karen.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
+Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina láser. Este archivo se abre en una aplicación con conexión a la máquina y se hacen simulaciones del tamaño del grabado para colocarlo en la posición deseada. Posteriormente, se configuran los parámetros de potencia y velocidad del láser acorde al material y se manda hacia la máquina.
+
+### Diseño en formato DXF
+
+<div align="center">
+  <img src="../../assets/imgs/GrabadoDXF_Karen.jpg" alt="Karen" width="500">
+</div>
+
 <!-- Botón de descarga -->
 <div align="center">
-  <a href="../../assets/archivos/DibujosTarea_Karen.DXF" download>
+  <a href="../../assets/archivos/GrabadoDXF_Karen.DXF" download>
     <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
   </a>
 </div>
+
+
+### Resultado
+
+<div align="center">
+  <img src="../../assets/imgs/GrabadoR_Karen.jpg" alt="Karen" width="500">
+</div>
+
+
 
   ---
   
