@@ -53,13 +53,105 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
 
   ---
   
-### Idea para armado
+### Proceso de corte
 
-El armado consiste en armar un jeep, es decir, hice su diseño por partes para que, al momento de cortarlo en láser y tener las piezas por separado, encajen y formen el jeep completo.
+### Imagen de referencia
 
 <div align="center">
 <img src="../../assets/imgs/JEEP DISEÑO.jpg" alt="Karen" width="500">
 </div>
+
+El primer paso fue elegir una imagen de referencia para hacer el jeep (de igual manera me basé en un jeep en físico) y diseñar todas las piezas por separado, de manera que al cortarlas en láser, encajaran perfectamente sin necesidad de pegamento.
+
+### Variables globales
+
+Antes de empezar a modelar, definí variables globales en SolidWorks para las dimensiones principales, sobre todo en las pestañas, ranuras de encaje, círculos para los ejes, etc. Así, si alguna pieza no encajaba bien, solo cambiaba el valor de la variable y se ajustaba todo automáticamente.
+
+Los pasos generales para crear variables globales en SolidWorks fueron:
+1.Abrir la pieza y entrar al Administrador de propiedades.
+2.Ir al menú de ecuaciones y seleccionarlo.
+3.Poner a la variable un nombre descriptivo y definir su valor.
+4.Usar esa variable en las cotas del modelo para que cualquier cambio se aplique en las piezas relacionadas.
+
+<div align="center">
+<img src="../../assets/imgs/CorteVariables_Karen.jpg" alt="Karen" width="500">
+</div>
+
+Posteriormente, diseñé cada parte del jeep en SolidWorks en diferentes croquis, cuidando que todas fueran proporcionales y encajaran entre sí. Agregué detalles como espejos y tumbaburros, además de las ruedas con sus ejes y llantas.
+
+<div align="center">
+<img src="../../assets/imgs/CorteSolidworks_Karen.jpg" alt="Karen" width="500">
+</div>
+
+Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos en DXF para la cortadora láser. En la máquina puse el material en la máquina, cargué los archivos, hice una prueba rápida para corte y grabado, configuré la potencia y velocidad según los resultados, y corté todas las piezas.
+
+<div align="center">
+<img src="../../assets/imgs/CorteSolidworksDXF_Karen.jpg" alt="Karen" width="500">
+</div>
+
+Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jeep completo con todos sus detalles y ruedas que giran.
+
+
+<div align="center">
+<img src="../../assets/imgs/C1_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C2_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C3_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C4_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C5_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C6_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C7_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C8_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C9_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C10_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C11_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C12_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C13_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C14_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C15_Karen.jpg" alt="Karen" width="500">
+</div>
+
 
 ---
 
