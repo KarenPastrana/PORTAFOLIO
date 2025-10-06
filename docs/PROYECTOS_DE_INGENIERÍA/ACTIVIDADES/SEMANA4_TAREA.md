@@ -46,7 +46,7 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
 ### Resultado
 
 <div align="center">
-  <img src="../../assets/imgs/GrabadoR_Karen.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/GrabadoR_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 
@@ -55,13 +55,14 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
   
 ### Proceso de corte
 
+El primer paso fue elegir una imagen de referencia para hacer el jeep (de igual manera me basé en un jeep en físico) y diseñar todas las piezas por separado, de manera que al cortarlas en láser, encajaran perfectamente sin necesidad de pegamento.
+
 ### Imagen de referencia
 
 <div align="center">
 <img src="../../assets/imgs/JEEP DISEÑO.jpg" alt="Karen" width="500">
 </div>
 
-El primer paso fue elegir una imagen de referencia para hacer el jeep (de igual manera me basé en un jeep en físico) y diseñar todas las piezas por separado, de manera que al cortarlas en láser, encajaran perfectamente sin necesidad de pegamento.
 
 ### Variables globales
 
@@ -74,82 +75,82 @@ Los pasos generales para crear variables globales en SolidWorks fueron:
 4.Usar esa variable en las cotas del modelo para que cualquier cambio se aplique en las piezas relacionadas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteVariables_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteVariables_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 Posteriormente, diseñé cada parte del jeep en SolidWorks en diferentes croquis, cuidando que todas fueran proporcionales y encajaran entre sí. Agregué detalles como espejos y tumbaburros, además de las ruedas con sus ejes y llantas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteSolidworks_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteSolidworks_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos en DXF para la cortadora láser. En la máquina puse el material en la máquina, cargué los archivos, hice una prueba rápida para corte y grabado, configuré la potencia y velocidad según los resultados, y corté todas las piezas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteSolidworksDXF_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteSolidworksDXF_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jeep completo con todos sus detalles y ruedas que giran.
 
 
 <div align="center">
-<img src="../../assets/imgs/C1_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C1_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C2_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C2_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C3_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C3_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C4_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C4_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C5_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C5_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C6_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C7_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C8_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C9_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C9_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C10_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C10_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C11_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C12_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C13_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C14_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C14_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C15_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C15_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 
