@@ -121,7 +121,7 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="200">
 
-<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="290">
+<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="280">
 
 <img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="200">
 
