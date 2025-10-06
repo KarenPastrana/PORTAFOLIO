@@ -83,7 +83,7 @@ Los pasos generales para crear variables globales en SolidWorks fueron:
 Posteriormente, diseñé cada parte del jeep en SolidWorks en diferentes croquis, cuidando que todas fueran proporcionales y encajaran entre sí. Agregué detalles como espejos y tumbaburros, además de las ruedas con sus ejes y llantas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteSolidworks_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteSolidworks_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -98,7 +98,7 @@ Posteriormente, diseñé cada parte del jeep en SolidWorks en diferentes croquis
 Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos en DXF para la cortadora láser. En la máquina puse el material en la máquina, cargué los archivos, hice una prueba rápida para corte y grabado, configuré la potencia y velocidad según los resultados, y corté todas las piezas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteDXF_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteDXF_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -111,31 +111,35 @@ Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos
 Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jeep completo con todos sus detalles y ruedas que giran.
 
 <div align="center">
-<img src="../../assets/imgs/C9_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C10_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C14_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C9_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C10_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C14_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C15_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="200">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C15_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 
@@ -145,35 +149,31 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 
 <div align="center">
-<img src="../../assets/imgs/C1_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C1_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C2_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C2_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C3_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C3_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C4_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C4_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C5_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C5_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 
