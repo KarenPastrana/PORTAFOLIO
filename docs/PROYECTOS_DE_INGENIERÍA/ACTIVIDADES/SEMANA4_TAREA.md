@@ -6,7 +6,7 @@
 
 Para el grabado láser decidí tomar de referencia el dibujo de un gato y lo realicé con medidas acordes al porta celular que anteriormente había armado.
 
-#### Imagen de referencia
+##### Imagen de referencia
 
 <div align="center">
   <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="200">
@@ -46,7 +46,7 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
 #### Resultado
 
 <div align="center">
-  <img src="../../assets/imgs/GrabadoR_Karen.jpeg" alt="Karen" width="500">
+  <img src="../../assets/imgs/GrabadoR_Karen.jpeg" alt="Karen" width="300">
 </div>
 
 
@@ -57,10 +57,10 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
 
 El primer paso fue elegir una imagen de referencia para hacer el jeep (de igual manera me basé en un jeep en físico) y diseñar todas las piezas por separado, de manera que al cortarlas en láser, encajaran perfectamente sin necesidad de pegamento.
 
-#### Imagen de referencia
+##### Imagen de referencia
 
 <div align="center">
-<img src="../../assets/imgs/JEEP DISEÑO.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/JEEP DISEÑO.jpg" alt="Karen" width="300">
 </div>
 
 
@@ -75,7 +75,7 @@ Los pasos generales para crear variables globales en SolidWorks fueron:
 4.Usar esa variable en las cotas del modelo para que cualquier cambio se aplique en las piezas relacionadas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteVariables_Karen.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteVariables_Karen.jpg" alt="Karen" width="300">
 </div>
 
 #### Diseño en SolidWorks
@@ -111,7 +111,7 @@ Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos
 Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jeep completo con todos sus detalles y ruedas que giran.
 
 <div align="center">
-<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="200">
+<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="250">
 
 <img src="../../assets/imgs/C14_Karen.jpeg" alt="Karen" width="200">
 
@@ -121,7 +121,7 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="200">
 
-<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="200">
+<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="250">
 
 <img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="200">
 
@@ -135,6 +135,8 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 
 <div align="center">
+<img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="200">
+  
 <img src="../../assets/imgs/C1_Karen.jpeg" alt="Karen" width="200">
 
 <img src="../../assets/imgs/C2_Karen.jpeg" alt="Karen" width="200">
@@ -147,7 +149,6 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="200">
 
-<img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="200">
 </div>
 
 
