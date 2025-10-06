@@ -32,7 +32,7 @@ Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las 
 Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina láser. Este archivo se abre en una aplicación con conexión a la máquina y se hacen simulaciones del tamaño del grabado para colocarlo en la posición deseada. Posteriormente, se configuran los parámetros de potencia y velocidad del láser acorde al material y se manda hacia la máquina.
 
 <div align="center">
-  <img src="../../assets/imgs/GrabadoDXF_Karen.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/GrabadoDXF_Karen.jpg" alt="Karen" width="400">
 </div>
 
 <!-- Botón de descarga -->
@@ -121,7 +121,7 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="200">
 
-<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="280">
+<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="270">
 
 <img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="200">
 
