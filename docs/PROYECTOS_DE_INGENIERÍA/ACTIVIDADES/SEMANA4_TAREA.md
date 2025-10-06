@@ -29,7 +29,7 @@ Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las 
 
 #### Diseño en formato DXF
 
-Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina láser. Este archivo se abre en una aplicación con conexión a la máquina y se hacen simulaciones del tamaño del grabado para colocarlo en la posición deseada. Posteriormente, se configuran los parámetros de potencia y velocidad del láser acorde al material y se manda hacia la máquina.
+Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina láser. Este archivo se abre en una aplicación con conexión a la máquina y se hacen simulaciones del tamaño del grabado para colocarlo en la posición deseada. 
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoDXF_Karen.jpg" alt="Karen" width="400">
@@ -42,8 +42,18 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
   </a>
 </div>
 
+Posteriormente, se configuran los parámetros de potencia y velocidad del láser acorde al material y se manda hacia la máquina.
+
+##### Video de proceso
+
+<video width="400" controls>
+  <source src="../../assets/videos/Grabado_Karen.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+
 
 #### Resultado
+
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoR_Karen.jpeg" alt="Karen" width="300">
@@ -110,6 +120,8 @@ Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos
 
 Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jeep completo con todos sus detalles y ruedas que giran.
 
+##### Fotos de proceso
+
 <div align="center">
 <img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="240">
 
@@ -127,6 +139,18 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <img src="../../assets/imgs/C15_Karen.jpeg" alt="Karen" width="200">
 </div>
+
+##### Videos de proceso
+
+<video width="400" controls>
+  <source src="../../assets/videos/CV1_Karen.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+
+<video width="400" controls>
+  <source src="../../assets/videos/CV2_Karen.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
 
 
 ---
