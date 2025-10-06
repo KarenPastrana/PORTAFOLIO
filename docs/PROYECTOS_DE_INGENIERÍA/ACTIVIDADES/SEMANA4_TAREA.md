@@ -306,3 +306,9 @@ En el laboratorio, se colocó la pieza de MDF en la cortadora, se cargó el arch
 ---
 
 #### Resultado
+<div align="center">
+<video width="500" controls>
+  <source src="../../assets/videos/ResultadoCorteSam.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+</div>
