@@ -6,13 +6,13 @@
 
 Para el grabado láser decidí tomar de referencia el dibujo de un gato y lo realicé con medidas acordes al porta celular que anteriormente había armado.
 
-### Imagen de referencia
+#### Imagen de referencia
 
 <div align="center">
   <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="200">
 </div>
 
-### Diseño en SolidWorks
+#### Diseño en SolidWorks
 
 Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular.
 
@@ -27,7 +27,7 @@ Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las 
   </a>
 </div>
 
-### Diseño en formato DXF
+#### Diseño en formato DXF
 
 Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina láser. Este archivo se abre en una aplicación con conexión a la máquina y se hacen simulaciones del tamaño del grabado para colocarlo en la posición deseada. Posteriormente, se configuran los parámetros de potencia y velocidad del láser acorde al material y se manda hacia la máquina.
 
@@ -43,7 +43,7 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
 </div>
 
 
-### Resultado
+#### Resultado
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoR_Karen.jpeg" alt="Karen" width="500">
@@ -57,14 +57,14 @@ Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina
 
 El primer paso fue elegir una imagen de referencia para hacer el jeep (de igual manera me basé en un jeep en físico) y diseñar todas las piezas por separado, de manera que al cortarlas en láser, encajaran perfectamente sin necesidad de pegamento.
 
-### Imagen de referencia
+#### Imagen de referencia
 
 <div align="center">
 <img src="../../assets/imgs/JEEP DISEÑO.jpg" alt="Karen" width="500">
 </div>
 
 
-### Variables globales
+##### Variables globales
 
 Antes de empezar a modelar, definí variables globales en SolidWorks para las dimensiones principales, sobre todo en las pestañas, ranuras de encaje, círculos para los ejes, etc. Así, si alguna pieza no encajaba bien, solo cambiaba el valor de la variable y se ajustaba todo automáticamente.
 
@@ -78,7 +78,7 @@ Los pasos generales para crear variables globales en SolidWorks fueron:
 <img src="../../assets/imgs/CorteVariables_Karen.jpeg" alt="Karen" width="500">
 </div>
 
-### Diseño en SolidWorks
+#### Diseño en SolidWorks
 
 Posteriormente, diseñé cada parte del jeep en SolidWorks en diferentes croquis, cuidando que todas fueran proporcionales y encajaran entre sí. Agregué detalles como espejos y tumbaburros, además de las ruedas con sus ejes y llantas.
 
@@ -93,7 +93,7 @@ Posteriormente, diseñé cada parte del jeep en SolidWorks en diferentes croquis
   </a>
 </div>
 
-### Diseño en formato DXF
+#### Diseño en formato DXF
 
 Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos en DXF para la cortadora láser. En la máquina puse el material en la máquina, cargué los archivos, hice una prueba rápida para corte y grabado, configuré la potencia y velocidad según los resultados, y corté todas las piezas.
 
@@ -145,7 +145,7 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 ---
 
-### Resultado
+#### Resultado
 
 
 <div align="center">
