@@ -12,9 +12,9 @@ Para el grabado láser decidí tomar de referencia el dibujo de un gato y lo rea
   <img src="../../assets/imgs/Gatotarea_Karen.jpg" alt="Karen" width="200">
 </div>
 
-Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular.
-
 ### Diseño en SolidWorks
+
+Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las medidas del porta celular.
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoSolidworks_Karen.jpg" alt="Karen" width="500">
@@ -27,9 +27,9 @@ Posteriormente, se trazó el diseño en SolidWorks, tomando como referencia las 
   </a>
 </div>
 
-Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina láser. Este archivo se abre en una aplicación con conexión a la máquina y se hacen simulaciones del tamaño del grabado para colocarlo en la posición deseada. Posteriormente, se configuran los parámetros de potencia y velocidad del láser acorde al material y se manda hacia la máquina.
-
 ### Diseño en formato DXF
+
+Al finalizar, el archivo se exportó como DXF, formato utiizado para la máquina láser. Este archivo se abre en una aplicación con conexión a la máquina y se hacen simulaciones del tamaño del grabado para colocarlo en la posición deseada. Posteriormente, se configuran los parámetros de potencia y velocidad del láser acorde al material y se manda hacia la máquina.
 
 <div align="center">
   <img src="../../assets/imgs/GrabadoDXF_Karen.jpg" alt="Karen" width="500">
@@ -78,52 +78,37 @@ Los pasos generales para crear variables globales en SolidWorks fueron:
 <img src="../../assets/imgs/CorteVariables_Karen.jpeg" alt="Karen" width="500">
 </div>
 
+### Diseño en SolidWorks
+
 Posteriormente, diseñé cada parte del jeep en SolidWorks en diferentes croquis, cuidando que todas fueran proporcionales y encajaran entre sí. Agregué detalles como espejos y tumbaburros, además de las ruedas con sus ejes y llantas.
 
 <div align="center">
 <img src="../../assets/imgs/CorteSolidworks_Karen.jpeg" alt="Karen" width="500">
 </div>
 
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/CorteSolidworks_Karen.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+### Diseño en formato DXF
+
 Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos en DXF para la cortadora láser. En la máquina puse el material en la máquina, cargué los archivos, hice una prueba rápida para corte y grabado, configuré la potencia y velocidad según los resultados, y corté todas las piezas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteSolidworksDXF_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteDXF_Karen.jpeg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/CorteDXF_Karen.DXF" download>
+    <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
+  </a>
 </div>
 
 Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jeep completo con todos sus detalles y ruedas que giran.
-
-
-<div align="center">
-<img src="../../assets/imgs/C1_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C2_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C3_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C4_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C5_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="500">
-</div>
-
-<div align="center">
-<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="500">
-</div>
 
 <div align="center">
 <img src="../../assets/imgs/C9_Karen.jpeg" alt="Karen" width="500">
@@ -160,27 +145,37 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 
 <div align="center">
-  <img src="../../assets/imgs/JEEP 1.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C1_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/JEEP 2.jpg" alt="Karen" width="500">
+<img src="../../assets/imgs/C2_Karen.jpeg" alt="Karen" width="500">
 </div>
 
-
-<!-- Botón de descarga -->
 <div align="center">
-  <a href="../../assets/archivos/JEEP_KAREN.SLDPRT" download>
-    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
-  </a>
+<img src="../../assets/imgs/C3_Karen.jpeg" alt="Karen" width="500">
 </div>
 
-<!-- Botón de descarga -->
 <div align="center">
-  <a href="../../assets/archivos/JEEPDXF_Karen.DXF" download>
-    <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
-  </a>
+<img src="../../assets/imgs/C4_Karen.jpeg" alt="Karen" width="500">
 </div>
+
+<div align="center">
+<img src="../../assets/imgs/C5_Karen.jpeg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="500">
+</div>
+
 
 ---
 
