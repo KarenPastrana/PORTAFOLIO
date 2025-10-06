@@ -146,7 +146,9 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 <div align="center">
 <video width="300" controls>
   <source src="../../assets/videos/CV1_Karen.mp4" type="video/mp4">
- 
+  </video>
+
+ <video width="300" controls>
   <source src="../../assets/videos/CV2_Karen.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
