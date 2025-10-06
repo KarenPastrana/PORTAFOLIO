@@ -75,7 +75,7 @@ Los pasos generales para crear variables globales en SolidWorks fueron:
 4.Usar esa variable en las cotas del modelo para que cualquier cambio se aplique en las piezas relacionadas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteVariables_Karen.jpeg" alt="Karen" width="500">
+<img src="../../assets/imgs/CorteVariables_Karen.jpg" alt="Karen" width="500">
 </div>
 
 #### Diseño en SolidWorks
@@ -112,33 +112,19 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <div align="center">
 <img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C14_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C9_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C10_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C15_Karen.jpeg" alt="Karen" width="200">
 </div>
 
@@ -150,29 +136,17 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <div align="center">
 <img src="../../assets/imgs/C1_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C2_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C3_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C4_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C5_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="200">
-</div>
 
-<div align="center">
 <img src="../../assets/imgs/C7_Karen.jpeg" alt="Karen" width="200">
 </div>
 
