@@ -75,7 +75,7 @@ Los pasos generales para crear variables globales en SolidWorks fueron:
 4.Usar esa variable en las cotas del modelo para que cualquier cambio se aplique en las piezas relacionadas.
 
 <div align="center">
-<img src="../../assets/imgs/CorteVariables_Karen.jpg" alt="Karen" width="300">
+<img src="../../assets/imgs/CorteVariables_Karen.jpg" alt="Karen" width="450">
 </div>
 
 #### Diseño en SolidWorks
@@ -111,7 +111,7 @@ Cuando terminé el diseño y verifiqué que todo encajara, exporté los archivos
 Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jeep completo con todos sus detalles y ruedas que giran.
 
 <div align="center">
-<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="250">
+<img src="../../assets/imgs/C8_Karen.jpeg" alt="Karen" width="240">
 
 <img src="../../assets/imgs/C14_Karen.jpeg" alt="Karen" width="200">
 
@@ -121,7 +121,7 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 <img src="../../assets/imgs/C11_Karen.jpeg" alt="Karen" width="200">
 
-<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="250">
+<img src="../../assets/imgs/C12_Karen.jpeg" alt="Karen" width="290">
 
 <img src="../../assets/imgs/C13_Karen.jpeg" alt="Karen" width="200">
 
@@ -144,8 +144,6 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 <img src="../../assets/imgs/C3_Karen.jpeg" alt="Karen" width="200">
 
 <img src="../../assets/imgs/C4_Karen.jpeg" alt="Karen" width="200">
-
-<img src="../../assets/imgs/C5_Karen.jpeg" alt="Karen" width="200">
 
 <img src="../../assets/imgs/C6_Karen.jpeg" alt="Karen" width="200">
 
