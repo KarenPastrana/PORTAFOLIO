@@ -46,11 +46,12 @@ Posteriormente, se configuran los parámetros de potencia y velocidad del láser
 
 ##### Video de proceso
 
+<div align="center">
 <video width="400" controls>
   <source src="../../assets/videos/Grabado_Karen.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
-
+</div>
 
 #### Resultado
 
@@ -142,16 +143,14 @@ Al final, las piezas encajaron sin necesidad de pegamento, y logré armar el jee
 
 ##### Videos de proceso
 
-<video width="400" controls>
+<div align="center">
+<video width="300" controls>
   <source src="../../assets/videos/CV1_Karen.mp4" type="video/mp4">
-  Tu navegador no soporta video.
-</video>
-
-<video width="400" controls>
+ 
   <source src="../../assets/videos/CV2_Karen.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
-
+</div>
 
 ---
 
