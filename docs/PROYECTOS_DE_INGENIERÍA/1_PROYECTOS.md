@@ -35,7 +35,7 @@
     <!-- Semana 3 -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 3</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA3/" 
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA3%28PRACTICA_DE_LABORATORIO%29/" 
          style="display:block; background-image:url('../assets/imgs/FW3.jpeg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 3
       </a>
@@ -44,7 +44,7 @@
     <!-- Semana 4 -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 4</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA4/" 
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA4%28DISE%C3%91OS_EN_SOLIDWORKS%29/" 
          style="display:block; background-image:url('../assets/imgs/FW4.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 4
       </a>
@@ -53,11 +53,30 @@
     <!-- Semana 4 Tarea -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 4 Tarea</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA4_TAREA/"
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA4_TAREA%28CORTADORA_LASER%29/"
          style="display:block; background-image:url('../assets/imgs/FW4_1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 4 Tarea
       </a>
     </div>
+
+ <!-- Semana 5 -->
+    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
+      <h2 style="color:#228b22;">Semana 5</h2>
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA4%28DISE%C3%91OS_EN_SOLIDWORKS%29/" 
+         style="display:block; background-image:url('../assets/imgs/FW5.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         Semana 5
+      </a>
+    </div>
+
+    <!-- Semana 5 Tarea -->
+    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
+      <h2 style="color:#228b22;">Semana 5 Tarea</h2>
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA4_TAREA%28CORTADORA_LASER%29/"
+         style="display:block; background-image:url('../assets/imgs/FW4_1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         Semana 5 Tarea
+      </a>
+    </div>
+
 
 
   </div>
