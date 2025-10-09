@@ -1,4 +1,4 @@
-# SEMANA 4
+# SEMANA 4 (DISEÑOS EN SOLIDWORKS)
 
 ## Dibujo 2 Karen Pastrana
 
