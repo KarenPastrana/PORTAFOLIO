@@ -1,4 +1,4 @@
-# SEMANA 2
+# SEMANA 2 (INTRODUCCIÓN)
 
 ## Dibujo 1
 
