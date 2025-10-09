@@ -17,7 +17,7 @@
     <!-- Semana 1 -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 1</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA1/" 
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA1%28SYLLABUS%29/" 
          style="display:block; background-image:url('../assets/imgs/FW1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 1
       </a>
@@ -26,7 +26,7 @@
     <!-- Semana 2 -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 2</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/ACTIVIDADES/SEMANA2/" 
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA2%28INTRO%29/" 
          style="display:block; background-image:url('../assets/imgs/FW2.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 2
       </a>
@@ -62,7 +62,7 @@
  <!-- Semana 5 -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 5</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA4%28DISE%C3%91OS_EN_SOLIDWORKS%29/" 
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA5%28BOCETO3D%29/" 
          style="display:block; background-image:url('../assets/imgs/FW5.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 5
       </a>
