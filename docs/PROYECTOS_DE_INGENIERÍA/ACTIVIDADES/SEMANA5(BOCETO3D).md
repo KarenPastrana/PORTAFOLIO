@@ -1,7 +1,16 @@
-# SEMANA 5 (BOETO 3D)
+# SEMANA 5 (BOCETO 3D)
 
-Para imprimir en 3D se requiere de cierto rpoceso, el cual se conforma por realizar un boceto a mano para plasmar las ideas del diseño. Posteriormente, diseñar ese boceto en Solidworks e imprimirlo.
+La impresión 3D requiere un proceso específico. Este comienza con la creación de un boceto a mano, que captura las ideas principales del diseño.
 
-Para realizar el boceto busqué ideas en internet, en donde encontré una imagen de refrencia que me agradó para poder hacer el diseño co ensamble. Luego, empecé a dibujar el boceto a mano pero en lugar de un panda, realicé el diseño acorde a un gato, además, fui pensando en las medidas aproximadas para que mi fugura no fuera de más de 10 cm y por lo tanto no tardara tanto en imprimirse. Finalmente este fue el resultado de mi boceto:
+Para crear mi boceto, busqué ideas en línea y encontré una imagen de referencia que me gustó, la cual usé como base para crear el diseño de mi ensamblaje.
 
+<div align="center">
+  <img src="../../assets/imgs/BocetoRef_Karen.jpg" alt="Karen" width="500">
+</div>
+
+Luego comencé a dibujar mi boceto a mano, pero en lugar de un panda, decidí crear un gato. Mientras lo hacía, tuve en cuenta las medidas aproximadas para que mi figura no superara los 10 cm de altura y así reducir el tiempo de impresión. Finalmente, este fue el resultado de mi boceto:
+
+<div align="center">
+  <img src="../../assets/imgs/Boceto_Karen.jpg" alt="Karen" width="500">
+</div>
 
