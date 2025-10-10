@@ -66,7 +66,7 @@
 ## Proceso de impresión
 
 <div align="center">
-  <img src="../../assets/imgs/IM1_KAREN.jpeg" alt="Karen" width="200">
+  <img src="../../assets/imgs/IM1_KAREN.jpeg" alt="Karen" width="100">
 
   <img src="../../assets/imgs/IM2_KAREN.jpeg" alt="Karen" width="200">
 
@@ -107,9 +107,9 @@
 ## Resultado final
 
 <div align="center">
-  <img src="../../assets/imgs/PIEZA_FINAL1_KAREN.jpeg" alt="Karen" width="500">
+  <img src="../../assets/imgs/PIEZA_FINAL1_KAREN.jpeg" alt="Karen" width="200">
 
-  <img src="../../assets/imgs/PIEZA_FINAL2_KAREN.jpeg" alt="Karen" width="500">
+  <img src="../../assets/imgs/PIEZA_FINAL2_KAREN.jpeg" alt="Karen" width="200">
 </div>
 
 <div align="center">
