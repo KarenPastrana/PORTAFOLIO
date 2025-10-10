@@ -2,7 +2,7 @@
 
 ## Diseño de impresión 3D
 
-### Parte 1 (cabeza)
+### Parte 1 (Cabeza)
 
 <div align="center">
   <img src="../../assets/imgs/Parte1_Karen.jpg" alt="Karen" width="500">
@@ -17,7 +17,7 @@
 
 ---
 
-### Parte 2 (cuerpo)
+### Parte 2 (Cuerpo)
 
 <div align="center">
   <img src="../../assets/imgs/Parte2_Karen.jpg" alt="Karen" width="500">
@@ -32,7 +32,7 @@
 
 ---
 
-### Parte 3 (parte trasera)
+### Parte 3 (Parte trasera)
 
 <div align="center">
   <img src="../../assets/imgs/Parte3_Karen.jpg" alt="Karen" width="500">
@@ -47,7 +47,7 @@
 
 ---
 
-### Parte 4 (cola)
+### Parte 4 (Cola)
 
 <div align="center">
   <img src="../../assets/imgs/Parte4_Karen.jpg" alt="Karen" width="500">
@@ -66,19 +66,19 @@
 ### Proceso de impresión
 
 <div align="center">
-  <img src="../../assets/imgs/IM1_Karen.jpeg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM1_Karen.jpg" alt="Karen" width="300">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/IM2_Karen.jpeg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM2_Karen.jpg" alt="Karen" width="300">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/IM3_Karen.jpeg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM3_Karen.jpg" alt="Karen" width="300">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/IM4_Karen.jpeg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM4_Karen.jpg" alt="Karen" width="300">
 </div>
 
 ---
@@ -89,21 +89,29 @@
   <img src="../../assets/imgs/Pieza_Karen.jpg" alt="Karen" width="500">
 </div>
 
-<div align="center">
-  <img src="../../assets/imgs/PiezaCURA_Karen.jpg" alt="Karen" width="500">
-</div>
-
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/Karen_Gato.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
+
+### Impresión en Ultimaker Cura
+<div align="center">
+  <img src="../../assets/imgs/PiezaCURA_Karen.jpg" alt="Karen" width="500">
+</div>
+
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/Karen_Gato.STL" download>
-    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+    <img src="https://img.shields.io/badge/Descargar-STL-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar STL">
   </a>
 </div>
 
 ---
+
+### Resultado final
+
+<div align="center">
+  <img src="../../assets/imgs/PIEZA FINAL_Karen.jpg" alt="Karen" width="500">
+</div>
