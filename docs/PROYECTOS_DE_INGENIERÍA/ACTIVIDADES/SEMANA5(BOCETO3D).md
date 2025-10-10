@@ -17,9 +17,9 @@ Luego comencé a dibujar mi boceto a mano, pero en lugar de un panda, decidí cr
 Asimismo, realicé el curso de Fabricación Digital en el IDIT Academy, el cual consistía en como lo dice su nombre, dar una introducción a la fabricación digital, desde la historia de los fab labs hasta los diferentes tipos de CNC, tales como las cortadoras laser e impresiones 3D.
 
 <div align="center">
-  <img src="../../assets/imgs/Curso_Karen.jpg" alt="Karen" width="300">
+  <img src="../../assets/imgs/Curso_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/Curso2_Karen.jpg" alt="Karen" width="300">
+  <img src="../../assets/imgs/Curso2_Karen.jpg" alt="Karen" width="500">
 </div>
