@@ -63,27 +63,27 @@
 ---
 
 
-### Proceso de impresión
+## Proceso de impresión
 
 <div align="center">
-  <img src="../../assets/imgs/IM1_Karen.jpg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM1_KAREN.jpeg" alt="Karen" width="300">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/IM2_Karen.jpg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM2_KAREN.jpeg" alt="Karen" width="300">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/IM3_Karen.jpg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM3_KAREN.jpeg" alt="Karen" width="300">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/IM4_Karen.jpg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM4_KAREN.jpeg" alt="Karen" width="300">
 </div>
 
 ---
 
-### Pieza ensamblada
+## Pieza ensamblada
 
 <div align="center">
   <img src="../../assets/imgs/Pieza_Karen.jpg" alt="Karen" width="500">
@@ -96,7 +96,7 @@
   </a>
 </div>
 
-### Impresión en Ultimaker Cura
+## Impresión en Ultimaker Cura
 <div align="center">
   <img src="../../assets/imgs/PiezaCURA_Karen.jpg" alt="Karen" width="500">
 </div>
@@ -110,8 +110,20 @@
 
 ---
 
-### Resultado final
+## Resultado final
 
 <div align="center">
-  <img src="../../assets/imgs/PIEZA FINAL_Karen.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/PIEZA FINAL_Karen.jpeg" alt="Karen" width="500">
 </div>
+
+<div align="center">
+  <img src="../../assets/imgs/PIEZA FINAL2_Karen.jpeg" alt="Karen" width="500">
+</div>
+
+<div align="center">
+<video width="300" controls>
+  <source src="../../assets/videos/PIEZA FINAL_KAREN.mov" type="video/mov">
+  </video>
+</div>
+
+---
