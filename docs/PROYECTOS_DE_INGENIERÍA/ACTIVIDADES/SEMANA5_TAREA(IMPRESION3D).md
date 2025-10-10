@@ -68,13 +68,10 @@
 <div align="center">
   <img src="../../assets/imgs/IM1_KAREN.jpeg" alt="Karen" width="200">
 
-<div align="center">
   <img src="../../assets/imgs/IM2_KAREN.jpeg" alt="Karen" width="200">
 
-<div align="center">
   <img src="../../assets/imgs/IM3_KAREN.jpeg" alt="Karen" width="200">
 
-<div align="center">
   <img src="../../assets/imgs/IM4_KAREN.jpeg" alt="Karen" width="200">
 </div>
 
@@ -110,16 +107,14 @@
 ## Resultado final
 
 <div align="center">
-  <img src="../../assets/imgs/PIEZA FINAL1_Karen.jpeg" alt="Karen" width="500">
-</div>
+  <img src="../../assets/imgs/PIEZA_FINAL1_KAREN.jpeg" alt="Karen" width="500">
 
-<div align="center">
-  <img src="../../assets/imgs/PIEZA FINAL2_Karen.jpeg" alt="Karen" width="500">
+  <img src="../../assets/imgs/PIEZA_FINAL2_KAREN.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
 <video width="300" controls>
-  <source src="../../assets/videos/PIEZA FINAL_KAREN.mov" type="video/mov">
+  <source src="../../assets/videos/PIEZA_FINAL_KAREN.mov" type="video/mov">
   </video>
 </div>
 
