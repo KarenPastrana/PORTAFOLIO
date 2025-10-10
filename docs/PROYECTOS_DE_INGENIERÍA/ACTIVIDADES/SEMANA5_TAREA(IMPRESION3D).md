@@ -66,19 +66,16 @@
 ## Proceso de impresión
 
 <div align="center">
-  <img src="../../assets/imgs/IM1_KAREN.jpeg" alt="Karen" width="300">
-</div>
+  <img src="../../assets/imgs/IM1_KAREN.jpeg" alt="Karen" width="200">
 
 <div align="center">
-  <img src="../../assets/imgs/IM2_KAREN.jpeg" alt="Karen" width="300">
-</div>
+  <img src="../../assets/imgs/IM2_KAREN.jpeg" alt="Karen" width="200">
 
 <div align="center">
-  <img src="../../assets/imgs/IM3_KAREN.jpeg" alt="Karen" width="300">
-</div>
+  <img src="../../assets/imgs/IM3_KAREN.jpeg" alt="Karen" width="200">
 
 <div align="center">
-  <img src="../../assets/imgs/IM4_KAREN.jpeg" alt="Karen" width="300">
+  <img src="../../assets/imgs/IM4_KAREN.jpeg" alt="Karen" width="200">
 </div>
 
 ---
@@ -113,7 +110,7 @@
 ## Resultado final
 
 <div align="center">
-  <img src="../../assets/imgs/PIEZA FINAL_Karen.jpeg" alt="Karen" width="500">
+  <img src="../../assets/imgs/PIEZA FINAL1_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 <div align="center">
