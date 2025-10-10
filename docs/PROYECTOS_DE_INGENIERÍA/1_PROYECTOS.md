@@ -71,7 +71,7 @@
     <!-- Semana 5 Tarea -->
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 5 Tarea</h2>
-      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA5%28BOCETO3D%29/"
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA5_TAREA%28IMPRESION3D%29/"
          style="display:block; background-image:url('../assets/imgs/FW4_1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 5 Tarea
       </a>
