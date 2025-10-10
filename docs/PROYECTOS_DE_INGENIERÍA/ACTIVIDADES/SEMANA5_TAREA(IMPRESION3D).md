@@ -114,7 +114,7 @@
 
 <div align="center">
 <video width="300" controls>
-  <source src="../../assets/videos/PIEZA_FINAL_KAREN.mp4" type="video/mp4">
+  <source src="../../assets/videos/PIEZA_FINAL_KAREN.mov" type="video/quicktime">
   </video>
 </div>
 
