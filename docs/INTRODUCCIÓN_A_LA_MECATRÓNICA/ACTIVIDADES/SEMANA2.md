@@ -54,6 +54,7 @@ void loop() {
   delay(1000);
 }
 ```
+
 </pre>
 
 5. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.
