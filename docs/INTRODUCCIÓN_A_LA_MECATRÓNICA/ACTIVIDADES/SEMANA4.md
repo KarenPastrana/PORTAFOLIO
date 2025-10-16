@@ -34,7 +34,8 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
 3. Se conectó el pin del LED a un pin digital de la ESP32 configurado como salida.
 4. Se escribió y cargó el siguiente código al microcontrolador:
 
-
+```
+cpp
 #include "BluetoothSerial.h"
 BluetoothSerial SerialBT;
 
@@ -59,7 +60,7 @@ void loop() {
   }
   delay(100);
 }
-
+```
 
 5. En el dispositivo móvil se abrió la aplicación Serial Bluetooth Terminal.
 6. Se buscó y emparejó la ESP32 con el nombre configurado en el código.
