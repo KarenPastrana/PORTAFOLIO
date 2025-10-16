@@ -37,7 +37,6 @@ Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 m
 1. Se abrió Arduino IDE y se configuró la placa “DOIT ESP32 DEVKIT V1”.
 1. En el protoboard, se conectó el ánodo del LED al pin 13 de la ESP32 mediante una resistencia, y el cátodo al GND.
 1. Se escribió y cargó el siguiente código:
-
 ```
 cpp
 const int led = 13;
@@ -54,7 +53,6 @@ void loop() {
   delay(1000);
 }
 ```
-
 </pre>
 1. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.
 
