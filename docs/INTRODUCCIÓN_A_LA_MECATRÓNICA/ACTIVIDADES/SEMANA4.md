@@ -17,11 +17,10 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
 ---
 
 ## **Materiales**
-- 1 ESP32 
+- 1 ESP32 (DOIT ESP32 DEVKIT V1)
 - 1 LED
 - 1 Resistencia de 220 Ω 
 - 1 Protoboard
-- Cables jumpers
 - Dispositivo móvil
 - Aplicación Serial Bluetooth Terminal
 - Computadora con Arduino IDE
