@@ -30,9 +30,9 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
 
 ## **Procedimiento**
 1. Se conectó la ESP32 en la protoboard.
-2. Se colocó el LED con su resistencia en serie para evitar sobrecorriente.
-3. Se conectó el pin del LED a un pin digital de la ESP32 configurado como salida.
-4. Se escribió y cargó el siguiente código al microcontrolador:
+1. Se colocó el LED con su resistencia en serie para evitar sobrecorriente.
+1. Se conectó el pin del LED a un pin digital de la ESP32 configurado como salida.
+1. Se escribió y cargó el siguiente código al microcontrolador:
 
 ```
 cpp
