@@ -54,7 +54,7 @@ void loop() {
 }
 ```
 </pre>
-1. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.
+5. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.
 
 ---
 
