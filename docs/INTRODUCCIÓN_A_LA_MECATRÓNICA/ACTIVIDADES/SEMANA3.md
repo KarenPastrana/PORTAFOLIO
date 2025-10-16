@@ -42,24 +42,24 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
 1. Se escribió el siguiente código en Arduino IDE:
 
 ```
-cpp
-const int led=33;
-const int btn=32;
-
-void setup() {
-  Serial.begin(115200);
-  pinMode(led, OUTPUT);
-  pinMode(btn, INPUT);
-}
-
-void loop() {
-  int estado = digitalRead(btn);
-  if (estado == 1) {
-    digitalWrite(led, 1);
-  } else {
-    digitalWrite(led, 0);
+  cpp
+  const int led=33;
+  const int btn=32;
+  
+  void setup() {
+    Serial.begin(115200);
+    pinMode(led, OUTPUT);
+    pinMode(btn, INPUT);
   }
-}
+  
+  void loop() {
+    int estado = digitalRead(btn);
+    if (estado == 1) {
+      digitalWrite(led, 1);
+    } else {
+      digitalWrite(led, 0);
+    }
+  }
 ```
 
 1. Se verificó y cargó el programa a la ESP32.
