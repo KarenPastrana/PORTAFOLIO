@@ -62,8 +62,8 @@ void loop() {
 }
 ```
 
-6. Se verificó y cargó el programa a la ESP32.
-7. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.
+1. Se verificó y cargó el programa a la ESP32.
+1. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.
 
 
 ---
