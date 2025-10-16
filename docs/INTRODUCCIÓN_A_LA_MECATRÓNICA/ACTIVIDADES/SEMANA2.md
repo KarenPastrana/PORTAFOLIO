@@ -10,9 +10,9 @@ El LED (Light Emitting Diode) es un componente electrónico que emite luz cuando
 
 La ESP32 es una placa de desarrollo basada en un microcontrolador que incluye WiFi y Bluetooth. Puede programarse con Arduino IDE, utilizando código en lenguaje C/C++. Uno de los primeros ejercicios al aprender a usar una placa microcontroladora es hacer parpadear un LED, lo que permite comprobar la correcta configuración del entorno de desarrollo y la comprensión de las funciones básicas:
 
-- pinMode(pin, OUTPUT) define un pin como salida.
-- digitalWrite(pin, HIGH/LOW) envía una señal de encendido o apagado.
-- delay(tiempo) pausa la ejecución del programa por un tiempo determinado (en milisegundos).
+- **pinMode(pin, OUTPUT)** define un pin como salida.
+- **digitalWrite(pin, HIGH/LOW)** envía una señal de encendido o apagado.
+- **delay(tiempo)** pausa la ejecución del programa por un tiempo determinado (en milisegundos).
 
   ---
 
@@ -37,6 +37,8 @@ Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 m
 2. Se abrió Arduino IDE y se configuró la placa “DOIT ESP32 DEVKIT V1”.
 3. En el protoboard, se conectó el ánodo del LED al pin 13 de la ESP32 mediante una resistencia, y el cátodo al GND.
 4. Se escribió y cargó el siguiente código:
+
+<pre> ```cpp const int led = 13; void setup() { Serial.begin(115200); pinMode(led, OUTPUT); } void loop() { digitalWrite(led, 1); delay(1000); digitalWrite(led, 0); delay(1000); } ``` </pre>
 
 const int led = 13;
 
@@ -65,7 +67,9 @@ El LED encendió y apagó correctamente, demostrando el funcionamiento del códi
 La práctica permitió comprobar el funcionamiento básico de la placa ESP32 al controlar el encendido y apagado de un LED, aplicando conceptos fundamentales de electrónica y programación. Se comprendió el uso de los pines digitales como salidas, la importancia de la resistencia para proteger el LED y el papel de las funciones básicas del lenguaje Arduino, como pinMode(), digitalWrite() y delay(). Además, se verificó la correcta comunicación entre el hardware y el entorno Arduino IDE, sentando una base sólida para el desarrollo de proyectos más avanzados con esta placa.
 
 
+---
 
+## **Bibliografía**
 
 
 
