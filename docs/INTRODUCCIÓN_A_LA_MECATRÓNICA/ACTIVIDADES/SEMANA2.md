@@ -27,7 +27,6 @@ Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 m
 - 1 LED 
 - 1 resistencia de 220 Ω
 - 1 protoboard
-- Cables jumpers
 - Computadora con Arduino IDE instalado
 - Cable USB para conexión y carga del código
 
