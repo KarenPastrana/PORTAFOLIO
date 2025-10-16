@@ -36,10 +36,10 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
 
 ## **Procedimiento**
 1. Se conectó la ESP32 a la protoboard.
-2. Se colocó el LED y se conectó una resistencia en serie para limitar la corriente.
-3. Se conectó el botón pulsador a un pin digital configurado como entrada.
-4. Se realizó el cableado con jumpers conectando el botón a 3.3V y GND, y el pin de lectura digital.
-5. Se escribió el siguiente código en Arduino IDE:
+1. Se colocó el LED y se conectó una resistencia en serie para limitar la corriente.
+1. Se conectó el botón pulsador a un pin digital configurado como entrada.
+1. Se realizó el cableado con jumpers conectando el botón a 3.3V y GND, y el pin de lectura digital.
+1. Se escribió el siguiente código en Arduino IDE:
 
 ```
 cpp
