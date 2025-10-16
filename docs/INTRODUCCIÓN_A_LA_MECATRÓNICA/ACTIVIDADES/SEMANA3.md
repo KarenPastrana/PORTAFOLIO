@@ -41,6 +41,8 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
 4. Se realizó el cableado con jumpers conectando el botón a 3.3V y GND, y el pin de lectura digital.
 5. Se escribió el siguiente código en Arduino IDE:
 
+```
+cpp
 const int led=33;
 const int btn=32;
 
@@ -58,6 +60,7 @@ void loop() {
     digitalWrite(led, 0);
   }
 }
+```
 
 6. Se verificó y cargó el programa a la ESP32.
 7. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.
