@@ -25,11 +25,12 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
 ## **Materiales**
 - 1 placa ESP32 (DOIT ESP32 DEVKIT V1)
 - 1 LED
-- 1 resistencia 220 Ω
+- 1 resistencia de 220 Ω
 - 1 botón pulsador
 - Protoboard
 - Cables jumpers
 - Computadora con Arduino IDE
+- Cable USB para conexión y carga del código
 
 ---
 
