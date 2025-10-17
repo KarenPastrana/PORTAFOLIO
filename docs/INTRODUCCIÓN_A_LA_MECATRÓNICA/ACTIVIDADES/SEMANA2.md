@@ -62,6 +62,12 @@ Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 m
 ## **Resultados**
 El LED encendió y apagó correctamente, demostrando el funcionamiento del código y las conexiones. La ESP32 respondió adecuadamente a las instrucciones digitales y se verificó la correcta comunicación entre el entorno de programación y el hardware.
 
+
+<video width="500" controls>
+  <source src="../../assets/imgs/BotonV.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+
 ---
 
 ## **Conclusiones**
