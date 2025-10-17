@@ -74,6 +74,11 @@ El circuito funcionó correctamente. Al presionar el botón, la entrada digital 
 Esto demuestra la correcta configuración de los pines de entrada y salida, así como la comprensión del flujo lógico entre hardware y software.
 
 <img src="../../assets/imgs/Boton.jpg" alt="Formulas" width="320">
+
+<video width="500" controls>
+  <source src="../../assets/imgs/BotonV.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
 ---
 
 ## **Conclusiones**
