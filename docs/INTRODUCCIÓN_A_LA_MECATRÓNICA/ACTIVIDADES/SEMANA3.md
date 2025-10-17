@@ -1,4 +1,4 @@
-# Actividad 3: Encendido y apagado de un LED Mediante un Botón
+.# Actividad 3: Encendido y apagado de un LED Mediante un Botón
 
 ## **Objetivos**
 Comprender el funcionamiento de una entrada digital mediante un botón y una salida digital mediante un LED, utilizando una placa ESP32. El objetivo específico es lograr que el LED se encienda al presionar el botón y se apague al soltarlo.
@@ -61,8 +61,8 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
       }
     }
   ```
-1. Se verificó y cargó el programa a la ESP32.
-1. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.
+6. Se verificó y cargó el programa a la ESP32.
+7. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.
 
 
 ---
