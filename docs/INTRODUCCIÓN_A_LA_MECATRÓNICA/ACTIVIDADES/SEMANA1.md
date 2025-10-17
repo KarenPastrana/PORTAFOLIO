@@ -1,4 +1,4 @@
-# Actividad 1: Circuito con Osciloscopio
+# Actividad 1: Circuito con osciloscopio
 
 ## **Objetivos**
 - Usar el circuito integrado 555 en modo astable para prender y apagar un LED en el rango de 1 a 5 segundos.  
