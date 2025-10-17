@@ -10,9 +10,9 @@ El LED (Light Emitting Diode) es un componente electrónico que emite luz cuando
 
 La ESP32 es una placa de desarrollo basada en un microcontrolador que incluye WiFi y Bluetooth. Puede programarse con Arduino IDE, utilizando código en lenguaje C/C++. Uno de los primeros ejercicios al aprender a usar una placa microcontroladora es hacer parpadear un LED, lo que permite comprobar la correcta configuración del entorno de desarrollo y la comprensión de las funciones básicas:
 
-- **pinMode(pin, OUTPUT)** define un pin como salida.
-- **digitalWrite(pin, HIGH/LOW)** envía una señal de encendido o apagado.
-- **delay(tiempo)** pausa la ejecución del programa por un tiempo determinado (en milisegundos).
+- `pinMode(pin, OUTPUT)` define un pin como salida.
+- `digitalWrite(pin, HIGH/LOW)` envía una señal de encendido o apagado.
+- `delay(tiempo)` pausa la ejecución del programa por un tiempo determinado (en milisegundos).
 
   ---
 
@@ -38,20 +38,20 @@ Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 m
 1. En el protoboard, se conectó el ánodo del LED al pin 13 de la ESP32 mediante una resistencia, y el cátodo al GND.
 1. Se escribió y cargó el siguiente código:
 ```
-  cpp
-  const int led = 13;
+cpp
+ const int led = 13;
   
-  void setup() {
-    Serial.begin(115200);
-    pinMode(led, OUTPUT);
-  }
+ void setup() {
+   Serial.begin(115200);
+   pinMode(led, OUTPUT);
+ }
   
-  void loop() {
-    digitalWrite(led, 1);
-    delay(1000);
-    digitalWrite(led, 0);
-    delay(1000);
-  }
+ void loop() {
+   digitalWrite(led, 1);
+   delay(1000);
+   digitalWrite(led, 0);
+   delay(1000);
+ }
 ```
 </pre>
 5. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.
