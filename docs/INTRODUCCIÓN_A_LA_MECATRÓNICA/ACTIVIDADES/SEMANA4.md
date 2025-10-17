@@ -30,43 +30,43 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
 ---
 
 ## **Procedimiento**
-1. Se conectó la ESP32 en la protoboard.
-1. Se colocó el LED con su resistencia en serie para evitar sobrecorriente.
-1. Se conectó el pin del LED a un pin digital de la ESP32 configurado como salida.
+
+1. Se conectó la ESP32 en la protoboard.  
+1. Se colocó el LED con su resistencia en serie para evitar sobrecorriente.  
+1. Se conectó el pin del LED a un pin digital de la ESP32 configurado como salida.  
 1. Se escribió y cargó el siguiente código al microcontrolador:
 
-```
-  cpp
-  #include "BluetoothSerial.h"
-  BluetoothSerial SerialBT;
-  
-  const int led = 33;
-  
-  void setup() {
-    Serial.begin(115200);
-    SerialBT.begin("Sam_ESP32"); // Nombre del dispositivo Bluetooth
-    pinMode(led, OUTPUT);
-  }
-  
-  void loop() {
-    if (SerialBT.available()) {
-      String mensaje = SerialBT.readString();
-      Serial.println("Recibido: " + mensaje);
-  
-    if (mensaje == "ON") {
-        digitalWrite(led, HIGH);
-      } else if (mensaje == "OFF") {
-        digitalWrite(led, LOW);
-      }
+    ```cpp
+    #include "BluetoothSerial.h"
+    BluetoothSerial SerialBT;
+    
+    const int led = 33;
+    
+    void setup() {
+      Serial.begin(115200);
+      SerialBT.begin("Sam_ESP32"); // Nombre del dispositivo Bluetooth
+      pinMode(led, OUTPUT);
     }
-    delay(100);
-  }
-```
+    
+    void loop() {
+      if (SerialBT.available()) {
+        String mensaje = SerialBT.readString();
+        Serial.println("Recibido: " + mensaje);
+    
+        if (mensaje == "ON") {
+          digitalWrite(led, HIGH);
+        } else if (mensaje == "OFF") {
+          digitalWrite(led, LOW);
+        }
+      }
+      delay(100);
+    }
+    ```
 
-5. En el dispositivo móvil se abrió la aplicación Serial Bluetooth Terminal.
-1. Se buscó y emparejó la ESP32 con el nombre configurado en el código.
-1. Desde la aplicación se enviaron los mensajes “ON” y “OFF” para encender y apagar el LED.
-1. Se observó la respuesta física del circuito y los mensajes recibidos en el monitor serial del Arduino IDE.
+1. En el dispositivo móvil se abrió la aplicación **Serial Bluetooth Terminal**.  
+1. Se buscó y emparejó la ESP32 con el nombre configurado en el código.  
+1. Desde la aplicación se enviaron los mensajes **“ON”** y **“OFF”** para encender y apagar el LED.  
+1. Se observó la respuesta física del circuito y los mensajes recibidos en el monitor serial
 
 
 ---
