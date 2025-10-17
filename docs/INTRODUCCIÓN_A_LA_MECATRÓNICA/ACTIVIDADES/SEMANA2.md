@@ -70,7 +70,8 @@ La práctica permitió comprobar el funcionamiento básico de la placa ESP32 al 
 ---
 
 ## **Bibliografía**
-
+1. https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/#que_es_un_diodo_led
+2. https://acortes.co/tutorial-esp32/
 
 
 
