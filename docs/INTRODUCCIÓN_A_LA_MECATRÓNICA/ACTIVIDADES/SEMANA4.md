@@ -62,7 +62,7 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
     delay(100);
   }
 ```
-1. En el dispositivo móvil se abrió la aplicación Serial Bluetooth Terminal.
+5. En el dispositivo móvil se abrió la aplicación Serial Bluetooth Terminal.
 1. Se buscó y emparejó la ESP32 con el nombre configurado en el código.
 1. Desde la aplicación se enviaron los mensajes “ON” y “OFF” para encender y apagar el LED.
 1. Se observó la respuesta física del circuito y los mensajes recibidos en el monitor serial del Arduino IDE.
