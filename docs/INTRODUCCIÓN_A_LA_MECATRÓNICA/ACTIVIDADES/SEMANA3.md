@@ -61,6 +61,7 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
       }
     }
   ```
+
 6. Se verificó y cargó el programa a la ESP32.
 7. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.
 
