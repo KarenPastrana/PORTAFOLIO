@@ -68,7 +68,7 @@ Se conectó un servo a la ESP32 en una protoboard, asignando un pin para la señ
       ledcWrite(pwm, duty);
       delay(1000);
     }
-     ```
+    ```
 
 1. Se verificó y cargó el programa a la ESP32.
 1. Finalmente, se observó el funcionamiento: el servo se movió a las posiciones de 0°, 90° y 180° de forma secuencial, repitiéndose continuamente.
