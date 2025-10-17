@@ -1,6 +1,6 @@
 # Actividad 4: Control de un LED mediante conexión Bluetooth
 
-## **Objetivos**
+## **Objetivo**
 Implementar la comunicación inalámbrica entre una ESP32 y un dispositivo móvil mediante Bluetooth, con el propósito de encender y apagar un LED a través de comandos enviados desde la aplicación Serial Bluetooth Terminal.
 
 ---
