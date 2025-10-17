@@ -75,6 +75,10 @@ Esto demuestra la correcta configuración de los pines de entrada y salida, así
 
 <img src="../../assets/imgs/Boton.jpg" alt="Formulas" width="320">
 
+<video width="500" controls>
+  <source src="../../assets/imgs/BotonR.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
 
 ---
 
