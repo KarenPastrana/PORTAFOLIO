@@ -64,7 +64,7 @@ El LED encendió y apagó correctamente, demostrando el funcionamiento del códi
 ---
 
 ## **Conclusiones**
-La práctica permitió comprobar el funcionamiento básico de la placa ESP32 al controlar el encendido y apagado de un LED, aplicando conceptos fundamentales de electrónica y programación. Se comprendió el uso de los pines digitales como salidas, la importancia de la resistencia para proteger el LED y el papel de las funciones básicas del lenguaje Arduino, como pinMode(), digitalWrite() y delay(). Además, se verificó la correcta comunicación entre el hardware y el entorno Arduino IDE, sentando una base sólida para el desarrollo de proyectos más avanzados con esta placa.
+La práctica permitió comprobar el funcionamiento básico de la placa ESP32 al controlar el encendido y apagado de un LED, aplicando conceptos fundamentales de electrónica y programación. Se comprendió el uso de los pines digitales como salidas, la importancia de la resistencia para proteger el LED y el papel de las funciones básicas del lenguaje Arduino, como `pinMode()`, `digitalWrite()` y `delay()`. Además, se verificó la correcta comunicación entre el hardware y el entorno Arduino IDE, sentando una base sólida para el desarrollo de proyectos más avanzados con esta placa.
 
 
 ---
