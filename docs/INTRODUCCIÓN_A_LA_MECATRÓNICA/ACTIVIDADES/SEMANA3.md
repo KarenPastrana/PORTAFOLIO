@@ -35,23 +35,23 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
 ---
 
 ## **Procedimiento**
-1. Se conectó la ESP32 a la protoboard.
-1. Se colocó el LED y se conectó una resistencia en serie para limitar la corriente.
-1. Se conectó el botón pulsador a un pin digital configurado como entrada.
-1. Se realizó el cableado con jumpers conectando el botón a 3.3V y GND, y el pin de lectura digital.
+
+1. Se conectó la ESP32 a la protoboard.  
+1. Se colocó el LED y se conectó una resistencia en serie para limitar la corriente.  
+1. Se conectó el botón pulsador a un pin digital configurado como entrada.  
+1. Se realizó el cableado con jumpers conectando el botón a 3.3V y GND, y el pin de lectura digital.  
 1. Se escribió el siguiente código en Arduino IDE:
 
-  ```
-    cpp
-    const int led=33;
-    const int btn=32;
-    
+    ```cpp
+    const int led = 33;
+    const int btn = 32;
+
     void setup() {
       Serial.begin(115200);
       pinMode(led, OUTPUT);
       pinMode(btn, INPUT);
     }
-    
+
     void loop() {
       int estado = digitalRead(btn);
       if (estado == 1) {
@@ -60,10 +60,11 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
         digitalWrite(led, 0);
       }
     }
-  ```
+    ```
 
-6. Se verificó y cargó el programa a la ESP32.
-1. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.
+1. Se verificó y cargó el programa a la ESP32.  
+1. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.  
+
 
 
 ---
