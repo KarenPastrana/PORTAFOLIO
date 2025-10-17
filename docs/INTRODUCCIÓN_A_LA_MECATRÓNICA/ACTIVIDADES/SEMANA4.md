@@ -7,6 +7,7 @@ Implementar la comunicación inalámbrica entre una ESP32 y un dispositivo móvi
 
 ## **Marco Teórico**
 El Bluetooth es una tecnología de comunicación inalámbrica de corto alcance que permite el intercambio de datos entre dispositivos electrónicos. En los microcontroladores como la ESP32, esta función puede utilizarse para controlar periféricos externos mediante comandos enviados desde un dispositivo móvil u otro sistema compatible.
+
 La ESP32 incluye un módulo Bluetooth integrado que puede configurarse como maestro o esclavo, permitiendo la creación de conexiones con aplicaciones de control remoto. En este proyecto, la placa recibe mensajes tipo texto (“ON” y “OFF”) desde la aplicación Serial Bluetooth Terminal para controlar un LED, que funciona como una salida digital. Este proceso permite entender la interacción entre comunicación inalámbrica y control de hardware mediante programación.
 
 ---
@@ -24,7 +25,7 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
 - Dispositivo móvil
 - Aplicación Serial Bluetooth Terminal
 - Computadora con Arduino IDE
-
+- Cable USB para conexión y carga del código
 
 ---
 
@@ -35,37 +36,36 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
 1. Se escribió y cargó el siguiente código al microcontrolador:
 
 ```
-cpp
-#include "BluetoothSerial.h"
-BluetoothSerial SerialBT;
-
-const int led = 33;
-
-void setup() {
-  Serial.begin(115200);
-  SerialBT.begin("Sam_ESP32"); // Nombre del dispositivo Bluetooth
-  pinMode(led, OUTPUT);
-}
-
-void loop() {
-  if (SerialBT.available()) {
-    String mensaje = SerialBT.readString();
-    Serial.println("Recibido: " + mensaje);
-
-  if (mensaje == "ON") {
-      digitalWrite(led, HIGH);
-    } else if (mensaje == "OFF") {
-      digitalWrite(led, LOW);
-    }
+  cpp
+  #include "BluetoothSerial.h"
+  BluetoothSerial SerialBT;
+  
+  const int led = 33;
+  
+  void setup() {
+    Serial.begin(115200);
+    SerialBT.begin("Sam_ESP32"); // Nombre del dispositivo Bluetooth
+    pinMode(led, OUTPUT);
   }
-  delay(100);
-}
+  
+  void loop() {
+    if (SerialBT.available()) {
+      String mensaje = SerialBT.readString();
+      Serial.println("Recibido: " + mensaje);
+  
+    if (mensaje == "ON") {
+        digitalWrite(led, HIGH);
+      } else if (mensaje == "OFF") {
+        digitalWrite(led, LOW);
+      }
+    }
+    delay(100);
+  }
 ```
-
-5. En el dispositivo móvil se abrió la aplicación Serial Bluetooth Terminal.
-6. Se buscó y emparejó la ESP32 con el nombre configurado en el código.
-7. Desde la aplicación se enviaron los mensajes “ON” y “OFF” para encender y apagar el LED.
-8. Se observó la respuesta física del circuito y los mensajes recibidos en el monitor serial del Arduino IDE.
+1. En el dispositivo móvil se abrió la aplicación Serial Bluetooth Terminal.
+1. Se buscó y emparejó la ESP32 con el nombre configurado en el código.
+1. Desde la aplicación se enviaron los mensajes “ON” y “OFF” para encender y apagar el LED.
+1. Se observó la respuesta física del circuito y los mensajes recibidos en el monitor serial del Arduino IDE.
 
 
 ---
