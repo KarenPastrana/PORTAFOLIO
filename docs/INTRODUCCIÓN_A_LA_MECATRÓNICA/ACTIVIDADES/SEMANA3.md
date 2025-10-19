@@ -73,10 +73,10 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
 El circuito funcionó correctamente. Al presionar el botón, la entrada digital cambió a estado alto y encendió el LED. Cuando se soltó el botón, el pin volvió a estado bajo, apagando el LED.
 Esto demuestra la correcta configuración de los pines de entrada y salida, así como la comprensión del flujo lógico entre hardware y software.
 
-<img src="../../assets/imgs/Boton.jpg" alt="Formulas" width="320">
+<img src="../../assets/imgs/Boton.jpg" alt="Boton" width="320">
 
 <video width="500" controls>
-  <source src="../../assets/imgs/BotonR.mp4" type="video/mp4">
+  <source src="../../assets/Videos/BotonR.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 
