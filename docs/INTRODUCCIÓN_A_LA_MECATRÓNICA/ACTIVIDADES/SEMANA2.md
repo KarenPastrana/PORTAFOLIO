@@ -56,12 +56,12 @@ Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 m
     ```
 
 1. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.  
+<img src="../../assets/imgs/EncendidoLED.jpg" alt="EncendidoLED" width="250">
 
 ---
 
 ## **Resultados**
 El LED encendió y apagó correctamente, demostrando el funcionamiento del código y las conexiones. La ESP32 respondió adecuadamente a las instrucciones digitales y se verificó la correcta comunicación entre el entorno de programación y el hardware.
-
 
 <video width="500" controls>
   <source src="../../assets/Videos/BotonV.mp4" type="video/mp4">
