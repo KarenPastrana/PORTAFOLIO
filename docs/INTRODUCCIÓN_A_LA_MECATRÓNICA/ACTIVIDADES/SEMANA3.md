@@ -8,7 +8,7 @@ Comprender el funcionamiento de una entrada digital mediante un botón y una sal
 ## **Marco Teórico**
 En los microcontroladores, las entradas digitales permiten detectar dos estados: alto (HIGH) y bajo (LOW), correspondientes a los niveles lógicos 1 y 0. Un botón pulsador es un componente que cambia su estado al ser presionado, cerrando o abriendo el circuito.
 
-Las salidas digitales, por otro lado, permiten activar o desactivar dispositivos como LEDs, motores o relés. Un LED (diodo emisor de luz) emite luz cuando circula corriente eléctrica en el sentido correcto, por lo que siempre se utiliza una resistencia limitadora para evitar daños por exceso de corriente.
+Las salidas digitales, por otro lado, permiten activar o desactivar dispositivos como LEDs, motores, relés, controlar actuadores o generar señales de control. 
 
 En esta práctica, se utiliza una ESP32, un microcontrolador con pines configurables como entrada o salida, programado mediante el entorno Arduino IDE. Al detectar una señal HIGH proveniente del botón, el microcontrolador activa el pin de salida, encendiendo el LED.
 
@@ -88,8 +88,7 @@ La práctica permitió comprender el funcionamiento básico de las entradas y sa
 ---
 
 ## **Bibliografía**
-
-
+1. https://librerialatijera.com.ar/arduino-activar-salida-digital-librery/
 
 
 
