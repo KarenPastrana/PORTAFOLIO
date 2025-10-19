@@ -17,7 +17,7 @@ La ESP32 es una placa de desarrollo basada en un microcontrolador que incluye Wi
 ---
 
 ## **Metodología**
-Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 mediante un protoboard y una resistencia, y se cargó un código desde Arduino IDE que permite que el LED se encienda y apague cada segundo. El experimento permitió observar de forma práctica el uso de salidas digitales.
+Se conectó el LED a la placa ESP32 mediante un protoboard y una resistencia, y se cargó un código desde Arduino IDE que permite que el LED se encienda y apague cada segundo. El experimento permitió observar de forma práctica el uso de salidas digitales.
 
 
 ---
