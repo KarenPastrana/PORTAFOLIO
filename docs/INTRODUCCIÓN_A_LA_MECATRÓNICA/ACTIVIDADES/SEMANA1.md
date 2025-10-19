@@ -72,6 +72,6 @@ Además, gracias a las fórmulas, los cálculos de resistencias y capacitor conc
 ---
 
 ## **Bibliografía**
-- https://www.allaboutcircuits.com/tools/555-timer-astable-circuit/  
-- https://resources.altium.com/es/p/everything-you-need-know-about-oscillators  
-- https://latexeditor.lagrida.com/
+- Harris, M. (2020). ¿Qué es un oscilador? Todo lo que necesitas saber. _Altium_. https://resources.altium.com/es/p/everything-you-need-know-about-oscillators  
+- Burrell, S. (2024). Conceptos básicos: cómo funciona el circuito monoestable del temporizador 555. _Wray castle_. https://wraycastle.com/es/blogs/knowledge-base/555-timer-monostable?srsltid=AfmBOoruq42ADu6kVU6lTbMewmkgeCorH6G94qx5D-2fUp8Ywb23FrYz
+- _All About Circuits: 555 Timer Astable Oscillator Circuit_. (s.f.). https://www.allaboutcircuits.com/tools/555-timer-astable-circuit/
