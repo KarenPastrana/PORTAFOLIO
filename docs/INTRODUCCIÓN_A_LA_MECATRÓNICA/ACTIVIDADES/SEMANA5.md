@@ -1,94 +1,92 @@
-# Actividad 5: Control de velocidad y dirección de un motor
+# Actividad 5: Control de un LED mediante conexión Bluetooth
 
 ## **Objetivo**
-Implementar el control de un motor de corriente directa (DC) utilizando un puente H y la placa ESP32, para regular su velocidad mediante modulación por ancho de pulso (PWM) y su dirección de giro.
+Implementar la comunicación inalámbrica entre una ESP32 y un dispositivo móvil mediante Bluetooth, con el propósito de encender y apagar un LED a través de comandos enviados desde la aplicación Serial Bluetooth Terminal.
 
 ---
 
-## **Marco teórico**
-Un **motor DC** convierte energía eléctrica en energía mecánica rotacional. El **puente H** permite controlar la dirección del giro invirtiendo la polaridad aplicada al motor, mientras que la **modulación por ancho de pulso (PWM)** se utiliza para ajustar su velocidad variando el ciclo de trabajo de la señal enviada al motor.
+## **Marco Teórico**
+El Bluetooth es una tecnología de comunicación inalámbrica de corto alcance que permite el intercambio de datos entre dispositivos electrónicos. En los microcontroladores como la ESP32, esta función puede utilizarse para controlar periféricos externos mediante comandos enviados desde un dispositivo móvil u otro sistema compatible.
 
-La **ESP32** dispone de canales de PWM integrados, que pueden configurarse mediante las funciones `ledcAttachChannel()` y `ledcWrite()`.  
-Estas permiten generar señales con frecuencias y resoluciones específicas para controlar dispositivos como motores o servos.
+La ESP32 incluye un módulo Bluetooth integrado que puede configurarse como maestro o esclavo, permitiendo la creación de conexiones con aplicaciones de control remoto. En este proyecto, la placa recibe mensajes tipo texto (“ON” y “OFF”) desde la aplicación Serial Bluetooth Terminal para controlar un LED, que funciona como una salida digital. Este proceso permite entender la interacción entre comunicación inalámbrica y control de hardware mediante programación.
 
 ---
 
 ## **Metodología**
-La práctica consistió en conectar un motor DC a la ESP32 mediante un puente H, controlando su velocidad con señales PWM. Se utilizó un ciclo de incremento y decremento del valor PWM para observar los cambios en la velocidad de rotación del motor.
+Se configuró un circuito sencillo que permitiera controlar un LED desde un dispositivo móvil mediante comunicación Bluetooth. La ESP32 fue programada en el entorno Arduino IDE usando la biblioteca BluetoothSerial.h para habilitar la conexión y comunicación con el móvil. Luego se enviaron comandos desde la aplicación Serial Bluetooth Terminal para verificar la respuesta del sistema.
 
 ---
 
 ## **Materiales**
-- 1 placa ESP32 (DOIT ESP32 DEVKIT V1)
-- Protoboard  
-- Puente H (L298N) 
-- 1 Motor DC con caja reductora 
-- Fuente de alimentación externa  
-- Cables para fuente  
-- Cables jumpers
+- 1 ESP32 (DOIT ESP32 DEVKIT V1)
+- 1 LED
+- 1 Resistencia de 220 Ω 
+- 1 Protoboard
+- Dispositivo móvil
+- Aplicación Serial Bluetooth Terminal
 - Computadora con Arduino IDE
 - Cable USB para conexión y carga del código
 
 ---
 
 ## **Procedimiento**
-1. Se colocó la ESP32 en la protoboard.  
-1. Se conectó el puente H de modo que los pines de control `in1` y `in2` se conectaran a los pines 32 y 33 de la ESP32.  
-1. Se conectaron los terminales del motor a las salidas del puente H.  
-1. Se conectó la fuente de alimentación al puente H y al motor, verificando la polaridad.  
-1. Se escribió y cargó el siguiente código en Arduino IDE:
+
+1. Se conectó la ESP32 en la protoboard.  
+1. Se colocó el LED con su resistencia en serie para evitar sobrecorriente.  
+1. Se conectó el pin del LED a un pin digital de la ESP32 configurado como salida.  
+1. Se escribió y cargó el siguiente código al microcontrolador:
 
     ```cpp
-    #define in1 32 
-    #define in2 33
-    int var = 20;
-
+    #include "BluetoothSerial.h"
+    BluetoothSerial SerialBT;
+    
+    const int led = 33;
+    
     void setup() {
-      pinMode(in1, OUTPUT);
-      pinMode(in2, OUTPUT);
-      ledcAttachChannel(25, 1000, 8, 0);
+      Serial.begin(115200);
+      SerialBT.begin("Sam_ESP32"); // Nombre del dispositivo Bluetooth
+      pinMode(led, OUTPUT);
     }
-
+    
     void loop() {
-      for(int i = 1; i <= 255; i++){
-        ledcWrite(25, i);
-        digitalWrite(in1, 1);
-        digitalWrite(in2, 0);
-        delay(10);
+      if (SerialBT.available()) {
+        String mensaje = SerialBT.readString();
+        Serial.println("Recibido: " + mensaje);
+    
+        if (mensaje == "ON") {
+          digitalWrite(led, HIGH);
+        } else if (mensaje == "OFF") {
+          digitalWrite(led, LOW);
+        }
       }
-      for(int i = 255; i >= 1; i--){
-        ledcWrite(25, i);
-        digitalWrite(in1, 1);
-        digitalWrite(in2, 0);
-        delay(10);
-      }
+      delay(100);
     }
     ```
 
-1. Se verificó y cargó el programa a la ESP32.  
-1. Se observó el comportamiento del motor mientras su velocidad aumentaba y disminuía progresivamente.  
+1. En el dispositivo móvil se abrió la aplicación **Serial Bluetooth Terminal**.  
+1. Se buscó y emparejó la ESP32 con el nombre configurado en el código.  
+1. Desde la aplicación se enviaron los mensajes **“ON”** y **“OFF”** para encender y apagar el LED.  
+1. Se observó la respuesta física del circuito y los mensajes recibidos en el monitor serial
+
 
 ---
 
-## **Resultado**
-El motor giró correctamente en una dirección, incrementando y reduciendo su velocidad de manera gradual según los valores PWM enviados desde la ESP32. Se confirmó el control efectivo de velocidad mediante el ciclo de modulación programado.
+## **Resultados**
+La comunicación Bluetooth se estableció correctamente entre la ESP32 y el dispositivo móvil. Al enviar el mensaje “ON” desde la aplicación, el LED se encendió, y al enviar “OFF”, el LED se apagó. Además, el monitor serial mostró los mensajes recibidos, confirmando la correcta recepción de datos. Esto validó el funcionamiento tanto del módulo Bluetooth como del control digital del LED.
 
-<img src="../../assets/imgs/MotorComp.jpg" alt="MotorComp" width="450">
+<img src="../../assets/imgs/BLUELED.jpg" alt="BLUELED" width="450">
 
 <video width="500" controls>
-  <source src="../../assets/Videos/Motor.mp4" type="video/mp4">
+  <source src="../../assets/Videos/BLUELED.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 
-
-
 ---
 
-## **Conclusión**
-La práctica permitió comprender el uso del **PWM en la ESP32** para controlar la velocidad de un motor DC, así como la función del **puente H** en la inversión de polaridad. Se logró un control preciso del giro del motor, demostrando la utilidad de la programación con PWM para el manejo de actuadores eléctricos en proyectos de robótica y automatización.
+## **Conclusiones**
+En esta práctica se logró controlar un LED de manera inalámbrica mediante conexión Bluetooth entre la ESP32 y un dispositivo móvil, comprobando la capacidad del microcontrolador para recibir y procesar comandos externos. La actividad permitió comprender cómo se implementa la comunicación serial por Bluetooth y su integración con salidas digitales, demostrando el potencial de la ESP32 para aplicaciones de automatización y control remoto.
 
 ---
 
 ## **Bibliografía**
-1. https://unicrom.com/control-de-motor-dc-con-puente-h/
-2. https://www.electronicwings.com/esp32/pwm-of-esp32
+1. https://randomnerdtutorials.com/esp32-wireless-communication-protocols/

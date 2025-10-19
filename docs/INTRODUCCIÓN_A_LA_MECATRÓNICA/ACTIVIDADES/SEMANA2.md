@@ -1,87 +1,77 @@
-# Actividad 2: Encendido y apagado de un LED
+# Actividad 2: Circuito con osciloscopio
 
-## **Objetivo**
-Comprender el funcionamiento básico de la placa ESP32 mediante el control de un diodo LED, aplicando conceptos de programación en Arduino IDE y el uso de componentes electrónicos como la resistencia y el protoboard.
+## **Objetivos**
+- Usar el circuito integrado 555 en modo astable para prender y apagar un LED en el rango de 1 a 5 segundos.  
+- Calcular el valor de las resistencias y capacitor para cumplir con el rango de tiempo.  
+- Armar el circuito para verificar que el LED parpadee en el rango esperado.
 
 ---
 
 ## **Marco Teórico**
-El LED (Light Emitting Diode) es un componente electrónico que emite luz cuando una corriente eléctrica pasa a través de él. Para evitar que el LED se queme por exceso de corriente, se utiliza una resistencia que limita el paso de electricidad.
+El temporizador 555 es un circuito integrado destacado por su versatilidad y facilidad de uso, el cual puede configurarse en tres modos: monoestable, biestable y astable.  
+En el modo astable, el temporizador 555 funciona como un oscilador, es decir, un generador de señales electrónicas periódicas. En este caso produce una onda cuadrada, donde la salida alterna entre el nivel alto (VCC) y el nivel bajo (0 V). La frecuencia de oscilación depende de dos resistencias externas (R1 y R2) y un capacitor (C1).  
+Las fórmulas que definen el tiempo en nivel alto (TH), el tiempo en nivel bajo (TL) y la frecuencia (F) son:  
 
-La ESP32 es una placa de desarrollo basada en un microcontrolador que incluye WiFi y Bluetooth. Puede programarse con Arduino IDE, utilizando código en lenguaje C/C++. Uno de los primeros ejercicios al aprender a usar una placa microcontroladora es hacer parpadear un LED, lo que permite comprobar la correcta configuración del entorno de desarrollo y la comprensión de las funciones básicas:
+<img src="../../assets/imgs/S1_Formulas.jpg" alt="Formulas" width="320">
 
-- `pinMode(pin, OUTPUT)` define un pin como salida.
-- `digitalWrite(pin, HIGH/LOW)` envía una señal de encendido o apagado.
-- `delay(tiempo)` pausa la ejecución del programa por un tiempo determinado (en milisegundos).
+<a href="https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOopbM2F4kBKWD8n8-fVGb5gEoQxKXo3YCXbVUPw4arBwxIQpEXOX" target="_blank">Calculadora 555 Timer</a>
 
-  ---
+De esta manera, es posible determinar los valores adecuados de resistencias y capacitor para obtener el tiempo de encendido y apagado deseado del LED.
+
+---
 
 ## **Metodología**
-
-Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 mediante un protoboard y una resistencia, y se cargó un código desde Arduino IDE que permite que el LED se encienda y apague cada segundo. El experimento permitió observar de forma práctica el uso de salidas digitales.
+Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1</sub> utilizando las fórmulas del modo astable para que el LED parpadeara en un rango de 1 a 5 segundos. Posteriormente, se armó el circuito en la protoboard y se realizaron las conexiones a la fuente de alimentación. Finalmente, se verificó el funcionamiento y comportamiento mediante un osciloscopio, observando la forma de onda cuadrada generada y comparándola con los tiempos calculados.  
 
 ---
 
 ## **Materiales**
-- 1 placa ESP32 (DOIT ESP32 DEVKIT V1)
-- 1 LED 
-- 1 resistencia de 220 Ω
-- 1 protoboard
-- Computadora con Arduino IDE instalado
-- Cable USB para conexión y carga del código
+- 1 protoboard  
+- 1 multímetro  
+- Puntas para fuente  
+- Jumpers hembra-hembra  
+- 1 LED  
+- 1 resistencia de 6.8 KΩ  
+- 2 resistencias de 20 KΩ  
+- 1 capacitor de 220 µF  
+- 1 circuito integrado 555  
 
 ---
 
 ## **Procedimiento**
-
-1. Se conectó la ESP32 a la computadora mediante el cable USB.  
-1. Se abrió Arduino IDE y se configuró la placa “DOIT ESP32 DEVKIT V1”.  
-1. En el protoboard, se conectó el ánodo del LED al pin 13 de la ESP32 mediante una resistencia, y el cátodo al GND.  
-1. Se escribió y cargó el siguiente código:
-
-    ```cpp
-    const int led = 13;
-    
-    void setup() {
-      Serial.begin(115200);
-      pinMode(led, OUTPUT);
-    }
-    
-    void loop() {
-      digitalWrite(led, 1);
-      delay(1000);
-      digitalWrite(led, 0);
-      delay(1000);
-    }
-    ```
-
-1. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.  
-
+1. Calcular los valores de resistencias y capacitor para lograr un periodo de encendido y apagado del LED en un rango de 1-5 segundos.  
+<img src="../../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="400">
+2. Armar el circuito 555 en el protoboard y alimentarlo conectando sus pines a Vcc y GND.  
+3. Conectar las resistencias y el capacitor de acuerdo a la configuración astable del 555.  
+4. Añadir el LED con su resistencia.  
+5. Alimentar el circuito con la fuente alimentadora.  
+6. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.
+<img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="250">
+<video width="320" controls>
+  <source src="../../assets/imgs/S1_VideoMovVoltaje.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
 
 ---
 
 ## **Resultados**
-El LED encendió y apagó correctamente, demostrando el funcionamiento del código y las conexiones. La ESP32 respondió adecuadamente a las instrucciones digitales y se verificó la correcta comunicación entre el entorno de programación y el hardware.
-
-<img src="../../assets/imgs/EncendidoLED.jpg" alt="EncendidoLED" width="450">
-
+- El LED parpadeó dentro del rango esperado: 5 segundos en nivel alto y 3 segundos en nivel bajo.  
+- En el osciloscopio se pudo observar ondas cuadradas con el periodo calculado.  
+- La frecuencia obtenida fue cercana a 0.133 Hz.
 <video width="500" controls>
-  <source src="../../assets/Videos/EncendidoLed.mp4" type="video/mp4">
+  <source src="../../assets/imgs/S1_VideoFinal.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 
 ---
 
 ## **Conclusiones**
-La práctica permitió comprobar el funcionamiento básico de la placa ESP32 al controlar el encendido y apagado de un LED, aplicando conceptos fundamentales de electrónica y programación. Se comprendió el uso de los pines digitales como salidas, la importancia de la resistencia para proteger el LED y el papel de las funciones básicas del lenguaje Arduino, como `pinMode()`, `digitalWrite()` y `delay()`. Además, se verificó la correcta comunicación entre el hardware y el entorno Arduino IDE, sentando una base sólida para el desarrollo de proyectos más avanzados con esta placa.
-
+De acuerdo con los resultados obtenidos, se concreta que el circuito integrado 555 en modo astable permite generar señales de onda cuadrada que pueden usarse para controlar dispositivos como LEDs.  
+Además, gracias a las fórmulas, los cálculos de resistencias y capacitor concuerdan con los tiempos de parpadeos observados, tanto en el protoboard como en el osciloscopio, lo que permitió comprobar de manera visual y cuantitativa el funcionamiento correcto del temporizador.  
 
 ---
 
 ## **Bibliografía**
-1. _MecatrónicaLATAM: Diodo LED_. (2021). https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/#que_es_un_diodo_led
-2. Cortés, A. (2022). Tutorial ESP32. _Acortes Software_. https://acortes.co/tutorial-esp32/
-
-
-
-
+- Harris, M. (2020). ¿Qué es un oscilador? Todo lo que necesitas saber. _Altium_. https://resources.altium.com/es/p/everything-you-need-know-about-oscillators  
+- Burrell, S. (2024). Conceptos básicos: cómo funciona el circuito monoestable del temporizador 555. _Wray castle_. https://wraycastle.com/es/blogs/knowledge-base/555-timer-monostable?srsltid=AfmBOoruq42ADu6kVU6lTbMewmkgeCorH6G94qx5D-2fUp8Ywb23FrYz
+- _All About Circuits: 555 Timer Astable Oscillator Circuit_. (s.f.). https://www.allaboutcircuits.com/tools/555-timer-astable-circuit/
