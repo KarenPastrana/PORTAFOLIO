@@ -1,23 +1,23 @@
-# Actividad 3: Encendido y apagado de un LED mediante un botón
+# Actividad 2: Encendido y apagado de un LED
 
 ## **Objetivo**
-Comprender el funcionamiento de una entrada digital mediante un botón y una salida digital mediante un LED, utilizando una placa ESP32. El objetivo específico es lograr que el LED se encienda al presionar el botón y se apague al soltarlo.
+Comprender el funcionamiento básico de la placa ESP32 mediante el control de un diodo LED, aplicando conceptos de programación en Arduino IDE y el uso de componentes electrónicos como la resistencia y el protoboard.
 
 ---
 
 ## **Marco Teórico**
-En los microcontroladores, las entradas digitales permiten detectar dos estados: alto (HIGH) y bajo (LOW), correspondientes a los niveles lógicos 1 y 0. Un botón pulsador es un componente que cambia su estado al ser presionado, cerrando o abriendo el circuito.
+El LED (Light Emitting Diode) es un componente electrónico que emite luz cuando una corriente eléctrica pasa a través de él. Para evitar que el LED se queme por exceso de corriente, se utiliza una resistencia que limita el paso de electricidad.
 
-Las salidas digitales, por otro lado, permiten activar o desactivar dispositivos como LEDs, motores, relés, controlar actuadores o generar señales de control. 
+La ESP32 es una placa de desarrollo basada en un microcontrolador que incluye WiFi y Bluetooth. Puede programarse con Arduino IDE, utilizando código en lenguaje C/C++. Uno de los primeros ejercicios al aprender a usar una placa microcontroladora es hacer parpadear un LED, lo que permite comprobar la correcta configuración del entorno de desarrollo y la comprensión de las funciones básicas:
 
-En esta práctica, se utiliza una ESP32, un microcontrolador con pines configurables como entrada o salida, programado mediante el entorno Arduino IDE. Al detectar una señal HIGH proveniente del botón, el microcontrolador activa el pin de salida, encendiendo el LED.
-
-
+- `pinMode(pin, OUTPUT)` define un pin como salida.  
+- `digitalWrite(pin, HIGH/LOW)` envía una señal de encendido o apagado.  
+- `delay(tiempo)` pausa la ejecución del programa por un tiempo determinado (en milisegundos).
 
 ---
 
 ## **Metodología**
-Se desarrolló un circuito básico de control digital en una protoboard, utilizando una ESP32 como unidad de control. Se programó el comportamiento lógico en Arduino IDE y se verificó su funcionamiento físico conectando los componentes de manera segura y ordenada. El enfoque principal fue comprender la interacción entre hardware (componentes electrónicos) y software (código de control).
+Se utilizó una metodología experimental. Se conectó el LED a la placa ESP32 mediante un protoboard y una resistencia, y se cargó un código desde Arduino IDE que permite que el LED se encienda y apague cada segundo. El experimento permitió observar de forma práctica el uso de salidas digitales.
 
 
 ---
@@ -26,69 +26,59 @@ Se desarrolló un circuito básico de control digital en una protoboard, utiliza
 - 1 placa ESP32 (DOIT ESP32 DEVKIT V1)
 - 1 LED
 - 1 resistencia de 220 Ω
-- 1 botón pulsador
-- Protoboard
-- Cables jumpers
-- Computadora con Arduino IDE
+- 1 protoboard
+- Computadora con Arduino IDE instalado
 - Cable USB para conexión y carga del código
 
 ---
 
 ## **Procedimiento**
 
-1. Se conectó la ESP32 a la protoboard.  
-1. Se colocó el LED y se conectó una resistencia en serie para limitar la corriente.  
-1. Se conectó el botón pulsador a un pin digital configurado como entrada.  
-1. Se realizó el cableado con jumpers conectando el botón a 3.3V y GND, y el pin de lectura digital.  
-1. Se escribió el siguiente código en Arduino IDE:
+1. Se conectó la ESP32 a la computadora mediante el cable USB.  
+1. Se abrió Arduino IDE y se configuró la placa “DOIT ESP32 DEVKIT V1”.  
+1. En el protoboard, se conectó el ánodo del LED al pin 13 de la ESP32 mediante una resistencia, y el cátodo al GND.  
+1. Se escribió y cargó el siguiente código:
 
     ```cpp
-    const int led = 33;
-    const int btn = 32;
+    const int led = 13;
 
     void setup() {
       Serial.begin(115200);
       pinMode(led, OUTPUT);
-      pinMode(btn, INPUT);
     }
 
     void loop() {
-      int estado = digitalRead(btn);
-      if (estado == 1) {
-        digitalWrite(led, 1);
-      } else {
-        digitalWrite(led, 0);
-      }
+      digitalWrite(led, 1);
+      delay(1000);
+      digitalWrite(led, 0);
+      delay(1000);
     }
     ```
 
-1. Se verificó y cargó el programa a la ESP32.  
-1. Finalmente, se observó el funcionamiento: el LED se enciende al presionar el botón y se apaga al soltarlo.  
-
-
+1. Se observó el parpadeo del LED, que se encendía y apagaba con intervalos de un segundo.
 
 ---
 
 ## **Resultados**
-El circuito funcionó correctamente. Al presionar el botón, la entrada digital cambió a estado alto y encendió el LED. Cuando se soltó el botón, el pin volvió a estado bajo, apagando el LED.
-Esto demuestra la correcta configuración de los pines de entrada y salida, así como la comprensión del flujo lógico entre hardware y software.
+El LED encendió y apagó correctamente, demostrando el funcionamiento del código y las conexiones. La ESP32 respondió adecuadamente a las instrucciones digitales y se verificó la correcta comunicación entre el entorno de programación y el hardware.
 
-<img src="../../assets/imgs/Boton.jpg" alt="Boton" width="320">
+<img src="../../assets/imgs//EncendidoLED.jpg" alt="/EncendidoLED" width="320">
 
 <video width="500" controls>
-  <source src="../../assets/Videos/BOTOONLED.mp4" type="video/mp4">
+  <source src="../../assets/Videos/EncendidoLed.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 
 ---
 
 ## **Conclusiones**
-La práctica permitió comprender el funcionamiento básico de las entradas y salidas digitales en la ESP32 al controlar un LED mediante un botón. Se logró que el LED se encendiera al presionar el botón y se apagara al soltarlo, demostrando la correcta programación y conexión del circuito. Además, se reforzó la importancia del uso de resistencias para proteger los componentes y se adquirió una mejor comprensión sobre la relación entre el hardware y el software en proyectos de control digital.
+La práctica permitió comprobar el funcionamiento básico de la placa ESP32 al controlar el encendido y apagado de un LED, aplicando conceptos fundamentales de electrónica y programación. Se comprendió el uso de los pines digitales como salidas, la importancia de la resistencia para proteger el LED y el papel de las funciones básicas del lenguaje Arduino, como `pinMode()`, `digitalWrite()` y `delay()`. Además, se verificó la correcta comunicación entre el hardware y el entorno Arduino IDE, sentando una base sólida para el desarrollo de proyectos más avanzados con esta placa.
 
 ---
 
 ## **Bibliografía**
-1. _Libreria La Tijera: Arduino: Dominando las Salidas Digitales Paso a Paso_. (2022). https://librerialatijera.com.ar/arduino-activar-salida-digital-librery/
+1. _MecatrónicaLATAM: Diodo LED_. (2021). https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/#que_es_un_diodo_led
+2. Cortés, A. (2022). Tutorial ESP32. _Acortes Software_. https://acortes.co/tutorial-esp32/
 
 
 
