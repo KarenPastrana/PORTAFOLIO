@@ -82,3 +82,7 @@ El servo respondió correctamente a los comandos del microcontrolador, moviéndo
 
 ## **Conclusión**
 La práctica permitió comprender cómo controlar un servomotor mediante PWM utilizando la ESP32. Se logró que el servo se moviera a las posiciones de 0°, 90° y 180° de manera secuencial, demostrando la correcta programación y conexión del circuito. Además, se reforzó el entendimiento de la relación entre señal PWM, ciclo de trabajo y movimiento angular en servomotores, así como la importancia de monitorear la señal y el hardware para un control preciso.
+
+---
+
+## **Bibliografía**
