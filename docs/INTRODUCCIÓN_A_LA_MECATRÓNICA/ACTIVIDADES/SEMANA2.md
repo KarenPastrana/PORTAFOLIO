@@ -66,7 +66,7 @@ El LED encendió y apagó correctamente, demostrando el funcionamiento del códi
 <img src="../../assets/imgs/EncendidoLED.jpg" alt="EncendidoLED" width="450">
 
 <video width="500" controls>
-  <source src="../../assets/Videos/BotonV.mp4" type="video/mp4">
+  <source src="../../assets/Videos/EncendidoLed.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 
