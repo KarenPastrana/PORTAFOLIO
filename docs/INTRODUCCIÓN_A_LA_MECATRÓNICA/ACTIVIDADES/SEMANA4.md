@@ -88,7 +88,7 @@ La práctica permitió comprender el funcionamiento básico de las entradas y sa
 ---
 
 ## **Bibliografía**
-1. https://librerialatijera.com.ar/arduino-activar-salida-digital-librery/
+1. _Libreria La Tijera: Arduino: Dominando las Salidas Digitales Paso a Paso_. (2022). https://librerialatijera.com.ar/arduino-activar-salida-digital-librery/
 
 
 
