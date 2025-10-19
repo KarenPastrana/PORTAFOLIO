@@ -89,4 +89,4 @@ En esta práctica se logró controlar un LED de manera inalámbrica mediante con
 ---
 
 ## **Bibliografía**
-1. https://randomnerdtutorials.com/esp32-wireless-communication-protocols/
+1. Santos, S. (s.f.). ESP32 Wireless Communication Protocols. _RANDOM NERD TUTORIALS_. https://randomnerdtutorials.com/esp32-wireless-communication-protocols/
