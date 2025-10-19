@@ -64,7 +64,7 @@ El LED encendió y apagó correctamente, demostrando el funcionamiento del códi
 
 
 <video width="500" controls>
-  <source src="../../assets/imgs/BotonV.mp4" type="video/mp4">
+  <source src="../../assets/Videos/BotonV.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 
