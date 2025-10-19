@@ -85,6 +85,10 @@ Esto demuestra la correcta configuración de los pines de entrada y salida, así
 ## **Conclusiones**
 La práctica permitió comprender el funcionamiento básico de las entradas y salidas digitales en la ESP32 al controlar un LED mediante un botón. Se logró que el LED se encendiera al presionar el botón y se apagara al soltarlo, demostrando la correcta programación y conexión del circuito. Además, se reforzó la importancia del uso de resistencias para proteger los componentes y se adquirió una mejor comprensión sobre la relación entre el hardware y el software en proyectos de control digital.
 
+---
+
+## **Bibliografía**
+
 
 
 
