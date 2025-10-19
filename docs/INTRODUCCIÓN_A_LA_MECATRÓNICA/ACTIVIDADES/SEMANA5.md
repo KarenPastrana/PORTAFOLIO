@@ -87,3 +87,6 @@ El motor giró correctamente en una dirección, incrementando y reduciendo su ve
 ## **Conclusión**
 La práctica permitió comprender el uso del **PWM en la ESP32** para controlar la velocidad de un motor DC, así como la función del **puente H** en la inversión de polaridad. Se logró un control preciso del giro del motor, demostrando la utilidad de la programación con PWM para el manejo de actuadores eléctricos en proyectos de robótica y automatización.
 
+---
+
+## **Bibliografía**
