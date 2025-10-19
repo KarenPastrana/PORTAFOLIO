@@ -90,3 +90,5 @@ La práctica permitió comprender el uso del **PWM en la ESP32** para controlar 
 ---
 
 ## **Bibliografía**
+1. https://unicrom.com/control-de-motor-dc-con-puente-h/
+2. https://www.electronicwings.com/esp32/pwm-of-esp32
