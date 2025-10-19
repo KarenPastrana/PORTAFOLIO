@@ -90,5 +90,5 @@ La práctica permitió comprender el uso del **PWM en la ESP32** para controlar 
 ---
 
 ## **Bibliografía**
-1. https://unicrom.com/control-de-motor-dc-con-puente-h/
-2. https://www.electronicwings.com/esp32/pwm-of-esp32
+1. Administrador. (s.f.). Control de motor DC con Puente H. _Eletrónica Unicrom_. https://unicrom.com/control-de-motor-dc-con-puente-h/
+2. _ElectronicWings: PWM of ESP32_. (s.f.). https://www.electronicwings.com/esp32/pwm-of-esp32
