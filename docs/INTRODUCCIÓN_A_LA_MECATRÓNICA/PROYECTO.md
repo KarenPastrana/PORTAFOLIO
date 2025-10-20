@@ -71,7 +71,7 @@ Lista de los materiales necesarios para el proyecto:
 - Ajustes de velocidad, calibración de motores y revisión de conexiones.
 
 <div align="center">
-<img src="../../assets/imgs/PR1.jpg" alt="Resultado" width="320">
+<img src="../assets/imgs/PR1.jpg" alt="Resultado" width="320">
 
 <video width="300" controls>
   <source src="../../assets/Videos/PR2.mp4" type="video/mp4">
