@@ -5,7 +5,7 @@ Comprender el funcionamiento de una entrada digital mediante un botón y una sal
 
 ---
 
-## **Marco Teórico**
+## **Introducción**
 En los microcontroladores, las entradas digitales permiten detectar dos estados: alto (HIGH) y bajo (LOW), correspondientes a los niveles lógicos 1 y 0. Un botón pulsador es un componente que cambia su estado al ser presionado, cerrando o abriendo el circuito.
 
 Las salidas digitales, por otro lado, permiten activar o desactivar dispositivos como LEDs, motores, relés, controlar actuadores o generar señales de control. 
