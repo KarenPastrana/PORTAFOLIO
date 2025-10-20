@@ -70,6 +70,25 @@ Lista de los materiales necesarios para el proyecto:
 - Pruebas de **movimiento, giro y recolección de la pelota**.  
 - Ajustes de velocidad, calibración de motores y revisión de conexiones.
 
+<div align="center">
+<img src="../../assets/imgs/PR1.jpg" alt="Resultado" width="320">
+
+<video width="300" controls>
+  <source src="../../assets/Videos/PR2.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+</div>
+<div align="center">
+<img src="../../assets/imgs/PR4.jpg" alt="Resultado" width="320">
+<img src="../../assets/imgs/PR5.jpg" alt="Resultado" width="320">
+<img src="../../assets/imgs/PR6.jpg" alt="Resultado" width="320">
+<img src="../../assets/imgs/PR7.jpg" alt="Resultado" width="320">
+
+<video width="300" controls>
+  <source src="../../assets/Videos/PR8.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+</div>
 ---
 
 ##  Programación del Carro 
@@ -201,26 +220,21 @@ void setMotor(int leftMotor, int rightMotor) {
 - Pruebas de **velocidad y giros**.  
 - El robot **interactuó con la pelota y pudo marcar goles** durante la competencia.  
 - Integración de los tres equipos (electrónica, programación y mecánica) para un **ensamblaje funcional**.
-
+<div align="center">
+<img src="../../assets/imgs/PR9.jpg" alt="Resultado" width="320">
+</div>
 ---
 
-::: success
 
  **Nota:** Las pruebas ayudaron a calibrar la velocidad y la respuesta de los motores, así como a ajustar la pala de recolección de la pelota.
-
----
-:::
-
 
 ---
 
 ##  Conclusión
 
-::: info
 - Se integraron **electrónica, programación y mecánica** en un proyecto práctico.  
 - Se logró una **sincronización hardware-software**, resultando en un robot funcional.  
 - El proyecto fortaleció habilidades de **trabajo en equipo, planificación y resolución de problemas**.  
 - Se comprobó que el robot podía **jugar futbol y competir**, cumpliendo el objetivo del proyecto.
 
  **Reflexión final:** Este proyecto demostró la importancia de la colaboración entre diferentes disciplinas y permitió crear un producto funcional y educativo, combinando creatividad, ingeniería y programación.
-:::
