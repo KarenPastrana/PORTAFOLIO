@@ -80,7 +80,7 @@ El servo respondió correctamente a los comandos del microcontrolador, moviéndo
 <div align="center">
 <img src="../../assets/imgs//Servo.jpg" alt="/Servo" width="310">
 
-<video width="300" controls>
+<video width="310" controls>
   <source src="../../assets/Videos/Servo.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
