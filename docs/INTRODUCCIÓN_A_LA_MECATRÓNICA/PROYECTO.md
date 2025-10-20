@@ -71,20 +71,18 @@ Lista de los materiales necesarios para el proyecto:
 - Ajustes de velocidad, calibración de motores y revisión de conexiones.
 
 <div align="center">
-<img src="../assets/imgs/PR1.jpg" alt="Resultado" width="300">
+<img src="../assets/imgs/PR1.jpg" alt="Resultado" width="250">
 
 <video width="100" controls>
   <source src="../assets/Videos/PR2.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
-</div>
-<div align="center">
-<img src="../assets/imgs/PR4.jpg" alt="Resultado" width="200">
-<img src="../assets/imgs/PR5.jpg" alt="Resultado" width="250">
-<img src="../assets/imgs/PR6.jpg" alt="Resultado" width="200">
-<img src="../assets/imgs/PR7.jpg" alt="Resultado" width="200">
+<img src="../assets/imgs/PR4.jpg" alt="Resultado" width="150">
+<img src="../assets/imgs/PR5.jpg" alt="Resultado" width="280">
+<img src="../assets/imgs/PR6.jpg" alt="Resultado" width="130">
+<img src="../assets/imgs/PR7.jpg" alt="Resultado" width="130">
 
-<video width="200" controls>
+<video width="130" controls>
   <source src="../assets/Videos/PR8.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
@@ -221,7 +219,7 @@ void setMotor(int leftMotor, int rightMotor) {
 - El robot **interactuó con la pelota y pudo marcar goles** durante la competencia.  
 - Integración de los tres equipos (electrónica, programación y mecánica) para un **ensamblaje funcional**.
 <div align="center">
-<img src="../assets/imgs/PR9.jpg" alt="Resultado" width="250">
+<img src="../assets/imgs/PR9.jpg" alt="Resultado" width="160">
 </div>
 ---
 
