@@ -78,7 +78,7 @@ Se conectó un servo a la ESP32 en una protoboard, asignando un pin para la señ
 ## **Resultado**
 El servo respondió correctamente a los comandos del microcontrolador, moviéndose a las posiciones predeterminadas según el código. Los valores de PWM calculados mediante map() permitieron controlar de manera precisa el ángulo del eje del servo. La información enviada por el monitor serial coincidió con las posiciones observadas físicamente.
 <div align="center">
-<img src="../../assets/imgs//Servo.jpg" alt="/Servo" width="320">
+<img src="../../assets/imgs//Servo.jpg" alt="/Servo" width="310">
 
 <video width="300" controls>
   <source src="../../assets/Videos/Servo.mp4" type="video/mp4">
