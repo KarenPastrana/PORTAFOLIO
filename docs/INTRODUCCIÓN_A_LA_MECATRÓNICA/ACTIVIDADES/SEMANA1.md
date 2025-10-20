@@ -9,14 +9,16 @@ Este repositorio corresponde a una bitácora digital creada en GitHub Pages util
 1. Se ingresó a la cuenta de GitHub y se creó un nuevo repositorio llamado **“Portafolio”**.  
 2. Dentro del repositorio, se presionó la tecla **`.` (punto)** para abrir el **editor en línea tipo Visual Studio Code**, lo que permitió editar archivos directamente desde el navegador.  
 3. Desde este entorno se crearon nuevas carpetas y archivos del proyecto usando las opciones:
-   - **Nuevo archivo:** `Archivo > Nuevo archivo` o clic derecho en el panel lateral.  
-   - **Nueva carpeta:** clic derecho > “New Folder”.  
-4. Los archivos principales se guardaron con formato **Markdown (.md)**, ya que MkDocs utiliza este tipo de archivos para generar las páginas del sitio.  
+    - **Nuevo archivo:** `Archivo > Nuevo archivo` o clic derecho en el panel lateral.  
+    - **Nueva carpeta:** clic derecho > “New Folder”.  
+4. Los archivos principales se guardaron con formato **Markdown (.md)**, ya que MkDocs utiliza este tipo de archivos para generar las páginas del sitio.
+ 
 
 ---
 
 ## 🗂️ 2. Estructura de Carpetas
 La organización del proyecto se realizó dentro de una carpeta principal llamada `docs/`, que contiene todo el contenido visible del sitio.  
+
 La estructura quedó de la siguiente forma:
 
 ```
@@ -46,16 +48,15 @@ La estructura quedó de la siguiente forma:
 ```
 
 Cada carpeta tiene un propósito específico:  
-- **assets/** → almacena imágenes y videos usados en las páginas.  
-- **Introducción a la Mecatrónica/** → contiene las actividades/proyecto.  
-- **Proyectos de Ingeniería/** → contiene las actividades/proyecto.
+- **assets/** → almacena imágenes y videos usados en las páginas.
+- **Introducción a la Mecatrónica/** → contiene las actividades semanales.
+- **Proyectos de Ingeniería/** → contiene las actividades semanales.
 - **index.md** → es la página principal del portafolio.  
 
 ---
 
 ## 🧱 3. Archivo Principal `mkdocs.yml`
-El archivo `mkdocs.yml` define la configuración general del sitio web.  
-Aquí se configuró el **nombre del sitio**, los **colores**, las **extensiones de Markdown** y el **tema visual**.
+El archivo `mkdocs.yml` define la configuración general del sitio web. Aquí se configuró el **nombre del sitio**, los **colores**, las **extensiones de Markdown** y el **tema visual**.
 
 Ejemplo del código usado:
 ```yaml
@@ -84,25 +85,38 @@ Se puede reemplazar por cualquier color como `blue`, `teal`, `red`, `green`, o i
 ## ✍️ 4. Edición del Contenido en Markdown
 Cada página del sitio se escribió en formato **Markdown (.md)**, lo cual permite usar títulos, subtítulos, listas, texto en negrita o cursiva, imágenes y videos.
 
-🔹 **Títulos y Subtítulos**
-- # Título principal
-- ## Subtítulo
-- ### Sub-subtítulo
+### 🏷️ 1. Títulos y Subtítulos
+Para definir la jerarquía de los títulos:
 
+```markdown
+# Título principal
+## Subtítulo
+### Sub-subtítulo
+```
 
-🔹 **Estilos de Fuente**
-- **Negrita**
-- *Cursiva*
-- ***Negrita y cursiva***
+### ✨ 2. Estilos de Fuente
+Cómo resaltar el texto:
 
+```
+**Negrita**
+*Cursiva*
+***Negrita y cursiva***
+```
 
-🔹 **Listas y Numeraciones**
-- 1. Primer paso
-- 2. Segundo paso
-- 3. Tercer paso
+### 📝 3. Listas y Numeraciones
+Listas numeradas
 
-- - Elemento de lista
-- - Otro elemento
+```
+1. Primer paso
+2. Segundo paso
+3. Tercer paso
+```
+
+Listas con viñetas
+```
+- Elemento de lista
+- Otro elemento
+```
 
 
 
