@@ -61,14 +61,14 @@ Se conectó el LED a la placa ESP32 mediante un protoboard y una resistencia, y 
 
 ## **Resultados**
 El LED encendió y apagó correctamente, demostrando el funcionamiento del código y las conexiones. La ESP32 respondió adecuadamente a las instrucciones digitales y se verificó la correcta comunicación entre el entorno de programación y el hardware.
-
+<div align="center">
 <img src="../../assets/imgs//EncendidoLED.jpg" alt="/EncendidoLED" width="320">
 
-<video width="500" controls>
+<video width="300" controls>
   <source src="../../assets/Videos/EncendidoLed.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
-
+</div>
 ---
 
 ## **Conclusiones**
