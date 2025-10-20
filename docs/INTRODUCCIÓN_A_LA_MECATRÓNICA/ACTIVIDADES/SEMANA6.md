@@ -72,9 +72,9 @@ La práctica consistió en conectar un motor DC a la ESP32 mediante un puente H,
 ## **Resultado**
 El motor giró correctamente en una dirección, incrementando y reduciendo su velocidad de manera gradual según los valores PWM enviados desde la ESP32. Se confirmó el control efectivo de velocidad mediante el ciclo de modulación programado.
 <div align="center">
-<img src="../../assets/imgs/MotorComp.jpg" alt="MotorComp" width="450">
+<img src="../../assets/imgs/MotorComp.jpg" alt="MotorComp" width="300">
 
-<video width="500" controls>
+<video width="300" controls>
   <source src="../../assets/Videos/Motor.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
