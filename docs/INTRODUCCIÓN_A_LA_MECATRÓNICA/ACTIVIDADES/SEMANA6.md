@@ -74,7 +74,7 @@ El motor giró correctamente en una dirección, incrementando y reduciendo su ve
 <div align="center">
 <img src="../../assets/imgs/MotorComp.jpg" alt="MotorComp" width="250">
 
-<video width="300" controls>
+<video width="320" controls>
   <source src="../../assets/Videos/Motor.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
