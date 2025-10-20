@@ -73,16 +73,18 @@ Lista de los materiales necesarios para el proyecto:
 <div align="center">
 <img src="../assets/imgs/PR1.jpg" alt="Resultado" width="320">
 
-<video width="150" controls>
+<video width="140" controls>
   <source src="../assets/Videos/PR2.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
 <img src="../assets/imgs/PR4.jpg" alt="Resultado" width="190">
 <img src="../assets/imgs/PR5.jpg" alt="Resultado" width="320">
-<img src="../assets/imgs/PR6.jpg" alt="Resultado" width="130">
-<img src="../assets/imgs/PR7.jpg" alt="Resultado" width="130">
+</div>
+<div align="center">
+<img src="../assets/imgs/PR6.jpg" alt="Resultado" width="150">
+<img src="../assets/imgs/PR7.jpg" alt="Resultado" width="150">
 
-<video width="130" controls>
+<video width="150" controls>
   <source src="../assets/Videos/PR8.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
