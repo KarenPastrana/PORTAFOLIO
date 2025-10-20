@@ -158,7 +158,7 @@ void setMotor(int leftMotor, int rightMotor) {
 
 ## 6️⃣ Conclusión
 
-::: info
+:::
 - Se integraron **electrónica, programación y mecánica** en un proyecto práctico.  
 - Se logró una **sincronización hardware-software**, resultando en un robot funcional.  
 - El proyecto fortaleció habilidades de **trabajo en equipo, planificación y resolución de problemas**.  
@@ -166,4 +166,9 @@ void setMotor(int leftMotor, int rightMotor) {
 
 💡 **Reflexión final:** Este proyecto demostró la importancia de la colaboración entre diferentes disciplinas y permitió crear un producto funcional y educativo, combinando creatividad, ingeniería y programación.
 :::
+
+::: success 🎖️ Ganador 🏆
+¡Nuestro equipo ganó **primer lugar** en la competencia de carritos jugando futbol!  
+:::
+
 
