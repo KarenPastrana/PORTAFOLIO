@@ -5,7 +5,7 @@ Implementar la comunicación inalámbrica entre una ESP32 y un dispositivo móvi
 
 ---
 
-## **Marco Teórico**
+## **Introducción**
 El Bluetooth es una tecnología de comunicación inalámbrica de corto alcance que permite el intercambio de datos entre dispositivos electrónicos. En los microcontroladores como la ESP32, esta función puede utilizarse para controlar periféricos externos mediante comandos enviados desde un dispositivo móvil u otro sistema compatible.
 
 La ESP32 incluye un módulo Bluetooth integrado que puede configurarse como maestro o esclavo, permitiendo la creación de conexiones con aplicaciones de control remoto. En este proyecto, la placa recibe mensajes tipo texto (“ON” y “OFF”) desde la aplicación Serial Bluetooth Terminal para controlar un LED, que funciona como una salida digital. Este proceso permite entender la interacción entre comunicación inalámbrica y control de hardware mediante programación.
