@@ -75,7 +75,7 @@ Esto demuestra la correcta configuración de los pines de entrada y salida, así
 <div align="center">
 <img src="../../assets/imgs/Boton.jpg" alt="Boton" width="250">
 
-<video width="300" controls>
+<video width="320" controls>
   <source src="../../assets/Videos/BOTOONLED.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
