@@ -76,7 +76,7 @@ La comunicación Bluetooth se estableció correctamente entre la ESP32 y el disp
 <div align="center">
 <img src="../../assets/imgs/BLUELED.jpg" alt="BLUELED" width="250">
 
-<video width="300" controls>
+<video width="320" controls>
   <source src="../../assets/Videos/BLUELED.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
