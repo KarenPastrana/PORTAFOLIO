@@ -4,8 +4,8 @@
 El objetivo del proyecto fue construir un **carro robot controlado por Bluetooth** capaz de **participar en una competencia de futbol de robots**, moviendo una pelota pequeña e intentando marcar goles en las porterías.  
 
 El equipo se dividió en **tres grupos**:  
-- 🛠️ **Electrónica:** cableado, motores, puente H, fusibles y conexión del ESP32.  
-- 💻 **Programación:** desarrollo del código para controlar el robot mediante un control PS4.  
+- 🛠️ **Electrónica:** cableado, motores, puente H, fusibles, baterias, etc.  
+- 💻 **Programación:** desarrollo del código para controlar el robot mediante un control PS4, conexión bluetooth del ESP32 a control de ps4.
 - ⚙️ **Mecánica:** diseño del chasis, carcasa del robot y palita para interactuar con la pelota.  
 
 Antes de iniciar, realizamos una **sesión de brainstorming** para planificar roles, materiales y estrategia de diseño.
@@ -14,26 +14,26 @@ Antes de iniciar, realizamos una **sesión de brainstorming** para planificar ro
 
 ## 2️⃣ Materiales Utilizados
 
-::: tip 📦 Materiales
-| Componente | Cantidad | Equipo Responsable |
-|-----------|----------|------------------|
-| ESP32 | 1 | Electrónica |
-| Puente H | 1 | Electrónica |
-| Jumpers | Varios | Electrónica |
-| Porta fusible + Fusible | 1 | Electrónica |
-| Switch | 1 | Electrónica |
-| Motores grises (tipo DC) | 2 | Electrónica |
-| Motores amarillos (base) | 2 | Electrónica |
-| Llantas | 4 | Mecánica |
-| Control PS4 | 1 | Programación |
-| Cable de datos | 1 | Electrónica |
-| Soporte para electrónica | 1 | Mecánica |
-| Pilas 3.7V / 2600 mAh + Porta pilas | 2 | Electrónica |
-| Adaptadores llantas a motores | 4 | Mecánica |
-| Programa final de control | 1 | Programación |
-:::
+Lista de los materiales necesarios para el proyecto:
 
-💡 **Nota:** Cada componente se asignó según el equipo responsable.
+| Material |
+|----------|
+| ESP32 |
+| Puente H |
+| Jumpers |
+| Porta fusible + Fusible |
+| Switch |
+| Motores grises (tipo DC) |
+| Motores amarillos (base) |
+| Llantas |
+| Control PS4 |
+| Cable de datos |
+| Soporte para electrónica |
+| Pilas 3.7V / 2600 mAh + Porta pilas |
+| Adaptadores llantas a motores |
+| Programa final de control |
+| MDF (para chasis y carcasas) |
+| Filamento para impresión 3D (carcasa y palitas) |
 
 ---
 
@@ -72,7 +72,9 @@ Antes de iniciar, realizamos una **sesión de brainstorming** para planificar ro
 
 ## 4️⃣ Programación del Carro 💻
 
-::: code-block cpp
+💡 El siguiente código permite controlar el carro usando un **control PS4**. Incluye movimientos hacia adelante, atrás, izquierda, derecha y diagonales combinadas con los joysticks.
+
+```cpp
 #include <Arduino.h>
 #include <PS4Controller.h>
 
@@ -137,36 +139,31 @@ void setMotor(int leftMotor, int rightMotor) {
   if (rightMotor >= 0) { digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW); ledcWrite(R, rightMotor); }
   else { digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH); ledcWrite(R, -rightMotor); }
 }
-:::
-
-::: tip 💡 Notas de programación
-- Ajusta `Speed` para calibrar la velocidad.  
-- Joysticks izquierdo y derecho permiten **movimientos combinados y diagonales**.  
-- D-Pad tiene **prioridad para movimientos simples**.
-:::
+```
 
 ---
 
-## 5️⃣ Resultados 🏆
+## 5️⃣ Resultados
 
-::: success ✅
 - **Movimiento correcto del robot** usando el control PS4.  
 - Pruebas exitosas de **velocidad, giros y movimientos diagonales**.  
 - El robot **interactuó con la pelota y pudo marcar goles** durante las pruebas.  
 - Integración efectiva de los tres equipos (electrónica, programación y mecánica) para un **ensamblaje completo y funcional**.
-:::
 
-> 💡 **Nota:** Las pruebas ayudaron a calibrar la velocidad y la respuesta de los motores, así como a ajustar la palita de recolección de la pelota.
+::: success
+💡 **Nota:** Las pruebas ayudaron a calibrar la velocidad y la respuesta de los motores, así como a ajustar la palita de recolección de la pelota.
+:::
 
 ---
 
-## 6️⃣ Conclusión ✨
+## 6️⃣ Conclusión
 
-::: info 📌
+::: info
 - Se integraron **electrónica, programación y mecánica** en un proyecto práctico.  
 - Se logró una **sincronización hardware-software**, resultando en un robot funcional.  
 - El proyecto fortaleció habilidades de **trabajo en equipo, planificación y resolución de problemas**.  
-- Se comprobó que el robot podía **jugar futbol y competir con éxito**, cumpliendo el objetivo del proyecto.  
+- Se comprobó que el robot podía **jugar futbol y competir con éxito**, cumpliendo el objetivo del proyecto.
+
+💡 **Reflexión final:** Este proyecto demostró la importancia de la colaboración entre diferentes disciplinas y permitió crear un producto funcional y educativo, combinando creatividad, ingeniería y programación.
 :::
 
-> 📝 **Reflexión final:** Este proyecto demostró la importancia de la colaboración entre diferentes disciplinas y permitió crear un producto funcional y educativo, combinando creatividad, ingeniería y programación.
