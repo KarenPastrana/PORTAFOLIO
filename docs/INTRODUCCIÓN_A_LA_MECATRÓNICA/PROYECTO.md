@@ -4,9 +4,13 @@
 El objetivo del proyecto fue construir un **carro robot controlado por Bluetooth** capaz de **participar en una competencia de futbol de robots**, moviendo una pelota pequeña e intentando marcar goles en las porterías.  
 
 El equipo se dividió en **tres grupos**:  
-- 🛠️ **Electrónica:** cableado, motores, puente H, fusibles, baterias, etc.  
-- 💻 **Programación:** desarrollo del código para controlar el robot mediante un control PS4, conexión bluetooth del ESP32 a control de ps4.
+
+- 🛠️ **Electrónica:** cableado, motores, puente H, fusibles, baterías, etc.  
+
+- 💻 **Programación:** desarrollo del código para controlar el robot mediante un control PS4, conexión bluetooth del ESP32 al control PS4.  
+
 - ⚙️ **Mecánica:** diseño del chasis, carcasa del robot y palita para interactuar con la pelota.  
+
 
 Antes de iniciar, realizamos una **sesión de brainstorming** para planificar roles, materiales y estrategia de diseño.
 
@@ -128,16 +132,66 @@ void loop() {
 }
 
 // Funciones de movimiento
-void forward() { ledcWrite(R, Speed); ledcWrite(L, Speed); digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH); digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW); }
-void backward() { ledcWrite(R, Speed); ledcWrite(L, Speed); digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW); digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH); }
-void left() { ledcWrite(R, Speed); ledcWrite(L, Speed); digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH); digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH); }
-void right() { ledcWrite(R, Speed); ledcWrite(L, Speed); digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW); digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW); }
-void stop() { ledcWrite(R, 0); ledcWrite(L, 0); digitalWrite(IN1, LOW); digitalWrite(IN2, LOW); digitalWrite(IN3, LOW); digitalWrite(IN4, LOW); }
+void forward() {
+ledcWrite(R, Speed);
+ledcWrite(L, Speed);
+digitalWrite(IN1, LOW);
+digitalWrite(IN2, HIGH);
+digitalWrite(IN3, HIGH);
+digitalWrite(IN4, LOW);
+}
+
+void backward() {
+ledcWrite(R, Speed);
+ledcWrite(L, Speed);
+digitalWrite(IN1, HIGH);
+digitalWrite(IN2, LOW);
+digitalWrite(IN3, LOW);
+digitalWrite(IN4, HIGH);
+}
+void left() {
+ledcWrite(R, Speed);
+ledcWrite(L, Speed);
+digitalWrite(IN1, LOW);
+digitalWrite(IN2, HIGH);
+digitalWrite(IN3, LOW);
+digitalWrite(IN4, HIGH);
+}
+void right() {
+ledcWrite(R, Speed);
+ledcWrite(L, Speed);
+digitalWrite(IN1, HIGH);
+digitalWrite(IN2, LOW);
+digitalWrite(IN3, HIGH);
+digitalWrite(IN4, LOW);
+}
+void stop() {
+ledcWrite(R, 0);
+ledcWrite(L, 0);
+digitalWrite(IN1, LOW);
+digitalWrite(IN2, LOW);
+digitalWrite(IN3, LOW);
+digitalWrite(IN4, LOW);
+}
 void setMotor(int leftMotor, int rightMotor) {
-  if (leftMotor >= 0) { digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH); ledcWrite(L, leftMotor); }
-  else { digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW); ledcWrite(L, -leftMotor); }
-  if (rightMotor >= 0) { digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW); ledcWrite(R, rightMotor); }
-  else { digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH); ledcWrite(R, -rightMotor); }
+  if (leftMotor >= 0) {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  ledcWrite(L, leftMotor);
+}else {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  ledcWrite(L, -leftMotor);
+  }
+  if (rightMotor >= 0) {
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+  ledcWrite(R, rightMotor);
+}else {
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+  ledcWrite(R, -rightMotor);
+  }
 }
 ```
 
@@ -150,15 +204,21 @@ void setMotor(int leftMotor, int rightMotor) {
 - El robot **interactuó con la pelota y pudo marcar goles** durante las pruebas.  
 - Integración efectiva de los tres equipos (electrónica, programación y mecánica) para un **ensamblaje completo y funcional**.
 
+---
+
 ::: success
+
 💡 **Nota:** Las pruebas ayudaron a calibrar la velocidad y la respuesta de los motores, así como a ajustar la palita de recolección de la pelota.
+
+---
 :::
+
 
 ---
 
 ## 6️⃣ Conclusión
 
-:::
+::: info
 - Se integraron **electrónica, programación y mecánica** en un proyecto práctico.  
 - Se logró una **sincronización hardware-software**, resultando en un robot funcional.  
 - El proyecto fortaleció habilidades de **trabajo en equipo, planificación y resolución de problemas**.  
@@ -167,8 +227,5 @@ void setMotor(int leftMotor, int rightMotor) {
 💡 **Reflexión final:** Este proyecto demostró la importancia de la colaboración entre diferentes disciplinas y permitió crear un producto funcional y educativo, combinando creatividad, ingeniería y programación.
 :::
 
-::: success 🎖️ Ganador 🏆
-¡Nuestro equipo ganó **primer lugar** en la competencia de carritos jugando futbol!  
-:::
 
 
