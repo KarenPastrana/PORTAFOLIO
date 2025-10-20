@@ -86,5 +86,4 @@ La práctica permitió comprender cómo controlar un servomotor mediante PWM uti
 ---
 
 ## **Bibliografía**
-1. https://naylampmechatronics.com/blog/33_tutorial-uso-de-servomotores-con-arduino.html
-2. https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ledc.html
+1. _NaylampMechatronics: Tutorial uso de servomotores con arduino_. (s.f). https://naylampmechatronics.com/blog/33_tutorial-uso-de-servomotores-con-arduino.html
