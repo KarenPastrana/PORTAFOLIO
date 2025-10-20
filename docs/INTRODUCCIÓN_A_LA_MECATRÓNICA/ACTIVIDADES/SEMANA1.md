@@ -101,8 +101,8 @@ Cómo resaltar el texto:
 
 ```
 **Negrita**
-_Cursiva_
 ***Negrita y cursiva***
+_Cursiva_
 ~~Tachado~~
 ```
 
@@ -131,9 +131,11 @@ Para insertar una imagen:
 ```
 
 💡 **Notas:**
-- `src`: reemplaza `"ruta/de/tu/imagen.jpg"` por la ubicación real de tu archivo.
-- `alt`: texto que describe la imagen, útil para accesibilidad.
+
+- `src`: reemplaza `"ruta/de/tu/imagen.jpg"` por la ubicación real de tu archivo.  
+- `alt`: texto que describe la imagen, útil para accesibilidad.  
 - `width`: ajusta el ancho de la imagen según necesites.
+
 
 
 
@@ -145,9 +147,11 @@ Para insertar un video:
 ```
 
 💡 **Notas:**
-- `src`: reemplaza `"ruta/de/tu/video.mp4"` por la ubicación real de tu video.
-- `width`: ajusta el ancho del video según tu diseño.
-- `controls`: agrega los controles de reproducción (play, pausa, volumen).
+
+- `src`: reemplaza `"ruta/de/tu/video.mp4"` por la ubicación real de tu video.  
+- `width`: ajusta el ancho del video según tu diseño.  
+- `controls`: agrega los controles de reproducción (play, pausa, volumen).  
+
 
 Puedes agregar atributos para modificar el comportamiento del video:
 
@@ -159,10 +163,12 @@ Puedes agregar atributos para modificar el comportamiento del video:
 ```
 
 **Significado de los atributos:**
-- `autoplay` → el video se reproduce automáticamente al cargar la página.
-- Puedes agregar `autoplay` o `loop` si quieres que el video se reproduzca automáticamente o en bucle.
-- `muted` → inicia el video en silencio (recomendado si usas autoplay, ya que algunos navegadores no reproducen videos con sonido automáticamente).
-- Puedes combinarlos según necesites: `<video width="500" controls autoplay loop>`.
+
+- `autoplay` → el video se reproduce automáticamente al cargar la página.  
+- `loop` → el video se repite en bucle una vez que termina.  
+- `muted` → inicia el video en silencio (recomendado si usas autoplay, ya que algunos navegadores no reproducen videos con sonido automáticamente).  
+- Puedes combinarlos según necesites: `<video width="500" controls autoplay loop>`.  
+
 
 ---
 
@@ -179,6 +185,7 @@ Por ejemplo, en el archivo `index.md` se agregó un contenedor centrado con tít
 ```
 
 💡 **Notas:**
+
 - `align="center"` → centra el contenido.
 - `background-color` → define el color de fondo del contenedor.
 - `padding` → separa el contenido del borde.
@@ -196,6 +203,7 @@ También se añadieron botones con enlaces para dirigir a las diferentes seccion
 ```
 
 💡 **Notas:**
+
 - `href` → reemplaza con la URL real de tu sección.
 - `display:inline-block` → permite que el botón tenga tamaño definido y se alinee correctamente.
 - `background-color y color` → definen colores del botón y texto.
