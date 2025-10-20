@@ -1,22 +1,22 @@
-# Actividad 1: 🧭 Creación del Repositorio del Portafolio en GitHub 
+# Actividad 1: Creación del Repositorio del Portafolio en GitHub 
 
-## 📌 Descripción General
+## Descripción General
 Este repositorio es una bitácora digital creada en GitHub Pages utilizando MkDocs con el tema Material Design, lo que permite presentar la información de manera ordenada, visual y fácil de navegar. Su propósito es ofrecer un sitio atractivo, funcional y bien estructurado para documentar todas las actividades y proyectos del curso de **Introducción a la Mecatrónica** y **Proyectos de Ingeniería**.
 
 ---
 
-## ⚙️ 1. Creación del Repositorio
+## 1. Creación del Repositorio
 1. Se ingresó a la cuenta de GitHub y se creó un nuevo repositorio llamado **“Portafolio”**.  
 2. Dentro del repositorio, se presionó la tecla **`.` (punto)** para abrir el **editor en línea tipo Visual Studio Code**, lo que permitió editar archivos directamente desde el navegador.  
 3. Desde este entorno se crearon nuevas carpetas y archivos del proyecto usando las opciones:
-    - **Nuevo archivo:** `Archivo > Nuevo archivo` o clic derecho en el panel lateral.  
-    - **Nueva carpeta:** clic derecho > “New Folder”.  
+    - **Nuevo archivo:** 
+    - **Nueva carpeta:**
 4. Los archivos principales se guardaron con formato **Markdown (.md)**, ya que MkDocs utiliza este tipo de archivos para generar las páginas del sitio.
  
 
 ---
 
-## 🗂️ 2. Estructura de Carpetas
+## 2. Estructura de Carpetas
 La organización del proyecto se realizó dentro de una carpeta principal llamada `docs/`, que contiene todo el contenido visible del sitio.  
 
 La estructura quedó de la siguiente forma:
@@ -49,15 +49,15 @@ La estructura quedó de la siguiente forma:
 
 Cada carpeta tiene un propósito específico:
 
-- `assets/` → almacena imágenes y videos usados en las páginas.  
-- `Introducción a la Mecatrónica/` → contiene las actividades semanales.  
-- `Proyectos de Ingeniería/` → contiene las actividades semanales.  
+- `assets/` → almacena imágenes, videos y archivos usados en las páginas.  
+- `Introducción a la Mecatrónica/` → contiene las actividades de esa materia.  
+- `Proyectos de Ingeniería/` → contiene las actividades de esa materia.  
 - `index.md` → es la página principal del portafolio.
  
 
 ---
 
-## 🧱 3. Archivo Principal `mkdocs.yml`
+## 3. Archivo Principal `mkdocs.yml`
 El archivo `mkdocs.yml` define la configuración general del sitio web. Aquí se configuró el **nombre del sitio**, los **colores**, las **extensiones de Markdown** y el **tema visual**.
 
 Ejemplo del código usado:
@@ -79,15 +79,15 @@ theme:
         primary: purple
 ```
 
-💡 El color del **banner (encabezado)** se cambió modificando el valor de `primary`. 
-Se puede reemplazar por cualquier color como `blue`, `teal`, `red`, `green`, o incluso un código hexadecimal (por ejemplo `#4b0082`).
+El color del **banner (encabezado)** se cambió modificando el valor de `primary`. 
+Se puede reemplazar por cualquier color como `blue`, `red`, `green`, o incluso un código hexadecimal (por ejemplo `#4b0082`).
 
 ---
 
-## ✍️ 4. Edición del Contenido en Markdown
+##  4. Edición del Contenido en Markdown
 Cada página del sitio se escribió en formato **Markdown (.md)**, lo cual permite usar títulos, subtítulos, listas, texto en negrita o cursiva, imágenes y videos.
 
-### 🏷️ 1. Títulos y Subtítulos
+###  1. Títulos y Subtítulos
 Para definir la jerarquía de los títulos:
 
 ```markdown
@@ -96,7 +96,7 @@ Para definir la jerarquía de los títulos:
 ### Sub-subtítulo
 ```
 
-### ✨ 2. Estilos de Fuente
+### 2. Estilos de Fuente
 Cómo resaltar el texto:
 
 ```
@@ -106,7 +106,7 @@ _Cursiva_
 ~~Tachado~~
 ```
 
-### 📝 3. Listas y Numeraciones
+###  3. Listas y Numeraciones
 Listas numeradas:
 
 ```
@@ -123,14 +123,14 @@ Listas con viñetas:
 ```
 
 
-### 🖼️ 4. Imágenes y Videos (HTML)
+###  4. Imágenes y Videos (HTML)
 
 Para insertar una imagen:
 ```
 <img src="ruta/de/tu/imagen.jpg" alt="Descripción" width="320">
 ```
 
-💡 **Notas:**
+ **Notas:**
 
 - `src`: reemplaza `"ruta/de/tu/imagen.jpg"` por la ubicación real de tu archivo.  
 - `alt`: texto que describe la imagen, útil para accesibilidad.  
@@ -146,7 +146,7 @@ Para insertar un video:
 </video>
 ```
 
-💡 **Notas:**
+ **Notas:**
 
 - `src`: reemplaza `"ruta/de/tu/video.mp4"` por la ubicación real de tu video.  
 - `width`: ajusta el ancho del video según tu diseño.  
@@ -172,7 +172,7 @@ Puedes agregar atributos para modificar el comportamiento del video:
 
 ---
 
-## 🖥️ 5. Diseño y Personalización
+##  5. Diseño y Personalización
 En los archivos `.md`, se mezcló **Markdown con HTML** para lograr un diseño más visual.
 Por ejemplo, en el archivo `index.md` se agregó un contenedor centrado con títulos coloridos y botones con imágenes de fondo:
 
@@ -184,7 +184,7 @@ Por ejemplo, en el archivo `index.md` se agregó un contenedor centrado con tít
 </div>
 ```
 
-💡 **Notas:**
+ **Notas:**
 
 - `align="center"` → centra el contenido.
 - `background-color` → define el color de fondo del contenedor.
@@ -202,7 +202,7 @@ También se añadieron botones con enlaces para dirigir a las diferentes seccion
 </a>
 ```
 
-💡 **Notas:**
+ **Notas:**
 
 - `href` → reemplaza con la URL real de tu sección.
 - `display:inline-block` → permite que el botón tenga tamaño definido y se alinee correctamente.
@@ -212,7 +212,7 @@ También se añadieron botones con enlaces para dirigir a las diferentes seccion
 
 ---
 
-## 🌐 6. Publicación del Sitio en GitHub Pages
+##  6. Publicación del Sitio en GitHub Pages
 
 1. Se guardaron todos los archivos y se realizó un **commit** con los cambios.
 2. En el repositorio de GitHub, se fue a Settings → Pages.
@@ -224,14 +224,14 @@ Una vez publicado, cada modificación subida al repositorio se actualiza automá
 
 ---
 
-## 🧾 7. Resultado Final
-El resultado fue un portafolio web completo y personalizable, con una estructura clara y visualmente atractiva. El sitio permite acceder fácilmente a las actividades semanales, reportes y proyectos, incluyendo imágenes, videos, botones y estilos personalizados.
+##  7. Resultado Final
+El resultado fue un portafolio web completo y personalizable, con una estructura clara y visualmente atractiva. El sitio permite acceder fácilmente a las actividades semanales y proyectos, incluyendo imágenes, videos, botones y estilos personalizados.
 
 Gracias a MkDocs y GitHub Pages, el proceso de publicación es sencillo, y la apariencia del sitio puede modificarse libremente desde el archivo `mkdocs.yml` sin necesidad de programación avanzada.
 
 ---
 
-## 🪶 Conclusión General
+##  Conclusión General
 
 El desarrollo del repositorio permitió comprender el funcionamiento de GitHub Pages y MkDocs, la estructura de carpetas y archivos, así como la personalización de temas, colores y estilos mediante el uso de Markdown y HTML. Este portafolio se convierte así en una herramienta práctica y visual para documentar el avance dentro del curso.
 
