@@ -7,7 +7,7 @@
 
 ---
 
-## **Marco Teórico**
+## **Introducción**
 El temporizador 555 es un circuito integrado destacado por su versatilidad y facilidad de uso, el cual puede configurarse en tres modos: monoestable, biestable y astable.  
 En el modo astable, el temporizador 555 funciona como un oscilador, es decir, un generador de señales electrónicas periódicas. En este caso produce una onda cuadrada, donde la salida alterna entre el nivel alto (VCC) y el nivel bajo (0 V). La frecuencia de oscilación depende de dos resistencias externas (R1 y R2) y un capacitor (C1).  
 Las fórmulas que definen el tiempo en nivel alto (TH), el tiempo en nivel bajo (TL) y la frecuencia (F) son:  
