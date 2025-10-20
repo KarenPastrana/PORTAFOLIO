@@ -71,9 +71,9 @@ Lista de los materiales necesarios para el proyecto:
 - Ajustes de velocidad, calibración de motores y revisión de conexiones.
 
 <div align="center">
-<img src="../assets/imgs/PR1.jpg" alt="Resultado" width="310">
+<img src="../assets/imgs/PR1.jpg" alt="Resultado" width="320">
 
-<video width="160" controls>
+<video width="150" controls>
   <source src="../assets/Videos/PR2.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
@@ -82,7 +82,7 @@ Lista de los materiales necesarios para el proyecto:
 <img src="../assets/imgs/PR6.jpg" alt="Resultado" width="130">
 <img src="../assets/imgs/PR7.jpg" alt="Resultado" width="130">
 
-<video width="90" controls>
+<video width="130" controls>
   <source src="../assets/Videos/PR8.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
@@ -219,7 +219,7 @@ void setMotor(int leftMotor, int rightMotor) {
 - El robot **interactuó con la pelota y pudo marcar goles** durante la competencia.  
 - Integración de los tres equipos (electrónica, programación y mecánica) para un **ensamblaje funcional**.
 <div align="center">
-<img src="../assets/imgs/PR9.jpg" alt="Resultado" width="140">
+<img src="../assets/imgs/PR9.jpg" alt="Resultado" width="200">
 </div>
 ---
 
