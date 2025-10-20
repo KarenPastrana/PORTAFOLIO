@@ -145,7 +145,7 @@ Para insertar un video:
 ```
 
 💡 **Notas:**
-- `src`: reemplaza "ruta/de/tu/video.mp4" por la ubicación real de tu video.
+- `src`: reemplaza `"ruta/de/tu/video.mp4"` por la ubicación real de tu video.
 - `width`: ajusta el ancho del video según tu diseño.
 - `controls`: agrega los controles de reproducción (play, pausa, volumen).
 
