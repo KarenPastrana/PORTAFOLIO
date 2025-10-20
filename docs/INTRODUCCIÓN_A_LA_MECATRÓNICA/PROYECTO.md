@@ -202,30 +202,20 @@ void setMotor(int leftMotor, int rightMotor) {
 - **Movimiento correcto del robot** usando el control PS4.  
 - Pruebas exitosas de **velocidad, giros y movimientos diagonales**.  
 - El robot **interactuó con la pelota y pudo marcar goles** durante las pruebas.  
-- Integración efectiva de los tres equipos (electrónica, programación y mecánica) para un **ensamblaje completo y funcional**.
-
----
-
-::: success
+- Integración efectiva de los tres equipos (electrónica, programación y mecánica) para un **ensamblaje completo y funcional**.  
 
 💡 **Nota:** Las pruebas ayudaron a calibrar la velocidad y la respuesta de los motores, así como a ajustar la palita de recolección de la pelota.
-
----
-:::
-
 
 ---
 
 ## 6️⃣ Conclusión
 
-::: info
 - Se integraron **electrónica, programación y mecánica** en un proyecto práctico.  
 - Se logró una **sincronización hardware-software**, resultando en un robot funcional.  
 - El proyecto fortaleció habilidades de **trabajo en equipo, planificación y resolución de problemas**.  
 - Se comprobó que el robot podía **jugar futbol y competir con éxito**, cumpliendo el objetivo del proyecto.
 
 💡 **Reflexión final:** Este proyecto demostró la importancia de la colaboración entre diferentes disciplinas y permitió crear un producto funcional y educativo, combinando creatividad, ingeniería y programación.
-:::
 
 
 
