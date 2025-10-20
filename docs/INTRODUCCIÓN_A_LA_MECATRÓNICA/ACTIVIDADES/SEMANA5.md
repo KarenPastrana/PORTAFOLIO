@@ -73,14 +73,14 @@ Se configuró un circuito sencillo que permitiera controlar un LED desde un disp
 
 ## **Resultados**
 La comunicación Bluetooth se estableció correctamente entre la ESP32 y el dispositivo móvil. Al enviar el mensaje “ON” desde la aplicación, el LED se encendió, y al enviar “OFF”, el LED se apagó. Además, el monitor serial mostró los mensajes recibidos, confirmando la correcta recepción de datos. Esto validó el funcionamiento tanto del módulo Bluetooth como del control digital del LED.
-
+<div align="center">
 <img src="../../assets/imgs/BLUELED.jpg" alt="BLUELED" width="450">
 
-<video width="500" controls>
+<video width="300" controls>
   <source src="../../assets/Videos/BLUELED.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
-
+</div>
 ---
 
 ## **Conclusiones**
