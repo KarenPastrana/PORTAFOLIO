@@ -130,7 +130,7 @@ Para insertar una imagen:
 <img src="ruta/de/tu/imagen.jpg" alt="Descripción" width="320">
 ```
 
-💡 Notas:
+💡 **Notas:**
 - `src`: reemplaza `"ruta/de/tu/imagen.jpg"` por la ubicación real de tu archivo.
 - `alt`: texto que describe la imagen, útil para accesibilidad.
 - `width`: ajusta el ancho de la imagen según necesites.
@@ -227,6 +227,10 @@ Gracias a MkDocs y GitHub Pages, el proceso de publicación es sencillo, y la ap
 
 El desarrollo del repositorio permitió comprender el funcionamiento de GitHub Pages y MkDocs, la estructura de carpetas y archivos, así como la personalización de temas, colores y estilos mediante el uso de Markdown y HTML. Este portafolio se convierte así en una herramienta práctica y visual para documentar el avance dentro del curso.
 
+
+
+
+---
 
 
 
