@@ -5,7 +5,7 @@ Comprender el funcionamiento básico de la placa ESP32 mediante el control de un
 
 ---
 
-## **Marco Teórico**
+## **Introducción**
 El LED (Light Emitting Diode) es un componente electrónico que emite luz cuando una corriente eléctrica pasa a través de él. Para evitar que el LED se queme por exceso de corriente, se utiliza una resistencia que limita el paso de electricidad.
 
 La ESP32 es una placa de desarrollo basada en un microcontrolador que incluye WiFi y Bluetooth. Puede programarse con Arduino IDE, utilizando código en lenguaje C/C++. Uno de los primeros ejercicios al aprender a usar una placa microcontroladora es hacer parpadear un LED, lo que permite comprobar la correcta configuración del entorno de desarrollo y la comprensión de las funciones básicas:
@@ -79,9 +79,3 @@ La práctica permitió comprobar el funcionamiento básico de la placa ESP32 al 
 ## **Bibliografía**
 1. _MecatrónicaLATAM: Diodo LED_. (2021). https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/#que_es_un_diodo_led
 2. Cortés, A. (2022). Tutorial ESP32. _Acortes Software_. https://acortes.co/tutorial-esp32/
-
-
-
-
-
-
