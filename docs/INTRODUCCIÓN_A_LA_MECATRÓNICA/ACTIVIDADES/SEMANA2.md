@@ -39,18 +39,22 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 ---
 
 ## **Procedimiento**
-1. Calcular los valores de resistencias y capacitor para lograr un periodo de encendido y apagado del LED en un rango de 1-5 segundos.  
+1. Calcular los valores de resistencias y capacitor para lograr un periodo de encendido y apagado del LED en un rango de 1-5 segundos.
+<div align="center">
 <img src="../../assets/imgs/S1_Calculos.jpg" alt="Calculos" width="400">
-2. Armar el circuito 555 en el protoboard y alimentarlo conectando sus pines a Vcc y GND.  
-3. Conectar las resistencias y el capacitor de acuerdo a la configuración astable del 555.  
-4. Añadir el LED con su resistencia.  
-5. Alimentar el circuito con la fuente alimentadora.  
-6. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.
-<img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="250">
+</div>
+3. Armar el circuito 555 en el protoboard y alimentarlo conectando sus pines a Vcc y GND.  
+4. Conectar las resistencias y el capacitor de acuerdo a la configuración astable del 555.  
+5. Añadir el LED con su resistencia.  
+6. Alimentar el circuito con la fuente alimentadora.  
+7. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.
+<div align="center">
+<img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="300">
 <video width="320" controls>
   <source src="../../assets/imgs/S1_VideoMovVoltaje.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
+</div>
 
 ---
 
@@ -58,10 +62,12 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 - El LED parpadeó dentro del rango esperado: 5 segundos en nivel alto y 3 segundos en nivel bajo.  
 - En el osciloscopio se pudo observar ondas cuadradas con el periodo calculado.  
 - La frecuencia obtenida fue cercana a 0.133 Hz.
+<div align="center">
 <video width="500" controls>
   <source src="../../assets/imgs/S1_VideoFinal.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
+</div>
 
 ---
 
