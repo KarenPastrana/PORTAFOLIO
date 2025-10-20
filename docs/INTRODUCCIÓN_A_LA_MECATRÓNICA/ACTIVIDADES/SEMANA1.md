@@ -1,7 +1,7 @@
 # Actividad 1: 🧭 Creación del Repositorio del Portafolio en GitHub 
 
 ## 📌 Descripción General
-Este repositorio corresponde a una bitácora digital creada en GitHub Pages utilizando MkDocs con el tema Material Design que permite presentar la información de forma ordenada, visual y fácil de navegar. El propósito fue desarrollar un sitio organizado, atractivo y funcional para documentar todas las actividades y proyectos del curso de **Introducción a la Mecatrónica** y **Proyectos de Ingeniería**.
+Este repositorio es una bitácora digital creada en GitHub Pages utilizando MkDocs con el tema Material Design, lo que permite presentar la información de manera ordenada, visual y fácil de navegar. Su propósito es ofrecer un sitio atractivo, funcional y bien estructurado para documentar todas las actividades y proyectos del curso de **Introducción a la Mecatrónica** y **Proyectos de Ingeniería**.
 
 ---
 
@@ -47,11 +47,13 @@ La estructura quedó de la siguiente forma:
 ┗ 📜 requirements.txt
 ```
 
-Cada carpeta tiene un propósito específico:  
-- **assets/** → almacena imágenes y videos usados en las páginas.
-- **Introducción a la Mecatrónica/** → contiene las actividades semanales.
-- **Proyectos de Ingeniería/** → contiene las actividades semanales.
-- **index.md** → es la página principal del portafolio.  
+Cada carpeta tiene un propósito específico:
+
+- `assets/` → almacena imágenes y videos usados en las páginas.  
+- `Introducción a la Mecatrónica/` → contiene las actividades semanales.  
+- `Proyectos de Ingeniería/` → contiene las actividades semanales.  
+- `index.md` → es la página principal del portafolio.
+ 
 
 ---
 
@@ -77,7 +79,7 @@ theme:
         primary: purple
 ```
 
-💡 El color del banner (encabezado) se cambió modificando el valor de `primary`. 
+💡 El color del **banner (encabezado)** se cambió modificando el valor de `primary`. 
 Se puede reemplazar por cualquier color como `blue`, `teal`, `red`, `green`, o incluso un código hexadecimal (por ejemplo `#4b0082`).
 
 ---
@@ -99,12 +101,13 @@ Cómo resaltar el texto:
 
 ```
 **Negrita**
-*Cursiva*
+_Cursiva_
 ***Negrita y cursiva***
+~~Tachado~~
 ```
 
 ### 📝 3. Listas y Numeraciones
-Listas numeradas
+Listas numeradas:
 
 ```
 1. Primer paso
@@ -112,26 +115,54 @@ Listas numeradas
 3. Tercer paso
 ```
 
-Listas con viñetas
+Listas con viñetas:
 ```
 - Elemento de lista
-- Otro elemento
+* Otro elemento
++ Otro elemento
 ```
 
 
+### 🖼️ 4. Imágenes y Videos (HTML)
 
-🔹 **Imágenes y Videos**
 Para insertar una imagen:
 ```
-![Descripción](assets/imgs/imagen.jpg)
+<img src="ruta/de/tu/imagen.jpg" alt="Descripción" width="320">
 ```
 
-Para insertar un video (enlace o local):
+💡 Notas:
+- `src`: reemplaza `"ruta/de/tu/imagen.jpg"` por la ubicación real de tu archivo.
+- `alt`: texto que describe la imagen, útil para accesibilidad.
+- `width`: ajusta el ancho de la imagen según necesites.
+
+
+
+Para insertar un video:
 ```
 <video width="400" controls>
-  <source src="../assets/videos/demostracion.mp4" type="video/mp4">
+  <source src="ruta/de/tu/video.mp4" type="video/mp4">
 </video>
 ```
+
+💡 **Notas:**
+- `src`: reemplaza "ruta/de/tu/video.mp4" por la ubicación real de tu video.
+- `width`: ajusta el ancho del video según tu diseño.
+- `controls`: agrega los controles de reproducción (play, pausa, volumen).
+
+Puedes agregar atributos para modificar el comportamiento del video:
+
+```
+<video width="500" controls autoplay loop muted>
+  <source src="ruta/de/tu/video.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
+```
+
+**Significado de los atributos:**
+- `autoplay` → el video se reproduce automáticamente al cargar la página.
+- Puedes agregar `autoplay` o `loop` si quieres que el video se reproduzca automáticamente o en bucle.
+- `muted` → inicia el video en silencio (recomendado si usas autoplay, ya que algunos navegadores no reproducen videos con sonido automáticamente).
+- Puedes combinarlos según necesites: `<video width="500" controls autoplay loop>`.
 
 ---
 
@@ -139,7 +170,7 @@ Para insertar un video (enlace o local):
 En los archivos `.md`, se mezcló **Markdown con HTML** para lograr un diseño más visual.
 Por ejemplo, en el archivo `index.md` se agregó un contenedor centrado con títulos coloridos y botones con imágenes de fondo:
 
-```
+```html
 <div align="center" style="background-color:#f0f0f0; padding: 30px; border-radius: 15px;">
   <h1 style="color:#4b0082;">PORTAFOLIO</h1>
   <p style="font-size:18px;">Bienvenido(a).</p>
@@ -147,20 +178,35 @@ Por ejemplo, en el archivo `index.md` se agregó un contenedor centrado con tít
 </div>
 ```
 
+💡 **Notas:**
+- `align="center"` → centra el contenido.
+- `background-color` → define el color de fondo del contenedor.
+- `padding` → separa el contenido del borde.
+- `border-radius` → redondea las esquinas del contenedor o imagen.
+- `width` → ajusta el tamaño de la imagen según tu diseño.
+- Cambia `src` a la ruta de tu imagen real.
+
 También se añadieron botones con enlaces para dirigir a las diferentes secciones:
 
-```
+```html 
 <a href="https://usuario.github.io/PORTAFOLIO/INTRODUCCIÓN_A_LA_MECATRÓNICA/"
    style="display:inline-block; background-color:#4b0082; color:white; padding:15px 25px; border-radius:10px;">
    Ir a Introducción a la Mecatrónica
 </a>
 ```
 
+💡 **Notas:**
+- `href` → reemplaza con la URL real de tu sección.
+- `display:inline-block` → permite que el botón tenga tamaño definido y se alinee correctamente.
+- `background-color y color` → definen colores del botón y texto.
+- `padding` → ajusta el espacio interno del botón.
+- `border-radius` → redondea las esquinas del botón.
+
 ---
 
 ## 🌐 6. Publicación del Sitio en GitHub Pages
 
-1. Se guardaron todos los archivos y se realizó un commit con los cambios.
+1. Se guardaron todos los archivos y se realizó un **commit** con los cambios.
 2. En el repositorio de GitHub, se fue a Settings → Pages.
 3. En Source, se seleccionó la rama `main` y la carpeta `/docs`.
 4. GitHub generó automáticamente la página en línea con la URL:
@@ -179,7 +225,7 @@ Gracias a MkDocs y GitHub Pages, el proceso de publicación es sencillo, y la ap
 
 ## 🪶 Conclusión General
 
-El desarrollo del repositorio permitió comprender el funcionamiento de GitHub Pages y MkDocs, la estructura de carpetas y archivos, así como la personalización de temas, colores y estilos mediante el uso de Markdown y HTML. Este portafolio se convierte así en una herramienta práctica y visual para documentar el avance dentro del curso y los proyectos de ingeniería.
+El desarrollo del repositorio permitió comprender el funcionamiento de GitHub Pages y MkDocs, la estructura de carpetas y archivos, así como la personalización de temas, colores y estilos mediante el uso de Markdown y HTML. Este portafolio se convierte así en una herramienta práctica y visual para documentar el avance dentro del curso.
 
 
 
