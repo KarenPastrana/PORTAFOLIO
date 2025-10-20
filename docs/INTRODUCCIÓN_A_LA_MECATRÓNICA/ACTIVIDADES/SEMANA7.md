@@ -5,7 +5,7 @@ Comprender el funcionamiento de un motor servo controlado mediante una señal PW
 
 ---
 
-## **Marco Teórico**
+## **Introducción**
 Los servomotores son actuadores que permiten controlar de manera precisa la posición angular de su eje, generalmente en un rango de 0° a 180°. Estos motores reciben una señal PWM (modulación por ancho de pulso) desde un microcontrolador, donde la duración del pulso determina el ángulo de giro del servo.
 
 La ESP32 es un microcontrolador que permite generar señales PWM con resolución y frecuencia configurables, ideal para controlar servos. La función `ledcWrite()` se utiliza para enviar la señal PWM al pin correspondiente, y la función `map()` permite convertir un rango de grados a valores adecuados para la señal PWM.
