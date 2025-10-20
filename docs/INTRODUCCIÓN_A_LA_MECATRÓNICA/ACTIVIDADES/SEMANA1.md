@@ -19,6 +19,7 @@ Este repositorio corresponde a una bitácora digital creada en GitHub Pages util
 La organización del proyecto se realizó dentro de una carpeta principal llamada `docs/`, que contiene todo el contenido visible del sitio.  
 La estructura quedó de la siguiente forma:
 
+```
 📦 Portafolio/
 ┣ 📂 .github/
 ┣ 📂 docs/
@@ -42,7 +43,7 @@ La estructura quedó de la siguiente forma:
 ┣ 📜 README.md
 ┣ 📜 mkdocs.yml
 ┗ 📜 requirements.txt
-
+```
 
 Cada carpeta tiene un propósito específico:  
 - **assets/** → almacena imágenes y videos usados en las páginas.  
@@ -78,52 +79,70 @@ theme:
 💡 El color del banner (encabezado) se cambió modificando el valor de `primary`. 
 Se puede reemplazar por cualquier color como `blue`, `teal`, `red`, `green`, o incluso un código hexadecimal (por ejemplo `#4b0082`).
 
+---
 
 ## ✍️ 4. Edición del Contenido en Markdown
 Cada página del sitio se escribió en formato **Markdown (.md)**, lo cual permite usar títulos, subtítulos, listas, texto en negrita o cursiva, imágenes y videos.
+
 🔹 **Títulos y Subtítulos**
-# Título principal
-## Subtítulo
-### Sub-subtítulo
+- # Título principal
+- ## Subtítulo
+- ### Sub-subtítulo
+
 
 🔹 **Estilos de Fuente**
-**Negrita**
-*Cursiva*
-***Negrita y cursiva***
+- **Negrita**
+- *Cursiva*
+- ***Negrita y cursiva***
+
 
 🔹 **Listas y Numeraciones**
-1. Primer paso
-2. Segundo paso
-3. Tercer paso
+- 1. Primer paso
+- 2. Segundo paso
+- 3. Tercer paso
 
-- Elemento de lista
-- Otro elemento
+- - Elemento de lista
+- - Otro elemento
+
+
 
 🔹 **Imágenes y Videos**
 Para insertar una imagen:
+```
 ![Descripción](assets/imgs/imagen.jpg)
+```
 
 Para insertar un video (enlace o local):
+```
 <video width="400" controls>
   <source src="../assets/videos/demostracion.mp4" type="video/mp4">
 </video>
+```
+
+---
 
 ## 🖥️ 5. Diseño y Personalización
 En los archivos `.md`, se mezcló **Markdown con HTML** para lograr un diseño más visual.
 Por ejemplo, en el archivo `index.md` se agregó un contenedor centrado con títulos coloridos y botones con imágenes de fondo:
 
+```
 <div align="center" style="background-color:#f0f0f0; padding: 30px; border-radius: 15px;">
   <h1 style="color:#4b0082;">PORTAFOLIO</h1>
   <p style="font-size:18px;">Bienvenido(a).</p>
   <img src="assets/imgs/ibero.jpeg" width="300" style="border-radius:15px;">
 </div>
+```
 
 También se añadieron botones con enlaces para dirigir a las diferentes secciones:
 
+```
 <a href="https://usuario.github.io/PORTAFOLIO/INTRODUCCIÓN_A_LA_MECATRÓNICA/"
    style="display:inline-block; background-color:#4b0082; color:white; padding:15px 25px; border-radius:10px;">
    Ir a Introducción a la Mecatrónica
 </a>
+```
+
+---
 
 ## 🌐 6. Publicación del Sitio en GitHub Pages
 
@@ -135,10 +154,14 @@ También se añadieron botones con enlaces para dirigir a las diferentes seccion
 
 Una vez publicado, cada modificación subida al repositorio se actualiza automáticamente en el sitio.
 
+---
+
 ## 🧾 7. Resultado Final
 El resultado fue un portafolio web completo y personalizable, con una estructura clara y visualmente atractiva. El sitio permite acceder fácilmente a las actividades semanales, reportes y proyectos, incluyendo imágenes, videos, botones y estilos personalizados.
 
 Gracias a MkDocs y GitHub Pages, el proceso de publicación es sencillo, y la apariencia del sitio puede modificarse libremente desde el archivo `mkdocs.yml` sin necesidad de programación avanzada.
+
+---
 
 ## 🪶 Conclusión General
 
