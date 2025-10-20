@@ -49,7 +49,7 @@ Se realizó el cálculo de los valores de R<sub>1</sub>, R<sub>2</sub> y C<sub>1
 6. Alimentar el circuito con la fuente alimentadora.  
 7. Verificar el parpadeo del LED, medir la señal en el osciloscopio y observar la forma de onda.
 <div align="center">
-<img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="300">
+<img src="../../assets/imgs/S1_Final.jpg" alt="Final" width="250">
 <video width="320" controls>
   <source src="../../assets/imgs/S1_VideoMovVoltaje.mp4" type="video/mp4">
   Tu navegador no soporta video.
