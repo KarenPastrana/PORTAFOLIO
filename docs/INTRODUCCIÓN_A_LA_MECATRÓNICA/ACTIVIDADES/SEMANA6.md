@@ -5,7 +5,7 @@ Implementar el control de un motor de corriente directa (DC) utilizando un puent
 
 ---
 
-## **Marco teórico**
+## **Introducción**
 Un **motor DC** convierte energía eléctrica en energía mecánica rotacional. El **puente H** permite controlar la dirección del giro invirtiendo la polaridad aplicada al motor, mientras que la **modulación por ancho de pulso (PWM)** se utiliza para ajustar su velocidad variando el ciclo de trabajo de la señal enviada al motor.
 
 La **ESP32** dispone de canales de PWM integrados, que pueden configurarse mediante las funciones `ledcAttachChannel()` y `ledcWrite()`. Estas permiten generar señales con frecuencias y resoluciones específicas para controlar dispositivos como motores o servos.
