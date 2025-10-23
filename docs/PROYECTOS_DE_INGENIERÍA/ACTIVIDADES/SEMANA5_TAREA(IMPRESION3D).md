@@ -162,32 +162,35 @@ Cuando terminé el modelado, guardé el archivo y lo abrí en la aplicación Ult
 Luego, coloqué la memoria en la impresora, seleccioné el archivo correspondiente a mi figura y presioné “Play” para iniciar el proceso de calibración y posteriormente la impresión. Durante los primeros minutos, observé con atención que el filamento se adhiriera correctamente a la base y que no hubiera errores en las primeras capas.
 
 <div align="center">
-<video width="300" controls>
-  <source src="../../assets/videos/GusanoBase.mp4" type="video/quicktime">
-  </video>
+<video width="400" controls>
+  <source src="../../assets/videos/GusanoBase.mp4" type="video/mp4">
+</video>
 </div>
 
 <div align="center">
-<video width="300" controls>
-  <source src="../../assets/videos/GusanoBase2.mp4" type="video/quicktime">
-  </video>
+<video width="400" controls>
+  <source src="../../assets/videos/GusanoBase2.mp4" type="video/mp4">
+</video>
 </div>
 
 <div align="center">
-<video width="300" controls>
-  <source src="../../assets/videos/GusanoEst.mp4" type="video/quicktime">
-  </video>
+<video width="400" controls>
+  <source src="../../assets/videos/GusanoEst.mp4" type="video/mp4">
+</video>
 </div>
+
 
 Al finalizar la impresión, retiré con cuidado la pieza de la cama de la impresora y limpié los restos de material sobrante. Después, utilicé unas pinzas para quitar los soportes y liberar las uniones, permitiendo que la figura tuviera movilidad. De esta forma, la pieza articulada quedó completamente terminada y funcional.
 
 ### Resultado
 
+
 <div align="center">
-<video width="300" controls>
-  <source src="../../assets/videos/GusanoImpF.mp4" type="video/quicktime">
-  </video>
+<video width="400" controls>
+  <source src="../../assets/videos/GusanoImpF.mp4" type="video/mp4">
+</video>
 </div>
+
 
 <div align="center">
   <img src="../../assets/imgs/GusanoFI.jpg" alt="Sam" width="500">
