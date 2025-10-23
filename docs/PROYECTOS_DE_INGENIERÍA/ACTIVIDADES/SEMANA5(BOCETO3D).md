@@ -31,7 +31,7 @@ Asimismo, realicé el curso de Fabricación Digital en el IDIT Academy, el cual 
 
 ---
 
-## Impresión 3D de Figura Articulada Samantha Ramírez
+## Impresión 3D de Figura Articulada (Parte 1) Samantha Ramírez
 La impresión 3D es una técnica que permite crear objetos físicos a partir de modelos digitales, agregando material capa por capa hasta formar la pieza final. Esta tecnología se usa mucho en diseño y prototipado porque facilita fabricar objetos con formas complejas de manera rápida y precisa.
 
 En esta actividad, el objetivo fue diseñar y fabricar una figura 3D articulada, similar a una cadena, en la que las piezas estuvieran unidas y pudieran moverse entre sí. Antes de comenzar el diseño, busqué ideas e inspiración de figuras 3D articuladas para entender cómo eran sus uniones y cómo lograban el movimiento. Después de analizar varios ejemplos, decidí crear una figura con forma de gusano, donde la cabeza estaría unida al cuerpo y los diferentes segmentos tendrían uniones que permitirían flexibilidad, simulando el efecto de una cadena.
