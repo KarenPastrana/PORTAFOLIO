@@ -38,7 +38,7 @@ En esta actividad, el objetivo fue diseñar y fabricar una figura 3D articulada,
 
 
 <div align="center">
-  <img src="../../assets/imgs/gusano insp.jpg" alt="Sam" width="500">
+  <img src="../../assets/imgs/gusano insp.jpg" alt="Sam" width="300">
 </div>
 
 
