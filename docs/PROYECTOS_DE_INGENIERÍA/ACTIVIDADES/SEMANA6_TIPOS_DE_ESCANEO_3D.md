@@ -78,9 +78,5 @@ En conclusión, el escaneo 3D no solo facilita la digitalización del entorno, s
 </div>
 
 
-<div align="center">
-  <img src="../../assets/imgs/Parte1_Karen.jpg" alt="Karen" width="500">
-</div>
-
 
 
