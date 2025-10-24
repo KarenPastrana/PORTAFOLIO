@@ -56,7 +56,7 @@ En conclusión, el escaneo 3D no solo facilita la digitalización del entorno, s
 ## DISEÑO DE PERSONAJE 3D
 
 <div align="center">
-  <img src="../../assets/imgs/PERSONAJE_GATO3D_GEMINI.PNG" alt="Karen" width="500">
+  <img src="../../assets/imgs/PERSONAJE_GATO3D_GEMINI.png" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
