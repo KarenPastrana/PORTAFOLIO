@@ -1,6 +1,6 @@
 # SEMANA 7 DOBLADO Y CORTADO DE METAL
 
-## Medición de la pieza
+## Medición de la pieza-Karen
 El primer paso siempre es la medición y el trazado del material, y para esto se utiliza generalmente el vernier. Esta herramienta es fundamental para obtener medidas exactas en milímetros o pulgadas, ya sea en su versión análoga o digital.
 
 El vernier se compone de dos escalas: una fija (escala principal) y una móvil (nonius o escala vernier). Para medir, se coloca la pieza entre las mordazas del instrumento:
@@ -26,3 +26,4 @@ En el doblado, se utilizan dobladoras de metal, que aplican presión sobre la l�
 ## Unión de piezas
 Finalmente, para unir las piezas, se usa una máquina de soldadura por puntos, que aplica corriente eléctrica a través de dos electrodos. Al hacer contacto con las superficies metálicas, el calor generado funde una pequeña zona entre ambas, logrando una unión firme sin necesidad de agregar material adicional.
 
+---
