@@ -1,7 +1,7 @@
 # SEMANA 6 ESCANEO 3D Y DISEÑO DE PERSONAJE 3D
 ---
-## ESCANEO 3D
-## ¿Qué es el escaneo 3D?-
+## ESCANEO 3D-Karen
+## ¿Qué es el escaneo 3D?
 
 El escaneo 3D consiste en capturar la forma, tamaño y textura de un objeto o espacio real para convertirlo en un modelo digital tridimensional.
 Este proceso permite analizar, modificar o reproducir piezas, estructuras y entornos con gran precisión.
@@ -79,5 +79,5 @@ En conclusión, el escaneo 3D no solo facilita la digitalización del entorno, s
   </a>
 </div>
 
-
+---
 
