@@ -1,6 +1,7 @@
 # SEMANA 5 TAREA (IMPRESIÓN 3D)
 
-## Diseño de impresión 3D
+## Impresión 3D para figura articulada (Parte 2)-Karen
+
 
 ### Parte 1 (Cabeza)
 
