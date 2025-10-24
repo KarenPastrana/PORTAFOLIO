@@ -113,11 +113,6 @@
   <img src="../../assets/imgs/PIEZA_FINAL2_KAREN.jpeg" alt="Karen" width="220">
 </div>
 
-<div align="center">
-<video width="300" controls>
-  <source src="../../assets/videos/PIEZA_FINAL_KAREN.mov" type="video/quicktime">
-  </video>
-</div>
 
 
 
