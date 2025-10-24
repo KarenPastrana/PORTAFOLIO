@@ -59,6 +59,12 @@ En conclusión, el escaneo 3D no solo facilita la digitalización del entorno, s
   <img src="../../assets/imgs/PERSONAJE_GATO3D_GEMINI.png" alt="Karen" width="500">
 </div>
 
+
+<div align="center">
+  <img src="../../assets/imgs/PERSONAJE_GATO3D_FOTO.jpg" alt="Karen" width="500">
+</div>
+
+
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/PERSONAJE_GATO3D.STL" download>
@@ -72,11 +78,6 @@ En conclusión, el escaneo 3D no solo facilita la digitalización del entorno, s
     <img src="https://img.shields.io/badge/Descargar-usdz-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar usdz">
   </a>
 </div>
-
-<div align="center">
-  <img src="../../assets/imgs/PERSONAJE_GATO3D_FOTO.jpg" alt="Karen" width="500">
-</div>
-
 
 
 
