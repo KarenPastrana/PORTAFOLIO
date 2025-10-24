@@ -1,5 +1,7 @@
 # SEMANA 5 (BOCETO 3D)
 
+## Boceto de impresión 3D para figura articulada (Parte 1)-Karen
+
 La impresión 3D requiere un proceso específico. Este comienza con la creación de un boceto a mano, que captura las ideas principales del diseño.
 
 Para crear mi boceto, busqué ideas en línea y encontré una imagen de referencia que me gustó, la cual usé como base para crear el diseño de mi ensamblaje.
