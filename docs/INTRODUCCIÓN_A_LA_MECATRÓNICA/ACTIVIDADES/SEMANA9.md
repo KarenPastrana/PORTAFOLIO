@@ -477,8 +477,8 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S9I1.png" alt="/Servo" width="310">
-  <img src="../../assets/imgs//S9I1-2.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I11.png" alt="/Servo" width="310">
+  <img src="../../assets/imgs//S9I11-2.png" alt="/Servo" width="310">
 </div>
 
 ---
