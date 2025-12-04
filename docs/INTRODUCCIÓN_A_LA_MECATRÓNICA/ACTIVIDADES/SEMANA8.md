@@ -25,7 +25,7 @@ while True:
         break
  
 video.release()
- ```
+```
 
 <div align="center">
 <img src="../../assets/imgs//S8I1.jpg" alt="/Servo" width="310">
@@ -56,7 +56,7 @@ while True:
         break
  
 video.release()
- ```
+```
 
 <div align="center">
 <img src="../../assets/imgs//S8I2.png" alt="/Servo" width="310">
@@ -88,7 +88,7 @@ while True:
         break
  
 video.release()
- ```
+```
 
 <div align="center">
 <img src="../../assets/imgs//S8I3.png" alt="/Servo" width="310">
