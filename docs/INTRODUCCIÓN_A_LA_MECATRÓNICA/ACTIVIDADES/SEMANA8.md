@@ -1,6 +1,8 @@
 # Actividad 8: Captura y Visualización de Video en Tiempo Real con OpenCV
 
-## Captura y visualización de video:
+## 1. Captura básica y visualización de video:
+
+Descripción: Se captura video desde la cámara y se muestra en una ventana en tiempo real, además, se imprime la resolución de cada frame.
 
 ```cpp
 import cv2
@@ -33,7 +35,9 @@ video.release()
 
 ---
 
-## Realización de linea cruzada:
+## 2. Dibujo de línea cruzada sobre el video
+
+Descripción: Se obtiene el video en tiempo real y se dibuja una línea diagonal sobre una copia del frame, mostrando el video original y el modificado.
 
 ```cpp
 import cv2
@@ -64,7 +68,9 @@ video.release()
 
 ---
 
-## Realización de rectángulo y linea:
+## 3. Dibujo de línea y rectángulo:
+
+Descripción: Se agrega una línea diagonal y un rectángulo que enmarca toda la imagen, lo cual genera una vista con figuras geométricas superpuestas al video.
 
 ```cpp
 import cv2
@@ -96,7 +102,9 @@ video.release()
 
 ---
 
-## Realización de rectángulo, linea y círculo:
+## 4. Dibujo de línea, rectángulo y círculo:
+
+Descripción: Se combinan tres figuras: una línea diagonal, un rectángulo y un círculo centrado, todos dibujados sobre el video en tiempo real.
 
 ```cpp
 import cv2
