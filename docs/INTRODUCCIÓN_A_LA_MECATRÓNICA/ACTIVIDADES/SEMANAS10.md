@@ -1,6 +1,8 @@
-# Actividad 10: Continuación Captura, Visualización de Video en Tiempo Real e iniciación del poryecto
+# Actividad 10: Continuación Captura, Visualización de Video e Iniciación del Proyecto
 
-## Idenntificar pelota verde:
+## 1. Identificación de pelota verde mediante máscara HSV:
+
+Descripción: Se detecta el color verde dentro del video usando el espacio HSV y se obtiene el contorno más grande para localizar la pelota.
 
 ```cpp
 import cv2
@@ -60,7 +62,9 @@ video.release()
 
 ---
 
-## Detallado de identificación de contorno de pelota:
+## 2. Detección de contorno de pelota con marcación gráfica:
+
+Descripción: Se calcula el contorno más grande y se dibuja un círculo alrededor de la pelota, además de un punto en su centro.
 
 ```cpp
 import cv2
@@ -122,7 +126,9 @@ video.release()
 
 ---
 
-## Detallado de identificación de contorno de pelota y asignación de errores:
+## 3. Detección de pelota con cálculo de errores de posición:
+
+Descripción: Se identifican la posición X y Y de la pelota respecto al centro de la cámara y se determina si está a la izquierda, derecha, arriba o abajo.
 
 ```cpp
 import cv2
@@ -210,7 +216,9 @@ video.release()
 
 ---
 
-## Código para conectar ESP32 mediante Bluetooth:
+## 4. Conexión Bluetooth con ESP32 para envío de datos:
+
+Descripción: Se establece conexión Bluetooth con un ESP32 y se envían comandos basados en la posición de la pelota detectada en la cámara.
 
 ```cpp
 import cv2
