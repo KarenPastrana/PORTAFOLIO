@@ -181,7 +181,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S9I5.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I5.jpeg" alt="/Servo" width="310">
 </div>
 
 ---
@@ -256,7 +256,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S9I7.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I7.jpeg" alt="/Servo" width="310">
 </div>
 
 ---
