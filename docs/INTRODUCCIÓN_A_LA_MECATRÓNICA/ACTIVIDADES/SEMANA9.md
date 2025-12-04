@@ -1,6 +1,8 @@
 # Actividad 9: Continuación Captura, Visualización de Video en Tiempo Real con OpenCV y Creación de Máscaras
 
-## Texto y animación de círculo:
+## 1. Texto y animación de círculo:
+
+Descripción: Se dibuja una línea, rectángulo y círculo cuya posición cambia en cada frame para simular movimiento; además, se agrega un texto superpuesto.
 
 ```cpp
 import cv2
@@ -40,7 +42,9 @@ video.release()
 
 ---
 
-## Blanco y negro:
+## 2. Conversión a blanco y negro:
+
+Descripción: Se transforma la imagen capturada en tiempo real a escala de grises mediante la función "cvtColor".
 
 ```cpp
 import cv2
@@ -75,7 +79,9 @@ video.release()
 
 ---
 
-## Colores azules:
+## 3. Alteración de colores hacia tonalidades azules:
+
+Descripción: El espacio de color del frame se transforma de BGR a RGB, produciendo un efecto visual donde predominan tonos azules.
 
 ```cpp
 import cv2
@@ -111,7 +117,9 @@ video.release()
 
 ---
 
-## Colores amarillos:
+## 4. Filtro amarillo desactivando el canal azul:
+
+Descripción: Se eliminan los valores del canal azul (índice 0), generando una imagen con predominancia de tonos amarillos.
 
 ```cpp
 import cv2
@@ -149,7 +157,9 @@ video.release()
 ---
 
 
-## TColores rosas:
+## 5. Tonos rosas desactivando el canal verde:
+
+Descripción: Se anula el canal verde (índice 1), haciendo que los colores se modifiquen hacia gamas rosadas.
 
 ```cpp
 import cv2
@@ -186,7 +196,9 @@ video.release()
 
 ---
 
-## Colores rojos:
+## 6. Tonos rojos desactivando los canales azul y verde:
+
+Descripción: Se desactivan los canales azul y verde, dejando únicamente el canal rojo para mostrar un efecto monocromático rojizo.
 
 ```cpp
 import cv2
@@ -223,7 +235,9 @@ video.release()
 
 ---
 
-## División de cámara y pedazos por colores:
+## 7. División de la cámara por secciones de color:
+
+Descripción: Se manipulan regiones específicas del frame asignando cambios en los canales de color, creando cuadrantes con efectos distintos.
 
 ```cpp
 import cv2
@@ -261,7 +275,9 @@ video.release()
 
 ---
 
-## Creación de máscara:
+## 8. Creación de máscara para detección de color azul:
+
+Descripción: La imagen se convierte a HSV y se genera una máscara que detecta el color azul dentro del rango establecido, mostrando imagen original, máscara y resultado.
 
 ```cpp
 import cv2
@@ -308,7 +324,9 @@ video.release()
 ---
 
 
-## Creación de máscara coon difrenete color:
+## 9. Creación de máscara con rango ampliado de color:
+
+Descripción: Se aplica una máscara con un rango más amplio en HSV, permitiendo detectar más tonalidades del color objetivo y mostrando la segmentación resultante.
 
 ```cpp
 import cv2
@@ -354,7 +372,9 @@ video.release()
 
 ---
 
-## Detectar caras:
+## 10. Detección de caras con red neuronal (DNN):
+
+Descripción: Se utiliza un modelo entrenado (Caffe SSD) para detectar rostros en tiempo real, dibujando un recuadro y mostrando la confianza de detección.
 
 ```cpp
 import cv2
@@ -436,7 +456,9 @@ cv2.destroyAllWindows()
 
 ---
 
-## Detectar color verde:
+## 11. Detección de color verde:
+
+Descripción: Se convierte la imagen a HSV y se crea una máscara que identifica tonos verdes dentro del rango especificado, mostrando la segmentación del color en tiempo real.
 
 ```cpp
 import cv2
