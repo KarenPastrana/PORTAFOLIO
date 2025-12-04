@@ -59,7 +59,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I2.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S812.png" alt="/Servo" width="310">
 </div>
 
 ---
