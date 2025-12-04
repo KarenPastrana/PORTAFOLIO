@@ -1,6 +1,8 @@
-# Actividad 11: Continuación del poryecto
+# Actividad 11: Continuación del Proyecto (Seguimiento de Pelota y Control por Bluetooth)
 
-## Código con OpenCV y Arduino
+## 1. Detección de Pelota Verde mediante Visión por Computadora:
+
+Descripción: Se utiliza OpenCV para capturar video, aplicar una máscara HSV y localizar la pelota identificando su contorno, centro y radio.
 
 ```cpp
 import cv2
@@ -147,7 +149,9 @@ void loop() {
 
 ---
 
-## Código para verificar posición de pelota y para Arduino:
+## 2. Envío de Errores de Posición (X,Y) al ESP32 para Lectura en Arduino:
+
+Descripción: Obtiene el centro de la pelota, calcula el error en X y Y y lo envía al ESP32 como una cadena “errorX,errorY”.
 
 ```cpp
 import cv2
@@ -286,7 +290,9 @@ void loop() {
 
 ---
 
-## Código con posición de pelota y mover servos de acuerdo al error:
+## 3. Control de Servomotores según los Errores de la Pelota
+
+Descipción: El ESP32 recibe los errores enviados por Python, los convierte en ángulos y mueve suavemente los servos para seguir la pelota.
 
 ```cpp
 import cv2
