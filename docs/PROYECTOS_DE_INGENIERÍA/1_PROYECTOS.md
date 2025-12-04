@@ -113,6 +113,42 @@
       </a>
     </div>
 
+  <!-- Semana 8 -->
+    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
+      <h2 style="color:#228b22;">Semana 8</h2>
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA8_ROUTER/" 
+         style="display:block; background-image:url('../assets/imgs/FW8.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         Semana 8
+      </a>
+    </div>
+
+    <!-- Semana 8 Tarea -->
+    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
+      <h2 style="color:#228b22;">Semana 8 Tarea</h2>
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA8_TAREA_MOLDE/"
+         style="display:block; background-image:url('../assets/imgs/FW4_1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         Semana 8 Tarea
+      </a>
+    </div>
+
+  <!-- Semana 9 -->
+    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
+      <h2 style="color:#228b22;">Semana 9</h2>
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA9_CODIGOS_TABLA/" 
+         style="display:block; background-image:url('../assets/imgs/FW7.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         Semana 9
+      </a>
+    </div>
+
+    <!-- Semana 9 Tarea -->
+    <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
+      <h2 style="color:#228b22;">Semana 9 Tarea</h2>
+      <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA9_TAREA_TABLA/"
+         style="display:block; background-image:url('../assets/imgs/FW4_1.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         Semana 9 Tarea
+      </a>
+    </div>
+
 
 
   </div>
