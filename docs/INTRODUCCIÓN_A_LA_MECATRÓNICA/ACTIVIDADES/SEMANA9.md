@@ -70,7 +70,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I2.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I2.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -106,7 +106,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I3.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I3.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -143,7 +143,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I4.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I4.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -218,7 +218,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I6.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I6.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -256,7 +256,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I7.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I7.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -302,7 +302,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I8.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I8.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -349,7 +349,7 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I9.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I9.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -431,7 +431,7 @@ cv2.destroyAllWindows()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I10.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I10.png" alt="/Servo" width="310">
 </div>
 
 ---
@@ -477,8 +477,8 @@ video.release()
 ```
 
 <div align="center">
-<img src="../../assets/imgs//S8I1.png" alt="/Servo" width="310">
-  <img src="../../assets/imgs//S8I1-2.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I1.png" alt="/Servo" width="310">
+  <img src="../../assets/imgs//S9I1-2.png" alt="/Servo" width="310">
 </div>
 
 ---
