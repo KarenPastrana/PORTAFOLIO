@@ -62,7 +62,7 @@ Incluye toda la herramienta, desde el filo hasta el zanco.
 Es la parte de la punta que entra al router y debe coincidir con el portabrocas (collet). (Un zanco grueso da más estabilidad).
 
 
- ## Tipos de puntas del router CNC
+## Tipos de puntas del router CNC
 
 ### 1. Punta recta (Straight Bit)
 
