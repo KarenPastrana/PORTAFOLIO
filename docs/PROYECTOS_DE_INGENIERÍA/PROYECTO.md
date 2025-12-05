@@ -37,7 +37,7 @@ Para la pala de la catapulta, decidimos fabricarla mediante impresión 3D. Prime
 
 <!-- Botón de descarga -->
 <div align="center">
-  <a href="../assets/archivosPALA3D.SLDPRT" download>
+  <a href="../assets/archivos/PALA3D.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -54,3 +54,42 @@ Este proceso nos permitió aplicar diseño, manufactura digital, materiales e in
   <img src="../../assets/imgs/P8.jpg" alt="Karen" width="500">
 </div>
 
+## MUÑECO PARA EL CAMPO DE BATALLA
+
+Como complemento a la catapulta, elaboré un muñeco para colocarlo en el “campo de batalla”. Para esto primero diseñé el cuerpo creando las piezas en SolidWorks y generando el DXF para cortarlo y grabarlo en MDF con corte laser.
+
+<div align="center">
+  <img src="../assets/imgs/MUÑECOMDF.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/MUÑECOMDF.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+La parte más interesante fue la cabeza del muñeco, ya que decidí personalizarla. Me tomé una fotografía y la edité con ayuda de Gemini, para limpiar el fondo y añadir un casco para que se viera acorde al estilo medieval. Después de obtener la imagen editada, la subí a Tripo 3D, una inteligencia artificial que genera modelos 3D a partir de fotografías. Ahí se creó automáticamente la cabeza en 3D y pude descargar el archivo en formato STL.
+
+<div align="center">
+  <img src="../assets/imgs/P9.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/P10.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/P11.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/P12.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/CABEZA.STL" download>
+    <img src="https://img.shields.io/badge/Descargar-STL-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar STL">
+  </a>
+</div>
+
+Con el modelo listo, lo envié a impresión 3D, estableciendo como límite un tamaño máximo de 4 cm por cada lado para que fuera proporcional al cuerpo del muñeco. Una vez impresa la pieza, simplemente la uní con el resto de las partes de MDF.
+
+Con esto concluí todo el proyecto: la catapulta funcional, sus mecanismos, la pala impresa en 3D, el sistema de cuerdas y el muñequito personalizado.
+
+<div align="center">
+  <img src="../assets/imgs/P13.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/P14.jpg" alt="Karen" width="500">
+</div>
