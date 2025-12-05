@@ -3,7 +3,7 @@
 Para esta tarea realicé un diseño para cortar en espuma rosa utilizando el router CNC. Como primer paso, seleccioné una imagen de inspiración, la cual me ayudó a definir la forma general y los elementos principales del modelo.
 
 <div align="center">
-<img src="../assets/imgs/S8MOLDE_INSPIACION.jpg" alt="Resultado" width="200">
+<img src="../assets/imgs/S8MOLDE_INSPIRACION.jpg" alt="Resultado" width="200">
 </div>
 
 A partir de esta referencia, enocntré una imagen con medidas y las aproximé a las que yo quería, asegurándome de considerar las dimensiones reales del material y las limitaciones de la máquina.
