@@ -25,9 +25,6 @@ En VCarve configuré la profundidad de corte, la velocidad de avance y el tipo d
 
 Finalmente, generé los códigos G-code correspondientes a cada herramienta, asegurándome de guardar las trayectorias por separado para evitar errores al momento del corte. Con esto obtuve los archivos listos para la CNC.
 
-<div align="center">
-  <img src="../../assets/imgs/Tabla_Karen.jpeg" alt="Karen" width="500">
-</div>
 
 
 <!-- Botón de descarga -->
