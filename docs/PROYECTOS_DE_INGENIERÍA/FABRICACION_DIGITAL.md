@@ -573,6 +573,47 @@
 
 ## Dibujo 39 Karen Pastrana
 
+### Pieza 1
+
+<div align="center">
+  <img src="../assets/imgs/Pieza1.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Pieza1.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+### Pieza 2
+
+<div align="center">
+  <img src="../assets/imgs/Pieza2.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Pieza2.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+### Pieza 3
+
+<div align="center">
+  <img src="../assets/imgs/Pieza3.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Pieza3.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+### Ensamble
+
 <div align="center">
   <img src="../assets/imgs/Dibujo39_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
