@@ -13,7 +13,7 @@ Para la elaboración de los códigos para cortar una tabla con mi apellido prime
   </a>
 </div>
 
-Posteriormente, utilicé el software VCarve. El proceso inició con la importación de mi diseño y la definición del tamaño del material, configurando las dimensiones de la espuma rosa y el grosor real del bloque.
+Posteriormente, utilicé el software VCarve. El proceso inició con la importación de mi diseño y la definición del tamaño del material, configurando las dimensiones de la madera.
 
 <div align="center">
   <img src="../../assets/imgs/Tabla_Karen.jpeg" alt="Karen" width="500">
