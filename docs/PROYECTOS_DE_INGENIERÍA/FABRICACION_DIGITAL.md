@@ -33,7 +33,7 @@
 ## Dibujo 3 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo3_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo3_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -48,7 +48,7 @@
 ## Dibujo 4 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo4_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo4_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -79,7 +79,7 @@
 ## Dibujo 6 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo6_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo6_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -94,7 +94,7 @@
 ## Dibujo 7 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo7_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo7_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -109,7 +109,7 @@
 ## Dibujo 8 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo8_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo8_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -289,7 +289,7 @@
 ## Dibujo 20 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo20_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo20_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -304,7 +304,7 @@
 ## Dibujo 21 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo21_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo21_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -319,7 +319,7 @@
 ## Dibujo 22 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo22_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo22_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -334,7 +334,7 @@
 ## Dibujo 23 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo23_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo23_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -349,7 +349,7 @@
 ## Dibujo 24 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo24_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo24_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -364,7 +364,7 @@
 ## Dibujo 25 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo25_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo25_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -424,7 +424,7 @@
 ## Dibujo 29 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo29_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo29_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
@@ -574,7 +574,7 @@
 ## Dibujo 39 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo39_Karen.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo39_Karen_Pastrana.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
