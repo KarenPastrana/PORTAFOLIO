@@ -17,6 +17,6 @@ En las zonas donde era necesario unir piezas, utilicé la soldadora por puntos p
 Para terminar, instalé una bisagra que permite abrir y cerrar la caja, completando así el funcionamiento del elemento. El resultado fue una caja metálica resistente, funcional y fabricada completamente desde cero.
 
 <div align="center">
-<img src="../../assets/imgs/S73" alt="Resultado" width="200">
-<img src="../../assets/imgs/S74" alt="Resultado" width="200">
+<img src="../../assets/imgs/S73.jpg" alt="Resultado" width="200">
+<img src="../../assets/imgs/S74.jpg" alt="Resultado" width="200">
 </div>
