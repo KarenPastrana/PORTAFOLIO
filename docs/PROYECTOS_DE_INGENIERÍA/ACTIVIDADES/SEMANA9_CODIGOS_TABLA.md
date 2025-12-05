@@ -16,7 +16,7 @@ Para la elaboración de los códigos para cortar una tabla con mi apellido prime
 Posteriormente, utilicé el software VCarve. El proceso inició con la importación de mi diseño y la definición del tamaño del material, configurando las dimensiones de la espuma rosa y el grosor real del bloque.
 
 <div align="center">
-  <img src="../../assets/imgs/S9I1.jpg" alt="Karen" width="500">
+  <img src="../../assets/imgs/Tabla_Karen.jpeg" alt="Karen" width="500">
 </div>
 
 Después seleccioné las herramientas adecuadas según el tipo de operación. Para las áreas donde necesitaba cajear o retirar material, así como para los cortes exteriores e interiores, utilicé una punta plana. En cambio, para grabar las letras de mi apellido, utilicé una punta en V.
@@ -47,13 +47,13 @@ Finalmente, generé los códigos G-code correspondientes a cada herramienta, ase
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/Plano_Tabla_Karen.nc" download>
-    <img src="https://img.shields.io/badge/Descargar-nc-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar nc">
+    <img src="https://img.shields.io/badge/Descargar-nc-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar Plano.nc">
   </a>
 </div>
 
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/CorteV_Tabla_Karen.nc" download>
-    <img src="https://img.shields.io/badge/Descargar-nc-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar nc">
+    <img src="https://img.shields.io/badge/Descargar-nc-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar CorteV.nc">
   </a>
 </div>
