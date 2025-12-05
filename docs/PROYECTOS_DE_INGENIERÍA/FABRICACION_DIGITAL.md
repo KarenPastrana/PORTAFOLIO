@@ -2,14 +2,6 @@
 
 ## Dibujo 1 Karen Pastrana
 
-Diseño del dibujo 1 en SolidWorks de acuerdo a los "Planos de entregables en SolidWorks" de la materia.
-
-<div align="center">
-  <img src="../assets/imgs/Dibujo1ejemplo.jpg" alt="Karen" width="500">
-</div>
-
-### Resultado
-
 <div align="center">
   <img src="../assets/imgs/Dibujo1solid.jpg" alt="Karen" width="500">
 </div>
@@ -25,14 +17,6 @@ Diseño del dibujo 1 en SolidWorks de acuerdo a los "Planos de entregables en So
 
 ## Dibujo 2 Karen Pastrana
 
-Diseño del dibujo 2 en SolidWorks de acuerdo a los "Planos de entregables en SolidWorks" de la materia.
-
-<div align="center">
-  <img src="../assets/imgs/Dibujo2ejemplo.jpg" alt="Karen" width="500">
-</div>
-
-### Resultado
-
 <div align="center">
   <img src="../assets/imgs/Dibujo2_Karen.jpg" alt="Karen" width="500">
 </div>
@@ -46,15 +30,38 @@ Diseño del dibujo 2 en SolidWorks de acuerdo a los "Planos de entregables en So
 
 ---
 
-## Dibujo 5 Karen Pastrana
-
-Diseño del dibujo 5 en SolidWorks de acuerdo a los "Planos de entregables en SolidWorks" de la materia.
+## Dibujo 3 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo5ejemplo.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo3_Karen.jpg" alt="Karen" width="500">
 </div>
 
-### Resultado
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo3_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 4 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo4_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo4_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 5 Karen Pastrana
+
 
 <div align="center">
   <img src="../assets/imgs/Dibujo5_Karen.jpg" alt="Karen" width="500">
@@ -63,6 +70,531 @@ Diseño del dibujo 5 en SolidWorks de acuerdo a los "Planos de entregables en So
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/Dibujo5_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 6 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo6_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo6_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 7 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo7_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo7_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 8 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo8_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo8_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 9 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo9_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo9_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 10 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo10_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo10_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 11 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo11_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo11_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 12 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo12_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo12_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 13 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo13_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo13_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 14 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo14_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo14_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 15 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo15_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo15_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 16 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo16_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo16_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 17 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo17_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo17_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 18 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo18_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo18_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 19 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo19_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo19_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 20 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo20_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo20_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 21 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo21_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo21_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 22 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo22_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo22_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 23 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo23_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo23_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 24 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo24_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo24_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 25 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo25_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo25_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 26 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo26_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo26_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 27 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo27_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo27_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 28 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo28_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo28_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 29 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo29_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo29_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 30 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo30_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo30_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 31 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo31_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo31_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 32 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo32_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo32_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 33 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo33_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo33_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 34 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo34_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo34_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 35 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo35_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo35_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 36 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo36_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo36_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 37 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo37_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo37_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 38 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo38_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo38_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 39 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo39_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo39_Karen_Pastrana.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+---
+
+## Dibujo 40 Karen Pastrana
+
+<div align="center">
+  <img src="../assets/imgs/Dibujo40_Karen.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Dibujo40_Karen_Pastrana.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
