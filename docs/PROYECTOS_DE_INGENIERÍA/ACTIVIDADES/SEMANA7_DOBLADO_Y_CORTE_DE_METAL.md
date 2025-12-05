@@ -39,7 +39,7 @@ En el doblado, se utilizan dobladoras de metal, que aplican presión sobre la l�
 Finalmente, para unir las piezas, se usa una máquina de soldadura por puntos, que aplica corriente eléctrica a través de dos electrodos. Al hacer contacto con las superficies metálicas, el calor generado funde una pequeña zona entre ambas, logrando una unión firme sin necesidad de agregar material adicional.
 
 <div align="center">
-<img src="../../assets/imgs/S7-4.jpg" alt="Resultado" width="200">
+<img src="../../assets/imgs/S7-5.jpg" alt="Resultado" width="200">
 </div>
 
 ---
