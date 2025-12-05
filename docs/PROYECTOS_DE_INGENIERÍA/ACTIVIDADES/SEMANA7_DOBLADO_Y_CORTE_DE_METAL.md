@@ -3,6 +3,10 @@
 ## Medición de la pieza-Karen
 El primer paso siempre es la medición y el trazado del material, y para esto se utiliza generalmente el vernier. Esta herramienta es fundamental para obtener medidas exactas en milímetros o pulgadas, ya sea en su versión análoga o digital.
 
+<div align="center">
+<img src="../../assets/imgs/S7-1.jpg" alt="Resultado" width="200">
+</div>
+
 El vernier se compone de dos escalas: una fija (escala principal) y una móvil (nonius o escala vernier). Para medir, se coloca la pieza entre las mordazas del instrumento:
 
 1-Las mordazas grandes sirven para medir dimensiones exteriores (por ejemplo, el ancho o diámetro de una pieza).
@@ -19,11 +23,23 @@ El vernier se compone de dos escalas: una fija (escala principal) y una móvil (
 
 Para el corte, se emplean herramientas como la guillotina o una cortadora que funciona presionando un pedal para accionar una cuchilla pesada que corta la lámina con gran fuerza y precisión. También se usan tijeras industriales para cortes más pequeños o curvos.
 
+<div align="center">
+<img src="../../assets/imgs/S7-2.jpg" alt="Resultado" width="200">
+<img src="../../assets/imgs/S7-3.jpg" alt="Resultado" width="200">
+</div>
+
 ## Doblado de pieza
 
 En el doblado, se utilizan dobladoras de metal, que aplican presión sobre la lámina para generar ángulos según la forma requerida, manteniendo la integridad del material.
+<div align="center">
+<img src="../../assets/imgs/S7-4.jpg" alt="Resultado" width="200">
+</div>
 
 ## Unión de piezas
 Finalmente, para unir las piezas, se usa una máquina de soldadura por puntos, que aplica corriente eléctrica a través de dos electrodos. Al hacer contacto con las superficies metálicas, el calor generado funde una pequeña zona entre ambas, logrando una unión firme sin necesidad de agregar material adicional.
+
+<div align="center">
+<img src="../../assets/imgs/S7-4.jpg" alt="Resultado" width="200">
+</div>
 
 ---
