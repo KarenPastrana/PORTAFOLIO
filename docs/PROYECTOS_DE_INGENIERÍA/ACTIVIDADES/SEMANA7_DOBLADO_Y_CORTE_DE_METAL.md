@@ -55,7 +55,7 @@ Con él verificamos:
 - Profundidades y espacios donde se requería mayor precisión.
 
 <div align="center">
-<img src="../../assets/imgs/MEDIDASLAM.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/MEDIDASLAM.jpg" alt="Sam" width="500">
 </div>
 
 Una vez obtenidas las medidas, marcamos en la lámina las líneas guía para los cortes y pliegues utilizando marcadores especiales para metal. Esta etapa define la exactitud del resto del proceso.
@@ -64,11 +64,11 @@ Una vez obtenidas las medidas, marcamos en la lámina las líneas guía para los
 Una vez marcado el material, se procedió al corte utilizando una guillotina accionada por pedal, que permitió separar las secciones principales con un corte recto y uniforme. Para ajustes menores o zonas que requerían más detalle, se utilizaron tijeras industriales, adecuadas para recortes específicos.
 
 <div align="center">
-<img src="../../assets/imgs/CRTARLAM.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/CRTARLAM.jpg" alt="Sam" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/PIEZALMACORTADA.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/PIEZALMACORTADA.jpg" alt="Sam" width="350">
 </div>
 
 ### 3. Doblado de la pieza
@@ -77,7 +77,7 @@ La lámina se colocó sobre la máquina alineando la marca del pliegue con el pu
 Este procedimiento permitió obtener los dobleces necesarios para dar forma a la pieza.
 
 <div align="center">
-<img src="../../assets/imgs/DOBLARPIEZLAM.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/DOBLARPIEZLAM.jpg" alt="Sam" width="500">
 </div>
 
 ### 4. Soldadura por puntos
@@ -88,5 +88,5 @@ Finalmente, las partes se unieron mediante soldadura por puntos. Las superficies
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/RESULTADOLAM.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/RESULTADOLAM.jpg" alt="Sam" width="500">
 </div>
