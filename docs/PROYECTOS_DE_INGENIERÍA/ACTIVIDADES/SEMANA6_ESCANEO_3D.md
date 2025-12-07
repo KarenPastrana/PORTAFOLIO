@@ -80,4 +80,66 @@ En conclusión, el escaneo 3D no solo facilita la digitalización del entorno, s
 </div>
 
 ---
+---
+## Escaneo y Diseño de Personaje 3D Samantha
+### ¿Qué es el escaneo 3D?
 
+El escaneo 3D es un proceso avanzado de digitalización que captura la geometría y, en muchos casos, la textura de un objeto físico para generar un modelo tridimensional de alta precisión. Este proceso se realiza mediante dispositivos especializados —como escáneres láser, escáneres de luz estructurada o cámaras fotogramétricas— que registran millones de puntos en el espacio. Estos puntos conforman una nube de puntos que representa con fidelidad la superficie del objeto.
+
+<div align="center">
+<video width="400" controls>
+  <source src="../../assets/videos/Escaner.mp4" type="video/mp4">
+</video>
+</div>
+
+
+### ¿Cómo funciona?
+
+Dependiendo de la tecnología utilizada, el escaneo 3D puede operar de diferentes maneras:
+- **Láser 3D:** Proyecta un haz láser sobre el objeto y mide el tiempo o el ángulo de retorno para determinar la distancia. Es altamente preciso y ideal para ingeniería, manufactura y metrología.
+- **Luz estructurada:** Proyecta patrones de luz sobre el objeto y analiza su deformación para reconstruir la forma. Ofrece alta resolución y velocidad, perfecto para objetos detallados o superficies complejas.
+- **Fotogrametría:** Captura fotografías desde múltiples ángulos y utiliza algoritmos para reconstruir un modelo 3D. Es flexible, económica y útil para entornos grandes o proyectos artísticos.
+
+### ¿Qué se obtiene?
+
+Tras el escaneo, todos los puntos registrados se procesan en software especializado, generando:
+- Nube de puntos
+- Malla 3D (mesh)
+- Modelos texturizados
+- Superficies editables (NURBS) según el proyecto
+
+Estos modelos pueden exportarse en formatos como **STL, OBJ, PLY, FBX o STEP**, listos para impresión 3D, análisis de ingeniería, realidad aumentada/virtual, videojuegos, arquitectura, diseño industrial, entre muchas otras aplicaciones.
+
+### ¿Para qué se utiliza?
+
+El escaneo 3D permite:
+
+- Digitalizar objetos para ingeniería inversa
+- Crear réplicas exactas mediante impresión 3D
+- Analizar deformaciones o desgaste con inspección metrológica
+- Preservar arte y piezas históricas mediante digitalización patrimonial
+- Generar modelos realistas para cine, animación y videojuegos
+- Capturar personas para avatares 3D, moda digital o VR
+  
+<div align="center">
+<video width="400" controls>
+  <source src="../../assets/videos/ESCPERSONA.mp4" type="video/mp4">
+</video>
+</div>
+
+## DISEÑO DE PERSONAJE 3D 
+
+<div align="center">
+  <img src="../../assets/imgs/Pyro8.jpg" alt="Sam" width="500">
+</div>
+
+<div align="center">
+  <img src="../../assets/imgs/TRIPY.jpg" alt="Sam" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/ImageToStl.com_FiguraSam.zip" download>
+    <img src="https://img.shields.io/badge/Descargar-zip-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar usdz">
+  </a>
+</div>
