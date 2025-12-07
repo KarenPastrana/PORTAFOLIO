@@ -99,7 +99,7 @@
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 7</h2>
       <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA7_DOBLADO_Y_CORTE_DE_METAL/" 
-         style="display:block; background-image:url('../assets/imgs/FW7.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         style="display:block; background-image:url('../assets/imgs/FW7.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 7
       </a>
     </div>
@@ -135,7 +135,7 @@
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Semana 9</h2>
       <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/ACTIVIDADES/SEMANA9_CODIGOS_TABLA/" 
-         style="display:block; background-image:url('../assets/imgs/FW7.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         style="display:block; background-image:url('../assets/imgs/FW7.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Semana 9
       </a>
     </div>
@@ -168,7 +168,7 @@
   <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
 
   <h2 style="color:#228b22;">Fabricación Digital</h2>
-  <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/FABRICACION_DIGITAL/" style="display:inline-block; background-image:url('../assets/imgs/proyecto-bg.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Fabricación Digital</a>
+  <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/FABRICACION_DIGITAL/" style="display:inline-block; background-image:url('../assets/imgs/FWP.jpeg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Fabricación Digital</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
 
