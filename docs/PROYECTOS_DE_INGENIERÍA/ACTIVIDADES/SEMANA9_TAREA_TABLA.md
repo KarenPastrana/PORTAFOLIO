@@ -1,5 +1,7 @@
 # SEMANA 9 TAREA TABLA FINALIZADA
 
+## Karen
+
 Después de haber generado los códigos de corte durante la clase, la tarea consistió en ir a cortar la tabla en el router CNC. Primero coloqué la madera sobre la mesa de la máquina y la fijé firmemente con los soportes para evitar cualquier movimiento. 
 
 <div align="center">
