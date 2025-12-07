@@ -85,6 +85,7 @@ Transferí el archivo al router CNC y fijé la tabla de madera a la cama de la m
 ### 3. Ejecución del corte
 
 Con todo configurado, inicié el programa. El router CNC ejecutó de forma automática las distintas fases:
+
 1. Grabado de la frase, siguiendo las líneas del diseño.
 2. Cajeado de las áreas internas, removiendo material de forma controlada.
 3. Corte del hueco central y corte final del contorno para desprender la pieza.
