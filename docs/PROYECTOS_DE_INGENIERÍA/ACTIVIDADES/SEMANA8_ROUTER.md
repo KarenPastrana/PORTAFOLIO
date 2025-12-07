@@ -89,7 +89,7 @@ Qita mucho material rápidamente. Se usa para la primera etapa del corte. No dej
 Es delgada y ligeramente cónica. Ideal para detalles muy pequeños, letras finas y grabados.
 
 ---
-## Sam
+## Samantha
 
 ### ¿Qué es un Router CNC?
 Un router CNC (Computer Numerical Control) es una máquina herramienta automatizada que realiza operaciones de corte, fresado, grabado y desbaste mediante el control digital de sus movimientos. Su funcionamiento se basa en instrucciones en código G y M, que definen trayectorias, profundidades, velocidades y secuencias de operación.
@@ -140,16 +140,16 @@ Reducen el calor y evitan el derretimiento del material, logrando cortes más li
 Cada punta requiere parámetros específicos de operación como velocidad del spindle, velocidad de avance (feed rate), profundidad por pasada (step down) y velocidad lateral (step over).
 
 <div align="center">
-  <img src="../../assets/imgs/CPUNTA.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/CPUNTA.jpg" alt="Sam" width="400">
 </div>
 <div align="center">
-  <img src="../../assets/imgs/PUNTA1.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/PUNTA1.jpg" alt="Sam" width="400">
 </div>
 <div align="center">
-  <img src="../../assets/imgs/PUNTA2.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/PUNTA2.jpg" alt="Sam" width="400">
 </div>
 <div align="center">
-  <img src="../../assets/imgs/PUNTA3.jpg" alt="Sam" width="200">
+  <img src="../../assets/imgs/PUNTA3.jpg" alt="Sam" width="400">
 </div>
 
 
