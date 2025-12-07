@@ -1,25 +1,31 @@
 # SEMANA 8 ¿QUÉ ES UN ROUTER Y SUS TIPOS?
 
+## Karen
+
 Esta semana aprendí a usar el router CNC, la cual es una máquina que sirve para cortar y dar forma a diferentes materiales como madera, MDF o espuma rosa. Básicamente, el router sigue un diseño que tú le mandas y lo corta automáticamente.
 
 
-## Proceso que seguimos para usar el router
+## Proceso para usar el router
 
-1. Diseño de la pieza
-Primero hicimos el diseño de la pieza en el programa de dibujo. Ahí definimos las medidas y la forma exacta.
+1. Diseño de la pieza:
 
-2. Exportar el diseño a DXF
-Después pasamos ese diseño al formato DXF, que es el que entiende el siguiente programa.
+Primero hice el diseño de la pieza en el programa de dibujo. Ahí definí las medidas y la forma exacta.
 
-3. Importarlo en VCarve
-Luego cargamos ese archivo DXF en VCarve, donde configuramos el tipo de corte, la profundidad, el material y las herramientas.
-Aquí es donde se genera el código que la máquina va a usar para hacer el corte.
+2. Exportar el diseño a DXF:
 
-4. Guardar el código en una memoria USB
-Una vez que ya tenemos el código, lo guardamos en una memoria USB para poder llevarlo a la máquina.
+Después pasé ese diseño al formato DXF, que es el que entiende el siguiente programa.
 
-5. Ir al router y cortar la pieza
-En el router cargamos el archivo desde la memoria, ajustamos la máquina y dejamos que haga el corte siguiendo nuestro diseño.
+3. Importarlo en VCarve:
+
+Luego cargué ese archivo DXF en VCarve, donde configuré el tipo de corte, la profundidad, el material y las herramientas. Aquí es donde se genera el código que la máquina va a usar para hacer el corte.
+
+4. Guardar el código en una memoria USB:
+
+Una vez que tuve el código, lo guardé en una memoria USB para poder llevarlo a la máquina.
+
+5. Ir al router y cortar la pieza:
+
+En el router cargué el archivo desde la memoria, ajusté la máquina y dejé que hiciera el corte siguiendo el diseño.
 
 ## Características de las puntas del router CNC
 
@@ -43,8 +49,6 @@ El diámetro define qué tan delicado o qué tan fuerte será el corte.
 
 ### 3. Longitud de corte (Cutting length)
 
-Es la parte que sí corta.
-
 - Si es corta, funciona para materiales delgados.
 
 - Si es larga, permite cortar materiales más gruesos. Entre más larga sea, más vibra y requiere más cuidado.
@@ -59,7 +63,7 @@ Incluye toda la herramienta, desde el filo hasta el zanco.
 
 ### 5. Zanco (Shank)
 
-Es la parte de la punta que entra al router y debe coincidir con el portabrocas (collet). (Un zanco grueso da más estabilidad).
+Es la parte de la punta que entra al router y debe coincidir con el portabrocas (collet). Un zanco grueso da más estabilidad.
 
 
 ## Tipos de puntas del router CNC
