@@ -80,7 +80,7 @@ En conclusión, el escaneo 3D no solo facilita la digitalización del entorno, s
 </div>
 
 ---
----
+
 ## Escaneo y Diseño de Personaje 3D Samantha
 ### ¿Qué es el escaneo 3D?
 
@@ -96,6 +96,7 @@ El escaneo 3D es un proceso avanzado de digitalización que captura la geometrí
 ### ¿Cómo funciona?
 
 Dependiendo de la tecnología utilizada, el escaneo 3D puede operar de diferentes maneras:
+
 - **Láser 3D:** Proyecta un haz láser sobre el objeto y mide el tiempo o el ángulo de retorno para determinar la distancia. Es altamente preciso y ideal para ingeniería, manufactura y metrología.
 - **Luz estructurada:** Proyecta patrones de luz sobre el objeto y analiza su deformación para reconstruir la forma. Ofrece alta resolución y velocidad, perfecto para objetos detallados o superficies complejas.
 - **Fotogrametría:** Captura fotografías desde múltiples ángulos y utiliza algoritmos para reconstruir un modelo 3D. Es flexible, económica y útil para entornos grandes o proyectos artísticos.
@@ -103,10 +104,11 @@ Dependiendo de la tecnología utilizada, el escaneo 3D puede operar de diferente
 ### ¿Qué se obtiene?
 
 Tras el escaneo, todos los puntos registrados se procesan en software especializado, generando:
-- Nube de puntos
-- Malla 3D (mesh)
-- Modelos texturizados
-- Superficies editables (NURBS) según el proyecto
+
+- Nube de puntos  
+- Malla 3D (mesh)  
+- Modelos texturizados  
+- Superficies editables (NURBS) según el proyecto  
 
 Estos modelos pueden exportarse en formatos como **STL, OBJ, PLY, FBX o STEP**, listos para impresión 3D, análisis de ingeniería, realidad aumentada/virtual, videojuegos, arquitectura, diseño industrial, entre muchas otras aplicaciones.
 
@@ -114,27 +116,28 @@ Estos modelos pueden exportarse en formatos como **STL, OBJ, PLY, FBX o STEP**, 
 
 El escaneo 3D permite:
 
-- Digitalizar objetos para ingeniería inversa
-- Crear réplicas exactas mediante impresión 3D
-- Analizar deformaciones o desgaste con inspección metrológica
-- Preservar arte y piezas históricas mediante digitalización patrimonial
-- Generar modelos realistas para cine, animación y videojuegos
-- Capturar personas para avatares 3D, moda digital o VR
-  
+- Digitalizar objetos para ingeniería inversa  
+- Crear réplicas exactas mediante impresión 3D  
+- Analizar deformaciones o desgaste con inspección metrológica  
+- Preservar arte y piezas históricas mediante digitalización patrimonial  
+- Generar modelos realistas para cine, animación y videojuegos  
+- Capturar personas para avatares 3D, moda digital o VR  
+
 <div align="center">
 <video width="400" controls>
   <source src="../../assets/videos/ESCPERSONA.mp4" type="video/mp4">
 </video>
 </div>
 
+
 ## DISEÑO DE PERSONAJE 3D 
 
 <div align="center">
-  <img src="../../assets/imgs/Pyro8.jpg" alt="Sam" width="500">
+  <img src="../../assets/imgs/pyro8.jpg" alt="Sam" width="500">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/TRIPY.jpg" alt="Sam" width="500">
+  <img src="../../assets/imgs/TRIPY.png" alt="Sam" width="500">
 </div>
 
 <!-- Botón de descarga -->
