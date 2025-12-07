@@ -61,11 +61,11 @@ Después generé la caja principal, que es el volumen que envuelve al modelo y d
 Con la caja definida, modelé las pestañas laterales, extruyéndolas hacia afuera. Estas pestañas son esenciales porque permiten unir las dos mitades del molde con tornillería y mantenerlas alineadas durante el vertido y el fraguado del silicón.
 
 <div align="center">
-  <img src="../../assets/imgs/4CorteBox.png" alt="Sam" width="230">
+  <img src="../../assets/imgs/4CorteBox.png" alt="Sam" width="500">
 </div>
 
 <div align="center">
-  <img src="../../assets/imgs/5ExtBox.png" alt="Sam" width="230">
+  <img src="../../assets/imgs/5ExtBox.png" alt="Sam" width="500">
 </div>
 
 
