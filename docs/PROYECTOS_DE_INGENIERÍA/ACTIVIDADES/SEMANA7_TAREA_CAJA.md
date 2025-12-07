@@ -1,5 +1,7 @@
 # SEMANA 7 TAREA CAJA DE ACERO NEGRO CALIBRE 24
 
+## Karen
+
 Para esta tarea seguí un proceso manual de medición, corte, doblado y ensamble. Primero tomé las medidas necesarias y tracé en la lámina las tres partes principales: el contorno de la caja, la base y la tapa (incluyendo el diseño para la manija). Una vez marcado todo el diseño sobre la lámina, procedí a cortar el contorno con las herramientas adecuadas (tijeras o cortadora de metal).
 
 <div align="center">
