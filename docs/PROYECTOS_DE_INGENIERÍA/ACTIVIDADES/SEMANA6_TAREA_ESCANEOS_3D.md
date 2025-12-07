@@ -50,8 +50,26 @@
 
 ## Escaneo 3D de objeto
 <div align="center">
-  <img src="../../assets/imgs/ESCANEO_OBJ_1_KAREN.jpg" alt="Sam" width="150">
+  <img src="../../assets/imgs/TORT.jpg" alt="Sam" width="230">
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/TORTU.stl" download>
+    <img src="https://img.shields.io/badge/Descargar-stl-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar blend">
+  </a>
+</div>
 
 ## Escaneo 3D de cara
 <div align="center">
-  <img src="../../assets/imgs/ESCANEO KAREN.jpg" alt="Sam" width="500">
+  <img src="../../assets/imgs/CaraSam.jpg" alt="Sam" width="230">
+
+<div align="center">
+  <img src="../../assets/imgs/CaraTS.png" alt="Sam" width="230">
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/ImageToStl.com_SAMTP.zip" download>
+    <img src="https://img.shields.io/badge/Descargar-zip-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar blend">
+  </a>
+</div>
+
