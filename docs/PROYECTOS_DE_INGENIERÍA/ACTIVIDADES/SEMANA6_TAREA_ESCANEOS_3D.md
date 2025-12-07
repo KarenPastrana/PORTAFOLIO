@@ -37,13 +37,21 @@
 ---
 ## Impresión de Personaje 3D (Parte 2)-Sam
 <div align="center">
-  <img src="../../assets/imgs/pyfin1.jpg" alt="Sam" width="230">
-
-  <img src="../../assets/imgs/pyfin2.jpg" alt="Karen" width="250">
-</div>
-
-<div align="center">
 <video width="400" controls>
   <source src="../../assets/videos/PYmp.mp4" type="video/mp4">
 </video>
 </div>
+
+<div align="center">
+  <img src="../../assets/imgs/pyfin1.jpg" alt="Sam" width="400">
+
+  <img src="../../assets/imgs/pyfin2.jpg" alt="Sam" width="400">
+</div>
+
+## Escaneo 3D de objeto
+<div align="center">
+  <img src="../../assets/imgs/ESCANEO_OBJ_1_KAREN.jpg" alt="Sam" width="150">
+
+## Escaneo 3D de cara
+<div align="center">
+  <img src="../../assets/imgs/ESCANEO KAREN.jpg" alt="Sam" width="500">
