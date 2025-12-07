@@ -37,6 +37,7 @@ Posteriormente diseñé la pieza en SolidWorks, ajustando cada detalle para que 
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
+
 ---
 
 ## Molde Samantha
