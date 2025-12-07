@@ -92,3 +92,54 @@ Con esto concluí todo el proyecto: la catapulta funcional, sus mecanismos, la p
   <img src="../assets/imgs/P13.jpg" alt="Karen" width="500">
   <img src="../assets/imgs/P14.jpg" alt="Karen" width="500">
 </div>
+
+## MUÑECO PARA EL CAMPO DE BATALLA-SAMANTHA
+Para el proyecto de la catapulta desarrollé un figurín en estilo medieval, combinando distintas tecnologías de fabricación digital: modelado 3D, corte láser e impresión 3D.
+
+### 1. Diseño del cuerpo en SolidWorks
+Comencé creando la silueta y geometría del cuerpo del figurín directamente en SolidWorks. Ahí definí las proporciones, espesores y encastres necesarios para que la estructura pudiera ensamblarse en MDF sin perder rigidez. A partir del trazado final generé las piezas planas que más tarde serían cortadas en la máquina láser.
+
+<div align="center">
+  <img src="../assets/imgs/TRAZADOFIGURINSAM.png" alt="Sam" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/CABEZA.STL" download>
+    <img src="https://img.shields.io/badge/Descargar-stl-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar STL">
+  </a>
+</div>
+
+
+### 2. Corte del cuerpo y la base en MDF con láser
+Con los archivos exportados, pasé el diseño a la cortadora láser. El MDF fue seleccionado como material por su facilidad de corte y buena estabilidad dimensional. La máquina realizó los cortes limpios de cada sección del cuerpo y de la base que sostendría al personaje.
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Caballero_Sam.DXF" download>
+    <img src="https://img.shields.io/badge/Descargar-dxf-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar STL">
+  </a>
+</div>
+
+### 3. Preparación de la cabeza en 3D
+Para la cabeza del figurín utilicé un escaneo 3D, que sirvió como base para personalizar el modelo. Sobre el archivo escaneado, añadí digitalmente un casco medieval de estilo bárbaro, integrándolo al modelo para que formara una sola pieza sólida y apta para impresión.
+
+<div align="center">
+  <img src="../assets/imgs/CABEZAFIGURINSAM.png" alt="Sam" width="500">
+</div>
+
+<div align="center">
+<video width="400" controls>
+  <source src="../../assets/videos/CORTEFIGURINSAM.mp4" type="video/mp4">
+</video>
+</div>
+
+### 4. Impresión 3D de la cabeza
+Ya con el modelo terminado, lo exporté y lo envié a impresión 3D. La pieza se fabricó capa por capa, obteniendo un acabado sólido y con suficiente detalle para representar el estilo medieval del casco.
+
+### 5. Ensamble final del figurín
+Una vez listas todas las piezas, ensamblé el cuerpo de MDF y la base, asegurándome de que los encastres quedaran alineados. Finalmente, coloqué la cabeza impresa en 3D sobre la estructura. Y así se ogró tener un resultado de un figurín listo para entrar en batalla.
+
+<div align="center">
+  <img src="../assets/imgs/CampoBATALLA.jpg" alt="Sam" width="500">
+</div>
