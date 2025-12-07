@@ -49,11 +49,11 @@ Una vez completado el trazado, procedí al corte de las piezas utilizando tijera
 Posteriormente, usé la dobladora para formar los ángulos principales. En esta etapa cuidé la perpendicularidad y la uniformidad de cada doblez para garantizar un ensamble adecuado. El cuerpo de la caja, la base y la tapa se conformaron siguiendo las dimensiones establecidas, verificando con esqiuadra metálica que los ángulos fueran correctos.
 
 <div align="center">
-<img src="../../assets/imgs/DBLARTAPACAJA.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/DBLARTAPACAJA.jpg" alt="Sam" width="500">
 </div>
 
 <div align="center">
-<img src="../../assets/imgs/CAJABYT.jpg" alt="Sam" width="200">
+<img src="../../assets/imgs/CAJABYT.jpg" alt="Sam" width="500">
 </div>
 
 Para el ensamble estructural, apliqué soldadura por puntos, la cual permite fijar las piezas sin generar deformaciones excesivas en la lámina delgada. Primero uní la base con el contorno, asegurándome de que no hubiera desplazamientos. Después instalé la tapa y añadí la manija, previamente diseñada en el trazo inicial.
