@@ -89,4 +89,67 @@ Qita mucho material rápidamente. Se usa para la primera etapa del corte. No dej
 Es delgada y ligeramente cónica. Ideal para detalles muy pequeños, letras finas y grabados.
 
 ---
+## Sam
+
+### ¿Qué es un Router CNC?
+Un router CNC (Computer Numerical Control) es una máquina herramienta automatizada que realiza operaciones de corte, fresado, grabado y desbaste mediante el control digital de sus movimientos. Su funcionamiento se basa en instrucciones en código G y M, que definen trayectorias, profundidades, velocidades y secuencias de operación.
+
+<div align="center">
+  <img src="../../assets/imgs/ROUTERS.jpg" alt="Sam" width="500">
+</div>
+
+### Componentes Técnicos Principales
+- **Estructura mecánica rígida:**
+Fabricada normalmente en acero o aluminio para minimizar vibraciones y garantizar precisión dimensional.
+
+- **Ejes X, Y y Z:**
+Montados sobre guías lineales y accionados por husillos de bolas, varillas trapezoidales o correas dentadas. Estos sistemas determinan la exactitud del       desplazamiento.
+
+- **Spindle o husillo de corte:**
+Motor de alta velocidad (desde 6,000 hasta 24,000+ rpm) encargado de mover las herramientas de corte. Puede ser refrigerado por aire o por agua.
+
+- **Controlador CNC y drivers:**
+Interpretan el código G y envían señales precisas a los motores paso a paso o servomotores para mover los ejes.
+
+- **Software CAD/CAM:**
+Sirve para diseñar (CAD) y generar estrategias de corte y trayectorias (CAM) que la máquina convierte en movimientos reales.
+
+### Puntas o Herramientas de Corte en el Router CNC
+Las herramientas de corte (frecuentemente llamadas puntas, fresas o bits) son esenciales para determinar la calidad, velocidad y tipo de acabado. Cada una tiene un propósito técnico específico:
+
+- **Fresas de corte recto (Straight bits):**
+Se usan para cortes limpios en madera, MDF y plásticos. Ideales para ranuras o contornos.
+
+- **Fresas de desbaste (Roughing bits):**
+Tienen dientes más agresivos para remover grandes cantidades de material rápidamente.
+
+- **Fresas de punta en V (V-bit):**
+Perfectas para grabados, letras, biselados y diseños decorativos. Permiten cortes con profundidad variable.
+
+- **Fresas de punta redonda o Ball Nose:**
+Se utilizan para modelado 3D, superficies curvas y acabados suaves.
+
+- **Fresas de un solo filo para acrílico (Single flute bits)**
+Reducen el calor y evitan el derretimiento del material, logrando cortes más limpios en plásticos.
+
+- **Fresas de doble filo o spiral (Up-cut / Down-cut):**
+  - *Up-cut:* evacúa viruta hacia arriba, ideal para materiales gruesos.
+  - *Down-cut:* empuja la viruta hacia abajo, logrando bordes superiores más limpios.
+  - *Compression bit:* combina ambas para evitar rebabas arriba y abajo.
+
+Cada punta requiere parámetros específicos de operación como velocidad del spindle, velocidad de avance (feed rate), profundidad por pasada (step down) y velocidad lateral (step over).
+
+<div align="center">
+  <img src="../../assets/imgs/CPUNTA.jpg" alt="Sam" width="200">
+</div>
+<div align="center">
+  <img src="../../assets/imgs/PUNTA1.jpg" alt="Sam" width="200">
+</div>
+<div align="center">
+  <img src="../../assets/imgs/PUNTA2.jpg" alt="Sam" width="200">
+</div>
+<div align="center">
+  <img src="../../assets/imgs/PUNTA3.jpg" alt="Sam" width="200">
+</div>
+
 
