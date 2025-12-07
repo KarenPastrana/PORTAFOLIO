@@ -138,7 +138,7 @@ Para la cabeza del figurín utilicé un escaneo 3D, que sirvió como base para p
 Ya con el modelo terminado, lo exporté y lo envié a impresión 3D. La pieza se fabricó capa por capa, obteniendo un acabado sólido y con suficiente detalle para representar el estilo medieval del casco.
 
 ### 5. Ensamble final del figurín
-Una vez listas todas las piezas, ensamblé el cuerpo de MDF y la base, asegurándome de que los encastres quedaran alineados. Finalmente, coloqué la cabeza impresa en 3D sobre la estructura. Y así se ogró tener un resultado de un figurín listo para entrar en batalla.
+Una vez listas todas las piezas, ensamblé el cuerpo de MDF y la base, asegurándome de que los encastres quedaran alineados. Finalmente, coloqué la cabeza impresa en 3D sobre la estructura. Y así se logró tener un resultado de un figurín listo para entrar en batalla junto a sus demás compañeras de combate y su catapulta.
 
 <div align="center">
   <img src="../assets/imgs/CampoBATALLA.jpg" alt="Sam" width="500">
