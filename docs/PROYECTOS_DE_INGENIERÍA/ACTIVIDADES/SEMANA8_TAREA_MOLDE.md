@@ -1,5 +1,7 @@
 # SEMANA 8 TAREA DISEÑO DE MOLDE
 
+## Karen
+
 Para esta tarea realicé un diseño para cortar en espuma rosa utilizando el router CNC. Como primer paso, seleccioné una imagen de inspiración, la cual me ayudó a definir la forma general y los elementos principales del modelo.
 
 <div align="center">
