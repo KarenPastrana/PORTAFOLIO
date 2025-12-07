@@ -498,6 +498,35 @@
 
 ## Dibujo 34 Karen Pastrana
 
+### Pieza 1
+
+<div align="center">
+  <img src="../assets/imgs/Pieza1_34.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Pieza1_34.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+### Pieza 2
+
+<div align="center">
+  <img src="../assets/imgs/Pieza2_34.jpg" alt="Karen" width="500">
+</div>
+
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../assets/archivos/Pieza2_34.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+
+### Ensamble
+
 <div align="center">
   <img src="../assets/imgs/Dibujo34_Karen.jpg" alt="Karen" width="500">
 </div>
