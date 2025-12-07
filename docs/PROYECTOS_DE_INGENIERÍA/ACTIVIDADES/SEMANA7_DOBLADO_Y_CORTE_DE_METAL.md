@@ -43,3 +43,50 @@ Finalmente, para unir las piezas, se usa una máquina de soldadura por puntos, q
 </div>
 
 ---
+## Pieza metálica Samantha
+Durante esta práctica realizamos el proceso completo para transformar una lámina metálica en una pieza utilizando diferentes máquinas del IDIT. El propósito principal fue aprender a manipular el material desde su estado inicial, usando instrumentos de medición de precisión y equipo industrial real.
+
+### 1. Medición y preparación del material
+El trabajo comenzó tomando todas las dimensiones necesarias de la pieza. Para lograr precisión utilizamos un vernier, una herramienta indispensable en la manufactura porque permite medir con exactitud tanto exteriores como interiores y profundidades.
+Con él verificamos:
+
+- El largo y ancho de la lámina.
+- Distancias entre dobleces.
+- Profundidades y espacios donde se requería mayor precisión.
+
+<div align="center">
+<img src="../../assets/imgs/MEDIDASLAM.jpg" alt="Sam" width="200">
+</div>
+
+Una vez obtenidas las medidas, marcamos en la lámina las líneas guía para los cortes y pliegues utilizando marcadores especiales para metal. Esta etapa define la exactitud del resto del proceso.
+
+### 2. Corte del material
+Una vez marcado el material, se procedió al corte utilizando una guillotina accionada por pedal, que permitió separar las secciones principales con un corte recto y uniforme. Para ajustes menores o zonas que requerían más detalle, se utilizaron tijeras industriales, adecuadas para recortes específicos.
+
+<div align="center">
+<img src="../../assets/imgs/CRTARLAM.jpg" alt="Sam" width="200">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/PIEZALMACORTADA.jpg" alt="Sam" width="200">
+</div>
+
+### 3. Doblado de la pieza
+Con las piezas ya cortadas, se pasó al proceso de doblado en una dobladora de lámina.
+La lámina se colocó sobre la máquina alineando la marca del pliegue con el punto de presión, y luego se accionó el mecanismo para generar el ángulo requerido.
+Este procedimiento permitió obtener los dobleces necesarios para dar forma a la pieza.
+
+<div align="center">
+<img src="../../assets/imgs/DOBLARPIEZLAM.jpg" alt="Sam" width="200">
+</div>
+
+### 4. Soldadura por puntos
+Finalmente, las partes se unieron mediante soldadura por puntos. Las superficies se colocaron entre los dos electrodos de la máquina, y al aplicarse la corriente eléctrica se generó una fusión localizada que fijó ambas piezas en cada punto de contacto. 
+
+<div align="center">
+<img src="../../assets/imgs/SOLDARPIEZALAM.jpg" alt="Sam" width="200">
+</div>
+
+<div align="center">
+<img src="../../assets/imgs/RESULTADOLAM.jpg" alt="Sam" width="200">
+</div>
