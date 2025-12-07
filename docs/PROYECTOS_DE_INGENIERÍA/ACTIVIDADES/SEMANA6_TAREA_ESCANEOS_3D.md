@@ -33,3 +33,17 @@
 
 
 </div>
+
+---
+## Impresión de Personaje 3D (Parte 2)-Sam
+<div align="center">
+  <img src="../../assets/imgs/pyfin1.jpg" alt="Sam" width="230">
+
+  <img src="../../assets/imgs/pyfin2.jpg" alt="Karen" width="250">
+</div>
+
+<div align="center">
+<video width="400" controls>
+  <source src="../../assets/videos/PYmp.mp4" type="video/mp4">
+</video>
+</div>
