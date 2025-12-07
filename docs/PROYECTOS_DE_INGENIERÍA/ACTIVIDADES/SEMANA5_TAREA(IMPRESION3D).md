@@ -192,3 +192,7 @@ Al finalizar la impresión, retiré con cuidado la pieza de la cama de la impres
   <img src="../../assets/imgs/GusanoFI.jpg" alt="Sam" width="500">
 </div>
 
+<div align="center">
+  <img src="../../assets/imgs/GUSFIN.jpg" alt="Sam" width="500">
+</div>
+
