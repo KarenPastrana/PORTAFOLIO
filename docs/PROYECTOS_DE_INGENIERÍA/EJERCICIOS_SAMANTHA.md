@@ -1,4 +1,4 @@
-# EJERCICIOS DE SOLIDWORKS
+# EJERCICIOS DE SOLIDWORKS SAMANTHA
 
 <!-- Botón de descarga -->
 <div align="center">
