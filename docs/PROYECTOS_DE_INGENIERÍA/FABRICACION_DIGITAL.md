@@ -304,7 +304,7 @@
 ## Dibujo 21 Karen Pastrana
 
 <div align="center">
-  <img src="../assets/imgs/Dibujo21_Karen_Pastrana.jpg" alt="Karen" width="500">
+  <img src="../assets/imgs/Dibujo21_Karen.jpg" alt="Karen" width="500">
 </div>
 
 <!-- Botón de descarga -->
