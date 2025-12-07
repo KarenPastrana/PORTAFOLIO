@@ -128,11 +128,6 @@ Para la cabeza del figurín utilicé un escaneo 3D, que sirvió como base para p
   <img src="../assets/imgs/CABEZAFIGURINSAM.png" alt="Sam" width="500">
 </div>
 
-<div align="center">
-<video width="400" controls>
-  <source src="../../assets/videos/CORTEFIGURINSAM.mp4" type="video/mp4">
-</video>
-</div>
 
 ### 4. Impresión 3D de la cabeza
 Ya con el modelo terminado, lo exporté y lo envié a impresión 3D. La pieza se fabricó capa por capa, obteniendo un acabado sólido y con suficiente detalle para representar el estilo medieval del casco.
