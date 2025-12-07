@@ -62,10 +62,12 @@
 ## Escaneo 3D de cara
 <div align="center">
   <img src="../../assets/imgs/CaraSam.jpg" alt="Sam" width="230">
-
+<div
+  
 <div align="center">
   <img src="../../assets/imgs/CaraTS.png" alt="Sam" width="230">
-
+<div
+  
 <!-- Botón de descarga -->
 <div align="center">
   <a href="../../assets/archivos/ImageToStl.com_SAMTP.zip" download>
