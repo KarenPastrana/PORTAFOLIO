@@ -153,3 +153,9 @@ Cada punta requiere parámetros específicos de operación como velocidad del sp
 </div>
 
 
+## CURSO ROUTER SAMANTHA
+<div align="center">
+  <img src="../../assets/imgs/CURSOROUTER.png" alt="Sam" width="400">
+</div>
+
+
