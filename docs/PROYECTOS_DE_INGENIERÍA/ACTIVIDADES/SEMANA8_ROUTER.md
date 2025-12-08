@@ -158,4 +158,8 @@ Cada punta requiere parámetros específicos de operación como velocidad del sp
   <img src="../../assets/imgs/CURSOROUTER.png" alt="Sam" width="400">
 </div>
 
+<div align="center">
+  <img src="../../assets/imgs/CURSOS.png" alt="Sam" width="400">
+</div>
+
 
