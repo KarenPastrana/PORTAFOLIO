@@ -46,4 +46,9 @@ En esta actividad, el objetivo fue diseñar y fabricar una figura 3D articulada,
 
 Una vez definida la idea, realicé un boceto a mano para planear cómo sería el diseño y cómo lograría que las partes quedaran articuladas. En el dibujo fui definiendo la forma del cuerpo y las uniones que conectarían cada parte. Este boceto me ayudó a tener una guía clara para después modelar la figura en 3D y asegurar que funcionara correctamente al momento de imprimirla.
 
+## CURSO FABRICACIÓN DIGITAL
+<div align="center">
+  <img src="../../assets/imgs/CURSO3D.png" alt="Sam" width="400">
+</div>
+
 
