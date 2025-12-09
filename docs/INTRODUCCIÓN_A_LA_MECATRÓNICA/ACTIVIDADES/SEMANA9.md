@@ -1,8 +1,7 @@
 # Actividad 9: Continuación Captura, Visualización de Video en Tiempo Real con OpenCV y Creación de Máscaras
 
 ## 1. Texto y animación de círculo:
-
-Descripción: Se dibuja una línea, rectángulo y círculo cuya posición cambia en cada frame para simular movimiento; además, se agrega un texto superpuesto.
+Se dibuja una línea, un rectángulo y un círculo cuya posición cambia en cada frame para simular movimiento. Además, se añade un texto fijo.
 
 ```cpp
 import cv2
@@ -36,15 +35,19 @@ while True:
 video.release()
 ```
 
+1. **Variables de Posición** `(cx=0, cy=0)`: Estas variables se inicializan en cero y guardan las coordenadas donde se debe dibujar el círculo en el frame actual.
+2. **Dibujo con Movimiento** `(cv2.circle(dibujo, (cx, cy), ...))`:Se dibuja el círculo, pero su centro está definido por las variables `cx` y `cy`.
+3. **Texto Superpuesto** `cv2.putText(...)`: Esta función añade la palabra "texto" al centro de la imagen. A diferencia del círculo, las coordenadas `(320, 240)` son fijas, por lo que el texto no se mueve.
+4. **Simulación de Animación** `cx=cx+1` **y** `cy=cy+1`: Estas líneas aumentan los valores de `cx` y `cy` en 1. En el siguiente ciclo, el círculo se dibujará en la posición `(1, 1)`, luego `(2, 2)`, y así sucesivamente. Como el ciclo es muy rápido, esto crea la ilusión de que el círculo se está moviendo en diagonal a través de la pantalla.
+
 <div align="center">
-<img src="../../assets/imgs//S9I1.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I1.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 2. Conversión a blanco y negro:
-
-Descripción: Se transforma la imagen capturada en tiempo real a escala de grises mediante la función "cvtColor".
+Tomaa el video de la cámara y aplica un filtro de color para convertirlo en blanco y negro (escala de grises) antes de mostrarlo.
 
 ```cpp
 import cv2
@@ -73,15 +76,21 @@ while True:
 video.release()
 ```
 
+**Filtro de Escala de Grises:**
+- `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2GRAY)`: Quita el color a la imagen.
+  - `cv2.cvtColor` cambia el color.
+  - `cv2.COLOR_BGR2GRAY` toma la imagen en el formato de color **BGR** y la convierte a gris.
+
+La imagen `dibujo` ahora solo tiene información de brillo (blanco, negro y tonos de gris), perdiendo los tres canales de color originales.
+
 <div align="center">
-<img src="../../assets/imgs//S9I2.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I2.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 3. Alteración de colores hacia tonalidades azules:
-
-Descripción: El espacio de color del frame se transforma de BGR a RGB, produciendo un efecto visual donde predominan tonos azules.
+El espacio de color del *frame* se transforma de **BGR** a **RGB**, produciendo un efecto visual donde predominan **tonos azules**.
 
 ```cpp
 import cv2
@@ -111,15 +120,19 @@ video.release()
  
 ```
 
+**Filtro Azul:**
+- `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2RGB)`: Cambia el orden de **BGR** a **RGB**.
+
+Al cambiar el orden de los canales, el programa interpreta el canal **Azul** como **Rojo**, y el canal **Rojo** como **Azul**. Esto hace que los colores se vean invertidos en estos dos tonos, dando un resultado donde las imágenes suelen tener una fuerte dominante azul.
+
 <div align="center">
-<img src="../../assets/imgs//S9I3.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I3.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 4. Filtro amarillo desactivando el canal azul:
-
-Descripción: Se eliminan los valores del canal azul (índice 0), generando una imagen con predominancia de tonos amarillos.
+Se eliminan los valores del canal azul, generando una imagen con predominancia de tonos amarillos.
 
 ```cpp
 import cv2
@@ -150,16 +163,24 @@ video.release()
  
 ```
 
+**Filtro Amarillo:**
+
+- `dibujo[:,:,0]=0`: Instrucción que aplica el filtro.
+  - `[:,:,0]`: Los primeros `:` y los segundos `:` significan seleccionar todos los píxeles (todas las filas y todas las columnas).
+  - El `0` al final significa seleccionar el canal en el índice `0`. En el formato **BGR**, el canal 0 es el Azul.
+  - `=0`: Asigna el valor cero a todos los píxeles de ese canal azul.
+
+Al **eliminar** el **Azul**, solo quedan el **Rojo** y el **Verde**. Cuando el Rojo y el Verde se mezclan con luz, el resultado visible es el color **Amarillo**.
+
 <div align="center">
-<img src="../../assets/imgs//S9I4.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I4.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 
 ## 5. Tonos rosas desactivando el canal verde:
-
-Descripción: Se anula el canal verde (índice 1), haciendo que los colores se modifiquen hacia gamas rosadas.
+Se anula el canal verde de la imagen, haciendo que los colores Rojo y Azul se mezclen y modifiquen hacia gamas rosadas .
 
 ```cpp
 import cv2
@@ -190,15 +211,21 @@ video.release()
  
 ```
 
+**Filtro Rosado:**
+- `dibujo[:,:,1]=0`: Aplica el filtro.
+  - `[:,:,1]`: Selecciona todos los píxeles (todos los `[:,:]`) en el canal índice 1 (`1`). El canal 1 es el Verde.
+  - `=0`: Elimina todo el color verde de la imagen.
+
+Sin el color Verde, solo quedan el Azul y el Rojo para formar todos los colores. Cuando el azul y el rojo se combinan, el color resultante que vemos es el Magenta (una forma de rosado intenso).
+
 <div align="center">
-<img src="../../assets/imgs//S9I5.jpeg" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I5.jpeg" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 6. Tonos rojos desactivando los canales azul y verde:
-
-Descripción: Se desactivan los canales azul y verde, dejando únicamente el canal rojo para mostrar un efecto monocromático rojizo.
+Se desactivan los canales azul y verde, dejando únicamente el canal rojo para mostrar un efecto monocromático rojizo.
 
 ```cpp
 import cv2
@@ -228,6 +255,14 @@ while True:
 video.release()
  
 ```
+
+**Filtro Rojo:**
+- `dibujo[:,:,1]=0:` Elimina el canal Verde.
+  - El `1` es el índice del canal Verde en el formato **BGR**.
+- `dibujo[:,:,0]=0`: Elimina el canal Azul.
+  - El `0` es el índice del canal Azul en el formato **BGR**.
+
+Al dejar los canales Azul y Verde, el único color que queda en la imagen es el canal Rojo (índice 2). Esto crea una imagen que solo tiene tonos de rojo, sin mezclas de color
 
 <div align="center">
 <img src="../../assets/imgs//S9I6.png" alt="/Servo" width="310">
