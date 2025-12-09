@@ -170,7 +170,7 @@ video.release()
   - El `0` al final significa seleccionar el canal en el índice `0`. En el formato **BGR**, el canal 0 es el Azul.
   - `=0`: Asigna el valor cero a todos los píxeles de ese canal azul.
 
-Al **eliminar** el **Azul**, solo quedan el **Rojo** y el **Verde**. Cuando el Rojo y el Verde se mezclan con luz, el resultado visible es el color **Amarillo**.
+Al **eliminar** el **Azul**, solo quedan el **Rojo** y el **Verde**. Cuando el Rojo y el Verde se mezclan con luz, el resultado visible es el color **amarillo**.
 
 <div align="center">
 <img src="../../assets/imgs//S9I4.png" alt="/Servo" width="500">
@@ -216,7 +216,7 @@ video.release()
   - `[:,:,1]`: Selecciona todos los píxeles (todos los `[:,:]`) en el canal índice 1 (`1`). El canal 1 es el Verde.
   - `=0`: Elimina todo el color verde de la imagen.
 
-Sin el color Verde, solo quedan el Azul y el Rojo para formar todos los colores. Cuando el azul y el rojo se combinan, el color resultante que vemos es el Magenta (una forma de rosado intenso).
+Sin el color Verde, solo quedan el Azul y el Rojo para formar todos los colores. Cuando el Azul y el Rojo se combinan, el color resultante que vemos es el Magenta (una forma de Rosado intenso).
 
 <div align="center">
 <img src="../../assets/imgs//S9I5.jpeg" alt="/Servo" width="500">
@@ -225,7 +225,7 @@ Sin el color Verde, solo quedan el Azul y el Rojo para formar todos los colores.
 ---
 
 ## 6. Tonos rojos desactivando los canales azul y verde:
-Se desactivan los canales azul y verde, dejando únicamente el canal rojo para mostrar un efecto monocromático rojizo.
+Se desactivan los canales Azul y Verde, dejando únicamente el canal Rojo para mostrar un efecto monocromático rojizo.
 
 ```cpp
 import cv2
@@ -262,17 +262,16 @@ video.release()
 - `dibujo[:,:,0]=0`: Elimina el canal Azul.
   - El `0` es el índice del canal Azul en el formato **BGR**.
 
-Al dejar los canales Azul y Verde, el único color que queda en la imagen es el canal Rojo (índice 2). Esto crea una imagen que solo tiene tonos de rojo, sin mezclas de color
+Al dejar los canales Azul y Verde, el único color que queda en la imagen es el canal Rojo (índice 2). Esto crea una imagen que solo tiene tonos de Rojo, sin mezclas de color.
 
 <div align="center">
-<img src="../../assets/imgs//S9I6.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I6.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 7. División de la cámara por secciones de color:
-
-Descripción: Se manipulan regiones específicas del frame asignando cambios en los canales de color, creando cuadrantes con efectos distintos.
+Toma el video de la cámara y aplica filtros de color distintos a diferentes áreas de la imagen. Esto genera un efecto visual donde el video se divide en regiones (cuadrantes), y cada región tiene una dominante de color particular.
 
 ```cpp
 import cv2
@@ -304,15 +303,26 @@ video.release()
  
 ```
 
+1. **Primer Cuadrante (Filtro Rosado/Magenta):** `dibujo[0:240, 0:320, 1] = 0` Manipula el cuadrante superior izquierdo.
+   - `0:240` **(Alto):** Selecciona las filas de píxeles desde arriba (`0`) hasta la mitad (`240`).
+   - `0:320` **(Ancho):** Selecciona las columnas de píxeles desde la izquierda (`0`) hasta la mitad (`320`).
+   - `1` **(Canal):** Elimina el color Verde (canal 1). Al eliminar el Verde, esta sección se vuelve rosada/magenta (combinación de Azul y Rojo).
+
+2. **Segundo Cuadrante (Filtro Amarillo):** `dibujo[240:480, 320:640, 0] = 0` Manipula el cuadrante inferior derecho.
+   - `240:480` **(Alto):** Selecciona las filas desde la mitad (`240`) hasta abajo (`480`).
+   - `320:640` **(Ancho):** Selecciona las columnas desde la mitad (`320`) hasta la derecha (`640`).
+   - `0` **(Canal):** Elimina el color Azul (canal 0). Al eliminar el Azul, esta sección se vuelve amarilla (combinación de Rojo y Verde).
+
+Los otros dos cuadrantes (superior derecho e inferior izquierdo) no son modificados y mantienen sus colores originales.
+
 <div align="center">
-<img src="../../assets/imgs//S9I7.jpeg" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I7.jpeg" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 8. Creación de máscara para detección de color azul:
-
-Descripción: La imagen se convierte a HSV y se genera una máscara que detecta el color azul dentro del rango establecido, mostrando imagen original, máscara y resultado.
+La imagen se convierte a HSV y se genera una máscara que detecta el color azul dentro del rango establecido, mostrando imagen original, máscara y resultado.
 
 ```cpp
 import cv2
@@ -352,16 +362,24 @@ video.release()
  
 ```
 
+1. **Conversión de Color (HSV):** `hsv = cv2.cvtColor(dibujo, cv2.COLOR_BGR2HSV)` El programa cambia la imagen del formato estándar **BGR** al formato **HSV** (Tonalidad, Saturación, Valor).
+2. **Definición de Rango (Azul):** `bajo = np.array([100, 80, 40], ...)` y `alto = np.array([140, 255, 255], ...)` Definen los límites para lo que el programa considerará "Azul". Se indica que el color Azul se encuentra entre el Tono `100` y `140`.
+3. **Creación de Máscara:** `mask = cv2.inRange(hsv, bajo, alto)` Revisa la imagen **HSV** y genera una **Máscara** (`mask`). La máscara es una imagen blanco y negro donde:
+   - **Blanco (255):** Es todo lo que **SÍ** está dentro del rango Azul definido.
+   - **Negro (0):** Es todo lo que **NO** es Azul.
+4. **Aplicación de Máscara:** `result = cv2.bitwise_and(frame, frame, mask=mask)` Combina la imagen original (`frame`) con la máscara (`mask`).
+   - Solo se muestra el contenido del *frame original* en las áreas donde la máscara es blanca. Todo lo que no es Azul aparece en color **negro**.
+5. **Triple Visualización:** Se muestra el `ORIGINAL` (a color), la `MASK` (blanco y negro) y el `RESULT` (solo el Azul de la escena).
+
 <div align="center">
-<img src="../../assets/imgs//S9I8.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I8.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 
 ## 9. Creación de máscara con rango ampliado de color:
-
-Descripción: Se aplica una máscara con un rango más amplio en HSV, permitiendo detectar más tonalidades del color objetivo y mostrando la segmentación resultante.
+Se aplica una máscara con un rango más amplio en **HSV**, detectando más tonalidades del color objetivo y mostrando la segmentación resultante, lo que permite incluir más objetos en la imagen final.
 
 ```cpp
 import cv2
@@ -401,15 +419,20 @@ video.release()
  
 ```
 
+**Definición de Rango Ampliado:**
+- `bajo = np.array([100, 80, 40], ...)`: El límite **inferior** (el color más oscuro o menos brillante) se define, por ejemplo, comenzando en el tono azul (Tono H=`100`).
+- `alto = np.array([255, 255, 255], ...)`: En el límite **superior** los valores `[255, 255, 255]` representan los límites máximos absolutos que el formato `np.uint8` puede almacenar (el número `255` es el valor más alto).
+
+Al establecer el límite superior tan alto, la máscara detecta el rango de color **desde el Azul** (`bajo`) **hasta el color más brillante/intenso posible**. Esto hace que la máscara se vuelva mucho menos específica y capture una **mayor variedad de colores** en el video, no solo un tono específico de azul.
+
 <div align="center">
-<img src="../../assets/imgs//S9I9.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I9.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 10. Detección de caras con red neuronal (DNN):
-
-Descripción: Se utiliza un modelo entrenado (Caffe SSD) para detectar rostros en tiempo real, dibujando un recuadro y mostrando la confianza de detección.
+Se utiliza un modelo entrenado **Caffe SSD** para detectar rostros en tiempo real, dibujando un recuadro y mostrando la confianza de detección.
 
 ```cpp
 import cv2
@@ -485,15 +508,24 @@ cv2.destroyAllWindows()
  
 ```
 
+1. **Preparación de la Red Neuronal (IA)**: Carga del Modelo (`cv2.dnn.readNetFromCaffe(...)`).
+   - Contiene los millones de valores entrenados que permiten a la red reconocer una cara.
+   - **Umbral** (`detection_threshold = 0.5`): Nivel mínimo de seguridad que la red debe tener (50%) para decir que un objeto detectado es, de hecho, una cara.
+2. **Detección en el Bucle** (`detect(frame, ...)`):
+   - **Creación del "Blob"** (`blob = cv2.dnn.blobFromImage(...)`): Las Redes Neuronales no entienden las imágenes en el formato normal de OpenCV. Esta línea convierte el *frame* en un formato especial llamado **"blob"** (una estructura de datos optimizada), que la red neuronal puede procesar.
+   - **Predicción** (`net.forward()`): La red procesa la información para devolver una lista de **detecciones** (posibles rostros encontrados) junto con un valor de **confianza** (qué tan segura está).
+   - **Filtro** El código recorre todas las detecciones. Si la confianza es mayor que el umbral del 50%, se considera una detección válida.
+   - **Recuadro (`cv2.rectangle(...)`):** Se usa la posición de la cara devuelta por la red (`box`) para dibujar un **recuadro verde** en el *frame*.
+   - **Confianza (`cv2.putText(...)`):** Se superpone el texto que muestra la ***puntuación de confianza** (ej., 0.9850).
+
 <div align="center">
-<img src="../../assets/imgs//S9I10.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S9I10.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 11. Detección de color verde:
-
-Descripción: Se convierte la imagen a HSV y se crea una máscara que identifica tonos verdes dentro del rango especificado, mostrando la segmentación del color en tiempo real.
+Se aisla y resalta un color específico (**el verde**) dentro del video en tiempo real. Esto se logra configurando un **rango de tonalidades** en el espacio de color **HSV** y creando una **máscara** que únicamente revela los objetos de ese color.
 
 ```cpp
 import cv2
@@ -532,6 +564,10 @@ video.release()
  
  
 ```
+
+**Definición del Rango Verde:** `bajo = np.array([45, 0, 0], ...)` y `alto = np.array([75, 255, 255], ...)` definen los límites numéricos que representan el color verde en el espacio HSV.
+- El **Tono (H)** para el Verde se encuentra típicamente entre `35` y `85` en los valores de OpenCV. Aquí, se usa un rango de `45` a `75` para ser preciso con los tonos de Verde.
+- El límite `bajo` establece el tono más oscuro/menos saturado del verde que se quiere detectar, y el límite `alto` (hasta 255) asegura que se detecten todos los verdes brillantes y saturados dentro de ese rango de tono
 
 <div align="center">
 <img src="../../assets/imgs//S9I11.png" alt="/Servo" width="310">
