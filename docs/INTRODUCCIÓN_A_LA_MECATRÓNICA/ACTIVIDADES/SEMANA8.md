@@ -141,10 +141,10 @@ while True:
 video.release()
 ```
 
-- `cv2.circle(dibujo, ...)`: Agrega la tercera figura geométrica: círculo.
-  - **Centro** `(320, 240)`: Esta coordenada se calcula como el centro exacto de una pantalla estándar de 640 x 480.
-  - **Radio** (`100`): Define el tamaño del círculo (100 píxeles de radio).
-  - **Color y Grosor:** Dibuja un círculo de color azul `(255, 0, 0)` con un grosor de 10 píxeles.
+* `cv2.circle(dibujo, ...)`: Agrega la tercera figura geométrica: círculo.
+    * **Centro** `(320, 240)`: Esta coordenada se calcula como el centro exacto de una pantalla estándar de 640 x 480.
+    * **Radio** (`100`): Define el tamaño del círculo (100 píxeles de radio).
+    * **Color y Grosor:** Dibuja un círculo de color azul `(255, 0, 0)` con un grosor de 10 píxeles.
 
 <div align="center">
 <img src="../../assets/imgs//S8I4.png" alt="/Servo" width="500">
