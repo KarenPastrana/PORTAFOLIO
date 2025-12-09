@@ -47,7 +47,7 @@ video.release()
 ---
 
 ## 2. Conversión a blanco y negro:
-Tomaa el video de la cámara y aplica un filtro de color para convertirlo en blanco y negro (escala de grises) antes de mostrarlo.
+Toma el video de la cámara y aplica un filtro de color para convertirlo en blanco y negro (escala de grises) antes de mostrarlo.
 
 ```cpp
 import cv2
