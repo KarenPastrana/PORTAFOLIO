@@ -133,13 +133,14 @@ video.release()
 
 **Marcación Gráfica:**
 Una vez que se tienen las coordenadas y el radio de la pelota, se dibujan dos elementos:
-1. **Dibujo del Círculo Envolvente:** `cv2.circle(frame, (int(x), int(y)), int(radio), (0, 0, 255), 3)` dibuja un círculo grande.
-   - `frame`: Se dibuja sobre la imagen original.
-   - `(int(x), int(y))`: Usa el centro calculado de la pelota.
-   - `int(radio)`: Usa el radio calculado, asegurando que el círculo encierre perfectamente la pelota.
-   - `(0, 0, 255)`: Define el color Rojo para el borde.
-2. **Dibujo del Punto Central:** `cv2.circle(frame, (int(x), int(y)), 3, (0, 0, 255), 3)` dibuja un círculo muy pequeño (de radio `3`) en la misma coordenada central. Esto actúa como un **marcador de punto** en el centro exacto del objeto rastreado.
 
+* **Dibujo del Círculo Envolvente:** `cv2.circle(frame, (int(x), int(y)), int(radio), (0, 0, 255), 3)` dibuja un círculo grande.
+    * `frame`: Se dibuja sobre la imagen original.
+    * `(int(x), int(y))`: Usa el centro calculado de la pelota.
+    * `int(radio)`: Usa el radio calculado, asegurando que el círculo encierre perfectamente la pelota.
+    * `(0, 0, 255)`: Define el color Rojo para el borde.
+* **Dibujo del Punto Central:** `cv2.circle(frame, (int(x), int(y)), 3, (0, 0, 255), 3)` dibuja un círculo muy pequeño (de radio `3`) en la misma coordenada central. Esto actúa como un **marcador de punto** en el centro exacto del objeto rastreado.
+  
 <div align="center">
 <img src="../../assets/imgs//S10I2.jpeg" alt="/Servo" width="500">
 </div>
@@ -359,12 +360,15 @@ video.release()
 ```
 
 1. **Conexión Bluetooth:**
-   - `import bluetooth`: Importar librería.
-   - `sock = bluetooth.BluetoothSocket()`: Crea un **punto de conexión virtual** (`sock` o `socket`) que actúa como un cable de red entre la computadora y el ESP32 a través de Bluetooth.
-   - `sock.connect(("10:06:1C:97:72:DA", port))`: Establece enlace mediante 1) la **dirección MAC** (`"10:06:..."`) única del ESP32 y 2) el **puerto** de comunicación (`port = 1`). Este bloque se repite hasta que la conexión sea exitosa.
-   - `sock.settimeout(20)`: Establece un tiempo límite (20 segundos) para esperar una respuesta de la conexión antes de asumir que falló.
+    * `import bluetooth`: Importar librería.
+    * `sock = bluetooth.BluetoothSocket()`: Crea un **punto de conexión virtual** (`sock` o `socket`) que actúa como un cable de red entre la computadora y el ESP32 a través de Bluetooth.
+    * `sock.connect(("10:06:1C:97:72:DA", port))`: Establece enlace mediante:
+        1. La **dirección MAC** (`"10:06:..."`) única del ESP32.
+        2. El **puerto** de comunicación (`port = 1`). Este bloque se repite hasta que la conexión sea exitosa.
+    * `sock.settimeout(20)`: Establece un tiempo límite (20 segundos) para esperar una respuesta de la conexión antes de asumir que falló.
+
 2. **Envío de Comandos:**
-   - `if errorx > 0:`: Si la pelota está a la derecha del centro (error positivo), se ejecuta el código de envío.
-   - `message = "Arriba"`: Define el texto que se quiere enviar al ESP32.
-   - `sock.send(message.encode())`: Envía el `message` a través del socket Bluetooth.
-   - `try... except`: Si la conexión Bluetooth se cae o hay un problema al enviar el mensaje, el programa no se detiene, sino que captura el error e intenta continuar.
+    * `if errorx > 0:`: Si la pelota está a la derecha del centro (error positivo), se ejecuta el código de envío.
+    * `message = "Arriba"`: Define el texto que se quiere enviar al ESP32.
+    * `sock.send(message.encode())`: Envía el `message` a través del socket Bluetooth.
+    * `try... except`: Si la conexión Bluetooth se cae o hay un problema al enviar el mensaje, el programa no se detiene, sino que captura el error e intenta continuar.
