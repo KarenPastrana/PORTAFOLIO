@@ -148,12 +148,12 @@ void loop() {
 ```
 
 1. **Preparación del Bluetooth:**
-   - `#include "BluetoothSerial.h"`: Librería de comunicación.
-   - `BluetoothSerial SerialBT;`: Crea el objeto `SerialBT`, que es el canal que el ESP32 usará para comunicarse por Bluetooth.
-   - `SerialBT.begin(device_name);`: Enciende el módulo Bluetooth del ESP32 y le asigna un nombre (`"ESP32_ROBOT"`) para que la computadora lo pueda encontrar y emparejar.
+    * `#include "BluetoothSerial.h"`: Librería de comunicación.
+    * `BluetoothSerial SerialBT;`: Crea el objeto `SerialBT`, que es el canal que el ESP32 usará para comunicarse por Bluetooth.
+    * `SerialBT.begin(device_name);`: Enciende el módulo Bluetooth del ESP32 y le asigna un nombre (`"ESP32_ROBOT"`) para que la computadora lo pueda encontrar y emparejar.
 2. **Bucle Principal (`void loop()`):**
-   - `if (SerialBT.available()) { ... }`: Comprueba si **hay datos disponibles** (mensajes) que la computadora ha enviado por Bluetooth (como el comando `"Arriba"`). Si hay datos, los lee.
-   - `Serial.write(SerialBT.read());`: Lee el mensaje recibido por Bluetooth (`SerialBT.read()`) y lo imprime en el monitor serial.
+    * `if (SerialBT.available()) { ... }`: Comprueba si **hay datos disponibles** (mensajes) que la computadora ha enviado por Bluetooth (como el comando `"Arriba"`). Si hay datos, los lee.
+    * `Serial.write(SerialBT.read());`: Lee el mensaje recibido por Bluetooth (`SerialBT.read()`) y lo imprime en el monitor serial.
 
 El código de Python detecta una condición (`errorx > 0`) y envía una palabra (`"Arriba"`). El código del ESP32 recibe esa palabra y, aunque este ejemplo solo la imprime, en una aplicación real, el ESP32 usaría esa palabra para encender un motor, mover un brazo o realizar alguna acción física.
 
@@ -305,13 +305,13 @@ void loop() {
 ```
 
 **Lectura y Separación del Mensaje:**
-- `msj = Serial.readStringUntil('\n');`: Recibe toda la cadena de texto enviada por Python, terminando solo cuando encuentra el carácter de nueva línea (`\n`).
-- `String errorx = msj.subString(0, msj.indexOf(','));`:
-  - `msj.indexOf(',')`: Encuentra la posición exacta de la coma (`,`) en la cadena.
-  - `msj.subString(0, ...)`: Extracción de Error X
-  - `String errory = msj.subString(msj.indexOf(',') + 1);`: Extracción de Error Y
-  - `int x = errorx.toInt(); / int y = errory.toInt();`: Las porciones extraídas (`errorx` y `errory`) son cadenas de texto. Estas funciones las convierten en números enteros (`int`) para que puedan ser utilizadas en cálculos matemáticos.
-
+* `msj = Serial.readStringUntil('\n');`: Recibe toda la cadena de texto enviada por Python, terminando solo cuando encuentra el carácter de nueva línea (`\n`).
+* `String errorx = msj.subString(0, msj.indexOf(','));`:
+    * `msj.indexOf(',')`: Encuentra la posición exacta de la coma (`,`) en la cadena.
+    * `msj.subString(0, ...)`: Extracción de Error X.
+    * `String errory = msj.subString(msj.indexOf(',') + 1);`: Extracción de Error Y.
+    * `int x = errorx.toInt(); / int y = errory.toInt();`: Las porciones extraídas son cadenas de texto. Estas funciones las convierten en números enteros (`int`) para cálculos matemáticos.
+      
 La computadora calcula el desplazamiento de la pelota y lo empaqueta como `"X,Y\n"`. El ESP32 recibe esa cadena, la desempaqueta usando la coma como referencia, y obtiene los valores numéricos `x` e `y` listos para ser usados en un algoritmo de control.
 
 <div align="center">
