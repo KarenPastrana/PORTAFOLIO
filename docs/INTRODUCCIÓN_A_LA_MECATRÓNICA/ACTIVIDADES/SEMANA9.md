@@ -77,9 +77,9 @@ video.release()
 ```
 
 **Filtro de Escala de Grises:**
-- `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2GRAY)`: Quita el color a la imagen.
-  - `cv2.cvtColor` cambia el color.
-  - `cv2.COLOR_BGR2GRAY` toma la imagen en el formato de color **BGR** y la convierte a gris.
+* `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2GRAY)`: Quita el color a la imagen.
+    * `cv2.cvtColor` cambia el color.
+    * `cv2.COLOR_BGR2GRAY` toma la imagen en el formato de color **BGR** y la convierte a gris.
 
 La imagen `dibujo` ahora solo tiene información de brillo (blanco, negro y tonos de gris), perdiendo los tres canales de color originales.
 
@@ -121,7 +121,7 @@ video.release()
 ```
 
 **Filtro Azul:**
-- `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2RGB)`: Cambia el orden de **BGR** a **RGB**.
+* `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2RGB)`: Cambia el orden de **BGR** a **RGB**.
 
 Al cambiar el orden de los canales, el programa interpreta el canal **Azul** como **Rojo**, y el canal **Rojo** como **Azul**. Esto hace que los colores se vean invertidos en estos dos tonos, dando un resultado donde las imágenes suelen tener una fuerte dominante azul.
 
@@ -212,9 +212,9 @@ video.release()
 ```
 
 **Filtro Rosado:**
-- `dibujo[:,:,1]=0`: Aplica el filtro.
-  - `[:,:,1]`: Selecciona todos los píxeles (todos los `[:,:]`) en el canal índice 1 (`1`). El canal 1 es el Verde.
-  - `=0`: Elimina todo el color verde de la imagen.
+* `dibujo[:,:,1]=0`: Aplica el filtro.
+    * `[:,:,1]`: Selecciona todos los píxeles (todos los `[:,:]`) en el canal índice 1 (`1`). El canal 1 es el Verde.
+    * `=0`: Elimina todo el color verde de la imagen.
 
 Sin el color Verde, solo quedan el Azul y el Rojo para formar todos los colores. Cuando el Azul y el Rojo se combinan, el color resultante que vemos es el Magenta (una forma de Rosado intenso).
 
@@ -257,10 +257,10 @@ video.release()
 ```
 
 **Filtro Rojo:**
-- `dibujo[:,:,1]=0:` Elimina el canal Verde.
-  - El `1` es el índice del canal Verde en el formato **BGR**.
-- `dibujo[:,:,0]=0`: Elimina el canal Azul.
-  - El `0` es el índice del canal Azul en el formato **BGR**.
+* `dibujo[:,:,1]=0:` Elimina el canal Verde.
+  * El `1` es el índice del canal Verde en el formato **BGR**.
+* `dibujo[:,:,0]=0`: Elimina el canal Azul.
+  * El `0` es el índice del canal Azul en el formato **BGR**.
 
 Al dejar los canales Azul y Verde, el único color que queda en la imagen es el canal Rojo (índice 2). Esto crea una imagen que solo tiene tonos de Rojo, sin mezclas de color.
 
@@ -420,8 +420,8 @@ video.release()
 ```
 
 **Definición de Rango Ampliado:**
-- `bajo = np.array([100, 80, 40], ...)`: El límite **inferior** (el color más oscuro o menos brillante) se define, por ejemplo, comenzando en el tono azul (Tono H=`100`).
-- `alto = np.array([255, 255, 255], ...)`: En el límite **superior** los valores `[255, 255, 255]` representan los límites máximos absolutos que el formato `np.uint8` puede almacenar (el número `255` es el valor más alto).
+* `bajo = np.array([100, 80, 40], ...)`: El límite **inferior** (el color más oscuro o menos brillante) se define, por ejemplo, comenzando en el tono azul (Tono H=`100`).
+* `alto = np.array([255, 255, 255], ...)`: En el límite **superior** los valores `[255, 255, 255]` representan los límites máximos absolutos que el formato `np.uint8` puede almacenar (el número `255` es el valor más alto).
 
 Al establecer el límite superior tan alto, la máscara detecta el rango de color **desde el Azul** (`bajo`) **hasta el color más brillante/intenso posible**. Esto hace que la máscara se vuelva mucho menos específica y capture una **mayor variedad de colores** en el video, no solo un tono específico de azul.
 
@@ -565,9 +565,11 @@ video.release()
  
 ```
 
-**Definición del Rango Verde:** `bajo = np.array([45, 0, 0], ...)` y `alto = np.array([75, 255, 255], ...)` definen los límites numéricos que representan el color verde en el espacio HSV.
-- El **Tono (H)** para el Verde se encuentra típicamente entre `35` y `85` en los valores de OpenCV. Aquí, se usa un rango de `45` a `75` para ser preciso con los tonos de Verde.
-- El límite `bajo` establece el tono más oscuro/menos saturado del verde que se quiere detectar, y el límite `alto` (hasta 255) asegura que se detecten todos los verdes brillantes y saturados dentro de ese rango de tono
+**Definición del Rango Verde:**
+`bajo = np.array([45, 0, 0], ...)` y `alto = np.array([75, 255, 255], ...)` definen los límites numéricos que representan el color verde en el espacio HSV.
+
+* El **Tono (H)** para el Verde se encuentra típicamente entre `35` y `85` en los valores de OpenCV. Aquí, se usa un rango de `45` a `75` para ser preciso con los tonos de Verde.
+* El límite `bajo` establece el tono más oscuro/menos saturado del verde que se quiere detectar, y el límite `alto` (hasta 255) asegura que se detecten todos los verdes brillantes y saturados dentro de ese rango de tono.
 
 <div align="center">
 <img src="../../assets/imgs//S9I11.png" alt="/Servo" width="310">
