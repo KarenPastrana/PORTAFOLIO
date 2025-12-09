@@ -56,17 +56,17 @@ video.release()
 ```
 
 1. **Detección de Color (Máscara):**
-   - `hsv = cv2.cvtColor(...)`: Convierte la imagen a **HSV** para facilitar la detección.
-   - `bajo=np.array([40,...])` / `alto=np.array([80,...])`: Define el rango de tonalidades que se considera **color Verde**.
-   - `mask = cv2.inRange(...)`: Crea la **máscara** (imagen blanco y negro) que aísla solo el color Verde.
+    * `hsv = cv2.cvtColor(...)`: Convierte la imagen a **HSV** para facilitar la detección.
+    * `bajo=np.array([40,...])` / `alto=np.array([80,...])`: Define el rango de tonalidades que se considera **color Verde**.
+    * `mask = cv2.inRange(...)`: Crea la **máscara** (imagen blanco y negro) que aísla solo el color Verde.
 2. **Detección del Contorno más Grande (La Pelota):**
-   - `lista_cont, herarquia = cv2.findContours(mask, ...)`: Busca todos los contornos (los bordes o líneas cerradas) en la imagen de la máscara. La `lista lista_cont` guarda todas las formas verdes encontradas.
+    * `lista_cont, herarquia = cv2.findContours(mask, ...)`: Busca todos los **contornos** (los bordes o líneas cerradas) en la imagen de la máscara. La `lista_cont` guarda todas las formas verdes encontradas.
 3. **Bucle de Búsqueda:** El código utiliza un bucle (`for contn in lista_cont:`) para revisar cada forma encontrada:
-   - `area_n = cv2.contourArea(contn)`: Calcula el **área** de la forma actual.
-   - `if area_grande < area_n:`: Si el área actual es **más grande** que la más grande que hemos encontrado hasta ahora, la guarda como la nueva `contorno_pelota`.
+    * `area_n = cv2.contourArea(contn)`: Calcula el **área** de la forma actual.
+    * `if area_grande < area_n:`: Si el área actual es **más grande** que la más grande que hemos encontrado hasta ahora, la guarda como la nueva `contorno_pelota`.
 4. **Localización:**
-   - `(x,y),radio=cv2.minEnclosingCircle(contorno_pelota)`: Cuando termina el bucle, esta función toma el **contorno más grande** (`contorno_pelota`) y calcula el círculo más pequeño que puede rodear esa forma. Esto nos da la **posición central** (`x, y`) y el radio.
-   - `print(x, y)`: Imprime las coordenadas exactas de la pelota en la pantalla.
+    * `(x,y),radio=cv2.minEnclosingCircle(contorno_pelota)`: Cuando termina el bucle, esta función toma el **contorno más grande** (`contorno_pelota`) y calcula el círculo más pequeño que puede rodear esa forma. Esto nos da la **posición central** (`x, y`) y el radio.
+    * `print(x, y)`: Imprime las coordenadas exactas de la pelota en la pantalla.
 
 <div align="center">
 <img src="../../assets/imgs//S10I1.jpeg" alt="/Servo" width="500">
@@ -231,19 +231,19 @@ video.release()
 ```
 
 1. **Preparación del Frame:**
-   - `frame = cv2.flip(frame, 1)`: Rota la imagen en el eje Y (`1`). Esto hace que el video se vea como si te vieras en un espejo, lo cual es útil para que el movimiento de la pelota sea intuitivo para el usuario (si mueves la mano a la derecha, la imagen se mueve a la derecha).
-   - `h = frame.shape[0]`: Obtiene el tamaño de la dimensión **vertical** (altura) del *frame* de video.
-   - `w = frame.shape[1]`: Obtiene el tamaño de la dimensión **horizontal** (ancho) del *frame* de video.
- 2. **Cálculo del Error de Posición:** Determina el **desplazamiento** del centro de la pelota (`x, y`) respecto al centro de la pantalla (`w/2, h/2`).
-    - `errorx = x - (w/2)`: Calcula la diferencia entre la **posición X** de la pelota (`x`) y el **punto central horizontal** de la pantalla (`w/2`). Un resultado de `0` significa que la pelota está centrada horizontalmente.
-    - `errory = y - (h/2)`: Calcula la diferencia entre la **posición Y** de la pelota (`y`) y el **punto central vertical** de la pantalla (`h/2`). Un resultado de `0` significa que la pelota está centrada verticalmente.
+    * `frame = cv2.flip(frame, 1)`: Rota la imagen en el eje Y (`1`). Esto hace que el video se vea como si te vieras en un espejo, lo cual es útil para que el movimiento de la pelota sea intuitivo para el usuario (si mueves la mano a la derecha, la imagen se mueve a la derecha).
+    * `h = frame.shape[0]`: Obtiene el tamaño de la dimensión **vertical** (altura) del *frame* de video.
+    * `w = frame.shape[1]`: Obtiene el tamaño de la dimensión **horizontal** (ancho) del *frame* de video.
+2. **Cálculo del Error de Posición:** Determina el **desplazamiento** del centro de la pelota (`x, y`) respecto al centro de la pantalla (`w/2, h/2`).
+    * `errorx = x - (w/2)`: Calcula la diferencia entre la **posición X** de la pelota (`x`) y el **punto central horizontal** de la pantalla (`w/2`). Un resultado de `0` significa que la pelota está centrada horizontalmente.
+    * `errory = y - (h/2)`: Calcula la diferencia entre la **posición Y** de la pelota (`y`) y el **punto central vertical** de la pantalla (`h/2`). Un resultado de `0` significa que la pelota está centrada verticalmente.
 3. **Lógica de Dirección:** Interpretar los valores de error e indica en qué dirección se encuentra la pelota.
-   - `if errorx > 0`: Si el valor del error en X es **positivo** (la pelota está a la derecha del centro), imprime "IZQUIERDA".
-   - `elif errorx < 0`: Si el valor del error en X es **negativo** (la pelota está a la izquierda del centro), imprime "DERECHA".
-   - `if errory > 0`: Si el error en Y es **positivo** (la pelota está debajo del centro), imprime "ARRIBA".
-   - `elif errory < 0`: Si el error en Y es **negativo** (la pelota está arriba del centro), imprime "ABAJO".
+    * `if errorx > 0`: Si el valor del error en X es **positivo** (la pelota está a la derecha del centro), imprime "IZQUIERDA".
+    * `elif errorx < 0`: Si el valor del error en X es **negativo** (la pelota está a la izquierda del centro), imprime "DERECHA".
+    * `if errory > 0`: Si el error en Y es **positivo** (la pelota está debajo del centro), imprime "ARRIBA".
+    * `elif errory < 0`: Si el error en Y es **negativo** (la pelota está arriba del centro), imprime "ABAJO".
 4. **Control de Tiempo:**
-   - `time.sleep(0.5)`: Detiene la ejecución del código por **0.5 segundos** en cada ciclo del `while`. Esto se hace para que el usuario pueda leer los mensajes de `print(errorx, errory)` antes de que la pantalla se actualice de nuevo, ya que el video normalmente se ejecuta demasiado rápido.
+    * `time.sleep(0.5)`: Detiene la ejecución del código por **0.5 segundos** en cada ciclo del `while`. Esto se hace para que el usuario pueda leer los mensajes de `print(errorx, errory)` antes de que la pantalla se actualice de nuevo, ya que el video normalmente se ejecuta demasiado rápido.
 
    
 <div align="center">
