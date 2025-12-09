@@ -1,7 +1,7 @@
 # Actividad 11: Continuación del Proyecto (Seguimiento de Pelota y Control por Bluetooth)
 
 ## 1. Detección de Pelota Verde mediante Visión por Computadora:
-Captura video, aplica una máscara *HSV* y localiza la pelota identificando su contorno, centro y radio.
+Captura video, aplica una máscara **HSV** y localiza la pelota identificando su contorno, centro y radio.
 
 **Código Python:**
 
@@ -311,7 +311,7 @@ void loop() {
     * `msj.subString(0, ...)`: Extracción de Error X.
     * `String errory = msj.subString(msj.indexOf(',') + 1);`: Extracción de Error Y.
     * `int x = errorx.toInt(); / int y = errory.toInt();`: Las porciones extraídas son cadenas de texto. Estas funciones las convierten en números enteros (`int`) para cálculos matemáticos.
-      
+ 
 La computadora calcula el desplazamiento de la pelota y lo empaqueta como `"X,Y\n"`. El ESP32 recibe esa cadena, la desempaqueta usando la coma como referencia, y obtiene los valores numéricos `x` e `y` listos para ser usados en un algoritmo de control.
 
 <div align="center">
@@ -486,19 +486,20 @@ void loop() {
 ```
 
 1. **Preparación y Librerías:**
-   - `#include <ESP32Servo.h>`: librería de servos.
-   - `Servo servoX; / Servo servoY;`: Crea dos objetos virtuales para controlar los servomotores. `servoX` controlará el movimiento horizontal (eje X) y `servoY` el vertical (eje Y).
-   - `minAngle = 60; / maxAngle = 120;`: Define un rango seguro de movimiento para los servos.
-   - `smoothFactor = 0.2;`: Es un valor decimal que se utiliza para suavizar el **movimiento**. Un factor bajo (cercano a 0) hace que el movimiento sea lento; un factor alto (cercano a 1) hace que el movimiento sea rápido.
-   - `servoX.attach(27); / servoY.attach(14);`: Conexión de Pines.
-   - `servoX.write(90); / servoY.write(90);`: Mueve ambos servos a la posición central (90°) al inicio.
-2. **Mapeo del Error a Ángulo**
-   - **Mapeo horizontal** `angX = map(x, -200, 200, 0, 180);`: Transforma un número de un rango a otro de forma proporcional. Si el error `x` va de -200 (izquierda) a 200 (derecha), se mapea a un ángulo que va de 0° a 180°.
-   - **Mapeo  vertical** `angY = map(y, -200, 200, 0, 180);`: Realiza la misma transformación para el error vertical y en su ángulo correspondiente.
-   - `angX = constrain(angX, minAngle, maxAngle);`: Asegura que el ángulo calculado (`angX`) nunca exceda el rango seguro definido (`minAngle=60` y `maxAngle=120`). Esto evita que el mecanismo se mueva fuera de sus límites físicos.
+    * `#include <ESP32Servo.h>`: librería de servos.
+    * `Servo servoX; / Servo servoY;`: Crea dos objetos virtuales para controlar los servomotores. `servoX` controlará el movimiento horizontal (eje X) y `servoY` el vertical (eje Y).
+    * `minAngle = 60; / maxAngle = 120;`: Define un rango seguro de movimiento para los servos.
+    * `smoothFactor = 0.2;`: Es un valor decimal que se utiliza para suavizar el **movimiento**. Un factor bajo (cercano a 0) hace que el movimiento sea lento; un factor alto (cercano a 1) hace que el movimiento sea rápido.
+    * `servoX.attach(27); / servoY.attach(14);`: Conexión de Pines.
+    * `servoX.write(90); / servoY.write(90);`: Mueve ambos servos a la posición central (90°) al inicio.
+2. **Mapeo del Error a Ángulo:**
+    * **Mapeo horizontal** `angX = map(x, -200, 200, 0, 180);`: Transforma un número de un rango a otro de forma proporcional.
+        * Si el error `x` va de -200 (izquierda) a 200 (derecha), se mapea a un ángulo que va de 0° a 180°.
+    * **Mapeo vertical** `angY = map(y, -200, 200, 0, 180);`: Realiza la misma transformación para el error vertical y en su ángulo correspondiente.
+    * `angX = constrain(angX, minAngle, maxAngle);`: Asegura que el ángulo calculado (`angX`) nunca exceda el rango seguro definido (`minAngle=60` y `maxAngle=120`). Esto evita que el mecanismo se mueva fuera de sus límites físicos.
 3. **Suavizado de Movimiento:**
-   - `currentX = servoX.read();`: Obtiene el **ángulo actual** en el que se encuentra el servo X.
-   - `smoothX = currentX + (angX - currentX) * smoothFactor;`: El servo se mueve lentamente hacia la posición objetivo, generando un movimiento más suave.
-   - `servoX.write(smoothX);`: Envía el ángulo suavizado al servo, moviendo la plataforma.
+    * `currentX = servoX.read();`: Obtiene el **ángulo actual** en el que se encuentra el servo X.
+    * `smoothX = currentX + (angX - currentX) * smoothFactor;`: El servo se mueve lentamente hacia la posición objetivo, generando un movimiento más suave.
+    * `servoX.write(smoothX);`: Envía el ángulo suavizado al servo, moviendo la plataforma.
 
 El resultado es un sistema de seguimiento activo donde la visión detecta la pelota, calcula su error y el ESP32 mueve la plataforma con los servos para intentar centrar ese error.
