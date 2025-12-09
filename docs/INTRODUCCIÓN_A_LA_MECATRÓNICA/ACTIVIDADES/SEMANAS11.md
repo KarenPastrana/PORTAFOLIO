@@ -1,8 +1,9 @@
 # Actividad 11: Continuación del Proyecto (Seguimiento de Pelota y Control por Bluetooth)
 
 ## 1. Detección de Pelota Verde mediante Visión por Computadora:
+Captura video, aplica una máscara *HSV* y localiza la pelota identificando su contorno, centro y radio.
 
-Descripción: Se utiliza OpenCV para capturar video, aplicar una máscara HSV y localizar la pelota identificando su contorno, centro y radio.
+**Código Python:**
 
 ```cpp
 import cv2
@@ -105,6 +106,10 @@ while True:
 video.release()
 ```
 
+El siguiente código se carga en el microcontrolador **ESP32**. Abre un canal de comunicación Bluetooth y recibe lo que la computadora le está enviando.
+
+**Código Arduino:**
+
 ```cpp
 #include "BluetoothSerial.h"
  
@@ -142,16 +147,26 @@ void loop() {
 
 ```
 
+1. **Preparación del Bluetooth:**
+   - `#include "BluetoothSerial.h"`: Librería de comunicación.
+   - `BluetoothSerial SerialBT;`: Crea el objeto `SerialBT`, que es el canal que el ESP32 usará para comunicarse por Bluetooth.
+   - `SerialBT.begin(device_name);`: Enciende el módulo Bluetooth del ESP32 y le asigna un nombre (`"ESP32_ROBOT"`) para que la computadora lo pueda encontrar y emparejar.
+2. **Bucle Principal (`void loop()`):**
+   - `if (SerialBT.available()) { ... }`: Comprueba si **hay datos disponibles** (mensajes) que la computadora ha enviado por Bluetooth (como el comando `"Arriba"`). Si hay datos, los lee.
+   - `Serial.write(SerialBT.read());`: Lee el mensaje recibido por Bluetooth (`SerialBT.read()`) y lo imprime en el monitor serial.
+
+El código de Python detecta una condición (`errorx > 0`) y envía una palabra (`"Arriba"`). El código del ESP32 recibe esa palabra y, aunque este ejemplo solo la imprime, en una aplicación real, el ESP32 usaría esa palabra para encender un motor, mover un brazo o realizar alguna acción física.
 
 <div align="center">
-<img src="../../assets/imgs//S11I1.jpeg" alt="/Servo" width="310">
+<img src="../../assets/imgs//S11I1.jpeg" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 2. Envío de Errores de Posición (X,Y) al ESP32 para Lectura en Arduino:
+Obtiene el centro de la pelota, calcula el error en X y Y y lo envía al ESP32 como una cadena “errorX,errorY”.
 
-Descripción: Obtiene el centro de la pelota, calcula el error en X y Y y lo envía al ESP32 como una cadena “errorX,errorY”.
+**Código de Python:**
 
 ```cpp
 import cv2
@@ -241,6 +256,11 @@ while True:
 video.release()
 ```
 
+- Los errores `errorx` y `errory` se convierten a enteros (`int(...)`) antes de ser usados, lo que simplifica su manejo.
+
+
+**Código de Arduino:**
+
 ```cpp
 #include "BluetoothSerial.h"
 float Kp=0.2;
@@ -284,15 +304,28 @@ void loop() {
  
 ```
 
+**Lectura y Separación del Mensaje:**
+- `msj = Serial.readStringUntil('\n');`: Recibe toda la cadena de texto enviada por Python, terminando solo cuando encuentra el carácter de nueva línea (`\n`).
+- `String errorx = msj.subString(0, msj.indexOf(','));`:
+  - `msj.indexOf(',')`: Encuentra la posición exacta de la coma (`,`) en la cadena.
+  - `msj.subString(0, ...)`: Extracción de Error X
+  - `String errory = msj.subString(msj.indexOf(',') + 1);`: Extracción de Error Y
+  - `int x = errorx.toInt(); / int y = errory.toInt();`: Las porciones extraídas (`errorx` y `errory`) son cadenas de texto. Estas funciones las convierten en números enteros (`int`) para que puedan ser utilizadas en cálculos matemáticos.
+
+La computadora calcula el desplazamiento de la pelota y lo empaqueta como `"X,Y\n"`. El ESP32 recibe esa cadena, la desempaqueta usando la coma como referencia, y obtiene los valores numéricos `x` e `y` listos para ser usados en un algoritmo de control.
+
 <div align="center">
-<img src="../../assets/imgs//S11I2.png" alt="/Servo" width="310">
+<img src="../../assets/imgs//S11I2.png" alt="/Servo" width="500">
 </div>
 
 ---
 
 ## 3. Control de Servomotores según los Errores de la Pelota
+El ESP32 recibe los errores enviados por Python, los convierte en ángulos y mueve suavemente los servos para seguir la pelota.
 
-Descipción: El ESP32 recibe los errores enviados por Python, los convierte en ángulos y mueve suavemente los servos para seguir la pelota.
+El código suministra las variables de control al ESP32.
+
+**Código de Python:**
 
 ```cpp
 import cv2
@@ -382,6 +415,10 @@ while True:
 video.release()
 ```
 
+El siguiente código recibe los errores, los procesa matemáticamente y los traduce en movimientos suaves para los servomotores.
+
+**Código de Arduino:**
+
 ``` cpp
 #include <BluetoothSerial.h>
 #include <ESP32Servo.h>
@@ -447,3 +484,21 @@ void loop() {
   }
 }
 ```
+
+1. **Preparación y Librerías:**
+   - `#include <ESP32Servo.h>`: librería de servos.
+   - `Servo servoX; / Servo servoY;`: Crea dos objetos virtuales para controlar los servomotores. `servoX` controlará el movimiento horizontal (eje X) y `servoY` el vertical (eje Y).
+   - `minAngle = 60; / maxAngle = 120;`: Define un rango seguro de movimiento para los servos.
+   - `smoothFactor = 0.2;`: Es un valor decimal que se utiliza para suavizar el **movimiento**. Un factor bajo (cercano a 0) hace que el movimiento sea lento; un factor alto (cercano a 1) hace que el movimiento sea rápido.
+   - `servoX.attach(27); / servoY.attach(14);`: Conexión de Pines.
+   - `servoX.write(90); / servoY.write(90);`: Mueve ambos servos a la posición central (90°) al inicio.
+2. **Mapeo del Error a Ángulo**
+   - **Mapeo horizontal** `angX = map(x, -200, 200, 0, 180);`: Transforma un número de un rango a otro de forma proporcional. Si el error `x` va de -200 (izquierda) a 200 (derecha), se mapea a un ángulo que va de 0° a 180°.
+   - **Mapeo  vertical** `angY = map(y, -200, 200, 0, 180);`: Realiza la misma transformación para el error vertical y en su ángulo correspondiente.
+   - `angX = constrain(angX, minAngle, maxAngle);`: Asegura que el ángulo calculado (`angX`) nunca exceda el rango seguro definido (`minAngle=60` y `maxAngle=120`). Esto evita que el mecanismo se mueva fuera de sus límites físicos.
+3. **Suavizado de Movimiento:**
+   - `currentX = servoX.read();`: Obtiene el **ángulo actual** en el que se encuentra el servo X.
+   - `smoothX = currentX + (angX - currentX) * smoothFactor;`: El servo se mueve lentamente hacia la posición objetivo, generando un movimiento más suave.
+   - `servoX.write(smoothX);`: Envía el ángulo suavizado al servo, moviendo la plataforma.
+
+El resultado es un sistema de seguimiento activo donde la visión detecta la pelota, calcula su error y el ESP32 mueve la plataforma con los servos para intentar centrar ese error.
