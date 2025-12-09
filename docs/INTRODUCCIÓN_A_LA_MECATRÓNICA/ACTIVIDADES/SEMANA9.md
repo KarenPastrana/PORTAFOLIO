@@ -121,7 +121,9 @@ video.release()
 ```
 
 **Filtro Azul:**
+
 * `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2RGB)`: Cambia el orden de **BGR** a **RGB**.
+    * Al cambiar el orden de los canales, el programa interpreta el canal **Azul** como **Rojo**, y el canal **Rojo** como **Azul**. Esto hace que los colores se vean invertidos en estos dos tonos, dando un resultado donde las imágenes suelen tener una fuerte dominante azul.
 
 Al cambiar el orden de los canales, el programa interpreta el canal **Azul** como **Rojo**, y el canal **Rojo** como **Azul**. Esto hace que los colores se vean invertidos en estos dos tonos, dando un resultado donde las imágenes suelen tener una fuerte dominante azul.
 
@@ -258,9 +260,9 @@ video.release()
 
 **Filtro Rojo:**
 * `dibujo[:,:,1]=0:` Elimina el canal Verde.
-  * El `1` es el índice del canal Verde en el formato **BGR**.
+    * El `1` es el índice del canal Verde en el formato **BGR**.
 * `dibujo[:,:,0]=0`: Elimina el canal Azul.
-  * El `0` es el índice del canal Azul en el formato **BGR**.
+    * El `0` es el índice del canal Azul en el formato **BGR**.
 
 Al dejar los canales Azul y Verde, el único color que queda en la imagen es el canal Rojo (índice 2). Esto crea una imagen que solo tiene tonos de Rojo, sin mezclas de color.
 
@@ -304,17 +306,16 @@ video.release()
 ```
 
 1. **Primer Cuadrante (Filtro Rosado/Magenta):** `dibujo[0:240, 0:320, 1] = 0` Manipula el cuadrante superior izquierdo.
-   - `0:240` **(Alto):** Selecciona las filas de píxeles desde arriba (`0`) hasta la mitad (`240`).
-   - `0:320` **(Ancho):** Selecciona las columnas de píxeles desde la izquierda (`0`) hasta la mitad (`320`).
-   - `1` **(Canal):** Elimina el color Verde (canal 1). Al eliminar el Verde, esta sección se vuelve rosada/magenta (combinación de Azul y Rojo).
+    * `0:240` **(Alto):** Selecciona las filas de píxeles desde arriba (`0`) hasta la mitad (`240`).
+    * `0:320` **(Ancho):** Selecciona las columnas de píxeles desde la izquierda (`0`) hasta la mitad (`320`).
+    * `1` **(Canal):** Elimina el color Verde (canal 1). Al eliminar el Verde, esta sección se vuelve rosada/magenta (combinación de Azul y Rojo).
 
 2. **Segundo Cuadrante (Filtro Amarillo):** `dibujo[240:480, 320:640, 0] = 0` Manipula el cuadrante inferior derecho.
-   - `240:480` **(Alto):** Selecciona las filas desde la mitad (`240`) hasta abajo (`480`).
-   - `320:640` **(Ancho):** Selecciona las columnas desde la mitad (`320`) hasta la derecha (`640`).
-   - `0` **(Canal):** Elimina el color Azul (canal 0). Al eliminar el Azul, esta sección se vuelve amarilla (combinación de Rojo y Verde).
+    * `240:480` **(Alto):** Selecciona las filas desde la mitad (`240`) hasta abajo (`480`).
+    * `320:640` **(Ancho):** Selecciona las columnas desde la mitad (`320`) hasta la derecha (`640`).
+    * `0` **(Canal):** Elimina el color Azul (canal 0). Al eliminar el Azul, esta sección se vuelve amarilla (combinación de Rojo y Verde).
 
 Los otros dos cuadrantes (superior derecho e inferior izquierdo) no son modificados y mantienen sus colores originales.
-
 <div align="center">
 <img src="../../assets/imgs//S9I7.jpeg" alt="/Servo" width="500">
 </div>
@@ -365,10 +366,10 @@ video.release()
 1. **Conversión de Color (HSV):** `hsv = cv2.cvtColor(dibujo, cv2.COLOR_BGR2HSV)` El programa cambia la imagen del formato estándar **BGR** al formato **HSV** (Tonalidad, Saturación, Valor).
 2. **Definición de Rango (Azul):** `bajo = np.array([100, 80, 40], ...)` y `alto = np.array([140, 255, 255], ...)` Definen los límites para lo que el programa considerará "Azul". Se indica que el color Azul se encuentra entre el Tono `100` y `140`.
 3. **Creación de Máscara:** `mask = cv2.inRange(hsv, bajo, alto)` Revisa la imagen **HSV** y genera una **Máscara** (`mask`). La máscara es una imagen blanco y negro donde:
-   - **Blanco (255):** Es todo lo que **SÍ** está dentro del rango Azul definido.
-   - **Negro (0):** Es todo lo que **NO** es Azul.
+    * **Blanco (255):** Es todo lo que **SÍ** está dentro del rango Azul definido.
+    * **Negro (0):** Es todo lo que **NO** es Azul.
 4. **Aplicación de Máscara:** `result = cv2.bitwise_and(frame, frame, mask=mask)` Combina la imagen original (`frame`) con la máscara (`mask`).
-   - Solo se muestra el contenido del *frame original* en las áreas donde la máscara es blanca. Todo lo que no es Azul aparece en color **negro**.
+    * Solo se muestra el contenido del *frame original* en las áreas donde la máscara es blanca. Todo lo que no es Azul aparece en color **negro**.
 5. **Triple Visualización:** Se muestra el `ORIGINAL` (a color), la `MASK` (blanco y negro) y el `RESULT` (solo el Azul de la escena).
 
 <div align="center">
@@ -509,15 +510,15 @@ cv2.destroyAllWindows()
 ```
 
 1. **Preparación de la Red Neuronal (IA)**: Carga del Modelo (`cv2.dnn.readNetFromCaffe(...)`).
-   - Contiene los millones de valores entrenados que permiten a la red reconocer una cara.
-   - **Umbral** (`detection_threshold = 0.5`): Nivel mínimo de seguridad que la red debe tener (50%) para decir que un objeto detectado es, de hecho, una cara.
+    * Contiene los millones de valores entrenados que permiten a la red reconocer una cara.
+    * **Umbral** (`detection_threshold = 0.5`): Nivel mínimo de seguridad que la red debe tener (50%) para decir que un objeto detectado es, de hecho, una cara.
 2. **Detección en el Bucle** (`detect(frame, ...)`):
-   - **Creación del "Blob"** (`blob = cv2.dnn.blobFromImage(...)`): Las Redes Neuronales no entienden las imágenes en el formato normal de OpenCV. Esta línea convierte el *frame* en un formato especial llamado **"blob"** (una estructura de datos optimizada), que la red neuronal puede procesar.
-   - **Predicción** (`net.forward()`): La red procesa la información para devolver una lista de **detecciones** (posibles rostros encontrados) junto con un valor de **confianza** (qué tan segura está).
-   - **Filtro** El código recorre todas las detecciones. Si la confianza es mayor que el umbral del 50%, se considera una detección válida.
-   - **Recuadro (`cv2.rectangle(...)`):** Se usa la posición de la cara devuelta por la red (`box`) para dibujar un **recuadro verde** en el *frame*.
-   - **Confianza (`cv2.putText(...)`):** Se superpone el texto que muestra la ***puntuación de confianza** (ej., 0.9850).
-
+    * **Creación del "Blob"** (`blob = cv2.dnn.blobFromImage(...)`): Las Redes Neuronales no entienden las imágenes en el formato normal de OpenCV. Esta línea convierte el *frame* en un formato especial llamado **"blob"** (una estructura de datos optimizada), que la red neuronal puede procesar.
+    * **Predicción** (`net.forward()`): La red procesa la información para devolver una lista de **detecciones** (posibles rostros encontrados) junto con un valor de **confianza** (qué tan segura está).
+    * **Filtro** El código recorre todas las detecciones. Si la confianza es mayor que el umbral del 50%, se considera una detección válida.
+    * **Recuadro (`cv2.rectangle(...)`):** Se usa la posición de la cara devuelta por la red (`box`) para dibujar un **recuadro verde** en el *frame*.
+    * **Confianza (`cv2.putText(...)`):** Se superpone el texto que muestra la **puntuación de confianza** (ej., 0.9850).
+  
 <div align="center">
 <img src="../../assets/imgs//S9I10.png" alt="/Servo" width="500">
 </div>
