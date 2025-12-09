@@ -103,9 +103,9 @@ while True:
 video.release()
 ```
 
-- `cv2.rectangle(dibujo, ...)`: Dibuja un rectángulo sobre la copia `dibujo`.
-  - **Puntos:** Usa los mismos puntos, `(0, 0)` y `(640, 480)`, pero en lugar de trazar una línea, crea una caja que rodea toda la imagen (un marco).
-  - **Color:** `(255, 0, 0)` le dal al marco un tono azul.
+* `cv2.rectangle(dibujo, ...)`: Dibuja un rectángulo sobre la copia `dibujo`.
+    * **Puntos:** Usa los mismos puntos, `(0, 0)` y `(640, 480)`, pero en lugar de trazar una línea, crea una caja que rodea toda la imagen (un marco).
+    * **Color:** `(255, 0, 0)` le da al marco un tono azul.
    
 <div align="center">
 <img src="../../assets/imgs//S8I3.png" alt="/Servo" width="500">
