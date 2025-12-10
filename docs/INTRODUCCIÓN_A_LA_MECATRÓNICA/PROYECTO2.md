@@ -65,7 +65,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/imgs/archivos/CENTRAL.SLDPRT" download>
+  <a href="../assets/archivos/CENTRAL.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -79,7 +79,8 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 <div align="center">
 <a href="../assets/archivos/SOPORTE_CENTRAL.SLDASM" download>
 <img src="https://img.shields.io/badge/Descargar-SLDASM-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDASM">
-</a>
+ </a>
+</div>
       
 <div align="center">
 <a href="../assets/archivos/SOPORTE_CENTRAL.SLDPRT" download>
