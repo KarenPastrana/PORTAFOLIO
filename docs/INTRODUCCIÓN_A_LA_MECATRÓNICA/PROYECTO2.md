@@ -28,7 +28,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/BRAZOS_X2.SLDPRT" download>
+  <a href="../assets/Archivos/BRAZOS_X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -39,7 +39,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/BASE.dxf" download>
+  <a href="../assets/Archivos/BASE.dxf" download>
     <img src="https://img.shields.io/badge/Descargar-dxf-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar dxf">
   </a>
 </div>
@@ -53,7 +53,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/CENTRO.SLDPRT" download>
+  <a href="../assets/Archivos/CENTRO.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -65,7 +65,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/CENTRAL.SLDPRT" download>
+  <a href="../assets/Archivos/CENTRAL.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -77,13 +77,13 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
 
 <div align="center">
-<a href="../assets/archivos/SOPORTE_CENTRAL.SLDASM" download>
+<a href="../assets/Archivos/SOPORTE_CENTRAL.SLDASM" download>
 <img src="https://img.shields.io/badge/Descargar-SLDASM-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDASM">
  </a>
 </div>
       
 <div align="center">
-<a href="../assets/archivos/SOPORTE_CENTRAL.SLDPRT" download>
+<a href="../assets/Archivos/SOPORTE_CENTRAL.SLDPRT" download>
    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -95,7 +95,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-<a href="../assets/archivos/BASE_SERVOS_X2.SLDPRT" download>
+<a href="../assets/Archivos/BASE_SERVOS_X2.SLDPRT" download>
 <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
 </a>
 </div>
@@ -107,7 +107,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/SOPORTE_BRAZOS_X2.SLDPRT" download>
+  <a href="../assets/Archivos/SOPORTE_BRAZOS_X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -371,31 +371,31 @@ void loop() {
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../assets/videos/C1.mp4" type="video/mp4">
+  <source src="../assets/Videos/C1.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../assets/videos/C2.mp4" type="video/mp4">
+  <source src="../assets/Videos/C2.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../assets/videos/C3.mp4" type="video/mp4">
+  <source src="../assets/Videos/C3.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../assets/videos/C4.mp4" type="video/mp4">
+  <source src="../assets/Videos/C4.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../assets/videos/CF.mp4" type="video/mp4">
+  <source src="../assets/Videos/CF.mp4" type="video/mp4">
 </video>
 </div>
 
