@@ -20,53 +20,53 @@ La estructura de la plataforma se construyó combinando corte láser e impresió
 
 **Piezas**
 <div align="center">
-<img src="assets/imgs/1.png" alt="Plataforma" width="400">
+<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/1.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+  <a href="assets/Archivos/SOPORTE CENTRAL.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 <div align="center">
-<img src="assets/imgs/2.png" alt="Plataforma" width="400">
+<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/2.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/archivos/CENTRO.SLDPRT" download>
+  <a href="assets/Archivos/CENTRO.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 
 <div align="center">
-<img src="assets/imgs/3.png" alt="Plataforma" width="400">
+<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/3.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/archivos/BRAZOS X2.SLDPRT" download>
+  <a href="assets/Archivos/BRAZOS X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 <div align="center">
-<img src="assets/imgs/6.png" alt="Plataforma" width="400">
+<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/6.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/archivos/BASE SERVOS X2.STL" download>
+  <a href="assets/Archivos/BASE SERVOS X2.STL" download>
     <img src="https://img.shields.io/badge/Descargar-STL-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 
 <div align="center">
-<img src="assets/imgs/7.png" alt="Plataforma" width="400">
+<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/7.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/archivos/SOPORTE BRAZOS X2.SLDPRT" download>
+  <a href="assets/Archivos/SOPORTE BRAZOS X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -92,6 +92,7 @@ Esta fase fue importante para que la pelota se mantuviera balanceada. Con ayuda 
 
 ### Control manual
 Para asegurar que los servos reaccionen lo más rápido posible, se controlaron de forma directa.
+
 1. **Control Directo:** Generamos la señal de control (PWM) manualmente usando la función `moverServo` y `delayMicroseconds`.
 2. El ESP32 llama continuamente a `moverServo` para que los motores mantengan su posición y estén listos para reaccionar de inmediato a la siguiente orden del programa.
 
@@ -322,31 +323,31 @@ void loop() {
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../../assets/Videos/C1.mp4" type="video/mp4">
+  <source src="assets/Videos/C1.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../../assets/Videos/C2.mp4" type="video/mp4">
+  <source src="assets/Videos/C2.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../../assets/Videos/C3.mp4" type="video/mp4">
+  <source src="assets/Videos/C3.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../../assets/Videos/C4.mp4" type="video/mp4">
+  <source src="assets/Videos/C4.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="../../assets/Videos/CF.mp4" type="video/mp4">
+  <source src="assets/Videos/CF.mp4" type="video/mp4">
 </video>
 </div>
 
