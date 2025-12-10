@@ -369,13 +369,13 @@ video.release()
  
 ```
 
-1. **Conversión de Color (HSV):** `hsv = cv2.cvtColor(dibujo, cv2.COLOR_BGR2HSV)` Cambia la imagen del formato **BGR** a **HSV** (Tonalidad, Saturación, Valor).
+1. **Conversión de Color (HSV):** `hsv = cv2.cvtColor(dibujo, cv2.COLOR_BGR2HSV)` Cambia la imagen del formato BGR a HSV (Tonalidad, Saturación, Valor).
 2. **Definición de Rango (Azul):** `bajo = np.array([100, 80, 40], ...)` y `alto = np.array([140, 255, 255], ...)` Define los límites para lo que el programa considerará "azul".
-3. **Creación de Máscara:** `mask = cv2.inRange(hsv, bajo, alto)` Revisa la imagen **HSV** y genera una **Máscara** (`mask`) que es una imagen en blanco y negro donde:
+3. **Creación de Máscara:** `mask = cv2.inRange(hsv, bajo, alto)` Revisa la imagen HSV y genera una Máscara (`mask`) que es una imagen en blanco y negro donde:
     * **Blanco (255):** Es todo lo que está dentro del rango azul definido.
     * **Negro (0):** Es todo lo que no es azul.
 4. **Aplicación de Máscara:** `result = cv2.bitwise_and(frame, frame, mask=mask)` Combina la imagen original (`frame`) con la máscara (`mask`).
-5. **Triple Visualización:** Se muestra el `ORIGINAL` (a color), la `MASK` (blanco y negro) y el `RESULT` (solo el Azul de la escena).
+5. **Triple Visualización:** Se muestra el `ORIGINAL` (a color), la `MASK` (blanco y negro) y el `RESULT` (solo el azul de la escena).
 
 <div align="center">
 <img src="../../assets/imgs//S9I8.png" alt="/Servo" width="500">
@@ -568,7 +568,7 @@ video.release()
 ```
 
 **Rango Verde:**
-`bajo = np.array([45, 0, 0], ...)` y `alto = np.array([75, 255, 255], ...)` definen los límites que representan el color verde en el espacio HSV.
+`bajo = np.array([45, 0, 0], ...)` y `alto = np.array([75, 255, 255], ...)` definen los límites que representan el color verde.
 
 * El **Tono (H)** para el verde se encuentra típicamente entre `35` y `85` en los valores de OpenCV. Aquí, se usa un rango de `45` a `75` para ser preciso con los tonos de verde.
 
