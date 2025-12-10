@@ -167,8 +167,16 @@
   <!-- Fabricación Digital -->
   <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
 
-  <h2 style="color:#228b22;">Fabricación Digital</h2>
+  <h2 style="color:#228b22;">Fabricación Digital Karen Pastrana</h2>
   <a href="https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIERÍA/FABRICACION_DIGITAL/" style="display:inline-block; background-image:url('../assets/imgs/FWP.jpeg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Fabricación Digital</a>
+
+  <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
+
+ <!-- Fabricación Digital -->
+  <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
+
+  <h2 style="color:#228b22;">Fabricación Digital Samantha Ramírez</h2>
+  <a href="  https://karenpastrana.github.io/PORTAFOLIO/PROYECTOS_DE_INGENIER%C3%8DA/EJERCICIOS_SAMANTHA/" style="display:inline-block; background-image:url('../assets/imgs/FWP.jpeg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Fabricación Digital</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
 
