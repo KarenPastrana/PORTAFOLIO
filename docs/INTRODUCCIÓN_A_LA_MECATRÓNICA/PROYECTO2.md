@@ -13,7 +13,7 @@ Se localizó la pelota con precisión en el video.
 Elegimos usar dos servomotores MG995 para controlar los movimientos horizontal (X) y vertical (Y), para mover la plataforma con más torque, suficiente velocidad y estabilidad. Usamos esta imagen de referencia para el diseño de la plataforma y la colocación de los servomotores.
 
 <div align="center">
-<img src="../assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
+<img src="../assets/imgs/PLATREF.jpg" alt="Plataforma" width="200">
 </div>
    
 La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base, la superficie y los soportes que sostienen la plataforma fueron cortadas en MDF. Estos últimos se diseñaron pra que formaran una especie de "L" para que de este modo la plataforma tuviera un mayor movimiento.
@@ -146,19 +146,15 @@ Para asegurar que los servos reaccionen lo más rápido posible, se controlaron 
 **Videos de pruebas**
 
 <div align="center">
-<video width="400" controls muted>
+<video width="200" controls muted>
   <source src="../assets/Videos/C1.mp4" type="video/mp4">
 </video>
-</div>
 
-<div align="center">
-<video width="400" controls muted>
+<video width="200" controls muted>
   <source src="../assets/Videos/C2.mp4" type="video/mp4">
 </video>
-</div>
 
-<div align="center">
-<video width="400" controls muted>
+<video width="200" controls muted>
   <source src="../assets/Videos/C3.mp4" type="video/mp4">
 </video>
 </div>
@@ -391,13 +387,11 @@ void loop() {
 **Videos**
 
 <div align="center">
-<video width="400" controls muted>
+<video width="200" controls muted>
   <source src="../assets/Videos/C4.mp4" type="video/mp4">
 </video>
-</div>
 
-<div align="center">
-<video width="400" controls muted>
+<video width="200" controls muted>
   <source src="../assets/Videos/CF.mp4" type="video/mp4">
 </video>
 </div>
