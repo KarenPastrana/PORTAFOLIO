@@ -61,7 +61,7 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 #### Pieza 2 Soporte central
 
 <div align="center">
-<img src="../assets/imgs/7.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/7.jpg" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
