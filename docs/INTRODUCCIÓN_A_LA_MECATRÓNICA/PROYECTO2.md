@@ -1,8 +1,8 @@
 # Proyecto2: Plataforma Stewart de 2 Servos para Balancear Pelota 
 
-Este proyecto combina la **Visión por Computadora (OpenCV)** con el control del **ESP32** para crear una plataforma que rastrea y equilibra una pelota de color verde en tiempo real. La cámara "ve" la pelota, calcula su posición y envía órdenes a dos servomotores para mantenerla siempre en el centro.
+Este proyecto combina la **Visión por Computadora (OpenCV)** con el control del **ESP32** para crear una plataforma que rastrea y equilibra una pelota de color verde en tiempo real. La cámara identifica la pelota, calcula su posición y envía órdenes a dos servomotores para mantenerla siempre en el centro.
 
-## **I. Fase 1: Visión y Detecciión (Python)**
+## **Fase 1: Visión y Detección (Python)**
 Aqui se localiza la pelota con precisión en el video.
 1. **Configuración de la Cámara:** Capturamos el video en vivo y aplicamos un filtro de desenfoque para eliminar el ruido visual.
 2. **Detección de Color (Máscara):** Convertimos la imagen a HSV y definimos el rango de color verde (`greenLower` / `greenUpper`) para crear una máscara binaria (donde la pelota es blanca y todo lo demás es negro).
@@ -11,78 +11,92 @@ Aqui se localiza la pelota con precisión en el video.
 ## **Fase 2: Diseño Físico y Electrónica**
 Elegimos usar dos servomotores MG995 para controlar los movimientos horizontal (X) y vertical (Y), para mover la plataforma con más torque, suficiente velocidad y estabilidad. Usamos esta imagen de referencia para el diseño de la plataforma y la colocación de los servomotores.
 
-  <div align="center">
-<img src="../../assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
-</div> 
+<div align="center">
+<img src="assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
+</div>
    
-
 La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base y la superficie fueron impresas en MDF y los soportes que sostienen la plataforma, así como la parte central que permite girar la plataforma, fueron impresas en 3D. Pra un mayor movimiento de la plataforma, se hizo una especie de "L" con varillas de MDF que fueron atornilladas en los servos y en la parte superior de la plataforma. 
 
- <div align="center">
-<img src="../../assets/imgs/2.png" alt="Plataforma" width="400">
-</div> 
-   
-<!-- Botón de descarga -->
+**Piezas**
 <div align="center">
-  <a href="../../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+<img src="assets/imgs/1.png" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
- <div align="center">
-<img src="../../assets/imgs/3.png" alt="Plataforma" width="400">
-</div> 
-   
-<!-- Botón de descarga -->
 <div align="center">
-  <a href="../../assets/archivos/BRAZOS X2.SLDPRT" download>
+<img src="assets/imgs/2.png" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="assets/archivos/CENTRO.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 
- <div align="center">
-<img src="../../assets/imgs/7.png" alt="Plataforma" width="400">
-</div> 
-   
-<!-- Botón de descarga -->
 <div align="center">
-  <a href="../../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+<img src="assets/imgs/3.png" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="assets/archivos/BRAZOS X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
+<div align="center">
+<img src="assets/imgs/6.png" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="assets/archivos/BASE SERVOS X2.STL" download>
+    <img src="https://img.shields.io/badge/Descargar-STL-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+
+<div align="center">
+<img src="assets/imgs/7.png" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="assets/archivos/SOPORTE BRAZOS X2.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
 
 ### Conexión y Comunicación Serial
-Dado que el ESP32 aparece como un puerto COM en la computadora, se eligió la comunicación **Serial Virtual** (vía Bluetooth SPP o USB) para una alta velocidad y simplicidad.
-- **Python (`pySerial`):** Se utilizó la librería `pySerial` para abrir y gestionar el puerto COM (`ser.write(comando.encode('utf-8'))`), enviando los datos continuamente.
-- **ESP32 (`BluetoothSerial`):** El ESP32 se configuró para escuchar ese puerto serial, listo para recibir el comando de ángulos.
+- **Python (`pySerial`):** Se utilizó esta librería para abrir y gestionar el puerto COM, enviando los datos continuamente.
+- **ESP32 (`BluetoothSerial`):** El ESP32 se configuró para comunicarse por ese puerto serial y recibir los comandos.
 
 ## **Fase 3: Fase de Control (PID) y Calibración**
-Esta fue la fase más crítica, donde se implementó el algoritmo de **Control Proporcional-Integral-Derivativo (PID)** para asegurar el balanceo dinámico.
+Esta fase fue importante para que la pelota se mantuviera balanceada. Con ayuda del **PID** se calculó la corrección necesaria para llevar la pelota al centro y mantenerla ahí.
 
-### A. Implementación del Algoritmo PID (Python)
-1. **Cálculo de Error:** Se definió el punto objetivo (`target = 300`) y se calculó el error (`error = target - center`).
-2. **Fórmula PID:** Se calcularon las tres componentes:
-    - **Proporcional (P):** Responde al error actual (la fuerza inmediata para corregir).
-    - **Integral (I):** Acumula el **error a lo largo del tiempo**, esencial para corregir errores pequeños y constantes (como el arrastre por fricción).
-    - **Derivativo (D):** Responde a la **velocidad de cambio del error**, utilizado para amortiguar el sistema y evitar oscilaciones o movimientos excesivamente rápidos.
-3. **Conversión a Ángulo:** El valor de `output` del PID se utilizó para calcular el ángulo final del servo `(servo_azul = FLAT_AZUL - output_y)`, convirtiendo la señal de corrección en una orden física. El código de Python no envía el error, sino directamente los **ángulos calculados y limitados** (ej. `95,112\n`) al ESP32.
+### A. Implementación del PID (Python)
+1. **Cálculo de Error:** Comparamos dónde está la pelota (`center`) con donde debería estar (`target = 300`).
+2. **Fórmula PID:**
+    - **Proporcional (P):** Qué tan lejos está la pelota ahora. (Corrección inmediata).
+    - **Integral (I):** Acumula el error a lo largo del tiempo. Corrige pequeños errores constantes, como la fricción.
+    - **Derivativo (D):** Velocidad con la que se mueve la pelota. Ayuda a frenar el sistema y a evitar que oscile.
+3. **Conversión a Ángulo:** El resultado de la fórmula PID se transforma directamente en los ángulos finales que deben tomar los servos.
 
-### B. Herramientas de Calibración
-Se implementaron dos herramientas esenciales para la calibración y el ajuste fino:
-- **Ventana de Sliders:** Se creó una interfaz (`cv2.namedWindow("Ajustes PID")`) con trackbars para modificar los coeficientes **Kp, Ki y Kd en tiempo real**. Este método fue crucial para sintonizar el sistema hasta que la pelota se estabilizara.
-- **Límites Físicos:** Se establecieron límites de ángulo (`max(60, min(120, servo_azul))`) en el código de Python y límites de seguridad más amplios en Arduino (`if angulo < 40`) para proteger los servos durante la calibración.
+### B. Calibración y ajustes finales
+- **Ventana de Sliders:** Creamos una ventana de ajustes (`Ajustes PID`) que permite cambiar los coeficientes **Kp**, **Ki** y **Kd** en tiempo real para sintonizar el sistema hasta lograr la estabilidad.
+- **Límites:** Se establecieron límites de ángulo tanto en Python como en el ESP32 para proteger los motores de movimientos bruscos.
 
 ### C. Control de Bajos Niveles (Arduino/ESP32)
-Para garantizar un movimiento preciso y rápido de los servos, se implementó el control sin librerías:
-1. **Eliminación de Librería:** Se descartó la librería `ESP32Servo` debido a problemas de precisión y velocidad de refresco.
-2. **Bit-Banging (Control Directo):** Se creó la función `moverServo` que genera el **pulso PWM** (modulación por ancho de pulso) manualmente, utilizando `delayMicroseconds`.
-3. **Refresco Constante:** El bucle `loop()` llama a moverServo continuamente, asegurando que el motor mantenga su posición y esté listo para reaccionar inmediatamente al siguiente comando serial.
+Para asegurar que los servos reaccionen lo más rápido posible, se controlaron de forma directa.
+1. **Control Directo:** Generamos la señal de control (PWM) manualmente usando la función `moverServo` y `delayMicroseconds`.
+2. El ESP32 llama continuamente a `moverServo` para que los motores mantengan su posición y estén listos para reaccionar de inmediato a la siguiente orden del programa.
 
 ## Códigos finales
 
-### A. Código Final en Python (Visión, PID y Envío de Ángulos)
+### Código Final en Python
 
 ```python
 import cv2
@@ -229,7 +243,7 @@ cv2.destroyAllWindows()
 ser.close()
 ```
 
-### B. Código Final en Arduino/ESP32 (Recepción y Bit-Banging de Servos)
+### Código Final en Arduino
 
 ```cpp
 #include <Arduino.h>
@@ -302,9 +316,15 @@ void loop() {
 }
 ```
 
-
 ## Resultados y Conclusión
+**Videos**
 
-El éxito del proyecto dependió de la **interacción precisa** entre la señal de error generada por el PID en Python y la ejecución rápida del movimiento de los servos en el ESP32. La fase de **calibración (ajuste de Kp, Ki, Kd)** fue la que consumió más tiempo, ya que cada cambio afectaba la velocidad, la suavidad y la estabilidad de la respuesta de la plataforma al rastrear la pelota. El resultado final fue una plataforma estable, robusta y con capacidad de rastreo que sirve como una base sólida para futuros proyectos de robótica y automatización.
+<video width="320" controls>
+  <source src="../../assets/Videos/.mp4" type="video/mp4">
+</video>
+</div>
+
+
+El éxito del proyecto dependió de la interacción precisa entre la señal de error generada por el PID en Python y la ejecución rápida del movimiento de los servos en el ESP32. La fase de calibración (ajuste de Kp, Ki, Kd)** fue la que consumió más tiempo, ya que cada cambio afectaba la velocidad, la suavidad y la estabilidad de la respuesta de la plataforma al rastrear la pelota. El resultado final fue una plataforma estable, robusta y con capacidad de rastreo que sirve como una base sólida para futuros proyectos de robótica y automatización.
 
 
