@@ -78,8 +78,9 @@ video.release()
 
 **Filtro de Escala de Grises:**
 * `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2GRAY)`: Quita el color a la imagen.
-    * `cv2.cvtColor` cambia el color.
-    * `cv2.COLOR_BGR2GRAY` toma la imagen en el formato de color **BGR** y la convierte a gris.
+
+  * `cv2.cvtColor` cambia el color.
+  * `cv2.COLOR_BGR2GRAY` toma la imagen en el formato de color BGR y la convierte a gris.
 
 La imagen `dibujo` ahora solo tiene información de brillo (blanco, negro y tonos de gris), perdiendo los tres canales de color originales.
 
@@ -90,7 +91,7 @@ La imagen `dibujo` ahora solo tiene información de brillo (blanco, negro y tono
 ---
 
 ## 3. Alteración de colores hacia tonalidades azules:
-El espacio de color del *frame* se transforma de **BGR** a **RGB**, produciendo un efecto visual donde predominan **tonos azules**.
+El espacio de color del *frame* se transforma de **BGR** a **RGB**, produciendo un efecto visual donde predominan tonos azules.
 
 ```cpp
 import cv2
@@ -122,10 +123,8 @@ video.release()
 
 **Filtro Azul:**
 
-* `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2RGB)`: Cambia el orden de **BGR** a **RGB**.
-    * Al cambiar el orden de los canales, el programa interpreta el canal **Azul** como **Rojo**, y el canal **Rojo** como **Azul**. Esto hace que los colores se vean invertidos en estos dos tonos, dando un resultado donde las imágenes suelen tener una fuerte dominante azul.
-
-Al cambiar el orden de los canales, el programa interpreta el canal **Azul** como **Rojo**, y el canal **Rojo** como **Azul**. Esto hace que los colores se vean invertidos en estos dos tonos, dando un resultado donde las imágenes suelen tener una fuerte dominante azul.
+* `dibujo = cv2.cvtColor(dibujo, cv2.COLOR_BGR2RGB)`: Cambia el orden de BGR a RGB.
+    * Al cambiar el orden de los canales, el programa interpreta el canal **azul** como **rojo**, y el canal **rojo** como **azul**. Esto hace que los colores se vean invertidos en estos dos tonos, haciendo que la imagen se vea más azul.
 
 <div align="center">
 <img src="../../assets/imgs//S9I3.png" alt="/Servo" width="500">
@@ -134,7 +133,7 @@ Al cambiar el orden de los canales, el programa interpreta el canal **Azul** com
 ---
 
 ## 4. Filtro amarillo desactivando el canal azul:
-Se eliminan los valores del canal azul, generando una imagen con predominancia de tonos amarillos.
+Se eliminan los valores del canal azul, generando una imagen en donde predominan los tonos amarillos.
 
 ```cpp
 import cv2
@@ -169,10 +168,10 @@ video.release()
 
 - `dibujo[:,:,0]=0`: Instrucción que aplica el filtro.
   - `[:,:,0]`: Los primeros `:` y los segundos `:` significan seleccionar todos los píxeles (todas las filas y todas las columnas).
-  - El `0` al final significa seleccionar el canal en el índice `0`. En el formato **BGR**, el canal 0 es el Azul.
+  - El `0` al final significa seleccionar el canal en el índice `0`. En el formato BGR, el canal 0 es el azul.
   - `=0`: Asigna el valor cero a todos los píxeles de ese canal azul.
 
-Al **eliminar** el **Azul**, solo quedan el **Rojo** y el **Verde**. Cuando el Rojo y el Verde se mezclan con luz, el resultado visible es el color **amarillo**.
+Al eliminar el azul, solo quedan el **rojo** y el **verde**. Cuando el rojo y el verde se mezclan con luz, el resultado es el color **amarillo**.
 
 <div align="center">
 <img src="../../assets/imgs//S9I4.png" alt="/Servo" width="500">
@@ -182,7 +181,7 @@ Al **eliminar** el **Azul**, solo quedan el **Rojo** y el **Verde**. Cuando el R
 
 
 ## 5. Tonos rosas desactivando el canal verde:
-Se anula el canal verde de la imagen, haciendo que los colores Rojo y Azul se mezclen y modifiquen hacia gamas rosadas .
+Se anula el canal verde de la imagen, haciendo que los colores rojo y azul se mezclen y modifiquen hacia tonos rosados .
 
 ```cpp
 import cv2
@@ -215,10 +214,11 @@ video.release()
 
 **Filtro Rosado:**
 * `dibujo[:,:,1]=0`: Aplica el filtro.
-    * `[:,:,1]`: Selecciona todos los píxeles (todos los `[:,:]`) en el canal índice 1 (`1`). El canal 1 es el Verde.
+
+    * `[:,:,1]`: Selecciona todos los píxeles (todos los `[:,:]`) en el canal índice 1 (`1`). El canal 1 es el verde.
     * `=0`: Elimina todo el color verde de la imagen.
 
-Sin el color Verde, solo quedan el Azul y el Rojo para formar todos los colores. Cuando el Azul y el Rojo se combinan, el color resultante que vemos es el Magenta (una forma de Rosado intenso).
+Sin el color verde, solo quedan el azul y el rojo para formar todos los colores, y cuando estos se combinan, el color resultante que vemos es el rosa.
 
 <div align="center">
 <img src="../../assets/imgs//S9I5.jpeg" alt="/Servo" width="500">
@@ -227,7 +227,7 @@ Sin el color Verde, solo quedan el Azul y el Rojo para formar todos los colores.
 ---
 
 ## 6. Tonos rojos desactivando los canales azul y verde:
-Se desactivan los canales Azul y Verde, dejando únicamente el canal Rojo para mostrar un efecto monocromático rojizo.
+Se desactivan los canales azul y verde, dejando únicamente el canal rojo para mostrar un efecto monocromático rojizo.
 
 ```cpp
 import cv2
@@ -259,12 +259,12 @@ video.release()
 ```
 
 **Filtro Rojo:**
-* `dibujo[:,:,1]=0:` Elimina el canal Verde.
-    * El `1` es el índice del canal Verde en el formato **BGR**.
-* `dibujo[:,:,0]=0`: Elimina el canal Azul.
-    * El `0` es el índice del canal Azul en el formato **BGR**.
+* `dibujo[:,:,1]=0`: Elimina el canal verde.
+    * El `1` es el índice del canal verde en el formato BGR.
+* `dibujo[:,:,0]=0`: Elimina el canal azul.
+    * El `0` es el índice del canal azul en el formato BGR.
 
-Al dejar los canales Azul y Verde, el único color que queda en la imagen es el canal Rojo (índice 2). Esto crea una imagen que solo tiene tonos de Rojo, sin mezclas de color.
+Al dejar los canales azul y verde, el único color que queda en la imagen es el canal rojo (índice 2). Esto crea una imagen que solo tiene tonos de rojo.
 
 <div align="center">
 <img src="../../assets/imgs//S9I6.png" alt="/Servo" width="500">
@@ -305,15 +305,15 @@ video.release()
  
 ```
 
-1. **Primer Cuadrante (Filtro Rosado/Magenta):** `dibujo[0:240, 0:320, 1] = 0` Manipula el cuadrante superior izquierdo.
+1. **Primer Cuadrante (Filtro Rosado):** `dibujo[0:240, 0:320, 1] = 0` Modifica el cuadrante superior izquierdo.
     * `0:240` **(Alto):** Selecciona las filas de píxeles desde arriba (`0`) hasta la mitad (`240`).
     * `0:320` **(Ancho):** Selecciona las columnas de píxeles desde la izquierda (`0`) hasta la mitad (`320`).
-    * `1` **(Canal):** Elimina el color Verde (canal 1). Al eliminar el Verde, esta sección se vuelve rosada/magenta (combinación de Azul y Rojo).
+    * `1` **(Canal):** Elimina el color verde y esta sección se vuelve rosa.
 
-2. **Segundo Cuadrante (Filtro Amarillo):** `dibujo[240:480, 320:640, 0] = 0` Manipula el cuadrante inferior derecho.
+2. **Segundo Cuadrante (Filtro Amarillo):** `dibujo[240:480, 320:640, 0] = 0` Modifica el cuadrante inferior derecho.
     * `240:480` **(Alto):** Selecciona las filas desde la mitad (`240`) hasta abajo (`480`).
     * `320:640` **(Ancho):** Selecciona las columnas desde la mitad (`320`) hasta la derecha (`640`).
-    * `0` **(Canal):** Elimina el color Azul (canal 0). Al eliminar el Azul, esta sección se vuelve amarilla (combinación de Rojo y Verde).
+    * `0` **(Canal):** Elimina el color azul y esta sección se vuelve amarilla.
 
 Los otros dos cuadrantes (superior derecho e inferior izquierdo) no son modificados y mantienen sus colores originales.
 <div align="center">
@@ -363,13 +363,13 @@ video.release()
  
 ```
 
-1. **Conversión de Color (HSV):** `hsv = cv2.cvtColor(dibujo, cv2.COLOR_BGR2HSV)` El programa cambia la imagen del formato estándar **BGR** al formato **HSV** (Tonalidad, Saturación, Valor).
-2. **Definición de Rango (Azul):** `bajo = np.array([100, 80, 40], ...)` y `alto = np.array([140, 255, 255], ...)` Definen los límites para lo que el programa considerará "Azul". Se indica que el color Azul se encuentra entre el Tono `100` y `140`.
-3. **Creación de Máscara:** `mask = cv2.inRange(hsv, bajo, alto)` Revisa la imagen **HSV** y genera una **Máscara** (`mask`). La máscara es una imagen blanco y negro donde:
-    * **Blanco (255):** Es todo lo que **SÍ** está dentro del rango Azul definido.
-    * **Negro (0):** Es todo lo que **NO** es Azul.
+1. **Conversión de Color (HSV):** `hsv = cv2.cvtColor(dibujo, cv2.COLOR_BGR2HSV)` Cambia la imagen del formato **BGR** a **HSV** (Tonalidad, Saturación, Valor).
+2. **Definición de Rango (Azul):** `bajo = np.array([100, 80, 40], ...)` y `alto = np.array([140, 255, 255], ...)` Define los límites para lo que el programa considerará "azul".
+3. **Creación de Máscara:** `mask = cv2.inRange(hsv, bajo, alto)` Revisa la imagen **HSV** y genera una **Máscara** (`mask`) que es una imagen en blanco y negro donde:
+    * **Blanco (255):** Es todo lo que está dentro del rango azul definido.
+    * **Negro (0):** Es todo lo que no es azul.
 4. **Aplicación de Máscara:** `result = cv2.bitwise_and(frame, frame, mask=mask)` Combina la imagen original (`frame`) con la máscara (`mask`).
-    * Solo se muestra el contenido del *frame original* en las áreas donde la máscara es blanca. Todo lo que no es Azul aparece en color **negro**.
+    * Lo que es azul se muestra blanco y lo que no es azul aparece en negro.
 5. **Triple Visualización:** Se muestra el `ORIGINAL` (a color), la `MASK` (blanco y negro) y el `RESULT` (solo el Azul de la escena).
 
 <div align="center">
@@ -380,7 +380,7 @@ video.release()
 
 
 ## 9. Creación de máscara con rango ampliado de color:
-Se aplica una máscara con un rango más amplio en **HSV**, detectando más tonalidades del color objetivo y mostrando la segmentación resultante, lo que permite incluir más objetos en la imagen final.
+Se aplica una máscara con un rango más amplio en HSV, detectando más tonalidades del color y permitiiendo incluir más objetos en la imagen final.
 
 ```cpp
 import cv2
@@ -420,11 +420,11 @@ video.release()
  
 ```
 
-**Definición de Rango Ampliado:**
-* `bajo = np.array([100, 80, 40], ...)`: El límite **inferior** (el color más oscuro o menos brillante) se define, por ejemplo, comenzando en el tono azul (Tono H=`100`).
-* `alto = np.array([255, 255, 255], ...)`: En el límite **superior** los valores `[255, 255, 255]` representan los límites máximos absolutos que el formato `np.uint8` puede almacenar (el número `255` es el valor más alto).
+**Rango Ampliado:**
+* `bajo = np.array([100, 80, 40], ...)`: En el límite **inferior** los valores `[0, 0, 0]` son los más bajos que se pueden.
+* `alto = np.array([255, 255, 255], ...)`: En el límite **superior** los valores `[255, 255, 255]` son los más altos que se pueden.
 
-Al establecer el límite superior tan alto, la máscara detecta el rango de color **desde el Azul** (`bajo`) **hasta el color más brillante/intenso posible**. Esto hace que la máscara se vuelva mucho menos específica y capture una **mayor variedad de colores** en el video, no solo un tono específico de azul.
+Esto hace que la máscara se vuelva mucho menos específica y capture una mayor variedad de colores en el video, no solo un tono específico de azul.
 
 <div align="center">
 <img src="../../assets/imgs//S9I9.png" alt="/Servo" width="500">
@@ -433,7 +433,7 @@ Al establecer el límite superior tan alto, la máscara detecta el rango de colo
 ---
 
 ## 10. Detección de caras con red neuronal (DNN):
-Se utiliza un modelo entrenado **Caffe SSD** para detectar rostros en tiempo real, dibujando un recuadro y mostrando la confianza de detección.
+Se utiliza un modelo para detectar rostros en tiempo real, dibujando un recuadro y mostrando la confianza de detección.
 
 ```cpp
 import cv2
@@ -509,15 +509,9 @@ cv2.destroyAllWindows()
  
 ```
 
-1. **Preparación de la Red Neuronal (IA)**: Carga del Modelo (`cv2.dnn.readNetFromCaffe(...)`).
-    * Contiene los millones de valores entrenados que permiten a la red reconocer una cara.
-    * **Umbral** (`detection_threshold = 0.5`): Nivel mínimo de seguridad que la red debe tener (50%) para decir que un objeto detectado es, de hecho, una cara.
-2. **Detección en el Bucle** (`detect(frame, ...)`):
-    * **Creación del "Blob"** (`blob = cv2.dnn.blobFromImage(...)`): Las Redes Neuronales no entienden las imágenes en el formato normal de OpenCV. Esta línea convierte el *frame* en un formato especial llamado **"blob"** (una estructura de datos optimizada), que la red neuronal puede procesar.
-    * **Predicción** (`net.forward()`): La red procesa la información para devolver una lista de **detecciones** (posibles rostros encontrados) junto con un valor de **confianza** (qué tan segura está).
-    * **Filtro** El código recorre todas las detecciones. Si la confianza es mayor que el umbral del 50%, se considera una detección válida.
-    * **Recuadro (`cv2.rectangle(...)`):** Se usa la posición de la cara devuelta por la red (`box`) para dibujar un **recuadro verde** en el *frame*.
-    * **Confianza (`cv2.putText(...)`):** Se superpone el texto que muestra la **puntuación de confianza** (ej., 0.9850).
+1. **Carga del Modelo:** El sistema carga un modelo de Inteligencia Artificial (IA) que ya sabe cómo reconocer caras. Se establece un umbral de confianza (por ejemplo, 50%) para asegurar que solo se detecten rostros de manera fiable.
+3. **Detección y Filtro:** La red predice las ubicaciones de los posibles rostros y asigna una confianza a cada uno. Solo las detecciones que superan el umbral se consideran válidas.
+4. **Visualización:** Se dibuja un recuadro sobre cada rostro detectado y superpone el valor de confianza en la pantalla.
   
 <div align="center">
 <img src="../../assets/imgs//S9I10.png" alt="/Servo" width="500">
