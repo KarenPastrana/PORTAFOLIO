@@ -146,15 +146,15 @@ Para asegurar que los servos reaccionen lo más rápido posible, se controlaron 
 **Videos de pruebas**
 
 <div align="center">
-<video width="200" controls muted>
+<video width="325" controls muted>
   <source src="../assets/Videos/C1.mp4" type="video/mp4">
 </video>
 
-<video width="200" controls muted>
+<video width="325" controls muted>
   <source src="../assets/Videos/C2.mp4" type="video/mp4">
 </video>
 
-<video width="200" controls muted>
+<video width="325" controls muted>
   <source src="../assets/Videos/C3.mp4" type="video/mp4">
 </video>
 </div>
@@ -387,11 +387,11 @@ void loop() {
 **Videos**
 
 <div align="center">
-<video width="200" controls muted>
+<video width="325" controls muted>
   <source src="../assets/Videos/C4.mp4" type="video/mp4">
 </video>
 
-<video width="200" controls muted>
+<video width="325" controls muted>
   <source src="../assets/Videos/CF.mp4" type="video/mp4">
 </video>
 </div>
