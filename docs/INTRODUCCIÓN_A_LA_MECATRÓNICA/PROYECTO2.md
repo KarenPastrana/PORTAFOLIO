@@ -1,4 +1,4 @@
-# Proyecto2: Plataforma con 2 Servos para Balancear Pelota 
+# Proyecto 2: Plataforma con 2 Servos para Balancear Pelota 
 
 Este proyecto combina la **Visión por Computadora (OpenCV)** con el control del **ESP32** para crear una plataforma que rastrea y equilibra una pelota de color verde en tiempo real. La cámara identifica la pelota, calcula su posición y envía órdenes a dos servomotores para mantenerla siempre en el centro.
 
@@ -39,8 +39,8 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/Archivos/BASE.dxf" download>
-    <img src="https://img.shields.io/badge/Descargar-dxf-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar dxf">
+  <a href="../assets/Archivos/BASE.DXF" download>
+    <img src="https://img.shields.io/badge/Descargar-DXF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar DXF">
   </a>
 </div>
 
@@ -142,6 +142,27 @@ Para asegurar que los servos reaccionen lo más rápido posible, se controlaron 
 
 1. **Control Directo:** Generamos la señal de control (PWM) manualmente usando la función `moverServo` y `delayMicroseconds`.
 2. El ESP32 llama continuamente a `moverServo` para que los motores mantengan su posición y estén listos para reaccionar de inmediato a la siguiente orden del programa.
+
+**Videos de pruebas**
+
+<div align="center">
+<video width="400" controls muted>
+  <source src="../assets/Videos/C1.mp4" type="video/mp4">
+</video>
+</div>
+
+<div align="center">
+<video width="400" controls muted>
+  <source src="../assets/Videos/C2.mp4" type="video/mp4">
+</video>
+</div>
+
+<div align="center">
+<video width="400" controls muted>
+  <source src="../assets/Videos/C3.mp4" type="video/mp4">
+</video>
+</div>
+
 
 
 ## Códigos finales
@@ -368,24 +389,6 @@ void loop() {
 
 ## Resultados y Conclusión
 **Videos**
-
-<div align="center">
-<video width="400" controls muted>
-  <source src="../assets/Videos/C1.mp4" type="video/mp4">
-</video>
-</div>
-
-<div align="center">
-<video width="400" controls muted>
-  <source src="../assets/Videos/C2.mp4" type="video/mp4">
-</video>
-</div>
-
-<div align="center">
-<video width="400" controls muted>
-  <source src="../assets/Videos/C3.mp4" type="video/mp4">
-</video>
-</div>
 
 <div align="center">
 <video width="400" controls muted>
