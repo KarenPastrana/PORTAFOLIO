@@ -99,7 +99,7 @@
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Actividad 10</h2>
       <a href="https://karenpastrana.github.io/PORTAFOLIO/INTRODUCCI%C3%93N_A_LA_MECATR%C3%93NICA/ACTIVIDADES/SEMANAS10/" 
-         style="display:block; background-image:url('../assets/imgs/FW9.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         style="display:block; background-image:url('../assets/imgs/FW10.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Actividad 10
       </a>
     </div>
@@ -108,7 +108,7 @@
     <div style="flex:1 1 calc(33% - 40px); max-width:300px; background-color:#f9f9f9; padding:20px; border-radius:15px; text-align:center;">
       <h2 style="color:#228b22;">Actividad 11</h2>
       <a href="https://karenpastrana.github.io/PORTAFOLIO/INTRODUCCI%C3%93N_A_LA_MECATR%C3%93NICA/ACTIVIDADES/SEMANAS11/" 
-         style="display:block; background-image:url('../assets/imgs/FW9.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
+         style="display:block; background-image:url('../assets/imgs/FW11.jpg'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 0; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">
          Actividad 11
       </a>
     </div>
