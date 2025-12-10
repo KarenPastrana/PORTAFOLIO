@@ -1,9 +1,10 @@
-  # Proyecto2: Plataforma Stewart de 2 Servos para Balancear Pelota 
+# Proyecto2: Plataforma con 2 Servos para Balancear Pelota 
 
 Este proyecto combina la **Visión por Computadora (OpenCV)** con el control del **ESP32** para crear una plataforma que rastrea y equilibra una pelota de color verde en tiempo real. La cámara identifica la pelota, calcula su posición y envía órdenes a dos servomotores para mantenerla siempre en el centro.
 
 ## **Fase 1: Visión y Detección (Python)**
-Aqui se localiza la pelota con precisión en el video.
+Se localizó la pelota con precisión en el video.
+
 1. **Configuración de la Cámara:** Capturamos el video en vivo y aplicamos un filtro de desenfoque para eliminar el ruido visual.
 2. **Detección de Color (Máscara):** Convertimos la imagen a HSV y definimos el rango de color verde (`greenLower` / `greenUpper`) para crear una máscara binaria (donde la pelota es blanca y todo lo demás es negro).
 3. **Localización Precisa:** Usamos los contornos y el centroide para encontrar el punto central exacto de la pelota en la pantalla.
@@ -77,7 +78,7 @@ La estructura de la plataforma se construyó combinando corte láser e impresió
 ## **Fase 3: Fase de Control (PID) y Calibración**
 Esta fase fue importante para que la pelota se mantuviera balanceada. Con ayuda del **PID** se calculó la corrección necesaria para llevar la pelota al centro y mantenerla ahí.
 
-### A. Implementación del PID (Python)
+### Implementación del PID (Python)
 1. **Cálculo de Error:** Comparamos dónde está la pelota (`center`) con donde debería estar (`target = 300`).
 2. **Fórmula PID:**
     - **Proporcional (P):** Qué tan lejos está la pelota ahora. (Corrección inmediata).
@@ -85,18 +86,18 @@ Esta fase fue importante para que la pelota se mantuviera balanceada. Con ayuda 
     - **Derivativo (D):** Velocidad con la que se mueve la pelota. Ayuda a frenar el sistema y a evitar que oscile.
 3. **Conversión a Ángulo:** El resultado de la fórmula PID se transforma directamente en los ángulos finales que deben tomar los servos.
 
-### B. Calibración y ajustes finales
+### Calibración y ajustes
 - **Ventana de Sliders:** Creamos una ventana de ajustes (`Ajustes PID`) que permite cambiar los coeficientes **Kp**, **Ki** y **Kd** en tiempo real para sintonizar el sistema hasta lograr la estabilidad.
 - **Límites:** Se establecieron límites de ángulo tanto en Python como en el ESP32 para proteger los motores de movimientos bruscos.
 
-### C. Control de Bajos Niveles (Arduino/ESP32)
+### Control manual
 Para asegurar que los servos reaccionen lo más rápido posible, se controlaron de forma directa.
 1. **Control Directo:** Generamos la señal de control (PWM) manualmente usando la función `moverServo` y `delayMicroseconds`.
 2. El ESP32 llama continuamente a `moverServo` para que los motores mantengan su posición y estén listos para reaccionar de inmediato a la siguiente orden del programa.
 
 ## Códigos finales
 
-### Código Final en Python
+### Código Python
 
 ```python
 import cv2
@@ -243,7 +244,7 @@ cv2.destroyAllWindows()
 ser.close()
 ```
 
-### Código Final en Arduino
+### Código Arduino
 
 ```cpp
 #include <Arduino.h>
