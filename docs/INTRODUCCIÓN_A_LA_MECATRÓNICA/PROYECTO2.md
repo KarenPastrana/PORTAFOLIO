@@ -143,7 +143,8 @@ Para asegurar que los servos reaccionen lo más rápido posible, se controlaron 
 1. **Control Directo:** Generamos la señal de control (PWM) manualmente usando la función `moverServo` y `delayMicroseconds`.
 2. El ESP32 llama continuamente a `moverServo` para que los motores mantengan su posición y estén listos para reaccionar de inmediato a la siguiente orden del programa.
 
-**Videos de pruebas**
+
+### Videos de pruebas
 
 <div align="center">
 <video width="325" controls muted>
