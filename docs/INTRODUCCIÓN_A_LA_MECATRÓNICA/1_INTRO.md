@@ -120,10 +120,10 @@
   <!-- Proyectos Finales -->
   <div align="center" style="background-color:#f9f9f9; padding: 30px; border-radius: 15px;">
 
-  <h2 style="color:#228b22;">Proyecto Final 1</h2>
+  <h2 style="color:#228b22;">Proyecto 1 Carro Robot 1</h2>
   <a href="https://karenpastrana.github.io/PORTAFOLIO/INTRODUCCIÓN_A_LA_MECATRÓNICA/PROYECTO/" style="display:inline-block; background-image:url('../assets/imgs/proyecto-bg.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Proyecto Final</a>
 
-<h2 style="color:#228b22;">Proyecto Final 2</h2>
+<h2 style="color:#228b22;">Proyecto 2 Plataforma 2</h2>
   <a href="https://karenpastrana.github.io/PORTAFOLIO/INTRODUCCIÓN_A_LA_MECATRÓNICA/PROYECTO2/" style="display:inline-block; background-image:url('../assets/imgs/proyecto-bg.png'); background-size:cover; background-position:center; color:white; text-decoration:none; padding:50px 60px; border-radius:15px; font-weight:bold; font-size:18px; margin:10px;">Proyecto Final 2</a>
 
   <hr style="border:1px solid #ccc; width:80%; margin:30px 0;">
