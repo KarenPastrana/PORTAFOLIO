@@ -1,4 +1,4 @@
-# Proyecto2: Plataforma Stewart de 2 Servos para Balancear Pelota 
+  # Proyecto2: Plataforma Stewart de 2 Servos para Balancear Pelota 
 
 Este proyecto combina la **Visión por Computadora (OpenCV)** con el control del **ESP32** para crear una plataforma que rastrea y equilibra una pelota de color verde en tiempo real. La cámara identifica la pelota, calcula su posición y envía órdenes a dos servomotores para mantenerla siempre en el centro.
 
@@ -319,12 +319,34 @@ void loop() {
 ## Resultados y Conclusión
 **Videos**
 
-<video width="320" controls>
-  <source src="../../assets/Videos/.mp4" type="video/mp4">
+<div align="center">
+<video width="400" controls muted>
+  <source src="../../assets/Videos/C1.mp4" type="video/mp4">
 </video>
 </div>
 
+<div align="center">
+<video width="400" controls muted>
+  <source src="../../assets/Videos/C2.mp4" type="video/mp4">
+</video>
+</div>
 
-El éxito del proyecto dependió de la interacción precisa entre la señal de error generada por el PID en Python y la ejecución rápida del movimiento de los servos en el ESP32. La fase de calibración (ajuste de Kp, Ki, Kd)** fue la que consumió más tiempo, ya que cada cambio afectaba la velocidad, la suavidad y la estabilidad de la respuesta de la plataforma al rastrear la pelota. El resultado final fue una plataforma estable, robusta y con capacidad de rastreo que sirve como una base sólida para futuros proyectos de robótica y automatización.
+<div align="center">
+<video width="400" controls muted>
+  <source src="../../assets/Videos/C3.mp4" type="video/mp4">
+</video>
+</div>
 
+<div align="center">
+<video width="400" controls muted>
+  <source src="../../assets/Videos/C4.mp4" type="video/mp4">
+</video>
+</div>
 
+<div align="center">
+<video width="400" controls muted>
+  <source src="../../assets/Videos/CF.mp4" type="video/mp4">
+</video>
+</div>
+
+El éxito del proyecto dependió de la **interacción precisa** entre la señal de error generada por el PID en Python y la ejecución rápida del movimiento de los servos en el ESP32. La fase de **calibración (ajuste de Kp, Ki, Kd)** fue la que consumió más tiempo, ya que cada cambio afectaba directamente la velocidad, la suavidad y la estabilidad de la respuesta de la plataforma. El resultado final fue una plataforma estable, robusta y con capacidad de rastreo que sirve como una base sólida para futuros proyectos de robótica y automatización.
