@@ -18,24 +18,24 @@ Elegimos usar dos servomotores MG995 para controlar los movimientos horizontal (
    
 La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base, la superficie y los soportes que sostienen la plataforma fueron cortadas en MDF. Estos últimos se diseñaron pra que formaran una especie de "L" para que de este modo la plataforma tuviera un mayor movimiento.
 
-Por otro lado, el soporte central que permite girar la plataforma y los soportes de los servos fueron impresos en 3D. 
+Por otro lado, el soporte central que permite girar la plataforma, los soportes de los servos y el de los brazos fueron impresos en 3D. 
 
-**Piezas MDF**
+### **Piezas MDF**
 
-# Soportes de plataforma
+#### Soportes de plataforma
 <div align="center">
 <img src="../assets/imgs/3.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/BRAZOS X2.SLDPRT" download>
+  <a href="../assets/archivos/BRAZOS_X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
-# Base y superficie
+#### Base y superficie (45 x 45)
 <div align="center">
-<img src="../assets/imgs/3.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/8.jpg" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
@@ -44,9 +44,9 @@ Por otro lado, el soporte central que permite girar la plataforma y los soportes
   </a>
 </div>
 
-**Piezas impresión 3D**
+### **Piezas impresión 3D**
 
-# Pieza 1 Soporte central
+#### Pieza 1 Soporte central
 
 <div align="center">
 <img src="../assets/imgs/2.png" alt="Plataforma" width="400">
@@ -58,39 +58,56 @@ Por otro lado, el soporte central que permite girar la plataforma y los soportes
   </a>
 </div>
 
-# Pieza 2 Soporte central
+#### Pieza 2 Soporte central
 
 <div align="center">
 <img src="../assets/imgs/7.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="../assets/imgs/archivos/SOPORTE BRAZOS X2.SLDPRT" download>
+  <a href="../assets/imgs/archivos/CENTRAL.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
-# Pieza Soporte central
+#### Pieza Soporte central
 
 <div align="center">
 <img src="../assets/imgs/1.png" alt="Plataforma" width="400">
 </div>
-   
+
+   <div align="center">
+  <a href="../assets/archivos/SOPORTE_CENTRAL.SLDASM" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDASM-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDASM">
+  </a>
+      
 <div align="center">
-  <a href="../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+  <a href="../assets/archivos/SOPORTE_CENTRAL.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
-# Soportes de servos
+#### Soportes de servos
 
 <div align="center">
 <img src="../assets/imgs/6.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/BASE SERVOS X2.STL" download>
-    <img src="https://img.shields.io/badge/Descargar-STL-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  <a href="../assets/archivos/BASE_SERVOS_X2.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+#### Soportes de brazos
+
+<div align="center">
+<img src="../assets/imgs/9.jpg" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="../assets/archivos/SOPORTE_BRAZOS_X2.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
@@ -111,7 +128,7 @@ Esta fase fue importante para que la pelota se mantuviera balanceada. Con ayuda 
 - **Ventana de Sliders:** Creamos una ventana de ajustes (`Ajustes PID`) que permite cambiar los coeficientes **Kp**, **Ki** y **Kd** en tiempo real para sintonizar el sistema hasta lograr la estabilidad.
 
 ``` codigo
-!!! note "Nota: Valores utilizados"
+!!! "Nota: Valores utilizados"
    - Kp: 8
    - Ki: 0
    - Kd: 100
@@ -124,6 +141,7 @@ Para asegurar que los servos reaccionen lo más rápido posible, se controlaron 
 
 1. **Control Directo:** Generamos la señal de control (PWM) manualmente usando la función `moverServo` y `delayMicroseconds`.
 2. El ESP32 llama continuamente a `moverServo` para que los motores mantengan su posición y estén listos para reaccionar de inmediato a la siguiente orden del programa.
+
 
 ## Códigos finales
 
