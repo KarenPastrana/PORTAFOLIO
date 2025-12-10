@@ -13,7 +13,7 @@ Se localizó la pelota con precisión en el video.
 Elegimos usar dos servomotores MG995 para controlar los movimientos horizontal (X) y vertical (Y), para mover la plataforma con más torque, suficiente velocidad y estabilidad. Usamos esta imagen de referencia para el diseño de la plataforma y la colocación de los servomotores.
 
 <div align="center">
-<img src="assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
+<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
 </div>
    
 La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base y la superficie fueron impresas en MDF y los soportes que sostienen la plataforma, así como la parte central que permite girar la plataforma, fueron impresas en 3D. Pra un mayor movimiento de la plataforma, se hizo una especie de "L" con varillas de MDF que fueron atornilladas en los servos y en la parte superior de la plataforma. 
