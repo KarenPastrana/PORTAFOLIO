@@ -91,7 +91,7 @@ La imagen `dibujo` ahora solo tiene información de brillo (blanco, negro y tono
 ---
 
 ## 3. Alteración de colores hacia tonalidades azules:
-El espacio de color del *frame* se transforma de **BGR** a **RGB**, produciendo un efecto visual donde predominan tonos azules.
+El espacio de color del frame se transforma de **BGR** a **RGB**, produciendo un efecto visual donde predominan tonos azules.
 
 ```cpp
 import cv2
@@ -213,9 +213,11 @@ video.release()
 ```
 
 **Filtro Rosado:**
-* `dibujo[:,:,1]=0`: Aplica el filtro.
 
+* `dibujo[:,:,1]=0`: Aplica el filtro.
+  
     * `[:,:,1]`: Selecciona todos los píxeles (todos los `[:,:]`) en el canal índice 1 (`1`). El canal 1 es el verde.
+      
     * `=0`: Elimina todo el color verde de la imagen.
 
 Sin el color verde, solo quedan el azul y el rojo para formar todos los colores, y cuando estos se combinan, el color resultante que vemos es el rosa.
@@ -259,9 +261,13 @@ video.release()
 ```
 
 **Filtro Rojo:**
+
 * `dibujo[:,:,1]=0`: Elimina el canal verde.
+  
     * El `1` es el índice del canal verde en el formato BGR.
+      
 * `dibujo[:,:,0]=0`: Elimina el canal azul.
+  
     * El `0` es el índice del canal azul en el formato BGR.
 
 Al dejar los canales azul y verde, el único color que queda en la imagen es el canal rojo (índice 2). Esto crea una imagen que solo tiene tonos de rojo.
@@ -369,7 +375,6 @@ video.release()
     * **Blanco (255):** Es todo lo que está dentro del rango azul definido.
     * **Negro (0):** Es todo lo que no es azul.
 4. **Aplicación de Máscara:** `result = cv2.bitwise_and(frame, frame, mask=mask)` Combina la imagen original (`frame`) con la máscara (`mask`).
-    * Lo que es azul se muestra blanco y lo que no es azul aparece en negro.
 5. **Triple Visualización:** Se muestra el `ORIGINAL` (a color), la `MASK` (blanco y negro) y el `RESULT` (solo el Azul de la escena).
 
 <div align="center">
@@ -421,7 +426,9 @@ video.release()
 ```
 
 **Rango Ampliado:**
+
 * `bajo = np.array([100, 80, 40], ...)`: En el límite **inferior** los valores `[0, 0, 0]` son los más bajos que se pueden.
+  
 * `alto = np.array([255, 255, 255], ...)`: En el límite **superior** los valores `[255, 255, 255]` son los más altos que se pueden.
 
 Esto hace que la máscara se vuelva mucho menos específica y capture una mayor variedad de colores en el video, no solo un tono específico de azul.
@@ -520,7 +527,7 @@ cv2.destroyAllWindows()
 ---
 
 ## 11. Detección de color verde:
-Se aisla y resalta un color específico (**el verde**) dentro del video en tiempo real. Esto se logra configurando un **rango de tonalidades** en el espacio de color **HSV** y creando una **máscara** que únicamente revela los objetos de ese color.
+Se aisla y resalta un color específico (verde) dentro del video en tiempo real. Esto se logra configurando un rango de tonalidades en el espacio de color HSV y creando una máscara que solo muestra los objetos de ese color.
 
 ```cpp
 import cv2
@@ -560,11 +567,10 @@ video.release()
  
 ```
 
-**Definición del Rango Verde:**
-`bajo = np.array([45, 0, 0], ...)` y `alto = np.array([75, 255, 255], ...)` definen los límites numéricos que representan el color verde en el espacio HSV.
+**Rango Verde:**
+`bajo = np.array([45, 0, 0], ...)` y `alto = np.array([75, 255, 255], ...)` definen los límites que representan el color verde en el espacio HSV.
 
-* El **Tono (H)** para el Verde se encuentra típicamente entre `35` y `85` en los valores de OpenCV. Aquí, se usa un rango de `45` a `75` para ser preciso con los tonos de Verde.
-* El límite `bajo` establece el tono más oscuro/menos saturado del verde que se quiere detectar, y el límite `alto` (hasta 255) asegura que se detecten todos los verdes brillantes y saturados dentro de ese rango de tono.
+* El **Tono (H)** para el verde se encuentra típicamente entre `35` y `85` en los valores de OpenCV. Aquí, se usa un rango de `45` a `75` para ser preciso con los tonos de verde.
 
 <div align="center">
 <img src="../../assets/imgs//S9I11.png" alt="/Servo" width="310">
