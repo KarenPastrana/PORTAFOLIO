@@ -351,4 +351,6 @@ void loop() {
 </video>
 </div>
 
-El éxito del proyecto dependió de la **interacción precisa** entre la señal de error generada por el PID en Python y la ejecución rápida del movimiento de los servos en el ESP32. La fase de **calibración (ajuste de Kp, Ki, Kd)** fue la que consumió más tiempo, ya que cada cambio afectaba directamente la velocidad, la suavidad y la estabilidad de la respuesta de la plataforma. El resultado final fue una plataforma estable, robusta y con capacidad de rastreo que sirve como una base sólida para futuros proyectos de robótica y automatización.
+Con este proyecto logramos elaborar una plataforma funcional que balanceara una pelota, integrando conocimientos de programación, mecánica y electrónica. Con Python se aprendió a usar la cámara para detectar la pelota verde y encontrar su posición exacta. También, con la ayuda del PID, la plataforma fue capaaz de frenar y acelerar lo justo para que la pelota regresara al centro de forma suave y precisa.
+
+Además, al controlar los motores directamente, se evitó qu hubiera errores de conexión y que la plataforma ejecutara el movimiento con la velocidad y precisión adecuada. La calibración fue lo que hizo que la plataforma funcionara de manera suave, sin movimientos bruscos y oscilaciones, ya que todo fue un proceso de prueba y error. Esto nos llevó a realizar varios cambios y ajustes que nos ayudaron a entender cómo un sistema puede ver, pensar y reaccionar al entorno.
