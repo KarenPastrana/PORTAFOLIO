@@ -76,14 +76,14 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 <img src="../assets/imgs/1.png" alt="Plataforma" width="400">
 </div>
 
-   <div align="center">
-  <a href="../assets/archivos/SOPORTE_CENTRAL.SLDASM" download>
-    <img src="https://img.shields.io/badge/Descargar-SLDASM-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDASM">
-  </a>
+<div align="center">
+<a href="../assets/archivos/SOPORTE_CENTRAL.SLDASM" download>
+<img src="https://img.shields.io/badge/Descargar-SLDASM-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDASM">
+</a>
       
 <div align="center">
-  <a href="../assets/archivos/SOPORTE_CENTRAL.SLDPRT" download>
-    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+<a href="../assets/archivos/SOPORTE_CENTRAL.SLDPRT" download>
+   <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
@@ -94,9 +94,9 @@ Por otro lado, el soporte central que permite girar la plataforma, los soportes 
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/BASE_SERVOS_X2.SLDPRT" download>
-    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
-  </a>
+<a href="../assets/archivos/BASE_SERVOS_X2.SLDPRT" download>
+<img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+</a>
 </div>
 
 #### Soportes de brazos
