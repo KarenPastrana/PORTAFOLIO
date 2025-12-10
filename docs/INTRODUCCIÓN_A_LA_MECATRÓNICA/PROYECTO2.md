@@ -9,25 +9,44 @@ Se localizó la pelota con precisión en el video.
 2. **Detección de Color (Máscara):** Convertimos la imagen a HSV y definimos el rango de color verde (`greenLower` / `greenUpper`) para crear una máscara binaria (donde la pelota es blanca y todo lo demás es negro).
 3. **Localización Precisa:** Usamos los contornos y el centroide para encontrar el punto central exacto de la pelota en la pantalla.
 
-## **Fase 2: Diseño Físico y Electrónica**
+## **Fase 2: Diseño Físico**
 Elegimos usar dos servomotores MG995 para controlar los movimientos horizontal (X) y vertical (Y), para mover la plataforma con más torque, suficiente velocidad y estabilidad. Usamos esta imagen de referencia para el diseño de la plataforma y la colocación de los servomotores.
 
 <div align="center">
 <img src="../assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
 </div>
    
-La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base y la superficie fueron impresas en MDF y los soportes que sostienen la plataforma, así como la parte central que permite girar la plataforma, fueron impresas en 3D. Pra un mayor movimiento de la plataforma, se hizo una especie de "L" con varillas de MDF que fueron atornilladas en los servos y en la parte superior de la plataforma. 
+La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base, la superficie y los soportes que sostienen la plataforma fueron cortadas en MDF. Estos últimos se diseñaron pra que formaran una especie de "L" para que de este modo la plataforma tuviera un mayor movimiento.
 
-**Piezas**
+Por otro lado, el soporte central que permite girar la plataforma y los soportes de los servos fueron impresos en 3D. 
+
+**Piezas MDF**
+
+# Soportes de plataforma
 <div align="center">
-<img src="../assets/imgs/1.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/3.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+  <a href="../assets/archivos/BRAZOS X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
+
+# Base y superficie
+<div align="center">
+<img src="../assets/imgs/3.png" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="../assets/archivos/BASE.dxf" download>
+    <img src="https://img.shields.io/badge/Descargar-dxf-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar dxf">
+  </a>
+</div>
+
+**Piezas impresión 3D**
+
+# Pieza 1 Soporte central
 
 <div align="center">
 <img src="../assets/imgs/2.png" alt="Plataforma" width="400">
@@ -39,16 +58,31 @@ La estructura de la plataforma se construyó combinando corte láser e impresió
   </a>
 </div>
 
+# Pieza 2 Soporte central
 
 <div align="center">
-<img src="../assets/imgs/3.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/7.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="../assets/imgs/archivos/BRAZOS X2.SLDPRT" download>
+  <a href="../assets/imgs/archivos/SOPORTE BRAZOS X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
+
+# Pieza Soporte central
+
+<div align="center">
+<img src="../assets/imgs/1.png" alt="Plataforma" width="400">
+</div>
+   
+<div align="center">
+  <a href="../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+# Soportes de servos
 
 <div align="center">
 <img src="../assets/imgs/6.png" alt="Plataforma" width="400">
@@ -61,25 +95,12 @@ La estructura de la plataforma se construyó combinando corte láser e impresió
 </div>
 
 
-<div align="center">
-<img src="../assets/imgs/7.png" alt="Plataforma" width="400">
-</div>
-   
-<div align="center">
-  <a href="../assets/imgs/archivos/SOPORTE BRAZOS X2.SLDPRT" download>
-    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
-  </a>
-</div>
-
-### Conexión y Comunicación Serial
-- **Python (`pySerial`):** Se utilizó esta librería para abrir y gestionar el puerto COM, enviando los datos continuamente.
-- **ESP32 (`BluetoothSerial`):** El ESP32 se configuró para comunicarse por ese puerto serial y recibir los comandos.
-
 ## **Fase 3: Fase de Control (PID) y Calibración**
+
 Esta fase fue importante para que la pelota se mantuviera balanceada. Con ayuda del **PID** se calculó la corrección necesaria para llevar la pelota al centro y mantenerla ahí.
 
 ### Implementación del PID (Python)
-1. **Cálculo de Error:** Comparamos dónde está la pelota (`center`) con donde debería estar (`target = 300`).
+1. **Cálculo de Error:** Comparamos dónde está la pelota (`center`) con dónde debería estar (`target = 300`).
 2. **Fórmula PID:**
     - **Proporcional (P):** Qué tan lejos está la pelota ahora. (Corrección inmediata).
     - **Integral (I):** Acumula el error a lo largo del tiempo. Corrige pequeños errores constantes, como la fricción.
@@ -88,6 +109,14 @@ Esta fase fue importante para que la pelota se mantuviera balanceada. Con ayuda 
 
 ### Calibración y ajustes
 - **Ventana de Sliders:** Creamos una ventana de ajustes (`Ajustes PID`) que permite cambiar los coeficientes **Kp**, **Ki** y **Kd** en tiempo real para sintonizar el sistema hasta lograr la estabilidad.
+
+``` codigo
+!!! note "Nota: Valores utilizados"
+   - Kp: 8
+   - Ki: 0
+   - Kd: 100
+```
+
 - **Límites:** Se establecieron límites de ángulo tanto en Python como en el ESP32 para proteger los motores de movimientos bruscos.
 
 ### Control manual
