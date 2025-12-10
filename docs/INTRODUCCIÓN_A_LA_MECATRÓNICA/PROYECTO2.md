@@ -13,60 +13,60 @@ Se localizó la pelota con precisión en el video.
 Elegimos usar dos servomotores MG995 para controlar los movimientos horizontal (X) y vertical (Y), para mover la plataforma con más torque, suficiente velocidad y estabilidad. Usamos esta imagen de referencia para el diseño de la plataforma y la colocación de los servomotores.
 
 <div align="center">
-<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
+<img src="../assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
 </div>
    
 La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base y la superficie fueron impresas en MDF y los soportes que sostienen la plataforma, así como la parte central que permite girar la plataforma, fueron impresas en 3D. Pra un mayor movimiento de la plataforma, se hizo una especie de "L" con varillas de MDF que fueron atornilladas en los servos y en la parte superior de la plataforma. 
 
 **Piezas**
 <div align="center">
-<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/1.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/1.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/Archivos/SOPORTE CENTRAL.SLDPRT" download>
+  <a href="../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 <div align="center">
-<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/2.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/2.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/Archivos/CENTRO.SLDPRT" download>
+  <a href="../assets/archivos/CENTRO.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 
 <div align="center">
-<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/3.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/3.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/Archivos/BRAZOS X2.SLDPRT" download>
+  <a href="../assets/imgs/archivos/BRAZOS X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 <div align="center">
-<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/6.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/6.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/Archivos/BASE SERVOS X2.STL" download>
+  <a href="../assets/archivos/BASE SERVOS X2.STL" download>
     <img src="https://img.shields.io/badge/Descargar-STL-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
 
 
 <div align="center">
-<img src="/docs/INTRODUCCIÓN_A_LA_MECATRÓNICA/assets/imgs/7.png" alt="Plataforma" width="400">
+<img src="../assets/imgs/7.png" alt="Plataforma" width="400">
 </div>
    
 <div align="center">
-  <a href="assets/Archivos/SOPORTE BRAZOS X2.SLDPRT" download>
+  <a href="../assets/imgs/archivos/SOPORTE BRAZOS X2.SLDPRT" download>
     <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
   </a>
 </div>
@@ -323,31 +323,31 @@ void loop() {
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="assets/Videos/C1.mp4" type="video/mp4">
+  <source src="../assets/videos/C1.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="assets/Videos/C2.mp4" type="video/mp4">
+  <source src="../assets/videos/C2.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="assets/Videos/C3.mp4" type="video/mp4">
+  <source src="../assets/videos/C3.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="assets/Videos/C4.mp4" type="video/mp4">
+  <source src="../assets/videos/C4.mp4" type="video/mp4">
 </video>
 </div>
 
 <div align="center">
 <video width="400" controls muted>
-  <source src="assets/Videos/CF.mp4" type="video/mp4">
+  <source src="../assets/videos/CF.mp4" type="video/mp4">
 </video>
 </div>
 
