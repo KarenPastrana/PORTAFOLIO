@@ -1,26 +1,57 @@
-# Proyecto2: Plataforma Stewart de 2 Servos para Balancear Pelota 🟢
+# Proyecto2: Plataforma Stewart de 2 Servos para Balancear Pelota 
 
-Este proyecto integra la **Visión por Computadora (OpenCV)** con el control de microcontroladores (**ESP32**) para crear un sistema de rastreo activo. El objetivo principal es que una cámara web detecte la posición de una pelota de color (verde) y envíe órdenes a una plataforma de dos ejes (tipo Stewart) para **mover los servomotores y mantener la pelota centrada** en el campo de visión, logrando así el balanceo.
+Este proyecto combina la **Visión por Computadora (OpenCV)** con el control del **ESP32** para crear una plataforma que rastrea y equilibra una pelota de color verde en tiempo real. La cámara "ve" la pelota, calcula su posición y envía órdenes a dos servomotores para mantenerla siempre en el centro.
 
-## **I. Fase 1: Visión y Detecciión (OpneCV)**
-El primer paso esencial fue crear el **sistema de sensado**, permitiendo a la computadora "ver" la pelota.
-1. **Configuración de Cámara y Filtros:** Se configuró OpenCV para capturar el video en tiempo real. Se aplicó un **filtro de desenfoque Gaussiano** (`cv2.GaussianBlur`) para reducir el ruido y luego una conversión a **HSV** para aislar el color.
-2. **Detección de Color (Máscara):** Se definieron los rangos `greenLower` y `greenUpper` para crear una **máscara binaria**. Este proceso (visto en semanas anteriores) transforma la imagen en un simple mapa de "Pelota (Blanco)" o "No Pelota (Negro)".
-3. **Localización Robusta:** Se utilizó la detección de contornos (`cv2.findContours`) y los **Momentos de Imagen** (`cv2.moments`) para calcular con precisión el centroide (`center[0], center[1]`) de la pelota.
+## **I. Fase 1: Visión y Detecciión (Python)**
+Aqui se localiza la pelota con precisión en el video.
+1. **Configuración de la Cámara:** Capturamos el video en vivo y aplicamos un filtro de desenfoque para eliminar el ruido visual.
+2. **Detección de Color (Máscara):** Convertimos la imagen a HSV y definimos el rango de color verde (`greenLower` / `greenUpper`) para crear una máscara binaria (donde la pelota es blanca y todo lo demás es negro).
+3. **Localización Precisa:** Usamos los contornos y el centroide para encontrar el punto central exacto de la pelota en la pantalla.
 
 ## **Fase 2: Diseño Físico y Electrónica**
-Se abordó el diseño mecánico y la selección de componentes.
+Elegimos usar dos servomotores MG995 para controlar los movimientos horizontal (X) y vertical (Y), para mover la plataforma con más torque, suficiente velocidad y estabilidad. Usamos esta imagen de referencia para el diseño de la plataforma y la colocación de los servomotores.
 
-### A. Diseño y Arquitectura de la Plataforma
-Tras analizar las opciones, se decidió utilizar una configuración simplificada de la Plataforma Stewart, usando solo **2 Ejes**.
-    - **Decisión de 2 Servos:** Se comenzó a idear la plataforma. Se determinó que se usarían solo **dos servomotores** para controlar los dos ejes de movimiento principales (X e Y), simplificando la complejidad mecánica.
-    - **Servomotores de Alto Torque:** Se seleccionaron los servos **MG995**. Estos son servomotores de gran tamaño y **alto torque** (fuerza), esenciales para mover la masa de la plataforma, la pelota y vencer la inercia rápidamente, permitiendo un rastreo efectivo.
-    - Estructura: El diseño de la plataforma se tomó como referencia de la imagen provista , que proporciona un excelente mecanismo de palanca para trasladar el movimiento angular del servo al movimiento planar de la base.
-
-   <div align="center">
+  <div align="center">
 <img src="../../assets/imgs/PLATREF.jpg" alt="Plataforma" width="400">
 </div> 
    
+
+La estructura de la plataforma se construyó combinando corte láser e impresión 3D. La base y la superficie fueron impresas en MDF y los soportes que sostienen la plataforma, así como la parte central que permite girar la plataforma, fueron impresas en 3D. Pra un mayor movimiento de la plataforma, se hizo una especie de "L" con varillas de MDF que fueron atornilladas en los servos y en la parte superior de la plataforma. 
+
+ <div align="center">
+<img src="../../assets/imgs/2.png" alt="Plataforma" width="400">
+</div> 
+   
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+ <div align="center">
+<img src="../../assets/imgs/3.png" alt="Plataforma" width="400">
+</div> 
+   
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/BRAZOS X2.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
+
+ <div align="center">
+<img src="../../assets/imgs/7.png" alt="Plataforma" width="400">
+</div> 
+   
+<!-- Botón de descarga -->
+<div align="center">
+  <a href="../../assets/archivos/SOPORTE CENTRAL.SLDPRT" download>
+    <img src="https://img.shields.io/badge/Descargar-SLDPRT-red?style=for-the-badge&logo=adobeacrobatreader" alt="Descargar SLDPRT">
+  </a>
+</div>
+
 
 ### Conexión y Comunicación Serial
 Dado que el ESP32 aparece como un puerto COM en la computadora, se eligió la comunicación **Serial Virtual** (vía Bluetooth SPP o USB) para una alta velocidad y simplicidad.
