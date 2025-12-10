@@ -1,7 +1,7 @@
 # Actividad 10: Continuación Captura, Visualización de Video e Iniciación del Proyecto
 
 ## 1. Identificación de pelota verde mediante máscara HSV:
-Se encuentra el **objeto verde más grande** dentro del video (simulando una pelota) y luego **identifica sus coordenadas** exactas en tiempo real.
+Se encuentra el objeto verde más grande dentro del video (simulando una pelota) y luego identifica sus coordenadas exactas en tiempo real.
 
 ```cpp
 import cv2
@@ -56,16 +56,16 @@ video.release()
 ```
 
 1. **Detección de Color (Máscara):**
-    * `hsv = cv2.cvtColor(...)`: Convierte la imagen a **HSV** para facilitar la detección.
-    * `bajo=np.array([40,...])` / `alto=np.array([80,...])`: Define el rango de tonalidades que se considera **color Verde**.
-    * `mask = cv2.inRange(...)`: Crea la **máscara** (imagen blanco y negro) que aísla solo el color Verde.
-2. **Detección del Contorno más Grande (La Pelota):**
-    * `lista_cont, herarquia = cv2.findContours(mask, ...)`: Busca todos los **contornos** (los bordes o líneas cerradas) en la imagen de la máscara. La `lista_cont` guarda todas las formas verdes encontradas.
-3. **Bucle de Búsqueda:** El código utiliza un bucle (`for contn in lista_cont:`) para revisar cada forma encontrada:
-    * `area_n = cv2.contourArea(contn)`: Calcula el **área** de la forma actual.
-    * `if area_grande < area_n:`: Si el área actual es **más grande** que la más grande que hemos encontrado hasta ahora, la guarda como la nueva `contorno_pelota`.
+    * `hsv = cv2.cvtColor(...)`: Convierte la imagen a HSV.
+    * `bajo=np.array([40,...])` / `alto=np.array([80,...])`: Define el rango de tonalidades que se considera color verde.
+    * `mask = cv2.inRange(...)`: Crea la máscara que aísla solo el color verde.
+2. **Detección del Contorno más Grande:**
+    * `lista_cont, herarquia = cv2.findContours(mask, ...)`: Busca todos los contornos en la imagen de la máscara.
+3. **Área más grande:**
+    * `area_n = cv2.contourArea(contn)`: Calcula el área de la forma actual.
+    * `if area_grande < area_n:`: Si el área actual es más grande que la más grande que hemos encontrado hasta ahora, la guarda como la nueva `contorno_pelota`.
 4. **Localización:**
-    * `(x,y),radio=cv2.minEnclosingCircle(contorno_pelota)`: Cuando termina el bucle, esta función toma el **contorno más grande** (`contorno_pelota`) y calcula el círculo más pequeño que puede rodear esa forma. Esto nos da la **posición central** (`x, y`) y el radio.
+    * `(x,y),radio=cv2.minEnclosingCircle(contorno_pelota)`: Toma `contorno_pelota` y calcula el círculo más pequeño que puede rodear esa forma. Esto nos da la posición central (`x, y`) y el radio.
     * `print(x, y)`: Imprime las coordenadas exactas de la pelota en la pantalla.
 
 <div align="center">
@@ -131,15 +131,14 @@ while True:
 video.release()
 ```
 
-**Marcación Gráfica:**
 Una vez que se tienen las coordenadas y el radio de la pelota, se dibujan dos elementos:
 
 * **Dibujo del Círculo Envolvente:** `cv2.circle(frame, (int(x), int(y)), int(radio), (0, 0, 255), 3)` dibuja un círculo grande.
     * `frame`: Se dibuja sobre la imagen original.
     * `(int(x), int(y))`: Usa el centro calculado de la pelota.
-    * `int(radio)`: Usa el radio calculado, asegurando que el círculo encierre perfectamente la pelota.
-    * `(0, 0, 255)`: Define el color Rojo para el borde.
-* **Dibujo del Punto Central:** `cv2.circle(frame, (int(x), int(y)), 3, (0, 0, 255), 3)` dibuja un círculo muy pequeño (de radio `3`) en la misma coordenada central. Esto actúa como un **marcador de punto** en el centro exacto del objeto rastreado.
+    * `int(radio)`: Usa el radio calculado, asegurando que el círculo encierre bien la pelota.
+    * `(0, 0, 255)`: Define el color rojo para el borde.
+* **Dibujo del Punto Central:** `cv2.circle(frame, (int(x), int(y)), 3, (0, 0, 255), 3)` dibuja un círculo muy pequeño (de radio `3`) en la misma coordenada central.
   
 <div align="center">
 <img src="../../assets/imgs//S10I2.jpeg" alt="/Servo" width="500">
@@ -148,7 +147,7 @@ Una vez que se tienen las coordenadas y el radio de la pelota, se dibujan dos el
 ---
 
 ## 3. Detección de pelota con cálculo de errores de posición:
-Combina la **detección de color** y el **rastreo de contornos** para localizar un objeto verde (la pelota) y calcula en tiempo real qué tan lejos se encuentra ese objeto del **centro exacto de la imagen**. Este valor de distancia se conoce como **"error de posición"**.
+Combina la detección de color y el rastreo de contornos para localizar un objeto verde (la pelota) y calcula en tiempo real qué tan lejos se encuentra ese objeto del centro exacto de la imagen (**error de posición**).
 
 ```cpp
 import cv2
@@ -230,20 +229,10 @@ while True:
 video.release()
 ```
 
-1. **Preparación del Frame:**
-    * `frame = cv2.flip(frame, 1)`: Rota la imagen en el eje Y (`1`). Esto hace que el video se vea como si te vieras en un espejo, lo cual es útil para que el movimiento de la pelota sea intuitivo para el usuario (si mueves la mano a la derecha, la imagen se mueve a la derecha).
-    * `h = frame.shape[0]`: Obtiene el tamaño de la dimensión **vertical** (altura) del *frame* de video.
-    * `w = frame.shape[1]`: Obtiene el tamaño de la dimensión **horizontal** (ancho) del *frame* de video.
-2. **Cálculo del Error de Posición:** Determina el **desplazamiento** del centro de la pelota (`x, y`) respecto al centro de la pantalla (`w/2, h/2`).
-    * `errorx = x - (w/2)`: Calcula la diferencia entre la **posición X** de la pelota (`x`) y el **punto central horizontal** de la pantalla (`w/2`). Un resultado de `0` significa que la pelota está centrada horizontalmente.
-    * `errory = y - (h/2)`: Calcula la diferencia entre la **posición Y** de la pelota (`y`) y el **punto central vertical** de la pantalla (`h/2`). Un resultado de `0` significa que la pelota está centrada verticalmente.
-3. **Lógica de Dirección:** Interpretar los valores de error e indica en qué dirección se encuentra la pelota.
-    * `if errorx > 0`: Si el valor del error en X es **positivo** (la pelota está a la derecha del centro), imprime "IZQUIERDA".
-    * `elif errorx < 0`: Si el valor del error en X es **negativo** (la pelota está a la izquierda del centro), imprime "DERECHA".
-    * `if errory > 0`: Si el error en Y es **positivo** (la pelota está debajo del centro), imprime "ARRIBA".
-    * `elif errory < 0`: Si el error en Y es **negativo** (la pelota está arriba del centro), imprime "ABAJO".
-4. **Control de Tiempo:**
-    * `time.sleep(0.5)`: Detiene la ejecución del código por **0.5 segundos** en cada ciclo del `while`. Esto se hace para que el usuario pueda leer los mensajes de `print(errorx, errory)` antes de que la pantalla se actualice de nuevo, ya que el video normalmente se ejecuta demasiado rápido.
+1. **Preparación del Video:** Se utiliza `cv2.flip` para invertir el video, logrando un efecto espejo. También se obtienen las dimensiones exactas (ancho `w` y alto `h`) del frame.
+2. **Cálculo del Error:** El sistema calcula el desplazamiento de la pelota en X y Y (`errorx` y `errory`). Este error es la diferencia entre la posición actual de la pelota y el centro ideal de la pantalla. Un error igual a cero significa que la pelota está perfectamente centrada.
+3. **Dirección:** Si el error es positivo o negativo, el código interpreta la dirección de la pelota (ej. si `errorx > 0`, la pelota está a la derecha).
+4. **Control de Flujo:** Se añade una pausa (`time.sleep(0.5)`) para ralentizar el procesamiento y permitir que los mensajes de error se lean fácilmente.
 
    
 <div align="center">
@@ -359,16 +348,12 @@ video.release()
  
 ```
 
-1. **Conexión Bluetooth:**
-    * `import bluetooth`: Importar librería.
-    * `sock = bluetooth.BluetoothSocket()`: Crea un **punto de conexión virtual** (`sock` o `socket`) que actúa como un cable de red entre la computadora y el ESP32 a través de Bluetooth.
-    * `sock.connect(("10:06:1C:97:72:DA", port))`: Establece enlace mediante:
-        1. La **dirección MAC** (`"10:06:..."`) única del ESP32.
-        2. El **puerto** de comunicación (`port = 1`). Este bloque se repite hasta que la conexión sea exitosa.
-    * `sock.settimeout(20)`: Establece un tiempo límite (20 segundos) para esperar una respuesta de la conexión antes de asumir que falló.
+1. **Establecimiento de la Conexión:**
+    - Se crea un punto de conexión virtual para enlazar los dispositivos por Bluetooth.
+    - La conexión se establece usando la dirección MAC única del ESP32 y el puerto de comunicación definido.
+    - Se define un tiempo límite para la conexión para manejar posibles fallos.
 
-2. **Envío de Comandos:**
-    * `if errorx > 0:`: Si la pelota está a la derecha del centro (error positivo), se ejecuta el código de envío.
-    * `message = "Arriba"`: Define el texto que se quiere enviar al ESP32.
-    * `sock.send(message.encode())`: Envía el `message` a través del socket Bluetooth.
-    * `try... except`: Si la conexión Bluetooth se cae o hay un problema al enviar el mensaje, el programa no se detiene, sino que captura el error e intenta continuar.
+2. **Envío de Comandos de Control:**
+    - Cuando el programa detecta un cambio en el error de posición, se genera un mensaje de texto con el comando de dirección (ej., "Arriba").
+    - Este mensaje se codifica y se envía a través del socket (`sock.send(message.encode())`) al ESP32.
+    - `try...except` asegura que si la conexión se interrumpe durante el envío, el programa no se detenga de forma inesperada.
